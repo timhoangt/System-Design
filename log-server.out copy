@@ -1,0 +1,68 @@
+20:44:54 INFO  main 0 GameServer:62 - game server started
+20:44:54 INFO  main 6 GameServer:73 - house started
+20:44:54 INFO  Thread-0 28 Actor:185 - House waiting for connection on port 1235
+20:45:11 INFO  main 17260 Actor:75 - got login
+20:45:11 INFO  main 17263 Actor:80 - validated ticket BB20B45FD4D95138 login successful!
+20:45:11 INFO  main 17266 Actor:185 - ServerAuthenticator sent ticket to client
+20:45:16 INFO  Thread-0 22289 Actor:185 - House accepted connection on port 1235
+20:45:16 INFO  Thread-0 22298 Actor:185 - House received message Arrival
+20:45:16 INFO  Thread-0 22299 Actor:185 - House invoking listener for Arrival
+20:45:16 INFO  Thread-0 22299 House:101 - validated ticket = BB20B45FD4D95138
+20:45:16 INFO  Thread-0 22299 House:105 - arrival from Timothys-MacBook-Pro.local/148.100.12.122
+20:45:16 INFO  Thread-0 22307 Dealer:91 - using scenario = 'charlie.card.Shoe01'
+20:45:16 INFO  Thread-0 22311 Shoe:102 - shuffling burn index = 38
+20:45:16 INFO  Thread-0 22311 Dealer:97 - shoe = charlie.card.Shoe01: SQ CK DQ S8 S10 C9 SK D2 C7 D4 S7 D3 CJ HQ DK 
+20:45:21 INFO  Thread-0 27329 Actor:185 - RealPlayer sending Ready to 148.100.12.122:8001
+20:45:21 INFO  Thread-1 27329 Actor:185 - RealPlayer waiting for connection on port 8501
+20:45:21 INFO  Thread-0 27337 Actor:185 - RealPlayer sent successfully Ready to 148.100.12.122:8001
+20:45:21 INFO  Thread-0 27338 Actor:185 - House waiting for connection on port 1235
+20:45:36 INFO  Thread-1 42760 Actor:185 - RealPlayer accepted connection on port 8501
+20:45:41 INFO  Thread-1 47781 Actor:185 - RealPlayer received message Bet
+20:45:41 INFO  Thread-1 47782 Actor:185 - RealPlayer invoking listener for Bet
+20:45:41 INFO  Thread-1 47782 Actor:185 - RealPlayer received bet = 5.0
+20:45:41 INFO  Thread-1 47783 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/148.100.12.122 for hid = Timothys-MacBook-Pro.local:YOU:7E549B9EE2D0EC17
+20:45:41 INFO  Thread-1 47784 Dealer:164 - no bot configured for charlie.bot.huey
+20:45:41 INFO  Thread-1 47785 Dealer:164 - no bot configured for charlie.bot.dewey
+20:45:41 INFO  Thread-1 47786 Dealer:258 - starting a game
+20:45:41 INFO  Thread-1 47786 Dealer:273 - hands at table + dealer = 2
+20:45:41 INFO  Thread-1 47787 Actor:185 - RealPlayer sending GameStart to 148.100.12.122:8001
+20:45:41 INFO  Thread-1 47791 Actor:185 - RealPlayer sent successfully GameStart to 148.100.12.122:8001
+20:45:42 INFO  Thread-1 48041 Shoe:111 - cards size = 52 burn index = 38 index = 0
+20:45:42 INFO  Thread-1 48041 Shoe:135 - index = 1 burnIndex = 38 shuffle needed = false
+20:45:42 INFO  Thread-1 48042 Dealer:352 - dealing to Timothys-MacBook-Pro.local/148.100.12.122 card 1 = SQ
+20:45:42 INFO  Thread-1 48794 Actor:185 - RealPlayer sending Deal to 148.100.12.122:8001
+20:45:42 INFO  Thread-1 48799 Actor:185 - RealPlayer sent successfully Deal to 148.100.12.122:8001
+20:45:42 INFO  Thread-1 48799 Shoe:111 - cards size = 52 burn index = 38 index = 1
+20:45:42 INFO  Thread-1 48799 Shoe:135 - index = 2 burnIndex = 38 shuffle needed = false
+20:45:43 INFO  Thread-1 49558 Actor:185 - RealPlayer sending Deal to 148.100.12.122:8001
+20:45:43 INFO  Thread-1 49564 Actor:185 - RealPlayer sent successfully Deal to 148.100.12.122:8001
+20:45:43 INFO  Thread-1 49565 Shoe:111 - cards size = 52 burn index = 38 index = 2
+20:45:43 INFO  Thread-1 49565 Shoe:135 - index = 3 burnIndex = 38 shuffle needed = false
+20:45:43 INFO  Thread-1 49565 Dealer:352 - dealing to Timothys-MacBook-Pro.local/148.100.12.122 card 1 = DQ
+20:45:44 INFO  Thread-1 50318 Actor:185 - RealPlayer sending Deal to 148.100.12.122:8001
+20:45:44 INFO  Thread-1 50319 Actor:185 - RealPlayer sent successfully Deal to 148.100.12.122:8001
+20:45:44 INFO  Thread-1 50320 Shoe:111 - cards size = 52 burn index = 38 index = 3
+20:45:44 INFO  Thread-1 50320 Shoe:135 - index = 4 burnIndex = 38 shuffle needed = false
+20:45:45 INFO  Thread-1 51071 Actor:185 - RealPlayer sending Deal to 148.100.12.122:8001
+20:45:45 INFO  Thread-1 51073 Actor:185 - RealPlayer sent successfully Deal to 148.100.12.122:8001
+20:45:45 INFO  Thread-1 51073 Dealer:555 - going to next hand
+20:45:45 INFO  Thread-1 51073 Dealer:565 - active player = Timothys-MacBook-Pro.local/148.100.12.122
+20:45:45 INFO  Thread-1 51074 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:7E549B9EE2D0EC17 to Timothys-MacBook-Pro.local/148.100.12.122
+20:45:45 INFO  Thread-1 51074 Actor:185 - RealPlayer sending Play to 148.100.12.122:8001
+20:45:45 INFO  Thread-1 51076 Actor:185 - RealPlayer sent successfully Play to 148.100.12.122:8001
+20:45:45 INFO  Thread-1 51076 Actor:185 - RealPlayer waiting for connection on port 8501
+20:45:48 INFO  Thread-1 54426 Actor:185 - RealPlayer accepted connection on port 8501
+20:45:48 INFO  Thread-1 54432 Actor:185 - RealPlayer received message Stay
+20:45:48 INFO  Thread-1 54433 Actor:185 - RealPlayer invoking listener for Stay
+20:45:48 INFO  Thread-1 54434 Actor:185 - RealPlayer received request = Stay
+20:45:48 INFO  Thread-1 54434 Dealer:449 - got STAY for Timothys-MacBook-Pro.local:YOU:7E549B9EE2D0EC17
+20:45:48 INFO  Thread-1 54435 Dealer:555 - going to next hand
+20:45:48 INFO  Thread-1 54435 Actor:185 - RealPlayer sending Play to 148.100.12.122:8001
+20:45:48 INFO  Thread-1 54436 Actor:185 - RealPlayer sent successfully Play to 148.100.12.122:8001
+20:45:48 INFO  Thread-1 54437 Actor:185 - RealPlayer sending Deal to 148.100.12.122:8001
+20:45:48 INFO  Thread-1 54440 Actor:185 - RealPlayer sent successfully Deal to 148.100.12.122:8001
+20:45:48 INFO  Thread-1 54441 Actor:185 - RealPlayer sending Win to 148.100.12.122:8001
+20:45:48 INFO  Thread-1 54454 Actor:185 - RealPlayer sent successfully Win to 148.100.12.122:8001
+20:45:48 INFO  Thread-1 54455 Actor:185 - RealPlayer sending GameOver to 148.100.12.122:8001
+20:45:48 INFO  Thread-1 54463 Actor:185 - RealPlayer sent successfully GameOver to 148.100.12.122:8001
+20:45:48 INFO  Thread-1 54464 Actor:185 - RealPlayer waiting for connection on port 8501

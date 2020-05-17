@@ -1,0 +1,299 @@
+ant -f /Users/timhoangt/Documents/GitHub/charlie2 -Djavac.includes=charlie/server/GameServer.java -Dnb.internal.action.name=run.single -Drun.class=charlie.server.GameServer run-single
+init:
+Deleting: /Users/timhoangt/Documents/GitHub/charlie2/build/built-jar.properties
+deps-jar:
+Updating property file: /Users/timhoangt/Documents/GitHub/charlie2/build/built-jar.properties
+Compiling 1 source file to /Users/timhoangt/Documents/GitHub/charlie2/build/classes
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+compile-single:
+run-single:
+game server started
+house started
+House waiting for connection on port 1235
+got login
+validated ticket BB20B45FD4D95138 login successful!
+ServerAuthenticator sent ticket to client
+House accepted connection on port 1235
+House received message Arrival
+House invoking listener for Arrival
+validated ticket = BB20B45FD4D95138
+arrival from Timothys-MacBook-Pro.local/172.16.61.76
+using scenario = 'charlie.card.Shoe00'
+shuffling burn index = 298
+shoe = charlie.card.Shoe00: D2 DA SK D5 C6 H4 H8 C8 S2 S9 H8 HA D3 CK HK 
+RealPlayer sending Ready to 172.16.61.76:8001
+RealPlayer waiting for connection on port 8501
+RealPlayer sent successfully Ready to 172.16.61.76:8001
+House waiting for connection on port 1235
+RealPlayer accepted connection on port 8501
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 25.0
+got new bet = 25.0 side bet = 0.0 from Timothys-MacBook-Pro.local/172.16.61.76 for hid = Timothys-MacBook-Pro.local:YOU:73E22023532EA748
+no bot configured for charlie.bot.huey
+no bot configured for charlie.bot.dewey
+starting a game
+hands at table + dealer = 2
+RealPlayer sending GameStart to 172.16.61.76:8001
+RealPlayer sent successfully GameStart to 172.16.61.76:8001
+cards size = 312 burn index = 298 index = 0
+index = 1 burnIndex = 298 shuffle needed = false
+dealing to Timothys-MacBook-Pro.local/172.16.61.76 card 1 = D2
+RealPlayer sending Deal to 172.16.61.76:8001
+RealPlayer sent successfully Deal to 172.16.61.76:8001
+cards size = 312 burn index = 298 index = 1
+index = 2 burnIndex = 298 shuffle needed = false
+RealPlayer sending Deal to 172.16.61.76:8001
+RealPlayer sent successfully Deal to 172.16.61.76:8001
+cards size = 312 burn index = 298 index = 2
+index = 3 burnIndex = 298 shuffle needed = false
+dealing to Timothys-MacBook-Pro.local/172.16.61.76 card 1 = SK
+RealPlayer sending Deal to 172.16.61.76:8001
+RealPlayer sent successfully Deal to 172.16.61.76:8001
+cards size = 312 burn index = 298 index = 3
+index = 4 burnIndex = 298 shuffle needed = false
+RealPlayer sending Deal to 172.16.61.76:8001
+RealPlayer sent successfully Deal to 172.16.61.76:8001
+going to next hand
+active player = Timothys-MacBook-Pro.local/172.16.61.76
+sending turn Timothys-MacBook-Pro.local:YOU:73E22023532EA748 to Timothys-MacBook-Pro.local/172.16.61.76
+RealPlayer sending Play to 172.16.61.76:8001
+RealPlayer sent successfully Play to 172.16.61.76:8001
+RealPlayer waiting for connection on port 8501
+RealPlayer accepted connection on port 8501
+RealPlayer received message Hit
+RealPlayer invoking listener for Hit
+RealPlayer received request = Hit
+cards size = 312 burn index = 298 index = 4
+index = 5 burnIndex = 298 shuffle needed = false
+hit hid = Timothys-MacBook-Pro.local:YOU:73E22023532EA748 with C6
+RealPlayer sending Deal to 172.16.61.76:8001
+RealPlayer sent successfully Deal to 172.16.61.76:8001
+RealPlayer waiting for connection on port 8501
+RealPlayer accepted connection on port 8501
+RealPlayer received message Stay
+RealPlayer invoking listener for Stay
+RealPlayer received request = Stay
+got STAY for Timothys-MacBook-Pro.local:YOU:73E22023532EA748
+going to next hand
+RealPlayer sending Play to 172.16.61.76:8001
+RealPlayer sent successfully Play to 172.16.61.76:8001
+RealPlayer sending Deal to 172.16.61.76:8001
+RealPlayer sent successfully Deal to 172.16.61.76:8001
+cards size = 312 burn index = 298 index = 5
+index = 6 burnIndex = 298 shuffle needed = false
+RealPlayer sending Deal to 172.16.61.76:8001
+RealPlayer sent successfully Deal to 172.16.61.76:8001
+RealPlayer sending Lose to 172.16.61.76:8001
+RealPlayer sent successfully Lose to 172.16.61.76:8001
+RealPlayer sending GameOver to 172.16.61.76:8001
+RealPlayer sent successfully GameOver to 172.16.61.76:8001
+RealPlayer waiting for connection on port 8501
+RealPlayer accepted connection on port 8501
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 25.0
+got new bet = 25.0 side bet = 0.0 from Timothys-MacBook-Pro.local/172.16.61.76 for hid = Timothys-MacBook-Pro.local:YOU:3FE845838C1CD3A7
+no bot configured for charlie.bot.huey
+no bot configured for charlie.bot.dewey
+starting a game
+hands at table + dealer = 2
+RealPlayer sending GameStart to 172.16.61.76:8001
+RealPlayer sent successfully GameStart to 172.16.61.76:8001
+cards size = 312 burn index = 298 index = 6
+index = 7 burnIndex = 298 shuffle needed = false
+dealing to Timothys-MacBook-Pro.local/172.16.61.76 card 1 = H8
+RealPlayer sending Deal to 172.16.61.76:8001
+RealPlayer sent successfully Deal to 172.16.61.76:8001
+cards size = 312 burn index = 298 index = 7
+index = 8 burnIndex = 298 shuffle needed = false
+RealPlayer sending Deal to 172.16.61.76:8001
+RealPlayer sent successfully Deal to 172.16.61.76:8001
+cards size = 312 burn index = 298 index = 8
+index = 9 burnIndex = 298 shuffle needed = false
+dealing to Timothys-MacBook-Pro.local/172.16.61.76 card 1 = S2
+RealPlayer sending Deal to 172.16.61.76:8001
+RealPlayer sent successfully Deal to 172.16.61.76:8001
+cards size = 312 burn index = 298 index = 9
+index = 10 burnIndex = 298 shuffle needed = false
+RealPlayer sending Deal to 172.16.61.76:8001
+RealPlayer sent successfully Deal to 172.16.61.76:8001
+going to next hand
+active player = Timothys-MacBook-Pro.local/172.16.61.76
+sending turn Timothys-MacBook-Pro.local:YOU:3FE845838C1CD3A7 to Timothys-MacBook-Pro.local/172.16.61.76
+RealPlayer sending Play to 172.16.61.76:8001
+RealPlayer sent successfully Play to 172.16.61.76:8001
+RealPlayer waiting for connection on port 8501
+RealPlayer accepted connection on port 8501
+RealPlayer received message DoubleDown
+RealPlayer invoking listener for DoubleDown
+RealPlayer received request = DoubleDown
+got double down amt = 50.0 hid = Timothys-MacBook-Pro.local:YOU:3FE845838C1CD3A7
+cards size = 312 burn index = 298 index = 10
+index = 11 burnIndex = 298 shuffle needed = false
+RealPlayer sending Deal to 172.16.61.76:8001
+RealPlayer sent successfully Deal to 172.16.61.76:8001
+going to next hand
+RealPlayer sending Play to 172.16.61.76:8001
+RealPlayer sent successfully Play to 172.16.61.76:8001
+RealPlayer sending Deal to 172.16.61.76:8001
+RealPlayer sent successfully Deal to 172.16.61.76:8001
+RealPlayer sending Win to 172.16.61.76:8001
+RealPlayer sent successfully Win to 172.16.61.76:8001
+RealPlayer sending GameOver to 172.16.61.76:8001
+RealPlayer sent successfully GameOver to 172.16.61.76:8001
+RealPlayer waiting for connection on port 8501
+RealPlayer accepted connection on port 8501
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 25.0
+got new bet = 25.0 side bet = 0.0 from Timothys-MacBook-Pro.local/172.16.61.76 for hid = Timothys-MacBook-Pro.local:YOU:22CFF253CAE74F6B
+no bot configured for charlie.bot.huey
+no bot configured for charlie.bot.dewey
+starting a game
+hands at table + dealer = 2
+RealPlayer sending GameStart to 172.16.61.76:8001
+RealPlayer sent successfully GameStart to 172.16.61.76:8001
+cards size = 312 burn index = 298 index = 11
+index = 12 burnIndex = 298 shuffle needed = false
+dealing to Timothys-MacBook-Pro.local/172.16.61.76 card 1 = HA
+RealPlayer sending Deal to 172.16.61.76:8001
+RealPlayer sent successfully Deal to 172.16.61.76:8001
+cards size = 312 burn index = 298 index = 12
+index = 13 burnIndex = 298 shuffle needed = false
+RealPlayer sending Deal to 172.16.61.76:8001
+RealPlayer sent successfully Deal to 172.16.61.76:8001
+cards size = 312 burn index = 298 index = 13
+index = 14 burnIndex = 298 shuffle needed = false
+dealing to Timothys-MacBook-Pro.local/172.16.61.76 card 1 = CK
+RealPlayer sending Deal to 172.16.61.76:8001
+RealPlayer sent successfully Deal to 172.16.61.76:8001
+RealPlayer sending Blackjack to 172.16.61.76:8001
+RealPlayer sent successfully Blackjack to 172.16.61.76:8001
+cards size = 312 burn index = 298 index = 14
+index = 15 burnIndex = 298 shuffle needed = false
+RealPlayer sending Deal to 172.16.61.76:8001
+RealPlayer sent successfully Deal to 172.16.61.76:8001
+going to next hand
+active player = Timothys-MacBook-Pro.local/172.16.61.76
+going to next hand
+RealPlayer sending Play to 172.16.61.76:8001
+RealPlayer sent successfully Play to 172.16.61.76:8001
+RealPlayer sending Deal to 172.16.61.76:8001
+RealPlayer sent successfully Deal to 172.16.61.76:8001
+RealPlayer sending GameOver to 172.16.61.76:8001
+RealPlayer sent successfully GameOver to 172.16.61.76:8001
+RealPlayer waiting for connection on port 8501
+RealPlayer accepted connection on port 8501
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 25.0
+got new bet = 25.0 side bet = 0.0 from Timothys-MacBook-Pro.local/172.16.61.76 for hid = Timothys-MacBook-Pro.local:YOU:28E76EBA8A380E9E
+no bot configured for charlie.bot.huey
+no bot configured for charlie.bot.dewey
+starting a game
+hands at table + dealer = 2
+RealPlayer sending GameStart to 172.16.61.76:8001
+RealPlayer sent successfully GameStart to 172.16.61.76:8001
+cards size = 312 burn index = 298 index = 15
+index = 16 burnIndex = 298 shuffle needed = false
+dealing to Timothys-MacBook-Pro.local/172.16.61.76 card 1 = H8
+RealPlayer sending Deal to 172.16.61.76:8001
+RealPlayer sent successfully Deal to 172.16.61.76:8001
+cards size = 312 burn index = 298 index = 16
+index = 17 burnIndex = 298 shuffle needed = false
+RealPlayer sending Deal to 172.16.61.76:8001
+RealPlayer sent successfully Deal to 172.16.61.76:8001
+cards size = 312 burn index = 298 index = 17
+index = 18 burnIndex = 298 shuffle needed = false
+dealing to Timothys-MacBook-Pro.local/172.16.61.76 card 1 = CA
+RealPlayer sending Deal to 172.16.61.76:8001
+RealPlayer sent successfully Deal to 172.16.61.76:8001
+cards size = 312 burn index = 298 index = 18
+index = 19 burnIndex = 298 shuffle needed = false
+RealPlayer sending Deal to 172.16.61.76:8001
+RealPlayer sent successfully Deal to 172.16.61.76:8001
+going to next hand
+active player = Timothys-MacBook-Pro.local/172.16.61.76
+sending turn Timothys-MacBook-Pro.local:YOU:28E76EBA8A380E9E to Timothys-MacBook-Pro.local/172.16.61.76
+RealPlayer sending Play to 172.16.61.76:8001
+RealPlayer sent successfully Play to 172.16.61.76:8001
+RealPlayer waiting for connection on port 8501
+RealPlayer accepted connection on port 8501
+RealPlayer received message Stay
+RealPlayer invoking listener for Stay
+RealPlayer received request = Stay
+got STAY for Timothys-MacBook-Pro.local:YOU:28E76EBA8A380E9E
+going to next hand
+RealPlayer sending Play to 172.16.61.76:8001
+RealPlayer sent successfully Play to 172.16.61.76:8001
+RealPlayer sending Deal to 172.16.61.76:8001
+RealPlayer sent successfully Deal to 172.16.61.76:8001
+cards size = 312 burn index = 298 index = 19
+index = 20 burnIndex = 298 shuffle needed = false
+RealPlayer sending Deal to 172.16.61.76:8001
+RealPlayer sent successfully Deal to 172.16.61.76:8001
+RealPlayer sending Lose to 172.16.61.76:8001
+RealPlayer sent successfully Lose to 172.16.61.76:8001
+RealPlayer sending GameOver to 172.16.61.76:8001
+RealPlayer sent successfully GameOver to 172.16.61.76:8001
+RealPlayer waiting for connection on port 8501
+RealPlayer accepted connection on port 8501
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 25.0
+got new bet = 25.0 side bet = 0.0 from Timothys-MacBook-Pro.local/172.16.61.76 for hid = Timothys-MacBook-Pro.local:YOU:4566A8E3A830F45
+no bot configured for charlie.bot.huey
+no bot configured for charlie.bot.dewey
+starting a game
+hands at table + dealer = 2
+RealPlayer sending GameStart to 172.16.61.76:8001
+RealPlayer sent successfully GameStart to 172.16.61.76:8001
+cards size = 312 burn index = 298 index = 20
+index = 21 burnIndex = 298 shuffle needed = false
+dealing to Timothys-MacBook-Pro.local/172.16.61.76 card 1 = C3
+RealPlayer sending Deal to 172.16.61.76:8001
+RealPlayer sent successfully Deal to 172.16.61.76:8001
+cards size = 312 burn index = 298 index = 21
+index = 22 burnIndex = 298 shuffle needed = false
+RealPlayer sending Deal to 172.16.61.76:8001
+RealPlayer sent successfully Deal to 172.16.61.76:8001
+cards size = 312 burn index = 298 index = 22
+index = 23 burnIndex = 298 shuffle needed = false
+dealing to Timothys-MacBook-Pro.local/172.16.61.76 card 1 = S8
+RealPlayer sending Deal to 172.16.61.76:8001
+RealPlayer sent successfully Deal to 172.16.61.76:8001
+cards size = 312 burn index = 298 index = 23
+index = 24 burnIndex = 298 shuffle needed = false
+RealPlayer sending Deal to 172.16.61.76:8001
+RealPlayer sent successfully Deal to 172.16.61.76:8001
+going to next hand
+active player = Timothys-MacBook-Pro.local/172.16.61.76
+sending turn Timothys-MacBook-Pro.local:YOU:4566A8E3A830F45 to Timothys-MacBook-Pro.local/172.16.61.76
+RealPlayer sending Play to 172.16.61.76:8001
+RealPlayer sent successfully Play to 172.16.61.76:8001
+RealPlayer waiting for connection on port 8501
+RealPlayer accepted connection on port 8501
+RealPlayer received message DoubleDown
+RealPlayer invoking listener for DoubleDown
+RealPlayer received request = DoubleDown
+got double down amt = 50.0 hid = Timothys-MacBook-Pro.local:YOU:4566A8E3A830F45
+cards size = 312 burn index = 298 index = 24
+index = 25 burnIndex = 298 shuffle needed = false
+RealPlayer sending Deal to 172.16.61.76:8001
+RealPlayer sent successfully Deal to 172.16.61.76:8001
+going to next hand
+RealPlayer sending Play to 172.16.61.76:8001
+RealPlayer sent successfully Play to 172.16.61.76:8001
+RealPlayer sending Deal to 172.16.61.76:8001
+RealPlayer sent successfully Deal to 172.16.61.76:8001
+cards size = 312 burn index = 298 index = 25
+index = 26 burnIndex = 298 shuffle needed = false
+RealPlayer sending Deal to 172.16.61.76:8001
+RealPlayer sent successfully Deal to 172.16.61.76:8001
+RealPlayer sending Win to 172.16.61.76:8001
+RealPlayer sent successfully Win to 172.16.61.76:8001
+RealPlayer sending GameOver to 172.16.61.76:8001
+RealPlayer sent successfully GameOver to 172.16.61.76:8001
+RealPlayer waiting for connection on port 8501

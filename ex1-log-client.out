@@ -1,0 +1,1253 @@
+13:12:51 INFO  AWT-EventQueue-0 0 GameFrame:93 - client started
+13:12:53 INFO  AWT-EventQueue-0 1513 GameFrame:157 - advisor plugin detected: charlie.client.SimpleAdvisor
+13:12:53 INFO  AWT-EventQueue-0 1514 GameFrame:163 - loaded advisor successfully
+13:12:53 INFO  AWT-EventQueue-0 1514 GameFrame:99 - init done
+13:12:54 INFO  AWT-EventQueue-0 3136 Actor:63 - sent login request
+13:12:54 INFO  AWT-EventQueue-0 3197 Actor:70 - received ticket BB20B45FD4D95138
+13:12:54 INFO  AWT-EventQueue-0 3198 GameFrame:221 - login successful
+13:12:54 INFO  AWT-EventQueue-0 3201 Actor:185 - Courier monitor installed successfully: Trap
+13:12:54 INFO  Thread-3 3208 Actor:185 - Courier waiting for connection on port 8001
+13:12:54 INFO  AWT-EventQueue-0 3212 Actor:185 - Arriver sending Arrival to 127.0.0.1:1235
+13:12:54 INFO  AWT-EventQueue-0 3218 Actor:185 - Arriver sent successfully Arrival to 127.0.0.1:1235
+13:12:54 INFO  AWT-EventQueue-0 3218 Actor:185 - Arriver sent arrival message
+13:12:54 INFO  Thread-3 3270 Actor:185 - Courier accepted connection on port 8001
+13:12:54 INFO  Thread-3 3274 Actor:185 - Courier received message Ready
+13:12:54 INFO  Thread-3 3274 Actor:185 - Courier invoking listener for Ready
+13:12:54 INFO  Thread-3 3274 Actor:232 - received Ready from Timothys-MacBook-Pro.local/25.12.39.77
+13:12:54 INFO  AWT-EventQueue-0 3276 GameFrame:240 - connected to courier with bankroll = 1000.0
+13:12:54 INFO  Thread-3 3277 Trap:94 - wins: 0
+13:12:54 INFO  Thread-3 3277 Trap:95 - loses: 0
+13:12:54 INFO  Thread-3 3277 Trap:96 - pushes: 0
+13:12:54 INFO  Thread-3 3277 Trap:97 - busts: 0
+13:12:54 INFO  Thread-3 3277 Trap:98 - blackjacks: 0
+13:12:54 INFO  Thread-3 3277 Trap:99 - charlies: 0
+13:12:54 INFO  Thread-3 3278 Trap:100 - bankroll: 1000.0
+13:12:54 INFO  Thread-3 3278 Trap:101 - splits: 0
+13:12:54 INFO  Thread-3 3278 Actor:185 - Courier waiting for connection on port 8001
+13:13:08 INFO  Thread-6 17171 ATable:206 - side bet = 0
+13:13:08 INFO  Thread-6 17173 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+13:13:08 INFO  Thread-6 17185 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+13:13:08 INFO  Thread-3 17196 Actor:185 - Courier accepted connection on port 8001
+13:13:08 INFO  Thread-3 17201 Actor:185 - Courier received message GameStart
+13:13:08 INFO  Thread-3 17202 Actor:185 - Courier invoking listener for GameStart
+13:13:08 INFO  Thread-3 17202 Actor:244 - receive starting shoe size = 52
+13:13:08 INFO  Thread-3 17202 Actor:247 - starting hand: Timothys-MacBook-Pro.local:YOU:4768A731DFFC555B
+13:13:08 INFO  Thread-3 17202 Actor:247 - starting hand: Timothys-MacBook-Pro.local:DEALER:26669FA2C7E76E02
+13:13:08 INFO  Thread-3 17204 Trap:94 - wins: 0
+13:13:08 INFO  Thread-3 17204 Trap:95 - loses: 0
+13:13:08 INFO  Thread-3 17204 Trap:96 - pushes: 0
+13:13:08 INFO  Thread-3 17204 Trap:97 - busts: 0
+13:13:08 INFO  Thread-3 17204 Trap:98 - blackjacks: 0
+13:13:08 INFO  Thread-3 17204 Trap:99 - charlies: 0
+13:13:08 INFO  Thread-3 17204 Trap:100 - bankroll: 1000.0
+13:13:08 INFO  Thread-3 17204 Trap:101 - splits: 0
+13:13:08 INFO  Thread-3 17205 Actor:185 - Courier waiting for connection on port 8001
+13:13:09 INFO  Thread-3 18206 Actor:185 - Courier accepted connection on port 8001
+13:13:09 INFO  Thread-3 18214 Actor:185 - Courier received message Deal
+13:13:09 INFO  Thread-3 18214 Actor:185 - Courier invoking listener for Deal
+13:13:09 INFO  Thread-3 18215 Actor:266 - received card = D6 values = 6/6 hid = Timothys-MacBook-Pro.local:YOU:4768A731DFFC555B
+13:13:09 INFO  Thread-3 18220 Trap:94 - wins: 0
+13:13:09 INFO  Thread-3 18220 Trap:95 - loses: 0
+13:13:09 INFO  Thread-3 18221 Trap:96 - pushes: 0
+13:13:09 INFO  Thread-3 18221 Trap:97 - busts: 0
+13:13:09 INFO  Thread-3 18221 Trap:98 - blackjacks: 0
+13:13:09 INFO  Thread-3 18221 Trap:99 - charlies: 0
+13:13:09 INFO  Thread-3 18221 Trap:100 - bankroll: 1000.0
+13:13:09 INFO  Thread-3 18221 Trap:101 - splits: 0
+13:13:09 INFO  Thread-3 18221 Actor:185 - Courier waiting for connection on port 8001
+13:13:10 INFO  Thread-3 18967 Actor:185 - Courier accepted connection on port 8001
+13:13:10 INFO  Thread-3 18970 Actor:185 - Courier received message Deal
+13:13:10 INFO  Thread-3 18970 Actor:185 - Courier invoking listener for Deal
+13:13:10 INFO  Thread-3 18970 Actor:266 - received card = HA values = 0/0 hid = Timothys-MacBook-Pro.local:DEALER:26669FA2C7E76E02
+13:13:10 INFO  Thread-3 19006 Trap:94 - wins: 0
+13:13:10 INFO  Thread-3 19006 Trap:95 - loses: 0
+13:13:10 INFO  Thread-3 19006 Trap:96 - pushes: 0
+13:13:10 INFO  Thread-3 19007 Trap:97 - busts: 0
+13:13:10 INFO  Thread-3 19007 Trap:98 - blackjacks: 0
+13:13:10 INFO  Thread-3 19007 Trap:99 - charlies: 0
+13:13:10 INFO  Thread-3 19007 Trap:100 - bankroll: 1000.0
+13:13:10 INFO  Thread-3 19007 Trap:101 - splits: 0
+13:13:10 INFO  Thread-3 19007 Actor:185 - Courier waiting for connection on port 8001
+13:13:11 INFO  Thread-3 19723 Actor:185 - Courier accepted connection on port 8001
+13:13:11 INFO  Thread-3 19724 Actor:185 - Courier received message Deal
+13:13:11 INFO  Thread-3 19724 Actor:185 - Courier invoking listener for Deal
+13:13:11 INFO  Thread-3 19724 Actor:266 - received card = D3 values = 9/9 hid = Timothys-MacBook-Pro.local:YOU:4768A731DFFC555B
+13:13:11 INFO  Thread-3 19729 Trap:94 - wins: 0
+13:13:11 INFO  Thread-3 19729 Trap:95 - loses: 0
+13:13:11 INFO  Thread-3 19729 Trap:96 - pushes: 0
+13:13:11 INFO  Thread-3 19729 Trap:97 - busts: 0
+13:13:11 INFO  Thread-3 19729 Trap:98 - blackjacks: 0
+13:13:11 INFO  Thread-3 19729 Trap:99 - charlies: 0
+13:13:11 INFO  Thread-3 19730 Trap:100 - bankroll: 1000.0
+13:13:11 INFO  Thread-3 19730 Trap:101 - splits: 0
+13:13:11 INFO  Thread-3 19730 Actor:185 - Courier waiting for connection on port 8001
+13:13:12 INFO  Thread-3 20481 Actor:185 - Courier accepted connection on port 8001
+13:13:12 INFO  Thread-3 20483 Actor:185 - Courier received message Deal
+13:13:12 INFO  Thread-3 20484 Actor:185 - Courier invoking listener for Deal
+13:13:12 INFO  Thread-3 20484 Actor:266 - received card = DQ values = 10/10 hid = Timothys-MacBook-Pro.local:DEALER:26669FA2C7E76E02
+13:13:12 INFO  Thread-3 20497 Trap:94 - wins: 0
+13:13:12 INFO  Thread-3 20497 Trap:95 - loses: 0
+13:13:12 INFO  Thread-3 20497 Trap:96 - pushes: 0
+13:13:12 INFO  Thread-3 20498 Trap:97 - busts: 0
+13:13:12 INFO  Thread-3 20498 Trap:98 - blackjacks: 0
+13:13:12 INFO  Thread-3 20498 Trap:99 - charlies: 0
+13:13:12 INFO  Thread-3 20498 Trap:100 - bankroll: 1000.0
+13:13:12 INFO  Thread-3 20498 Trap:101 - splits: 0
+13:13:12 INFO  Thread-3 20498 Actor:185 - Courier waiting for connection on port 8001
+13:13:12 INFO  Thread-3 20498 Actor:185 - Courier accepted connection on port 8001
+13:13:12 INFO  Thread-3 20504 Actor:185 - Courier received message Play
+13:13:12 INFO  Thread-3 20504 Actor:185 - Courier invoking listener for Play
+13:13:12 INFO  Thread-3 20504 Actor:276 - got turn = Timothys-MacBook-Pro.local:DEALER:26669FA2C7E76E02
+13:13:12 INFO  Thread-3 20504 Trap:94 - wins: 0
+13:13:12 INFO  Thread-3 20505 Trap:95 - loses: 0
+13:13:12 INFO  Thread-3 20505 Trap:96 - pushes: 0
+13:13:12 INFO  Thread-3 20505 Trap:97 - busts: 0
+13:13:12 INFO  Thread-3 20505 Trap:98 - blackjacks: 0
+13:13:12 INFO  Thread-3 20505 Trap:99 - charlies: 0
+13:13:12 INFO  Thread-3 20505 Trap:100 - bankroll: 1000.0
+13:13:12 INFO  Thread-3 20505 Trap:101 - splits: 0
+13:13:12 INFO  Thread-3 20505 Actor:185 - Courier waiting for connection on port 8001
+13:13:12 INFO  Thread-3 20506 Actor:185 - Courier accepted connection on port 8001
+13:13:12 INFO  Thread-3 20507 Actor:185 - Courier received message Deal
+13:13:12 INFO  Thread-3 20507 Actor:185 - Courier invoking listener for Deal
+13:13:12 INFO  Thread-3 20507 Actor:266 - received card = null values = 11/21 hid = Timothys-MacBook-Pro.local:DEALER:26669FA2C7E76E02
+13:13:12 INFO  Thread-3 20517 Trap:94 - wins: 0
+13:13:12 INFO  Thread-3 20517 Trap:95 - loses: 0
+13:13:12 INFO  Thread-3 20517 Trap:96 - pushes: 0
+13:13:12 INFO  Thread-3 20518 Trap:97 - busts: 0
+13:13:12 INFO  Thread-3 20518 Trap:98 - blackjacks: 0
+13:13:12 INFO  Thread-3 20518 Trap:99 - charlies: 0
+13:13:12 INFO  Thread-3 20518 Trap:100 - bankroll: 1000.0
+13:13:12 INFO  Thread-3 20518 Trap:101 - splits: 0
+13:13:12 INFO  Thread-3 20518 Actor:185 - Courier waiting for connection on port 8001
+13:13:12 INFO  Thread-3 20519 Actor:185 - Courier accepted connection on port 8001
+13:13:12 INFO  Thread-3 20522 Actor:185 - Courier received message Lose
+13:13:12 INFO  Thread-3 20523 Actor:185 - Courier invoking listener for Lose
+13:13:12 INFO  Thread-3 20523 Actor:207 - received outcome = Lose
+13:13:12 INFO  Thread-3 20523 ATable:530 - LOOSE for hid = Timothys-MacBook-Pro.local:YOU:4768A731DFFC555B amt = 25.0
+13:13:12 INFO  Thread-3 20523 Trap:94 - wins: 0
+13:13:12 INFO  Thread-3 20523 Trap:95 - loses: 1
+13:13:12 INFO  Thread-3 20523 Trap:96 - pushes: 0
+13:13:12 INFO  Thread-3 20523 Trap:97 - busts: 0
+13:13:12 INFO  Thread-3 20523 Trap:98 - blackjacks: 0
+13:13:12 INFO  Thread-3 20524 Trap:99 - charlies: 0
+13:13:12 INFO  Thread-3 20524 Trap:100 - bankroll: 975.0
+13:13:12 INFO  Thread-3 20524 Trap:101 - splits: 0
+13:13:12 INFO  Thread-3 20524 Actor:185 - Courier waiting for connection on port 8001
+13:13:12 INFO  Thread-3 20524 Actor:185 - Courier accepted connection on port 8001
+13:13:12 INFO  Thread-3 20526 Actor:185 - Courier received message GameOver
+13:13:12 INFO  Thread-3 20526 Actor:185 - Courier invoking listener for GameOver
+13:13:12 INFO  Thread-3 20526 Actor:287 - received ending shoe size = 48
+13:13:12 INFO  Thread-3 20526 ATable:669 - num hands = 2 wins = 0 loses = 1 pushes = 0
+13:13:13 INFO  Thread-11 21619 ATable:206 - side bet = 0
+13:13:13 INFO  Thread-11 21619 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+13:13:13 INFO  Thread-11 21620 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+13:13:14 INFO  Thread-3 23139 Trap:94 - wins: 0
+13:13:14 INFO  Thread-3 23139 Trap:95 - loses: 1
+13:13:14 INFO  Thread-3 23139 Trap:96 - pushes: 0
+13:13:14 INFO  Thread-3 23139 Trap:97 - busts: 0
+13:13:14 INFO  Thread-3 23139 Trap:98 - blackjacks: 0
+13:13:14 INFO  Thread-3 23139 Trap:99 - charlies: 0
+13:13:14 INFO  Thread-3 23139 Trap:100 - bankroll: 975.0
+13:13:14 INFO  Thread-3 23139 Trap:101 - splits: 0
+13:13:14 INFO  Thread-3 23140 Actor:185 - Courier waiting for connection on port 8001
+13:13:14 INFO  Thread-3 23140 Actor:185 - Courier accepted connection on port 8001
+13:13:14 INFO  Thread-3 23141 Actor:185 - Courier received message GameStart
+13:13:14 INFO  Thread-3 23141 Actor:185 - Courier invoking listener for GameStart
+13:13:14 INFO  Thread-3 23141 Actor:244 - receive starting shoe size = 48
+13:13:14 INFO  Thread-3 23141 Actor:247 - starting hand: Timothys-MacBook-Pro.local:YOU:76BD6F3F2BFE374
+13:13:14 INFO  Thread-3 23142 Actor:247 - starting hand: Timothys-MacBook-Pro.local:DEALER:62C8499E101D1605
+13:13:14 INFO  Thread-3 23142 Trap:94 - wins: 0
+13:13:14 INFO  Thread-3 23142 Trap:95 - loses: 1
+13:13:14 INFO  Thread-3 23142 Trap:96 - pushes: 0
+13:13:14 INFO  Thread-3 23142 Trap:97 - busts: 0
+13:13:14 INFO  Thread-3 23142 Trap:98 - blackjacks: 0
+13:13:14 INFO  Thread-3 23142 Trap:99 - charlies: 0
+13:13:14 INFO  Thread-3 23143 Trap:100 - bankroll: 975.0
+13:13:14 INFO  Thread-3 23143 Trap:101 - splits: 0
+13:13:14 INFO  Thread-3 23143 Actor:185 - Courier waiting for connection on port 8001
+13:13:14 INFO  Thread-3 23143 Actor:185 - Courier accepted connection on port 8001
+13:13:14 INFO  Thread-3 23145 Actor:185 - Courier received message Deal
+13:13:14 INFO  Thread-3 23145 Actor:185 - Courier invoking listener for Deal
+13:13:14 INFO  Thread-3 23145 Actor:266 - received card = S10 values = 10/10 hid = Timothys-MacBook-Pro.local:YOU:76BD6F3F2BFE374
+13:13:14 INFO  Thread-3 23151 Trap:94 - wins: 0
+13:13:14 INFO  Thread-3 23151 Trap:95 - loses: 1
+13:13:14 INFO  Thread-3 23152 Trap:96 - pushes: 0
+13:13:14 INFO  Thread-3 23152 Trap:97 - busts: 0
+13:13:14 INFO  Thread-3 23152 Trap:98 - blackjacks: 0
+13:13:14 INFO  Thread-3 23152 Trap:99 - charlies: 0
+13:13:14 INFO  Thread-3 23152 Trap:100 - bankroll: 975.0
+13:13:14 INFO  Thread-3 23152 Trap:101 - splits: 0
+13:13:14 INFO  Thread-3 23152 Actor:185 - Courier waiting for connection on port 8001
+13:13:15 INFO  Thread-3 23385 Actor:185 - Courier accepted connection on port 8001
+13:13:15 INFO  Thread-3 23387 Actor:185 - Courier received message Deal
+13:13:15 INFO  Thread-3 23387 Actor:185 - Courier invoking listener for Deal
+13:13:15 INFO  Thread-3 23387 Actor:266 - received card = D9 values = 0/0 hid = Timothys-MacBook-Pro.local:DEALER:62C8499E101D1605
+13:13:15 INFO  Thread-3 23396 Trap:94 - wins: 0
+13:13:15 INFO  Thread-3 23396 Trap:95 - loses: 1
+13:13:15 INFO  Thread-3 23396 Trap:96 - pushes: 0
+13:13:15 INFO  Thread-3 23397 Trap:97 - busts: 0
+13:13:15 INFO  Thread-3 23397 Trap:98 - blackjacks: 0
+13:13:15 INFO  Thread-3 23397 Trap:99 - charlies: 0
+13:13:15 INFO  Thread-3 23397 Trap:100 - bankroll: 975.0
+13:13:15 INFO  Thread-3 23397 Trap:101 - splits: 0
+13:13:15 INFO  Thread-3 23397 Actor:185 - Courier waiting for connection on port 8001
+13:13:15 INFO  Thread-3 24141 Actor:185 - Courier accepted connection on port 8001
+13:13:15 INFO  Thread-3 24143 Actor:185 - Courier received message Deal
+13:13:15 INFO  Thread-3 24144 Actor:185 - Courier invoking listener for Deal
+13:13:15 INFO  Thread-3 24144 Actor:266 - received card = CK values = 20/20 hid = Timothys-MacBook-Pro.local:YOU:76BD6F3F2BFE374
+13:13:15 INFO  Thread-3 24149 Trap:94 - wins: 0
+13:13:15 INFO  Thread-3 24150 Trap:95 - loses: 1
+13:13:15 INFO  Thread-3 24150 Trap:96 - pushes: 0
+13:13:15 INFO  Thread-3 24150 Trap:97 - busts: 0
+13:13:15 INFO  Thread-3 24151 Trap:98 - blackjacks: 0
+13:13:15 INFO  Thread-3 24151 Trap:99 - charlies: 0
+13:13:15 INFO  Thread-3 24151 Trap:100 - bankroll: 975.0
+13:13:15 INFO  Thread-3 24151 Trap:101 - splits: 0
+13:13:15 INFO  Thread-3 24151 Actor:185 - Courier waiting for connection on port 8001
+13:13:16 INFO  Thread-3 24899 Actor:185 - Courier accepted connection on port 8001
+13:13:16 INFO  Thread-3 24901 Actor:185 - Courier received message Deal
+13:13:16 INFO  Thread-3 24901 Actor:185 - Courier invoking listener for Deal
+13:13:16 INFO  Thread-3 24902 Actor:266 - received card = S2 values = 2/2 hid = Timothys-MacBook-Pro.local:DEALER:62C8499E101D1605
+13:13:16 INFO  Thread-3 24906 Trap:94 - wins: 0
+13:13:16 INFO  Thread-3 24906 Trap:95 - loses: 1
+13:13:16 INFO  Thread-3 24907 Trap:96 - pushes: 0
+13:13:16 INFO  Thread-3 24907 Trap:97 - busts: 0
+13:13:16 INFO  Thread-3 24907 Trap:98 - blackjacks: 0
+13:13:16 INFO  Thread-3 24907 Trap:99 - charlies: 0
+13:13:16 INFO  Thread-3 24907 Trap:100 - bankroll: 975.0
+13:13:16 INFO  Thread-3 24907 Trap:101 - splits: 0
+13:13:16 INFO  Thread-3 24908 Actor:185 - Courier waiting for connection on port 8001
+13:13:16 INFO  Thread-3 24909 Actor:185 - Courier accepted connection on port 8001
+13:13:16 INFO  Thread-3 24909 Actor:185 - Courier received message Play
+13:13:16 INFO  Thread-3 24910 Actor:185 - Courier invoking listener for Play
+13:13:16 INFO  Thread-3 24910 Actor:276 - got turn = Timothys-MacBook-Pro.local:YOU:76BD6F3F2BFE374
+13:13:16 INFO  AWT-EventQueue-0 25289 Actor:185 - Courier sending Stay to 127.0.0.1:8501
+13:13:16 INFO  AWT-EventQueue-0 25292 Actor:185 - Courier sent successfully Stay to 127.0.0.1:8501
+13:13:17 INFO  Thread-3 25555 Trap:94 - wins: 0
+13:13:17 INFO  Thread-3 25555 Trap:95 - loses: 1
+13:13:17 INFO  Thread-3 25555 Trap:96 - pushes: 0
+13:13:17 INFO  Thread-3 25556 Trap:97 - busts: 0
+13:13:17 INFO  Thread-3 25556 Trap:98 - blackjacks: 0
+13:13:17 INFO  Thread-3 25556 Trap:99 - charlies: 0
+13:13:17 INFO  Thread-3 25556 Trap:100 - bankroll: 975.0
+13:13:17 INFO  Thread-3 25556 Trap:101 - splits: 0
+13:13:17 INFO  Thread-3 25556 Actor:185 - Courier waiting for connection on port 8001
+13:13:17 INFO  Thread-3 25557 Actor:185 - Courier accepted connection on port 8001
+13:13:17 INFO  Thread-3 25558 Actor:185 - Courier received message Play
+13:13:17 INFO  Thread-3 25559 Actor:185 - Courier invoking listener for Play
+13:13:17 INFO  Thread-3 25559 Actor:276 - got turn = Timothys-MacBook-Pro.local:DEALER:62C8499E101D1605
+13:13:17 INFO  Thread-3 25559 Trap:94 - wins: 0
+13:13:17 INFO  Thread-3 25559 Trap:95 - loses: 1
+13:13:17 INFO  Thread-3 25559 Trap:96 - pushes: 0
+13:13:17 INFO  Thread-3 25559 Trap:97 - busts: 0
+13:13:17 INFO  Thread-3 25559 Trap:98 - blackjacks: 0
+13:13:17 INFO  Thread-3 25560 Trap:99 - charlies: 0
+13:13:17 INFO  Thread-3 25560 Trap:100 - bankroll: 975.0
+13:13:17 INFO  Thread-3 25560 Trap:101 - splits: 0
+13:13:17 INFO  Thread-3 25560 Actor:185 - Courier waiting for connection on port 8001
+13:13:17 INFO  Thread-3 25560 Actor:185 - Courier accepted connection on port 8001
+13:13:17 INFO  Thread-3 25561 Actor:185 - Courier received message Deal
+13:13:17 INFO  Thread-3 25562 Actor:185 - Courier invoking listener for Deal
+13:13:17 INFO  Thread-3 25562 Actor:266 - received card = null values = 11/11 hid = Timothys-MacBook-Pro.local:DEALER:62C8499E101D1605
+13:13:17 INFO  Thread-3 25562 Trap:94 - wins: 0
+13:13:17 INFO  Thread-3 25563 Trap:95 - loses: 1
+13:13:17 INFO  Thread-3 25563 Trap:96 - pushes: 0
+13:13:17 INFO  Thread-3 25563 Trap:97 - busts: 0
+13:13:17 INFO  Thread-3 25563 Trap:98 - blackjacks: 0
+13:13:17 INFO  Thread-3 25564 Trap:99 - charlies: 0
+13:13:17 INFO  Thread-3 25564 Trap:100 - bankroll: 975.0
+13:13:17 INFO  Thread-3 25564 Trap:101 - splits: 0
+13:13:17 INFO  Thread-3 25564 Actor:185 - Courier waiting for connection on port 8001
+13:13:17 INFO  Thread-3 26054 Actor:185 - Courier accepted connection on port 8001
+13:13:17 INFO  Thread-3 26057 Actor:185 - Courier received message Deal
+13:13:17 INFO  Thread-3 26057 Actor:185 - Courier invoking listener for Deal
+13:13:17 INFO  Thread-3 26057 Actor:266 - received card = D8 values = 19/19 hid = Timothys-MacBook-Pro.local:DEALER:62C8499E101D1605
+13:13:17 INFO  Thread-3 26063 Trap:94 - wins: 0
+13:13:17 INFO  Thread-3 26063 Trap:95 - loses: 1
+13:13:17 INFO  Thread-3 26063 Trap:96 - pushes: 0
+13:13:17 INFO  Thread-3 26063 Trap:97 - busts: 0
+13:13:17 INFO  Thread-3 26063 Trap:98 - blackjacks: 0
+13:13:17 INFO  Thread-3 26064 Trap:99 - charlies: 0
+13:13:17 INFO  Thread-3 26064 Trap:100 - bankroll: 975.0
+13:13:17 INFO  Thread-3 26064 Trap:101 - splits: 0
+13:13:17 INFO  Thread-3 26064 Actor:185 - Courier waiting for connection on port 8001
+13:13:17 INFO  Thread-3 26064 Actor:185 - Courier accepted connection on port 8001
+13:13:17 INFO  Thread-3 26066 Actor:185 - Courier received message Win
+13:13:17 INFO  Thread-3 26066 Actor:185 - Courier invoking listener for Win
+13:13:17 INFO  Thread-3 26067 Actor:207 - received outcome = Win
+13:13:17 INFO  Thread-3 26067 ATable:505 - WIN for hid = Timothys-MacBook-Pro.local:YOU:76BD6F3F2BFE374 amt = 25.0
+13:13:17 INFO  Thread-3 26067 Trap:94 - wins: 1
+13:13:17 INFO  Thread-3 26067 Trap:95 - loses: 1
+13:13:17 INFO  Thread-3 26067 Trap:96 - pushes: 0
+13:13:17 INFO  Thread-3 26067 Trap:97 - busts: 0
+13:13:17 INFO  Thread-3 26067 Trap:98 - blackjacks: 0
+13:13:17 INFO  Thread-3 26067 Trap:99 - charlies: 0
+13:13:17 INFO  Thread-3 26067 Trap:100 - bankroll: 1000.0
+13:13:17 INFO  Thread-3 26067 Trap:101 - splits: 0
+13:13:17 INFO  Thread-3 26068 Actor:185 - Courier waiting for connection on port 8001
+13:13:17 INFO  Thread-3 26068 Actor:185 - Courier accepted connection on port 8001
+13:13:17 INFO  Thread-3 26069 Actor:185 - Courier received message GameOver
+13:13:17 INFO  Thread-3 26069 Actor:185 - Courier invoking listener for GameOver
+13:13:17 INFO  Thread-3 26069 Actor:287 - received ending shoe size = 43
+13:13:17 INFO  Thread-3 26069 ATable:669 - num hands = 2 wins = 1 loses = 0 pushes = 0
+13:13:18 INFO  Thread-16 26564 ATable:206 - side bet = 0
+13:13:18 INFO  Thread-16 26564 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+13:13:18 INFO  Thread-16 26566 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+13:13:20 INFO  Thread-3 28782 Trap:94 - wins: 1
+13:13:20 INFO  Thread-3 28783 Trap:95 - loses: 1
+13:13:20 INFO  Thread-3 28783 Trap:96 - pushes: 0
+13:13:20 INFO  Thread-3 28783 Trap:97 - busts: 0
+13:13:20 INFO  Thread-3 28783 Trap:98 - blackjacks: 0
+13:13:20 INFO  Thread-3 28783 Trap:99 - charlies: 0
+13:13:20 INFO  Thread-3 28784 Trap:100 - bankroll: 1000.0
+13:13:20 INFO  Thread-3 28784 Trap:101 - splits: 0
+13:13:20 INFO  Thread-3 28785 Actor:185 - Courier waiting for connection on port 8001
+13:13:20 INFO  Thread-3 28785 Actor:185 - Courier accepted connection on port 8001
+13:13:20 INFO  Thread-3 28787 Actor:185 - Courier received message GameStart
+13:13:20 INFO  Thread-3 28787 Actor:185 - Courier invoking listener for GameStart
+13:13:20 INFO  Thread-3 28788 Actor:244 - receive starting shoe size = 43
+13:13:20 INFO  Thread-3 28788 Actor:247 - starting hand: Timothys-MacBook-Pro.local:YOU:27E33431906C9C40
+13:13:20 INFO  Thread-3 28788 Actor:247 - starting hand: Timothys-MacBook-Pro.local:DEALER:3FA17296850E30C0
+13:13:20 INFO  Thread-3 28788 Trap:94 - wins: 1
+13:13:20 INFO  Thread-3 28788 Trap:95 - loses: 1
+13:13:20 INFO  Thread-3 28788 Trap:96 - pushes: 0
+13:13:20 INFO  Thread-3 28788 Trap:97 - busts: 0
+13:13:20 INFO  Thread-3 28788 Trap:98 - blackjacks: 0
+13:13:20 INFO  Thread-3 28789 Trap:99 - charlies: 0
+13:13:20 INFO  Thread-3 28789 Trap:100 - bankroll: 1000.0
+13:13:20 INFO  Thread-3 28789 Trap:101 - splits: 0
+13:13:20 INFO  Thread-3 28789 Actor:185 - Courier waiting for connection on port 8001
+13:13:20 INFO  Thread-3 28789 Actor:185 - Courier accepted connection on port 8001
+13:13:20 INFO  Thread-3 28791 Actor:185 - Courier received message Deal
+13:13:20 INFO  Thread-3 28791 Actor:185 - Courier invoking listener for Deal
+13:13:20 INFO  Thread-3 28791 Actor:266 - received card = D2 values = 2/2 hid = Timothys-MacBook-Pro.local:YOU:27E33431906C9C40
+13:13:20 INFO  Thread-3 28802 Trap:94 - wins: 1
+13:13:20 INFO  Thread-3 28803 Trap:95 - loses: 1
+13:13:20 INFO  Thread-3 28803 Trap:96 - pushes: 0
+13:13:20 INFO  Thread-3 28803 Trap:97 - busts: 0
+13:13:20 INFO  Thread-3 28803 Trap:98 - blackjacks: 0
+13:13:20 INFO  Thread-3 28803 Trap:99 - charlies: 0
+13:13:20 INFO  Thread-3 28803 Trap:100 - bankroll: 1000.0
+13:13:20 INFO  Thread-3 28803 Trap:101 - splits: 0
+13:13:20 INFO  Thread-3 28803 Actor:185 - Courier waiting for connection on port 8001
+13:13:20 INFO  Thread-3 28803 Actor:185 - Courier accepted connection on port 8001
+13:13:20 INFO  Thread-3 28804 Actor:185 - Courier received message Deal
+13:13:20 INFO  Thread-3 28805 Actor:185 - Courier invoking listener for Deal
+13:13:20 INFO  Thread-3 28805 Actor:266 - received card = S5 values = 0/0 hid = Timothys-MacBook-Pro.local:DEALER:3FA17296850E30C0
+13:13:20 INFO  Thread-3 28806 Trap:94 - wins: 1
+13:13:20 INFO  Thread-3 28806 Trap:95 - loses: 1
+13:13:20 INFO  Thread-3 28806 Trap:96 - pushes: 0
+13:13:20 INFO  Thread-3 28806 Trap:97 - busts: 0
+13:13:20 INFO  Thread-3 28806 Trap:98 - blackjacks: 0
+13:13:20 INFO  Thread-3 28806 Trap:99 - charlies: 0
+13:13:20 INFO  Thread-3 28807 Trap:100 - bankroll: 1000.0
+13:13:20 INFO  Thread-3 28807 Trap:101 - splits: 0
+13:13:20 INFO  Thread-3 28807 Actor:185 - Courier waiting for connection on port 8001
+13:13:20 INFO  Thread-3 29088 Actor:185 - Courier accepted connection on port 8001
+13:13:20 INFO  Thread-3 29090 Actor:185 - Courier received message Deal
+13:13:20 INFO  Thread-3 29090 Actor:185 - Courier invoking listener for Deal
+13:13:20 INFO  Thread-3 29090 Actor:266 - received card = CA values = 3/13 hid = Timothys-MacBook-Pro.local:YOU:27E33431906C9C40
+13:13:20 INFO  Thread-3 29094 Trap:94 - wins: 1
+13:13:20 INFO  Thread-3 29094 Trap:95 - loses: 1
+13:13:20 INFO  Thread-3 29095 Trap:96 - pushes: 0
+13:13:20 INFO  Thread-3 29095 Trap:97 - busts: 0
+13:13:20 INFO  Thread-3 29095 Trap:98 - blackjacks: 0
+13:13:20 INFO  Thread-3 29096 Trap:99 - charlies: 0
+13:13:20 INFO  Thread-3 29096 Trap:100 - bankroll: 1000.0
+13:13:20 INFO  Thread-3 29096 Trap:101 - splits: 0
+13:13:20 INFO  Thread-3 29096 Actor:185 - Courier waiting for connection on port 8001
+13:13:21 INFO  Thread-3 29844 Actor:185 - Courier accepted connection on port 8001
+13:13:21 INFO  Thread-3 29846 Actor:185 - Courier received message Deal
+13:13:21 INFO  Thread-3 29846 Actor:185 - Courier invoking listener for Deal
+13:13:21 INFO  Thread-3 29847 Actor:266 - received card = DJ values = 10/10 hid = Timothys-MacBook-Pro.local:DEALER:3FA17296850E30C0
+13:13:21 INFO  Thread-3 29852 Trap:94 - wins: 1
+13:13:21 INFO  Thread-3 29852 Trap:95 - loses: 1
+13:13:21 INFO  Thread-3 29853 Trap:96 - pushes: 0
+13:13:21 INFO  Thread-3 29854 Trap:97 - busts: 0
+13:13:21 INFO  Thread-3 29854 Trap:98 - blackjacks: 0
+13:13:21 INFO  Thread-3 29855 Trap:99 - charlies: 0
+13:13:21 INFO  Thread-3 29855 Trap:100 - bankroll: 1000.0
+13:13:21 INFO  Thread-3 29855 Trap:101 - splits: 0
+13:13:21 INFO  Thread-3 29855 Actor:185 - Courier waiting for connection on port 8001
+13:13:21 INFO  Thread-3 29855 Actor:185 - Courier accepted connection on port 8001
+13:13:21 INFO  Thread-3 29856 Actor:185 - Courier received message Play
+13:13:21 INFO  Thread-3 29856 Actor:185 - Courier invoking listener for Play
+13:13:21 INFO  Thread-3 29856 Actor:276 - got turn = Timothys-MacBook-Pro.local:YOU:27E33431906C9C40
+13:13:22 INFO  Thread-3 30502 Trap:94 - wins: 1
+13:13:22 INFO  Thread-3 30503 Trap:95 - loses: 1
+13:13:22 INFO  Thread-3 30503 Trap:96 - pushes: 0
+13:13:22 INFO  Thread-3 30503 Trap:97 - busts: 0
+13:13:22 INFO  Thread-3 30503 Trap:98 - blackjacks: 0
+13:13:22 INFO  Thread-3 30503 Trap:99 - charlies: 0
+13:13:22 INFO  Thread-3 30503 Trap:100 - bankroll: 1000.0
+13:13:22 INFO  Thread-3 30503 Trap:101 - splits: 0
+13:13:22 INFO  Thread-3 30503 Actor:185 - Courier waiting for connection on port 8001
+13:13:22 INFO  AWT-EventQueue-0 31024 Actor:185 - Courier sending DoubleDown to 127.0.0.1:8501
+13:13:22 INFO  AWT-EventQueue-0 31028 Actor:185 - Courier sent successfully DoubleDown to 127.0.0.1:8501
+13:13:22 INFO  Thread-3 31040 Actor:185 - Courier accepted connection on port 8001
+13:13:22 INFO  Thread-3 31042 Actor:185 - Courier received message Deal
+13:13:22 INFO  Thread-3 31043 Actor:185 - Courier invoking listener for Deal
+13:13:22 INFO  Thread-3 31043 Actor:266 - received card = SK values = 13/23 hid = Timothys-MacBook-Pro.local:YOU:27E33431906C9C40
+13:13:22 INFO  Thread-3 31050 Trap:94 - wins: 1
+13:13:22 INFO  Thread-3 31050 Trap:95 - loses: 1
+13:13:22 INFO  Thread-3 31050 Trap:96 - pushes: 0
+13:13:22 INFO  Thread-3 31051 Trap:97 - busts: 0
+13:13:22 INFO  Thread-3 31051 Trap:98 - blackjacks: 0
+13:13:22 INFO  Thread-3 31051 Trap:99 - charlies: 0
+13:13:22 INFO  Thread-3 31051 Trap:100 - bankroll: 1000.0
+13:13:22 INFO  Thread-3 31051 Trap:101 - splits: 0
+13:13:22 INFO  Thread-3 31051 Actor:185 - Courier waiting for connection on port 8001
+13:13:22 INFO  Thread-3 31052 Actor:185 - Courier accepted connection on port 8001
+13:13:22 INFO  Thread-3 31054 Actor:185 - Courier received message Play
+13:13:22 INFO  Thread-3 31054 Actor:185 - Courier invoking listener for Play
+13:13:22 INFO  Thread-3 31054 Actor:276 - got turn = Timothys-MacBook-Pro.local:DEALER:3FA17296850E30C0
+13:13:22 INFO  Thread-3 31054 Trap:94 - wins: 1
+13:13:22 INFO  Thread-3 31054 Trap:95 - loses: 1
+13:13:22 INFO  Thread-3 31054 Trap:96 - pushes: 0
+13:13:22 INFO  Thread-3 31054 Trap:97 - busts: 0
+13:13:22 INFO  Thread-3 31055 Trap:98 - blackjacks: 0
+13:13:22 INFO  Thread-3 31055 Trap:99 - charlies: 0
+13:13:22 INFO  Thread-3 31055 Trap:100 - bankroll: 1000.0
+13:13:22 INFO  Thread-3 31055 Trap:101 - splits: 0
+13:13:22 INFO  Thread-3 31055 Actor:185 - Courier waiting for connection on port 8001
+13:13:22 INFO  Thread-3 31055 Actor:185 - Courier accepted connection on port 8001
+13:13:22 INFO  Thread-3 31056 Actor:185 - Courier received message Deal
+13:13:22 INFO  Thread-3 31056 Actor:185 - Courier invoking listener for Deal
+13:13:22 INFO  Thread-3 31056 Actor:266 - received card = null values = 15/15 hid = Timothys-MacBook-Pro.local:DEALER:3FA17296850E30C0
+13:13:22 INFO  Thread-3 31065 Trap:94 - wins: 1
+13:13:22 INFO  Thread-3 31065 Trap:95 - loses: 1
+13:13:22 INFO  Thread-3 31065 Trap:96 - pushes: 0
+13:13:22 INFO  Thread-3 31066 Trap:97 - busts: 0
+13:13:22 INFO  Thread-3 31066 Trap:98 - blackjacks: 0
+13:13:22 INFO  Thread-3 31066 Trap:99 - charlies: 0
+13:13:22 INFO  Thread-3 31066 Trap:100 - bankroll: 1000.0
+13:13:22 INFO  Thread-3 31066 Trap:101 - splits: 0
+13:13:22 INFO  Thread-3 31066 Actor:185 - Courier waiting for connection on port 8001
+13:13:23 INFO  Thread-3 31800 Actor:185 - Courier accepted connection on port 8001
+13:13:23 INFO  Thread-3 31803 Actor:185 - Courier received message Deal
+13:13:23 INFO  Thread-3 31803 Actor:185 - Courier invoking listener for Deal
+13:13:23 INFO  Thread-3 31803 Actor:266 - received card = HK values = 25/25 hid = Timothys-MacBook-Pro.local:DEALER:3FA17296850E30C0
+13:13:23 INFO  Thread-3 31806 Trap:94 - wins: 1
+13:13:23 INFO  Thread-3 31806 Trap:95 - loses: 1
+13:13:23 INFO  Thread-3 31807 Trap:96 - pushes: 0
+13:13:23 INFO  Thread-3 31807 Trap:97 - busts: 0
+13:13:23 INFO  Thread-3 31807 Trap:98 - blackjacks: 0
+13:13:23 INFO  Thread-3 31807 Trap:99 - charlies: 0
+13:13:23 INFO  Thread-3 31807 Trap:100 - bankroll: 1000.0
+13:13:23 INFO  Thread-3 31807 Trap:101 - splits: 0
+13:13:23 INFO  Thread-3 31807 Actor:185 - Courier waiting for connection on port 8001
+13:13:23 INFO  Thread-3 31807 Actor:185 - Courier accepted connection on port 8001
+13:13:23 INFO  Thread-3 31808 Actor:185 - Courier received message Win
+13:13:23 INFO  Thread-3 31808 Actor:185 - Courier invoking listener for Win
+13:13:23 INFO  Thread-3 31808 Actor:207 - received outcome = Win
+13:13:23 INFO  Thread-3 31808 ATable:505 - WIN for hid = Timothys-MacBook-Pro.local:YOU:27E33431906C9C40 amt = 50.0
+13:13:23 INFO  Thread-3 31808 Trap:94 - wins: 2
+13:13:23 INFO  Thread-3 31808 Trap:95 - loses: 1
+13:13:23 INFO  Thread-3 31808 Trap:96 - pushes: 0
+13:13:23 INFO  Thread-3 31808 Trap:97 - busts: 0
+13:13:23 INFO  Thread-3 31809 Trap:98 - blackjacks: 0
+13:13:23 INFO  Thread-3 31809 Trap:99 - charlies: 0
+13:13:23 INFO  Thread-3 31809 Trap:100 - bankroll: 1050.0
+13:13:23 INFO  Thread-3 31809 Trap:101 - splits: 0
+13:13:23 INFO  Thread-3 31809 Actor:185 - Courier waiting for connection on port 8001
+13:13:23 INFO  Thread-3 31809 Actor:185 - Courier accepted connection on port 8001
+13:13:23 INFO  Thread-3 31810 Actor:185 - Courier received message GameOver
+13:13:23 INFO  Thread-3 31810 Actor:185 - Courier invoking listener for GameOver
+13:13:23 INFO  Thread-3 31810 Actor:287 - received ending shoe size = 37
+13:13:23 INFO  Thread-3 31810 ATable:669 - num hands = 2 wins = 1 loses = 0 pushes = 0
+13:13:24 INFO  Thread-21 32804 ATable:206 - side bet = 0
+13:13:24 INFO  Thread-21 32804 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+13:13:24 INFO  Thread-21 32806 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+13:13:25 INFO  Thread-3 33640 Trap:94 - wins: 2
+13:13:25 INFO  Thread-3 33640 Trap:95 - loses: 1
+13:13:25 INFO  Thread-3 33640 Trap:96 - pushes: 0
+13:13:25 INFO  Thread-3 33641 Trap:97 - busts: 0
+13:13:25 INFO  Thread-3 33641 Trap:98 - blackjacks: 0
+13:13:25 INFO  Thread-3 33641 Trap:99 - charlies: 0
+13:13:25 INFO  Thread-3 33641 Trap:100 - bankroll: 1050.0
+13:13:25 INFO  Thread-3 33641 Trap:101 - splits: 0
+13:13:25 INFO  Thread-3 33641 Actor:185 - Courier waiting for connection on port 8001
+13:13:25 INFO  Thread-3 33642 Actor:185 - Courier accepted connection on port 8001
+13:13:25 INFO  Thread-3 33643 Actor:185 - Courier received message GameStart
+13:13:25 INFO  Thread-3 33644 Actor:185 - Courier invoking listener for GameStart
+13:13:25 INFO  Thread-3 33644 Actor:244 - receive starting shoe size = 37
+13:13:25 INFO  Thread-3 33644 Actor:247 - starting hand: Timothys-MacBook-Pro.local:YOU:39CD5A6DD01A49C3
+13:13:25 INFO  Thread-3 33644 Actor:247 - starting hand: Timothys-MacBook-Pro.local:DEALER:6D5F86AA4548599C
+13:13:25 INFO  Thread-3 33644 Trap:94 - wins: 2
+13:13:25 INFO  Thread-3 33645 Trap:95 - loses: 1
+13:13:25 INFO  Thread-3 33645 Trap:96 - pushes: 0
+13:13:25 INFO  Thread-3 33645 Trap:97 - busts: 0
+13:13:25 INFO  Thread-3 33645 Trap:98 - blackjacks: 0
+13:13:25 INFO  Thread-3 33645 Trap:99 - charlies: 0
+13:13:25 INFO  Thread-3 33645 Trap:100 - bankroll: 1050.0
+13:13:25 INFO  Thread-3 33645 Trap:101 - splits: 0
+13:13:25 INFO  Thread-3 33645 Actor:185 - Courier waiting for connection on port 8001
+13:13:25 INFO  Thread-3 33819 Actor:185 - Courier accepted connection on port 8001
+13:13:25 INFO  Thread-3 33823 Actor:185 - Courier received message Deal
+13:13:25 INFO  Thread-3 33823 Actor:185 - Courier invoking listener for Deal
+13:13:25 INFO  Thread-3 33824 Actor:266 - received card = H3 values = 3/3 hid = Timothys-MacBook-Pro.local:YOU:39CD5A6DD01A49C3
+13:13:25 INFO  Thread-3 33827 Trap:94 - wins: 2
+13:13:25 INFO  Thread-3 33827 Trap:95 - loses: 1
+13:13:25 INFO  Thread-3 33827 Trap:96 - pushes: 0
+13:13:25 INFO  Thread-3 33827 Trap:97 - busts: 0
+13:13:25 INFO  Thread-3 33827 Trap:98 - blackjacks: 0
+13:13:25 INFO  Thread-3 33828 Trap:99 - charlies: 0
+13:13:25 INFO  Thread-3 33828 Trap:100 - bankroll: 1050.0
+13:13:25 INFO  Thread-3 33828 Trap:101 - splits: 0
+13:13:25 INFO  Thread-3 33828 Actor:185 - Courier waiting for connection on port 8001
+13:13:26 INFO  Thread-3 34575 Actor:185 - Courier accepted connection on port 8001
+13:13:26 INFO  Thread-3 34579 Actor:185 - Courier received message Deal
+13:13:26 INFO  Thread-3 34579 Actor:185 - Courier invoking listener for Deal
+13:13:26 INFO  Thread-3 34579 Actor:266 - received card = D7 values = 0/0 hid = Timothys-MacBook-Pro.local:DEALER:6D5F86AA4548599C
+13:13:26 INFO  Thread-3 34584 Trap:94 - wins: 2
+13:13:26 INFO  Thread-3 34584 Trap:95 - loses: 1
+13:13:26 INFO  Thread-3 34584 Trap:96 - pushes: 0
+13:13:26 INFO  Thread-3 34585 Trap:97 - busts: 0
+13:13:26 INFO  Thread-3 34585 Trap:98 - blackjacks: 0
+13:13:26 INFO  Thread-3 34586 Trap:99 - charlies: 0
+13:13:26 INFO  Thread-3 34587 Trap:100 - bankroll: 1050.0
+13:13:26 INFO  Thread-3 34587 Trap:101 - splits: 0
+13:13:26 INFO  Thread-3 34587 Actor:185 - Courier waiting for connection on port 8001
+13:13:26 INFO  Thread-3 35334 Actor:185 - Courier accepted connection on port 8001
+13:13:26 INFO  Thread-3 35336 Actor:185 - Courier received message Deal
+13:13:26 INFO  Thread-3 35337 Actor:185 - Courier invoking listener for Deal
+13:13:26 INFO  Thread-3 35337 Actor:266 - received card = H7 values = 10/10 hid = Timothys-MacBook-Pro.local:YOU:39CD5A6DD01A49C3
+13:13:26 INFO  Thread-3 35342 Trap:94 - wins: 2
+13:13:26 INFO  Thread-3 35343 Trap:95 - loses: 1
+13:13:26 INFO  Thread-3 35343 Trap:96 - pushes: 0
+13:13:26 INFO  Thread-3 35343 Trap:97 - busts: 0
+13:13:26 INFO  Thread-3 35343 Trap:98 - blackjacks: 0
+13:13:26 INFO  Thread-3 35343 Trap:99 - charlies: 0
+13:13:26 INFO  Thread-3 35343 Trap:100 - bankroll: 1050.0
+13:13:26 INFO  Thread-3 35343 Trap:101 - splits: 0
+13:13:26 INFO  Thread-3 35343 Actor:185 - Courier waiting for connection on port 8001
+13:13:27 INFO  Thread-3 36090 Actor:185 - Courier accepted connection on port 8001
+13:13:27 INFO  Thread-3 36092 Actor:185 - Courier received message Deal
+13:13:27 INFO  Thread-3 36092 Actor:185 - Courier invoking listener for Deal
+13:13:27 INFO  Thread-3 36092 Actor:266 - received card = H5 values = 5/5 hid = Timothys-MacBook-Pro.local:DEALER:6D5F86AA4548599C
+13:13:27 INFO  Thread-3 36100 Trap:94 - wins: 2
+13:13:27 INFO  Thread-3 36100 Trap:95 - loses: 1
+13:13:27 INFO  Thread-3 36100 Trap:96 - pushes: 0
+13:13:27 INFO  Thread-3 36100 Trap:97 - busts: 0
+13:13:27 INFO  Thread-3 36100 Trap:98 - blackjacks: 0
+13:13:27 INFO  Thread-3 36101 Trap:99 - charlies: 0
+13:13:27 INFO  Thread-3 36101 Trap:100 - bankroll: 1050.0
+13:13:27 INFO  Thread-3 36101 Trap:101 - splits: 0
+13:13:27 INFO  Thread-3 36101 Actor:185 - Courier waiting for connection on port 8001
+13:13:27 INFO  Thread-3 36101 Actor:185 - Courier accepted connection on port 8001
+13:13:27 INFO  Thread-3 36102 Actor:185 - Courier received message Play
+13:13:27 INFO  Thread-3 36102 Actor:185 - Courier invoking listener for Play
+13:13:27 INFO  Thread-3 36102 Actor:276 - got turn = Timothys-MacBook-Pro.local:YOU:39CD5A6DD01A49C3
+13:13:28 INFO  AWT-EventQueue-0 36447 Actor:185 - Courier sending DoubleDown to 127.0.0.1:8501
+13:13:28 INFO  AWT-EventQueue-0 36448 Actor:185 - Courier sent successfully DoubleDown to 127.0.0.1:8501
+13:13:28 INFO  Thread-3 36749 Trap:94 - wins: 2
+13:13:28 INFO  Thread-3 36749 Trap:95 - loses: 1
+13:13:28 INFO  Thread-3 36749 Trap:96 - pushes: 0
+13:13:28 INFO  Thread-3 36749 Trap:97 - busts: 0
+13:13:28 INFO  Thread-3 36750 Trap:98 - blackjacks: 0
+13:13:28 INFO  Thread-3 36750 Trap:99 - charlies: 0
+13:13:28 INFO  Thread-3 36750 Trap:100 - bankroll: 1050.0
+13:13:28 INFO  Thread-3 36750 Trap:101 - splits: 0
+13:13:28 INFO  Thread-3 36750 Actor:185 - Courier waiting for connection on port 8001
+13:13:28 INFO  Thread-3 36751 Actor:185 - Courier accepted connection on port 8001
+13:13:28 INFO  Thread-3 36753 Actor:185 - Courier received message Deal
+13:13:28 INFO  Thread-3 36753 Actor:185 - Courier invoking listener for Deal
+13:13:28 INFO  Thread-3 36753 Actor:266 - received card = C5 values = 15/15 hid = Timothys-MacBook-Pro.local:YOU:39CD5A6DD01A49C3
+13:13:28 INFO  Thread-3 36758 Trap:94 - wins: 2
+13:13:28 INFO  Thread-3 36758 Trap:95 - loses: 1
+13:13:28 INFO  Thread-3 36758 Trap:96 - pushes: 0
+13:13:28 INFO  Thread-3 36758 Trap:97 - busts: 0
+13:13:28 INFO  Thread-3 36758 Trap:98 - blackjacks: 0
+13:13:28 INFO  Thread-3 36758 Trap:99 - charlies: 0
+13:13:28 INFO  Thread-3 36758 Trap:100 - bankroll: 1050.0
+13:13:28 INFO  Thread-3 36758 Trap:101 - splits: 0
+13:13:28 INFO  Thread-3 36758 Actor:185 - Courier waiting for connection on port 8001
+13:13:28 INFO  Thread-3 36758 Actor:185 - Courier accepted connection on port 8001
+13:13:28 INFO  Thread-3 36759 Actor:185 - Courier received message Play
+13:13:28 INFO  Thread-3 36759 Actor:185 - Courier invoking listener for Play
+13:13:28 INFO  Thread-3 36759 Actor:276 - got turn = Timothys-MacBook-Pro.local:DEALER:6D5F86AA4548599C
+13:13:28 INFO  Thread-3 36760 Trap:94 - wins: 2
+13:13:28 INFO  Thread-3 36760 Trap:95 - loses: 1
+13:13:28 INFO  Thread-3 36760 Trap:96 - pushes: 0
+13:13:28 INFO  Thread-3 36760 Trap:97 - busts: 0
+13:13:28 INFO  Thread-3 36760 Trap:98 - blackjacks: 0
+13:13:28 INFO  Thread-3 36760 Trap:99 - charlies: 0
+13:13:28 INFO  Thread-3 36760 Trap:100 - bankroll: 1050.0
+13:13:28 INFO  Thread-3 36760 Trap:101 - splits: 0
+13:13:28 INFO  Thread-3 36760 Actor:185 - Courier waiting for connection on port 8001
+13:13:28 INFO  Thread-3 36760 Actor:185 - Courier accepted connection on port 8001
+13:13:28 INFO  Thread-3 36761 Actor:185 - Courier received message Deal
+13:13:28 INFO  Thread-3 36761 Actor:185 - Courier invoking listener for Deal
+13:13:28 INFO  Thread-3 36761 Actor:266 - received card = null values = 12/12 hid = Timothys-MacBook-Pro.local:DEALER:6D5F86AA4548599C
+13:13:28 INFO  Thread-3 36762 Trap:94 - wins: 2
+13:13:28 INFO  Thread-3 36762 Trap:95 - loses: 1
+13:13:28 INFO  Thread-3 36762 Trap:96 - pushes: 0
+13:13:28 INFO  Thread-3 36762 Trap:97 - busts: 0
+13:13:28 INFO  Thread-3 36762 Trap:98 - blackjacks: 0
+13:13:28 INFO  Thread-3 36762 Trap:99 - charlies: 0
+13:13:28 INFO  Thread-3 36762 Trap:100 - bankroll: 1050.0
+13:13:28 INFO  Thread-3 36762 Trap:101 - splits: 0
+13:13:28 INFO  Thread-3 36762 Actor:185 - Courier waiting for connection on port 8001
+13:13:28 INFO  Thread-3 37212 Actor:185 - Courier accepted connection on port 8001
+13:13:28 INFO  Thread-3 37214 Actor:185 - Courier received message Deal
+13:13:28 INFO  Thread-3 37214 Actor:185 - Courier invoking listener for Deal
+13:13:28 INFO  Thread-3 37214 Actor:266 - received card = C4 values = 16/16 hid = Timothys-MacBook-Pro.local:DEALER:6D5F86AA4548599C
+13:13:28 INFO  Thread-3 37217 Trap:94 - wins: 2
+13:13:28 INFO  Thread-3 37217 Trap:95 - loses: 1
+13:13:28 INFO  Thread-3 37217 Trap:96 - pushes: 0
+13:13:28 INFO  Thread-3 37218 Trap:97 - busts: 0
+13:13:28 INFO  Thread-3 37218 Trap:98 - blackjacks: 0
+13:13:28 INFO  Thread-3 37218 Trap:99 - charlies: 0
+13:13:28 INFO  Thread-3 37218 Trap:100 - bankroll: 1050.0
+13:13:28 INFO  Thread-3 37218 Trap:101 - splits: 0
+13:13:28 INFO  Thread-3 37218 Actor:185 - Courier waiting for connection on port 8001
+13:13:29 INFO  Thread-3 37969 Actor:185 - Courier accepted connection on port 8001
+13:13:29 INFO  Thread-3 37970 Actor:185 - Courier received message Deal
+13:13:29 INFO  Thread-3 37970 Actor:185 - Courier invoking listener for Deal
+13:13:29 INFO  Thread-3 37970 Actor:266 - received card = S3 values = 19/19 hid = Timothys-MacBook-Pro.local:DEALER:6D5F86AA4548599C
+13:13:29 INFO  Thread-3 37977 Trap:94 - wins: 2
+13:13:29 INFO  Thread-3 37977 Trap:95 - loses: 1
+13:13:29 INFO  Thread-3 37977 Trap:96 - pushes: 0
+13:13:29 INFO  Thread-3 37977 Trap:97 - busts: 0
+13:13:29 INFO  Thread-3 37977 Trap:98 - blackjacks: 0
+13:13:29 INFO  Thread-3 37977 Trap:99 - charlies: 0
+13:13:29 INFO  Thread-3 37978 Trap:100 - bankroll: 1050.0
+13:13:29 INFO  Thread-3 37978 Trap:101 - splits: 0
+13:13:29 INFO  Thread-3 37978 Actor:185 - Courier waiting for connection on port 8001
+13:13:29 INFO  Thread-3 37978 Actor:185 - Courier accepted connection on port 8001
+13:13:29 INFO  Thread-3 37978 Actor:185 - Courier received message Lose
+13:13:29 INFO  Thread-3 37979 Actor:185 - Courier invoking listener for Lose
+13:13:29 INFO  Thread-3 37979 Actor:207 - received outcome = Lose
+13:13:29 INFO  Thread-3 37979 ATable:530 - LOOSE for hid = Timothys-MacBook-Pro.local:YOU:39CD5A6DD01A49C3 amt = 50.0
+13:13:29 INFO  Thread-3 37979 Trap:94 - wins: 2
+13:13:29 INFO  Thread-3 37979 Trap:95 - loses: 2
+13:13:29 INFO  Thread-3 37979 Trap:96 - pushes: 0
+13:13:29 INFO  Thread-3 37979 Trap:97 - busts: 0
+13:13:29 INFO  Thread-3 37979 Trap:98 - blackjacks: 0
+13:13:29 INFO  Thread-3 37979 Trap:99 - charlies: 0
+13:13:29 INFO  Thread-3 37979 Trap:100 - bankroll: 1000.0
+13:13:29 INFO  Thread-3 37979 Trap:101 - splits: 0
+13:13:29 INFO  Thread-3 37979 Actor:185 - Courier waiting for connection on port 8001
+13:13:29 INFO  Thread-3 37979 Actor:185 - Courier accepted connection on port 8001
+13:13:29 INFO  Thread-3 37980 Actor:185 - Courier received message GameOver
+13:13:29 INFO  Thread-3 37980 Actor:185 - Courier invoking listener for GameOver
+13:13:29 INFO  Thread-3 37980 Actor:287 - received ending shoe size = 30
+13:13:29 INFO  Thread-3 37980 ATable:669 - num hands = 2 wins = 0 loses = 1 pushes = 0
+13:13:30 INFO  Thread-28 38834 ATable:206 - side bet = 0
+13:13:30 INFO  Thread-28 38834 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+13:13:30 INFO  Thread-28 38836 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+13:13:31 INFO  Thread-3 39671 Trap:94 - wins: 2
+13:13:31 INFO  Thread-3 39672 Trap:95 - loses: 2
+13:13:31 INFO  Thread-3 39672 Trap:96 - pushes: 0
+13:13:31 INFO  Thread-3 39672 Trap:97 - busts: 0
+13:13:31 INFO  Thread-3 39673 Trap:98 - blackjacks: 0
+13:13:31 INFO  Thread-3 39673 Trap:99 - charlies: 0
+13:13:31 INFO  Thread-3 39674 Trap:100 - bankroll: 1000.0
+13:13:31 INFO  Thread-3 39674 Trap:101 - splits: 0
+13:13:31 INFO  Thread-3 39674 Actor:185 - Courier waiting for connection on port 8001
+13:13:31 INFO  Thread-3 39675 Actor:185 - Courier accepted connection on port 8001
+13:13:31 INFO  Thread-3 39675 Actor:185 - Courier received message GameStart
+13:13:31 INFO  Thread-3 39676 Actor:185 - Courier invoking listener for GameStart
+13:13:31 INFO  Thread-3 39676 Actor:244 - receive starting shoe size = 30
+13:13:31 INFO  Thread-3 39676 Actor:247 - starting hand: Timothys-MacBook-Pro.local:YOU:3972E271B7D7DD12
+13:13:31 INFO  Thread-3 39676 Actor:247 - starting hand: Timothys-MacBook-Pro.local:DEALER:7290F8C8C116D2EC
+13:13:31 INFO  Thread-3 39676 Trap:94 - wins: 2
+13:13:31 INFO  Thread-3 39676 Trap:95 - loses: 2
+13:13:31 INFO  Thread-3 39676 Trap:96 - pushes: 0
+13:13:31 INFO  Thread-3 39676 Trap:97 - busts: 0
+13:13:31 INFO  Thread-3 39676 Trap:98 - blackjacks: 0
+13:13:31 INFO  Thread-3 39676 Trap:99 - charlies: 0
+13:13:31 INFO  Thread-3 39676 Trap:100 - bankroll: 1000.0
+13:13:31 INFO  Thread-3 39676 Trap:101 - splits: 0
+13:13:31 INFO  Thread-3 39676 Actor:185 - Courier waiting for connection on port 8001
+13:13:31 INFO  Thread-3 39850 Actor:185 - Courier accepted connection on port 8001
+13:13:31 INFO  Thread-3 39852 Actor:185 - Courier received message Deal
+13:13:31 INFO  Thread-3 39852 Actor:185 - Courier invoking listener for Deal
+13:13:31 INFO  Thread-3 39852 Actor:266 - received card = SJ values = 10/10 hid = Timothys-MacBook-Pro.local:YOU:3972E271B7D7DD12
+13:13:31 INFO  Thread-3 39858 Trap:94 - wins: 2
+13:13:31 INFO  Thread-3 39858 Trap:95 - loses: 2
+13:13:31 INFO  Thread-3 39858 Trap:96 - pushes: 0
+13:13:31 INFO  Thread-3 39858 Trap:97 - busts: 0
+13:13:31 INFO  Thread-3 39858 Trap:98 - blackjacks: 0
+13:13:31 INFO  Thread-3 39858 Trap:99 - charlies: 0
+13:13:31 INFO  Thread-3 39858 Trap:100 - bankroll: 1000.0
+13:13:31 INFO  Thread-3 39858 Trap:101 - splits: 0
+13:13:31 INFO  Thread-3 39858 Actor:185 - Courier waiting for connection on port 8001
+13:13:32 INFO  Thread-3 40605 Actor:185 - Courier accepted connection on port 8001
+13:13:32 INFO  Thread-3 40607 Actor:185 - Courier received message Deal
+13:13:32 INFO  Thread-3 40608 Actor:185 - Courier invoking listener for Deal
+13:13:32 INFO  Thread-3 40608 Actor:266 - received card = DK values = 0/0 hid = Timothys-MacBook-Pro.local:DEALER:7290F8C8C116D2EC
+13:13:32 INFO  Thread-3 40612 Trap:94 - wins: 2
+13:13:32 INFO  Thread-3 40612 Trap:95 - loses: 2
+13:13:32 INFO  Thread-3 40612 Trap:96 - pushes: 0
+13:13:32 INFO  Thread-3 40612 Trap:97 - busts: 0
+13:13:32 INFO  Thread-3 40613 Trap:98 - blackjacks: 0
+13:13:32 INFO  Thread-3 40613 Trap:99 - charlies: 0
+13:13:32 INFO  Thread-3 40613 Trap:100 - bankroll: 1000.0
+13:13:32 INFO  Thread-3 40613 Trap:101 - splits: 0
+13:13:32 INFO  Thread-3 40613 Actor:185 - Courier waiting for connection on port 8001
+13:13:32 INFO  Thread-3 41363 Actor:185 - Courier accepted connection on port 8001
+13:13:33 INFO  Thread-3 41366 Actor:185 - Courier received message Deal
+13:13:33 INFO  Thread-3 41366 Actor:185 - Courier invoking listener for Deal
+13:13:33 INFO  Thread-3 41367 Actor:266 - received card = C10 values = 20/20 hid = Timothys-MacBook-Pro.local:YOU:3972E271B7D7DD12
+13:13:33 INFO  Thread-3 41376 Trap:94 - wins: 2
+13:13:33 INFO  Thread-3 41376 Trap:95 - loses: 2
+13:13:33 INFO  Thread-3 41377 Trap:96 - pushes: 0
+13:13:33 INFO  Thread-3 41377 Trap:97 - busts: 0
+13:13:33 INFO  Thread-3 41378 Trap:98 - blackjacks: 0
+13:13:33 INFO  Thread-3 41378 Trap:99 - charlies: 0
+13:13:33 INFO  Thread-3 41378 Trap:100 - bankroll: 1000.0
+13:13:33 INFO  Thread-3 41378 Trap:101 - splits: 0
+13:13:33 INFO  Thread-3 41378 Actor:185 - Courier waiting for connection on port 8001
+13:13:33 INFO  Thread-3 42117 Actor:185 - Courier accepted connection on port 8001
+13:13:33 INFO  Thread-3 42119 Actor:185 - Courier received message Deal
+13:13:33 INFO  Thread-3 42119 Actor:185 - Courier invoking listener for Deal
+13:13:33 INFO  Thread-3 42120 Actor:266 - received card = SA values = 1/11 hid = Timothys-MacBook-Pro.local:DEALER:7290F8C8C116D2EC
+13:13:33 INFO  Thread-3 42126 Trap:94 - wins: 2
+13:13:33 INFO  Thread-3 42126 Trap:95 - loses: 2
+13:13:33 INFO  Thread-3 42126 Trap:96 - pushes: 0
+13:13:33 INFO  Thread-3 42126 Trap:97 - busts: 0
+13:13:33 INFO  Thread-3 42126 Trap:98 - blackjacks: 0
+13:13:33 INFO  Thread-3 42126 Trap:99 - charlies: 0
+13:13:33 INFO  Thread-3 42126 Trap:100 - bankroll: 1000.0
+13:13:33 INFO  Thread-3 42126 Trap:101 - splits: 0
+13:13:33 INFO  Thread-3 42127 Actor:185 - Courier waiting for connection on port 8001
+13:13:33 INFO  Thread-3 42127 Actor:185 - Courier accepted connection on port 8001
+13:13:33 INFO  Thread-3 42127 Actor:185 - Courier received message Play
+13:13:33 INFO  Thread-3 42127 Actor:185 - Courier invoking listener for Play
+13:13:33 INFO  Thread-3 42127 Actor:276 - got turn = Timothys-MacBook-Pro.local:DEALER:7290F8C8C116D2EC
+13:13:33 INFO  Thread-3 42127 Trap:94 - wins: 2
+13:13:33 INFO  Thread-3 42127 Trap:95 - loses: 2
+13:13:33 INFO  Thread-3 42127 Trap:96 - pushes: 0
+13:13:33 INFO  Thread-3 42128 Trap:97 - busts: 0
+13:13:33 INFO  Thread-3 42128 Trap:98 - blackjacks: 0
+13:13:33 INFO  Thread-3 42128 Trap:99 - charlies: 0
+13:13:33 INFO  Thread-3 42128 Trap:100 - bankroll: 1000.0
+13:13:33 INFO  Thread-3 42128 Trap:101 - splits: 0
+13:13:33 INFO  Thread-3 42128 Actor:185 - Courier waiting for connection on port 8001
+13:13:33 INFO  Thread-3 42128 Actor:185 - Courier accepted connection on port 8001
+13:13:33 INFO  Thread-3 42128 Actor:185 - Courier received message Deal
+13:13:33 INFO  Thread-3 42129 Actor:185 - Courier invoking listener for Deal
+13:13:33 INFO  Thread-3 42129 Actor:266 - received card = null values = 11/21 hid = Timothys-MacBook-Pro.local:DEALER:7290F8C8C116D2EC
+13:13:33 INFO  Thread-3 42129 Trap:94 - wins: 2
+13:13:33 INFO  Thread-3 42129 Trap:95 - loses: 2
+13:13:33 INFO  Thread-3 42129 Trap:96 - pushes: 0
+13:13:33 INFO  Thread-3 42129 Trap:97 - busts: 0
+13:13:33 INFO  Thread-3 42129 Trap:98 - blackjacks: 0
+13:13:33 INFO  Thread-3 42129 Trap:99 - charlies: 0
+13:13:33 INFO  Thread-3 42129 Trap:100 - bankroll: 1000.0
+13:13:33 INFO  Thread-3 42129 Trap:101 - splits: 0
+13:13:33 INFO  Thread-3 42129 Actor:185 - Courier waiting for connection on port 8001
+13:13:33 INFO  Thread-3 42129 Actor:185 - Courier accepted connection on port 8001
+13:13:33 INFO  Thread-3 42130 Actor:185 - Courier received message Lose
+13:13:33 INFO  Thread-3 42130 Actor:185 - Courier invoking listener for Lose
+13:13:33 INFO  Thread-3 42130 Actor:207 - received outcome = Lose
+13:13:33 INFO  Thread-3 42130 ATable:530 - LOOSE for hid = Timothys-MacBook-Pro.local:YOU:3972E271B7D7DD12 amt = 25.0
+13:13:33 INFO  Thread-3 42130 Trap:94 - wins: 2
+13:13:33 INFO  Thread-3 42130 Trap:95 - loses: 3
+13:13:33 INFO  Thread-3 42130 Trap:96 - pushes: 0
+13:13:33 INFO  Thread-3 42130 Trap:97 - busts: 0
+13:13:33 INFO  Thread-3 42130 Trap:98 - blackjacks: 0
+13:13:33 INFO  Thread-3 42130 Trap:99 - charlies: 0
+13:13:33 INFO  Thread-3 42130 Trap:100 - bankroll: 975.0
+13:13:33 INFO  Thread-3 42130 Trap:101 - splits: 0
+13:13:33 INFO  Thread-3 42131 Actor:185 - Courier waiting for connection on port 8001
+13:13:33 INFO  Thread-3 42131 Actor:185 - Courier accepted connection on port 8001
+13:13:33 INFO  Thread-3 42131 Actor:185 - Courier received message GameOver
+13:13:33 INFO  Thread-3 42131 Actor:185 - Courier invoking listener for GameOver
+13:13:33 INFO  Thread-3 42131 Actor:287 - received ending shoe size = 26
+13:13:33 INFO  Thread-3 42131 ATable:669 - num hands = 2 wins = 0 loses = 1 pushes = 0
+13:13:34 INFO  Thread-33 43335 ATable:206 - side bet = 0
+13:13:34 INFO  Thread-33 43335 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+13:13:34 INFO  Thread-33 43336 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+13:13:35 INFO  Thread-3 43826 Trap:94 - wins: 2
+13:13:35 INFO  Thread-3 43826 Trap:95 - loses: 3
+13:13:35 INFO  Thread-3 43827 Trap:96 - pushes: 0
+13:13:35 INFO  Thread-3 43827 Trap:97 - busts: 0
+13:13:35 INFO  Thread-3 43827 Trap:98 - blackjacks: 0
+13:13:35 INFO  Thread-3 43827 Trap:99 - charlies: 0
+13:13:35 INFO  Thread-3 43829 Trap:100 - bankroll: 975.0
+13:13:35 INFO  Thread-3 43829 Trap:101 - splits: 0
+13:13:35 INFO  Thread-3 43829 Actor:185 - Courier waiting for connection on port 8001
+13:13:35 INFO  Thread-3 43829 Actor:185 - Courier accepted connection on port 8001
+13:13:35 INFO  Thread-3 43830 Actor:185 - Courier received message GameStart
+13:13:35 INFO  Thread-3 43831 Actor:185 - Courier invoking listener for GameStart
+13:13:35 INFO  Thread-3 43831 Actor:244 - receive starting shoe size = 26
+13:13:35 INFO  Thread-3 43831 Actor:247 - starting hand: Timothys-MacBook-Pro.local:YOU:38A4D6230759E73C
+13:13:35 INFO  Thread-3 43831 Actor:247 - starting hand: Timothys-MacBook-Pro.local:DEALER:6758CC6321AE23C0
+13:13:35 INFO  Thread-3 43831 Trap:94 - wins: 2
+13:13:35 INFO  Thread-3 43831 Trap:95 - loses: 3
+13:13:35 INFO  Thread-3 43831 Trap:96 - pushes: 0
+13:13:35 INFO  Thread-3 43831 Trap:97 - busts: 0
+13:13:35 INFO  Thread-3 43831 Trap:98 - blackjacks: 0
+13:13:35 INFO  Thread-3 43831 Trap:99 - charlies: 0
+13:13:35 INFO  Thread-3 43831 Trap:100 - bankroll: 975.0
+13:13:35 INFO  Thread-3 43831 Trap:101 - splits: 0
+13:13:35 INFO  Thread-3 43832 Actor:185 - Courier waiting for connection on port 8001
+13:13:35 INFO  Thread-3 44351 Actor:185 - Courier accepted connection on port 8001
+13:13:35 INFO  Thread-3 44352 Actor:185 - Courier received message Deal
+13:13:35 INFO  Thread-3 44352 Actor:185 - Courier invoking listener for Deal
+13:13:35 INFO  Thread-3 44353 Actor:266 - received card = C3 values = 3/3 hid = Timothys-MacBook-Pro.local:YOU:38A4D6230759E73C
+13:13:35 INFO  Thread-3 44355 Trap:94 - wins: 2
+13:13:35 INFO  Thread-3 44355 Trap:95 - loses: 3
+13:13:35 INFO  Thread-3 44355 Trap:96 - pushes: 0
+13:13:35 INFO  Thread-3 44355 Trap:97 - busts: 0
+13:13:35 INFO  Thread-3 44355 Trap:98 - blackjacks: 0
+13:13:35 INFO  Thread-3 44355 Trap:99 - charlies: 0
+13:13:35 INFO  Thread-3 44355 Trap:100 - bankroll: 975.0
+13:13:35 INFO  Thread-3 44355 Trap:101 - splits: 0
+13:13:35 INFO  Thread-3 44355 Actor:185 - Courier waiting for connection on port 8001
+13:13:36 INFO  Thread-3 45106 Actor:185 - Courier accepted connection on port 8001
+13:13:36 INFO  Thread-3 45108 Actor:185 - Courier received message Deal
+13:13:36 INFO  Thread-3 45109 Actor:185 - Courier invoking listener for Deal
+13:13:36 INFO  Thread-3 45109 Actor:266 - received card = S8 values = 0/0 hid = Timothys-MacBook-Pro.local:DEALER:6758CC6321AE23C0
+13:13:36 INFO  Thread-3 45117 Trap:94 - wins: 2
+13:13:36 INFO  Thread-3 45117 Trap:95 - loses: 3
+13:13:36 INFO  Thread-3 45117 Trap:96 - pushes: 0
+13:13:36 INFO  Thread-3 45117 Trap:97 - busts: 0
+13:13:36 INFO  Thread-3 45117 Trap:98 - blackjacks: 0
+13:13:36 INFO  Thread-3 45117 Trap:99 - charlies: 0
+13:13:36 INFO  Thread-3 45117 Trap:100 - bankroll: 975.0
+13:13:36 INFO  Thread-3 45117 Trap:101 - splits: 0
+13:13:36 INFO  Thread-3 45117 Actor:185 - Courier waiting for connection on port 8001
+13:13:37 INFO  Thread-3 45863 Actor:185 - Courier accepted connection on port 8001
+13:13:37 INFO  Thread-3 45865 Actor:185 - Courier received message Deal
+13:13:37 INFO  Thread-3 45865 Actor:185 - Courier invoking listener for Deal
+13:13:37 INFO  Thread-3 45865 Actor:266 - received card = H2 values = 5/5 hid = Timothys-MacBook-Pro.local:YOU:38A4D6230759E73C
+13:13:37 INFO  Thread-3 45867 Trap:94 - wins: 2
+13:13:37 INFO  Thread-3 45867 Trap:95 - loses: 3
+13:13:37 INFO  Thread-3 45868 Trap:96 - pushes: 0
+13:13:37 INFO  Thread-3 45868 Trap:97 - busts: 0
+13:13:37 INFO  Thread-3 45868 Trap:98 - blackjacks: 0
+13:13:37 INFO  Thread-3 45868 Trap:99 - charlies: 0
+13:13:37 INFO  Thread-3 45868 Trap:100 - bankroll: 975.0
+13:13:37 INFO  Thread-3 45868 Trap:101 - splits: 0
+13:13:37 INFO  Thread-3 45868 Actor:185 - Courier waiting for connection on port 8001
+13:13:38 INFO  Thread-3 46616 Actor:185 - Courier accepted connection on port 8001
+13:13:38 INFO  Thread-3 46618 Actor:185 - Courier received message Deal
+13:13:38 INFO  Thread-3 46619 Actor:185 - Courier invoking listener for Deal
+13:13:38 INFO  Thread-3 46619 Actor:266 - received card = C7 values = 7/7 hid = Timothys-MacBook-Pro.local:DEALER:6758CC6321AE23C0
+13:13:38 INFO  Thread-3 46635 Trap:94 - wins: 2
+13:13:38 INFO  Thread-3 46635 Trap:95 - loses: 3
+13:13:38 INFO  Thread-3 46635 Trap:96 - pushes: 0
+13:13:38 INFO  Thread-3 46635 Trap:97 - busts: 0
+13:13:38 INFO  Thread-3 46635 Trap:98 - blackjacks: 0
+13:13:38 INFO  Thread-3 46635 Trap:99 - charlies: 0
+13:13:38 INFO  Thread-3 46635 Trap:100 - bankroll: 975.0
+13:13:38 INFO  Thread-3 46636 Trap:101 - splits: 0
+13:13:38 INFO  Thread-3 46636 Actor:185 - Courier waiting for connection on port 8001
+13:13:38 INFO  Thread-3 46636 Actor:185 - Courier accepted connection on port 8001
+13:13:38 INFO  Thread-3 46637 Actor:185 - Courier received message Play
+13:13:38 INFO  Thread-3 46637 Actor:185 - Courier invoking listener for Play
+13:13:38 INFO  Thread-3 46637 Actor:276 - got turn = Timothys-MacBook-Pro.local:YOU:38A4D6230759E73C
+13:13:38 INFO  AWT-EventQueue-0 47158 Actor:185 - Courier sending Hit to 127.0.0.1:8501
+13:13:38 INFO  AWT-EventQueue-0 47162 Actor:185 - Courier sent successfully Hit to 127.0.0.1:8501
+13:13:38 INFO  Thread-3 47300 Trap:94 - wins: 2
+13:13:38 INFO  Thread-3 47300 Trap:95 - loses: 3
+13:13:38 INFO  Thread-3 47300 Trap:96 - pushes: 0
+13:13:38 INFO  Thread-3 47300 Trap:97 - busts: 0
+13:13:38 INFO  Thread-3 47300 Trap:98 - blackjacks: 0
+13:13:38 INFO  Thread-3 47300 Trap:99 - charlies: 0
+13:13:38 INFO  Thread-3 47300 Trap:100 - bankroll: 975.0
+13:13:38 INFO  Thread-3 47301 Trap:101 - splits: 0
+13:13:38 INFO  Thread-3 47301 Actor:185 - Courier waiting for connection on port 8001
+13:13:38 INFO  Thread-3 47301 Actor:185 - Courier accepted connection on port 8001
+13:13:38 INFO  Thread-3 47304 Actor:185 - Courier received message Deal
+13:13:38 INFO  Thread-3 47304 Actor:185 - Courier invoking listener for Deal
+13:13:38 INFO  Thread-3 47304 Actor:266 - received card = H9 values = 14/14 hid = Timothys-MacBook-Pro.local:YOU:38A4D6230759E73C
+13:13:38 INFO  Thread-3 47307 Trap:94 - wins: 2
+13:13:38 INFO  Thread-3 47307 Trap:95 - loses: 3
+13:13:38 INFO  Thread-3 47307 Trap:96 - pushes: 0
+13:13:38 INFO  Thread-3 47307 Trap:97 - busts: 0
+13:13:38 INFO  Thread-3 47307 Trap:98 - blackjacks: 0
+13:13:38 INFO  Thread-3 47308 Trap:99 - charlies: 0
+13:13:38 INFO  Thread-3 47308 Trap:100 - bankroll: 975.0
+13:13:38 INFO  Thread-3 47308 Trap:101 - splits: 0
+13:13:38 INFO  Thread-3 47308 Actor:185 - Courier waiting for connection on port 8001
+13:13:39 INFO  AWT-EventQueue-0 47991 Actor:185 - Courier sending Hit to 127.0.0.1:8501
+13:13:39 INFO  AWT-EventQueue-0 47993 Actor:185 - Courier sent successfully Hit to 127.0.0.1:8501
+13:13:39 INFO  Thread-3 47997 Actor:185 - Courier accepted connection on port 8001
+13:13:39 INFO  Thread-3 47999 Actor:185 - Courier received message Deal
+13:13:39 INFO  Thread-3 47999 Actor:185 - Courier invoking listener for Deal
+13:13:39 INFO  Thread-3 47999 Actor:266 - received card = S9 values = 23/23 hid = Timothys-MacBook-Pro.local:YOU:38A4D6230759E73C
+13:13:39 INFO  Thread-3 48004 Trap:94 - wins: 2
+13:13:39 INFO  Thread-3 48004 Trap:95 - loses: 3
+13:13:39 INFO  Thread-3 48004 Trap:96 - pushes: 0
+13:13:39 INFO  Thread-3 48004 Trap:97 - busts: 0
+13:13:39 INFO  Thread-3 48004 Trap:98 - blackjacks: 0
+13:13:39 INFO  Thread-3 48004 Trap:99 - charlies: 0
+13:13:39 INFO  Thread-3 48005 Trap:100 - bankroll: 975.0
+13:13:39 INFO  Thread-3 48005 Trap:101 - splits: 0
+13:13:39 INFO  Thread-3 48005 Actor:185 - Courier waiting for connection on port 8001
+13:13:39 INFO  Thread-3 48005 Actor:185 - Courier accepted connection on port 8001
+13:13:39 INFO  Thread-3 48006 Actor:185 - Courier received message Bust
+13:13:39 INFO  Thread-3 48006 Actor:185 - Courier invoking listener for Bust
+13:13:39 INFO  Thread-3 48006 Actor:207 - received outcome = Bust
+13:13:39 INFO  Thread-3 48007 ATable:477 - BUST for hid = Timothys-MacBook-Pro.local:YOU:38A4D6230759E73C amt = 25.0
+13:13:40 INFO  Thread-3 48389 Trap:94 - wins: 2
+13:13:40 INFO  Thread-3 48389 Trap:95 - loses: 3
+13:13:40 INFO  Thread-3 48389 Trap:96 - pushes: 0
+13:13:40 INFO  Thread-3 48390 Trap:97 - busts: 1
+13:13:40 INFO  Thread-3 48390 Trap:98 - blackjacks: 0
+13:13:40 INFO  Thread-3 48390 Trap:99 - charlies: 0
+13:13:40 INFO  Thread-3 48390 Trap:100 - bankroll: 950.0
+13:13:40 INFO  Thread-3 48390 Trap:101 - splits: 0
+13:13:40 INFO  Thread-3 48390 Actor:185 - Courier waiting for connection on port 8001
+13:13:40 INFO  Thread-3 48390 Actor:185 - Courier accepted connection on port 8001
+13:13:40 INFO  Thread-3 48391 Actor:185 - Courier received message Play
+13:13:40 INFO  Thread-3 48391 Actor:185 - Courier invoking listener for Play
+13:13:40 INFO  Thread-3 48391 Actor:276 - got turn = Timothys-MacBook-Pro.local:DEALER:6758CC6321AE23C0
+13:13:40 INFO  Thread-3 48391 Trap:94 - wins: 2
+13:13:40 INFO  Thread-3 48391 Trap:95 - loses: 3
+13:13:40 INFO  Thread-3 48392 Trap:96 - pushes: 0
+13:13:40 INFO  Thread-3 48392 Trap:97 - busts: 1
+13:13:40 INFO  Thread-3 48392 Trap:98 - blackjacks: 0
+13:13:40 INFO  Thread-3 48392 Trap:99 - charlies: 0
+13:13:40 INFO  Thread-3 48392 Trap:100 - bankroll: 950.0
+13:13:40 INFO  Thread-3 48392 Trap:101 - splits: 0
+13:13:40 INFO  Thread-3 48393 Actor:185 - Courier waiting for connection on port 8001
+13:13:40 INFO  Thread-3 48393 Actor:185 - Courier accepted connection on port 8001
+13:13:40 INFO  Thread-3 48394 Actor:185 - Courier received message Deal
+13:13:40 INFO  Thread-3 48394 Actor:185 - Courier invoking listener for Deal
+13:13:40 INFO  Thread-3 48394 Actor:266 - received card = null values = 15/15 hid = Timothys-MacBook-Pro.local:DEALER:6758CC6321AE23C0
+13:13:40 INFO  Thread-3 48394 Trap:94 - wins: 2
+13:13:40 INFO  Thread-3 48394 Trap:95 - loses: 3
+13:13:40 INFO  Thread-3 48394 Trap:96 - pushes: 0
+13:13:40 INFO  Thread-3 48394 Trap:97 - busts: 1
+13:13:40 INFO  Thread-3 48394 Trap:98 - blackjacks: 0
+13:13:40 INFO  Thread-3 48394 Trap:99 - charlies: 0
+13:13:40 INFO  Thread-3 48394 Trap:100 - bankroll: 950.0
+13:13:40 INFO  Thread-3 48394 Trap:101 - splits: 0
+13:13:40 INFO  Thread-3 48395 Actor:185 - Courier waiting for connection on port 8001
+13:13:40 INFO  Thread-3 48395 Actor:185 - Courier accepted connection on port 8001
+13:13:40 INFO  Thread-3 48396 Actor:185 - Courier received message GameOver
+13:13:40 INFO  Thread-3 48396 Actor:185 - Courier invoking listener for GameOver
+13:13:40 INFO  Thread-3 48396 Actor:287 - received ending shoe size = 20
+13:13:40 INFO  Thread-3 48396 ATable:669 - num hands = 2 wins = 0 loses = 1 pushes = 0
+13:13:40 INFO  Thread-40 49011 ATable:206 - side bet = 0
+13:13:40 INFO  Thread-40 49011 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+13:13:40 INFO  Thread-40 49013 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+13:13:41 INFO  Thread-3 50083 Trap:94 - wins: 2
+13:13:41 INFO  Thread-3 50083 Trap:95 - loses: 3
+13:13:41 INFO  Thread-3 50083 Trap:96 - pushes: 0
+13:13:41 INFO  Thread-3 50083 Trap:97 - busts: 1
+13:13:41 INFO  Thread-3 50083 Trap:98 - blackjacks: 0
+13:13:41 INFO  Thread-3 50083 Trap:99 - charlies: 0
+13:13:41 INFO  Thread-3 50083 Trap:100 - bankroll: 950.0
+13:13:41 INFO  Thread-3 50083 Trap:101 - splits: 0
+13:13:41 INFO  Thread-3 50084 Actor:185 - Courier waiting for connection on port 8001
+13:13:41 INFO  Thread-3 50084 Actor:185 - Courier accepted connection on port 8001
+13:13:41 INFO  Thread-3 50085 Actor:185 - Courier received message GameStart
+13:13:41 INFO  Thread-3 50085 Actor:185 - Courier invoking listener for GameStart
+13:13:41 INFO  Thread-3 50085 Actor:244 - receive starting shoe size = 20
+13:13:41 INFO  Thread-3 50085 Actor:247 - starting hand: Timothys-MacBook-Pro.local:YOU:759D2799AE1D08EB
+13:13:41 INFO  Thread-3 50085 Actor:247 - starting hand: Timothys-MacBook-Pro.local:DEALER:6740C97F49735BA6
+13:13:41 INFO  Thread-3 50086 Trap:94 - wins: 2
+13:13:41 INFO  Thread-3 50087 Trap:95 - loses: 3
+13:13:41 INFO  Thread-3 50087 Trap:96 - pushes: 0
+13:13:41 INFO  Thread-3 50087 Trap:97 - busts: 1
+13:13:41 INFO  Thread-3 50087 Trap:98 - blackjacks: 0
+13:13:41 INFO  Thread-3 50087 Trap:99 - charlies: 0
+13:13:41 INFO  Thread-3 50088 Trap:100 - bankroll: 950.0
+13:13:41 INFO  Thread-3 50088 Trap:101 - splits: 0
+13:13:41 INFO  Thread-3 50088 Actor:185 - Courier waiting for connection on port 8001
+13:13:41 INFO  Thread-3 50088 Actor:185 - Courier accepted connection on port 8001
+13:13:41 INFO  Thread-3 50089 Actor:185 - Courier received message Deal
+13:13:41 INFO  Thread-3 50089 Actor:185 - Courier invoking listener for Deal
+13:13:41 INFO  Thread-3 50089 Actor:266 - received card = S7 values = 7/7 hid = Timothys-MacBook-Pro.local:YOU:759D2799AE1D08EB
+13:13:41 INFO  Thread-3 50093 Trap:94 - wins: 2
+13:13:41 INFO  Thread-3 50093 Trap:95 - loses: 3
+13:13:41 INFO  Thread-3 50093 Trap:96 - pushes: 0
+13:13:41 INFO  Thread-3 50093 Trap:97 - busts: 1
+13:13:41 INFO  Thread-3 50093 Trap:98 - blackjacks: 0
+13:13:41 INFO  Thread-3 50093 Trap:99 - charlies: 0
+13:13:41 INFO  Thread-3 50093 Trap:100 - bankroll: 950.0
+13:13:41 INFO  Thread-3 50093 Trap:101 - splits: 0
+13:13:41 INFO  Thread-3 50093 Actor:185 - Courier waiting for connection on port 8001
+13:13:42 INFO  Thread-3 50778 Actor:185 - Courier accepted connection on port 8001
+13:13:42 INFO  Thread-3 50779 Actor:185 - Courier received message Deal
+13:13:42 INFO  Thread-3 50780 Actor:185 - Courier invoking listener for Deal
+13:13:42 INFO  Thread-3 50780 Actor:266 - received card = C6 values = 0/0 hid = Timothys-MacBook-Pro.local:DEALER:6740C97F49735BA6
+13:13:42 INFO  Thread-3 50782 Trap:94 - wins: 2
+13:13:42 INFO  Thread-3 50782 Trap:95 - loses: 3
+13:13:42 INFO  Thread-3 50782 Trap:96 - pushes: 0
+13:13:42 INFO  Thread-3 50782 Trap:97 - busts: 1
+13:13:42 INFO  Thread-3 50783 Trap:98 - blackjacks: 0
+13:13:42 INFO  Thread-3 50783 Trap:99 - charlies: 0
+13:13:42 INFO  Thread-3 50783 Trap:100 - bankroll: 950.0
+13:13:42 INFO  Thread-3 50783 Trap:101 - splits: 0
+13:13:42 INFO  Thread-3 50783 Actor:185 - Courier waiting for connection on port 8001
+13:13:43 INFO  Thread-3 51536 Actor:185 - Courier accepted connection on port 8001
+13:13:43 INFO  Thread-3 51537 Actor:185 - Courier received message Deal
+13:13:43 INFO  Thread-3 51538 Actor:185 - Courier invoking listener for Deal
+13:13:43 INFO  Thread-3 51538 Actor:266 - received card = DA values = 8/18 hid = Timothys-MacBook-Pro.local:YOU:759D2799AE1D08EB
+13:13:43 INFO  Thread-3 51542 Trap:94 - wins: 2
+13:13:43 INFO  Thread-3 51542 Trap:95 - loses: 3
+13:13:43 INFO  Thread-3 51542 Trap:96 - pushes: 0
+13:13:43 INFO  Thread-3 51542 Trap:97 - busts: 1
+13:13:43 INFO  Thread-3 51542 Trap:98 - blackjacks: 0
+13:13:43 INFO  Thread-3 51542 Trap:99 - charlies: 0
+13:13:43 INFO  Thread-3 51542 Trap:100 - bankroll: 950.0
+13:13:43 INFO  Thread-3 51542 Trap:101 - splits: 0
+13:13:43 INFO  Thread-3 51543 Actor:185 - Courier waiting for connection on port 8001
+13:13:43 INFO  Thread-3 52293 Actor:185 - Courier accepted connection on port 8001
+13:13:43 INFO  Thread-3 52294 Actor:185 - Courier received message Deal
+13:13:43 INFO  Thread-3 52295 Actor:185 - Courier invoking listener for Deal
+13:13:43 INFO  Thread-3 52295 Actor:266 - received card = HJ values = 10/10 hid = Timothys-MacBook-Pro.local:DEALER:6740C97F49735BA6
+13:13:43 INFO  Thread-3 52300 Trap:94 - wins: 2
+13:13:43 INFO  Thread-3 52301 Trap:95 - loses: 3
+13:13:43 INFO  Thread-3 52301 Trap:96 - pushes: 0
+13:13:43 INFO  Thread-3 52301 Trap:97 - busts: 1
+13:13:43 INFO  Thread-3 52301 Trap:98 - blackjacks: 0
+13:13:43 INFO  Thread-3 52301 Trap:99 - charlies: 0
+13:13:43 INFO  Thread-3 52301 Trap:100 - bankroll: 950.0
+13:13:43 INFO  Thread-3 52301 Trap:101 - splits: 0
+13:13:43 INFO  Thread-3 52302 Actor:185 - Courier waiting for connection on port 8001
+13:13:43 INFO  Thread-3 52302 Actor:185 - Courier accepted connection on port 8001
+13:13:43 INFO  Thread-3 52302 Actor:185 - Courier received message Play
+13:13:43 INFO  Thread-3 52303 Actor:185 - Courier invoking listener for Play
+13:13:43 INFO  Thread-3 52303 Actor:276 - got turn = Timothys-MacBook-Pro.local:YOU:759D2799AE1D08EB
+13:13:44 INFO  Thread-3 52958 Trap:94 - wins: 2
+13:13:44 INFO  Thread-3 52959 Trap:95 - loses: 3
+13:13:44 INFO  Thread-3 52959 Trap:96 - pushes: 0
+13:13:44 INFO  Thread-3 52959 Trap:97 - busts: 1
+13:13:44 INFO  Thread-3 52959 Trap:98 - blackjacks: 0
+13:13:44 INFO  Thread-3 52959 Trap:99 - charlies: 0
+13:13:44 INFO  Thread-3 52959 Trap:100 - bankroll: 950.0
+13:13:44 INFO  Thread-3 52959 Trap:101 - splits: 0
+13:13:44 INFO  Thread-3 52960 Actor:185 - Courier waiting for connection on port 8001
+13:13:44 INFO  AWT-EventQueue-0 53010 Actor:185 - Courier sending Stay to 127.0.0.1:8501
+13:13:44 INFO  AWT-EventQueue-0 53013 Actor:185 - Courier sent successfully Stay to 127.0.0.1:8501
+13:13:44 INFO  Thread-3 53016 Actor:185 - Courier accepted connection on port 8001
+13:13:44 INFO  Thread-3 53017 Actor:185 - Courier received message Play
+13:13:44 INFO  Thread-3 53017 Actor:185 - Courier invoking listener for Play
+13:13:44 INFO  Thread-3 53018 Actor:276 - got turn = Timothys-MacBook-Pro.local:DEALER:6740C97F49735BA6
+13:13:44 INFO  Thread-3 53018 Trap:94 - wins: 2
+13:13:44 INFO  Thread-3 53018 Trap:95 - loses: 3
+13:13:44 INFO  Thread-3 53018 Trap:96 - pushes: 0
+13:13:44 INFO  Thread-3 53018 Trap:97 - busts: 1
+13:13:44 INFO  Thread-3 53018 Trap:98 - blackjacks: 0
+13:13:44 INFO  Thread-3 53018 Trap:99 - charlies: 0
+13:13:44 INFO  Thread-3 53019 Trap:100 - bankroll: 950.0
+13:13:44 INFO  Thread-3 53019 Trap:101 - splits: 0
+13:13:44 INFO  Thread-3 53019 Actor:185 - Courier waiting for connection on port 8001
+13:13:44 INFO  Thread-3 53019 Actor:185 - Courier accepted connection on port 8001
+13:13:44 INFO  Thread-3 53020 Actor:185 - Courier received message Deal
+13:13:44 INFO  Thread-3 53021 Actor:185 - Courier invoking listener for Deal
+13:13:44 INFO  Thread-3 53021 Actor:266 - received card = null values = 16/16 hid = Timothys-MacBook-Pro.local:DEALER:6740C97F49735BA6
+13:13:44 INFO  Thread-3 53021 Trap:94 - wins: 2
+13:13:44 INFO  Thread-3 53021 Trap:95 - loses: 3
+13:13:44 INFO  Thread-3 53021 Trap:96 - pushes: 0
+13:13:44 INFO  Thread-3 53021 Trap:97 - busts: 1
+13:13:44 INFO  Thread-3 53021 Trap:98 - blackjacks: 0
+13:13:44 INFO  Thread-3 53021 Trap:99 - charlies: 0
+13:13:44 INFO  Thread-3 53021 Trap:100 - bankroll: 950.0
+13:13:44 INFO  Thread-3 53021 Trap:101 - splits: 0
+13:13:44 INFO  Thread-3 53021 Actor:185 - Courier waiting for connection on port 8001
+13:13:45 INFO  Thread-3 53772 Actor:185 - Courier accepted connection on port 8001
+13:13:45 INFO  Thread-3 53775 Actor:185 - Courier received message Deal
+13:13:45 INFO  Thread-3 53775 Actor:185 - Courier invoking listener for Deal
+13:13:45 INFO  Thread-3 53776 Actor:266 - received card = H6 values = 22/22 hid = Timothys-MacBook-Pro.local:DEALER:6740C97F49735BA6
+13:13:45 INFO  Thread-3 53783 Trap:94 - wins: 2
+13:13:45 INFO  Thread-3 53783 Trap:95 - loses: 3
+13:13:45 INFO  Thread-3 53784 Trap:96 - pushes: 0
+13:13:45 INFO  Thread-3 53784 Trap:97 - busts: 1
+13:13:45 INFO  Thread-3 53784 Trap:98 - blackjacks: 0
+13:13:45 INFO  Thread-3 53784 Trap:99 - charlies: 0
+13:13:45 INFO  Thread-3 53785 Trap:100 - bankroll: 950.0
+13:13:45 INFO  Thread-3 53785 Trap:101 - splits: 0
+13:13:45 INFO  Thread-3 53785 Actor:185 - Courier waiting for connection on port 8001
+13:13:45 INFO  Thread-3 53785 Actor:185 - Courier accepted connection on port 8001
+13:13:45 INFO  Thread-3 53787 Actor:185 - Courier received message Win
+13:13:45 INFO  Thread-3 53788 Actor:185 - Courier invoking listener for Win
+13:13:45 INFO  Thread-3 53788 Actor:207 - received outcome = Win
+13:13:45 INFO  Thread-3 53789 ATable:505 - WIN for hid = Timothys-MacBook-Pro.local:YOU:759D2799AE1D08EB amt = 25.0
+13:13:45 INFO  Thread-3 53789 Trap:94 - wins: 3
+13:13:45 INFO  Thread-3 53790 Trap:95 - loses: 3
+13:13:45 INFO  Thread-3 53790 Trap:96 - pushes: 0
+13:13:45 INFO  Thread-3 53790 Trap:97 - busts: 1
+13:13:45 INFO  Thread-3 53790 Trap:98 - blackjacks: 0
+13:13:45 INFO  Thread-3 53790 Trap:99 - charlies: 0
+13:13:45 INFO  Thread-3 53790 Trap:100 - bankroll: 975.0
+13:13:45 INFO  Thread-3 53790 Trap:101 - splits: 0
+13:13:45 INFO  Thread-3 53790 Actor:185 - Courier waiting for connection on port 8001
+13:13:45 INFO  Thread-3 53791 Actor:185 - Courier accepted connection on port 8001
+13:13:45 INFO  Thread-3 53791 Actor:185 - Courier received message GameOver
+13:13:45 INFO  Thread-3 53791 Actor:185 - Courier invoking listener for GameOver
+13:13:45 INFO  Thread-3 53791 Actor:287 - received ending shoe size = 15
+13:13:45 INFO  Thread-3 53792 ATable:669 - num hands = 2 wins = 1 loses = 0 pushes = 0
+13:13:46 INFO  Thread-47 54776 ATable:206 - side bet = 0
+13:13:46 INFO  Thread-47 54776 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+13:13:46 INFO  Thread-47 54777 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+13:13:47 INFO  Thread-3 55615 Trap:94 - wins: 3
+13:13:47 INFO  Thread-3 55616 Trap:95 - loses: 3
+13:13:47 INFO  Thread-3 55616 Trap:96 - pushes: 0
+13:13:47 INFO  Thread-3 55616 Trap:97 - busts: 1
+13:13:47 INFO  Thread-3 55616 Trap:98 - blackjacks: 0
+13:13:47 INFO  Thread-3 55616 Trap:99 - charlies: 0
+13:13:47 INFO  Thread-3 55616 Trap:100 - bankroll: 975.0
+13:13:47 INFO  Thread-3 55616 Trap:101 - splits: 0
+13:13:47 INFO  Thread-3 55617 Actor:185 - Courier waiting for connection on port 8001
+13:13:47 INFO  Thread-3 55617 Actor:185 - Courier accepted connection on port 8001
+13:13:47 INFO  Thread-3 55618 Actor:185 - Courier received message GameStart
+13:13:47 INFO  Thread-3 55618 Actor:185 - Courier invoking listener for GameStart
+13:13:47 INFO  Thread-3 55619 Actor:244 - receive starting shoe size = 15
+13:13:47 INFO  Thread-3 55619 Actor:247 - starting hand: Timothys-MacBook-Pro.local:YOU:62CA3ADBB1EF276A
+13:13:47 INFO  Thread-3 55619 Actor:247 - starting hand: Timothys-MacBook-Pro.local:DEALER:1C147FB9ED8144DD
+13:13:47 INFO  Thread-3 55619 Trap:94 - wins: 3
+13:13:47 INFO  Thread-3 55619 Trap:95 - loses: 3
+13:13:47 INFO  Thread-3 55619 Trap:96 - pushes: 0
+13:13:47 INFO  Thread-3 55619 Trap:97 - busts: 1
+13:13:47 INFO  Thread-3 55620 Trap:98 - blackjacks: 0
+13:13:47 INFO  Thread-3 55620 Trap:99 - charlies: 0
+13:13:47 INFO  Thread-3 55620 Trap:100 - bankroll: 975.0
+13:13:47 INFO  Thread-3 55620 Trap:101 - splits: 0
+13:13:47 INFO  Thread-3 55620 Actor:185 - Courier waiting for connection on port 8001
+13:13:47 INFO  Thread-3 55620 Actor:185 - Courier accepted connection on port 8001
+13:13:47 INFO  Thread-3 55623 Actor:185 - Courier received message Shuffle
+13:13:47 INFO  Thread-3 55623 Actor:185 - Courier invoking listener for Shuffle
+13:13:47 INFO  Thread-3 55623 Actor:296 - received shuffle
+13:13:47 INFO  Thread-3 55624 Trap:94 - wins: 3
+13:13:47 INFO  Thread-3 55624 Trap:95 - loses: 3
+13:13:47 INFO  Thread-3 55624 Trap:96 - pushes: 0
+13:13:47 INFO  Thread-3 55624 Trap:97 - busts: 1
+13:13:47 INFO  Thread-3 55624 Trap:98 - blackjacks: 0
+13:13:47 INFO  Thread-3 55624 Trap:99 - charlies: 0
+13:13:47 INFO  Thread-3 55624 Trap:100 - bankroll: 975.0
+13:13:47 INFO  Thread-3 55624 Trap:101 - splits: 0
+13:13:47 INFO  Thread-3 55624 Actor:185 - Courier waiting for connection on port 8001
+13:13:47 INFO  Thread-3 55788 Actor:185 - Courier accepted connection on port 8001
+13:13:47 INFO  Thread-3 55789 Actor:185 - Courier received message Deal
+13:13:47 INFO  Thread-3 55789 Actor:185 - Courier invoking listener for Deal
+13:13:47 INFO  Thread-3 55789 Actor:266 - received card = S4 values = 4/4 hid = Timothys-MacBook-Pro.local:YOU:62CA3ADBB1EF276A
+13:13:47 INFO  Thread-3 55795 Trap:94 - wins: 3
+13:13:47 INFO  Thread-3 55795 Trap:95 - loses: 3
+13:13:47 INFO  Thread-3 55795 Trap:96 - pushes: 0
+13:13:47 INFO  Thread-3 55795 Trap:97 - busts: 1
+13:13:47 INFO  Thread-3 55795 Trap:98 - blackjacks: 0
+13:13:47 INFO  Thread-3 55795 Trap:99 - charlies: 0
+13:13:47 INFO  Thread-3 55795 Trap:100 - bankroll: 975.0
+13:13:47 INFO  Thread-3 55795 Trap:101 - splits: 0
+13:13:47 INFO  Thread-3 55795 Actor:185 - Courier waiting for connection on port 8001
+13:13:48 INFO  Thread-3 56544 Actor:185 - Courier accepted connection on port 8001
+13:13:48 INFO  Thread-3 56545 Actor:185 - Courier received message Deal
+13:13:48 INFO  Thread-3 56545 Actor:185 - Courier invoking listener for Deal
+13:13:48 INFO  Thread-3 56545 Actor:266 - received card = CQ values = 0/0 hid = Timothys-MacBook-Pro.local:DEALER:1C147FB9ED8144DD
+13:13:48 INFO  Thread-3 56548 Trap:94 - wins: 3
+13:13:48 INFO  Thread-3 56548 Trap:95 - loses: 3
+13:13:48 INFO  Thread-3 56548 Trap:96 - pushes: 0
+13:13:48 INFO  Thread-3 56548 Trap:97 - busts: 1
+13:13:48 INFO  Thread-3 56549 Trap:98 - blackjacks: 0
+13:13:48 INFO  Thread-3 56549 Trap:99 - charlies: 0
+13:13:48 INFO  Thread-3 56549 Trap:100 - bankroll: 975.0
+13:13:48 INFO  Thread-3 56549 Trap:101 - splits: 0
+13:13:48 INFO  Thread-3 56550 Actor:185 - Courier waiting for connection on port 8001
+13:13:48 INFO  Thread-3 57299 Actor:185 - Courier accepted connection on port 8001
+13:13:48 INFO  Thread-3 57300 Actor:185 - Courier received message Deal
+13:13:48 INFO  Thread-3 57300 Actor:185 - Courier invoking listener for Deal
+13:13:48 INFO  Thread-3 57301 Actor:266 - received card = S6 values = 10/10 hid = Timothys-MacBook-Pro.local:YOU:62CA3ADBB1EF276A
+13:13:48 INFO  Thread-3 57304 Trap:94 - wins: 3
+13:13:48 INFO  Thread-3 57304 Trap:95 - loses: 3
+13:13:48 INFO  Thread-3 57304 Trap:96 - pushes: 0
+13:13:48 INFO  Thread-3 57304 Trap:97 - busts: 1
+13:13:48 INFO  Thread-3 57304 Trap:98 - blackjacks: 0
+13:13:48 INFO  Thread-3 57304 Trap:99 - charlies: 0
+13:13:48 INFO  Thread-3 57305 Trap:100 - bankroll: 975.0
+13:13:48 INFO  Thread-3 57305 Trap:101 - splits: 0
+13:13:48 INFO  Thread-3 57305 Actor:185 - Courier waiting for connection on port 8001
+13:13:49 INFO  Thread-3 58054 Actor:185 - Courier accepted connection on port 8001
+13:13:49 INFO  Thread-3 58055 Actor:185 - Courier received message Deal
+13:13:49 INFO  Thread-3 58055 Actor:185 - Courier invoking listener for Deal
+13:13:49 INFO  Thread-3 58055 Actor:266 - received card = D10 values = 10/10 hid = Timothys-MacBook-Pro.local:DEALER:1C147FB9ED8144DD
+13:13:49 INFO  Thread-3 58059 Trap:94 - wins: 3
+13:13:49 INFO  Thread-3 58059 Trap:95 - loses: 3
+13:13:49 INFO  Thread-3 58059 Trap:96 - pushes: 0
+13:13:49 INFO  Thread-3 58059 Trap:97 - busts: 1
+13:13:49 INFO  Thread-3 58059 Trap:98 - blackjacks: 0
+13:13:49 INFO  Thread-3 58059 Trap:99 - charlies: 0
+13:13:49 INFO  Thread-3 58059 Trap:100 - bankroll: 975.0
+13:13:49 INFO  Thread-3 58059 Trap:101 - splits: 0
+13:13:49 INFO  Thread-3 58059 Actor:185 - Courier waiting for connection on port 8001
+13:13:49 INFO  Thread-3 58059 Actor:185 - Courier accepted connection on port 8001
+13:13:49 INFO  Thread-3 58060 Actor:185 - Courier received message Play
+13:13:49 INFO  Thread-3 58060 Actor:185 - Courier invoking listener for Play
+13:13:49 INFO  Thread-3 58060 Actor:276 - got turn = Timothys-MacBook-Pro.local:YOU:62CA3ADBB1EF276A
+13:13:50 INFO  Thread-3 58712 Trap:94 - wins: 3
+13:13:50 INFO  Thread-3 58712 Trap:95 - loses: 3
+13:13:50 INFO  Thread-3 58712 Trap:96 - pushes: 0
+13:13:50 INFO  Thread-3 58713 Trap:97 - busts: 1
+13:13:50 INFO  Thread-3 58713 Trap:98 - blackjacks: 0
+13:13:50 INFO  Thread-3 58713 Trap:99 - charlies: 0
+13:13:50 INFO  Thread-3 58713 Trap:100 - bankroll: 975.0
+13:13:50 INFO  Thread-3 58713 Trap:101 - splits: 0
+13:13:50 INFO  Thread-3 58713 Actor:185 - Courier waiting for connection on port 8001
+13:13:51 INFO  AWT-EventQueue-0 59696 Actor:185 - Courier sending DoubleDown to 127.0.0.1:8501
+13:13:51 INFO  AWT-EventQueue-0 59697 Actor:185 - Courier sent successfully DoubleDown to 127.0.0.1:8501
+13:13:51 INFO  Thread-3 59700 Actor:185 - Courier accepted connection on port 8001
+13:13:51 INFO  Thread-3 59702 Actor:185 - Courier received message Deal
+13:13:51 INFO  Thread-3 59702 Actor:185 - Courier invoking listener for Deal
+13:13:51 INFO  Thread-3 59702 Actor:266 - received card = C8 values = 18/18 hid = Timothys-MacBook-Pro.local:YOU:62CA3ADBB1EF276A
+13:13:51 INFO  Thread-3 59707 Trap:94 - wins: 3
+13:13:51 INFO  Thread-3 59708 Trap:95 - loses: 3
+13:13:51 INFO  Thread-3 59708 Trap:96 - pushes: 0
+13:13:51 INFO  Thread-3 59708 Trap:97 - busts: 1
+13:13:51 INFO  Thread-3 59708 Trap:98 - blackjacks: 0
+13:13:51 INFO  Thread-3 59708 Trap:99 - charlies: 0
+13:13:51 INFO  Thread-3 59708 Trap:100 - bankroll: 975.0
+13:13:51 INFO  Thread-3 59708 Trap:101 - splits: 0
+13:13:51 INFO  Thread-3 59708 Actor:185 - Courier waiting for connection on port 8001
+13:13:51 INFO  Thread-3 59708 Actor:185 - Courier accepted connection on port 8001
+13:13:51 INFO  Thread-3 59709 Actor:185 - Courier received message Play
+13:13:51 INFO  Thread-3 59710 Actor:185 - Courier invoking listener for Play
+13:13:51 INFO  Thread-3 59710 Actor:276 - got turn = Timothys-MacBook-Pro.local:DEALER:1C147FB9ED8144DD
+13:13:51 INFO  Thread-3 59710 Trap:94 - wins: 3
+13:13:51 INFO  Thread-3 59710 Trap:95 - loses: 3
+13:13:51 INFO  Thread-3 59710 Trap:96 - pushes: 0
+13:13:51 INFO  Thread-3 59710 Trap:97 - busts: 1
+13:13:51 INFO  Thread-3 59711 Trap:98 - blackjacks: 0
+13:13:51 INFO  Thread-3 59711 Trap:99 - charlies: 0
+13:13:51 INFO  Thread-3 59711 Trap:100 - bankroll: 975.0
+13:13:51 INFO  Thread-3 59711 Trap:101 - splits: 0
+13:13:51 INFO  Thread-3 59711 Actor:185 - Courier waiting for connection on port 8001
+13:13:51 INFO  Thread-3 59711 Actor:185 - Courier accepted connection on port 8001
+13:13:51 INFO  Thread-3 59712 Actor:185 - Courier received message Deal
+13:13:51 INFO  Thread-3 59712 Actor:185 - Courier invoking listener for Deal
+13:13:51 INFO  Thread-3 59712 Actor:266 - received card = null values = 20/20 hid = Timothys-MacBook-Pro.local:DEALER:1C147FB9ED8144DD
+13:13:51 INFO  Thread-3 59712 Trap:94 - wins: 3
+13:13:51 INFO  Thread-3 59712 Trap:95 - loses: 3
+13:13:51 INFO  Thread-3 59712 Trap:96 - pushes: 0
+13:13:51 INFO  Thread-3 59712 Trap:97 - busts: 1
+13:13:51 INFO  Thread-3 59712 Trap:98 - blackjacks: 0
+13:13:51 INFO  Thread-3 59712 Trap:99 - charlies: 0
+13:13:51 INFO  Thread-3 59712 Trap:100 - bankroll: 975.0
+13:13:51 INFO  Thread-3 59712 Trap:101 - splits: 0
+13:13:51 INFO  Thread-3 59712 Actor:185 - Courier waiting for connection on port 8001
+13:13:51 INFO  Thread-3 59712 Actor:185 - Courier accepted connection on port 8001
+13:13:51 INFO  Thread-3 59713 Actor:185 - Courier received message Lose
+13:13:51 INFO  Thread-3 59713 Actor:185 - Courier invoking listener for Lose
+13:13:51 INFO  Thread-3 59713 Actor:207 - received outcome = Lose
+13:13:51 INFO  Thread-3 59714 ATable:530 - LOOSE for hid = Timothys-MacBook-Pro.local:YOU:62CA3ADBB1EF276A amt = 50.0
+13:13:51 INFO  Thread-3 59714 Trap:94 - wins: 3
+13:13:51 INFO  Thread-3 59714 Trap:95 - loses: 4
+13:13:51 INFO  Thread-3 59714 Trap:96 - pushes: 0
+13:13:51 INFO  Thread-3 59714 Trap:97 - busts: 1
+13:13:51 INFO  Thread-3 59714 Trap:98 - blackjacks: 0
+13:13:51 INFO  Thread-3 59714 Trap:99 - charlies: 0
+13:13:51 INFO  Thread-3 59714 Trap:100 - bankroll: 925.0
+13:13:51 INFO  Thread-3 59714 Trap:101 - splits: 0
+13:13:51 INFO  Thread-3 59714 Actor:185 - Courier waiting for connection on port 8001
+13:13:51 INFO  Thread-3 59714 Actor:185 - Courier accepted connection on port 8001
+13:13:51 INFO  Thread-3 59715 Actor:185 - Courier received message GameOver
+13:13:51 INFO  Thread-3 59715 Actor:185 - Courier invoking listener for GameOver
+13:13:51 INFO  Thread-3 59715 Actor:287 - received ending shoe size = 52
+13:13:51 INFO  Thread-3 59715 ATable:669 - num hands = 2 wins = 0 loses = 1 pushes = 0
+13:13:52 INFO  Thread-3 60952 Trap:94 - wins: 3
+13:13:52 INFO  Thread-3 60954 Trap:95 - loses: 4
+13:13:52 INFO  Thread-3 60954 Trap:96 - pushes: 0
+13:13:52 INFO  Thread-3 60954 Trap:97 - busts: 1
+13:13:52 INFO  Thread-3 60954 Trap:98 - blackjacks: 0
+13:13:52 INFO  Thread-3 60954 Trap:99 - charlies: 0
+13:13:52 INFO  Thread-3 60955 Trap:100 - bankroll: 925.0
+13:13:52 INFO  Thread-3 60955 Trap:101 - splits: 0
+13:13:52 INFO  Thread-3 60955 Actor:185 - Courier waiting for connection on port 8001

@@ -1,0 +1,792 @@
+client started
+advisor plugin detected: charlie.client.HumanAdvisor
+loaded advisor successfully
+init done
+sent login request
+received ticket BB20B45FD4D95138
+login successful
+Courier monitor installed successfully: Trap
+Courier waiting for connection on port 8001
+Arriver sending Arrival to 127.0.0.1:1235
+Arriver sent successfully Arrival to 127.0.0.1:1235
+Arriver sent arrival message
+connected to courier with bankroll = 1000.0
+Courier accepted connection on port 8001
+Courier received message Ready
+Courier invoking listener for Ready
+received Ready from Timothys-MacBook-Pro.local/172.16.61.76
+wins: 0
+loses: 0
+pushes: 0
+busts: 0
+blackjacks: 0
+charlies: 0
+bankroll: 1000.0
+splits: 0
+Courier waiting for connection on port 8001
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 312
+starting hand: Timothys-MacBook-Pro.local:YOU:73E22023532EA748
+starting hand: Timothys-MacBook-Pro.local:DEALER:7206D3D8A4708A0C
+wins: 0
+loses: 0
+pushes: 0
+busts: 0
+blackjacks: 0
+charlies: 0
+bankroll: 1000.0
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D2 values = 2/2 hid = Timothys-MacBook-Pro.local:YOU:73E22023532EA748
+wins: 0
+loses: 0
+pushes: 0
+busts: 0
+blackjacks: 0
+charlies: 0
+bankroll: 1000.0
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = DA values = 0/0 hid = Timothys-MacBook-Pro.local:DEALER:7206D3D8A4708A0C
+wins: 0
+loses: 0
+pushes: 0
+busts: 0
+blackjacks: 0
+charlies: 0
+bankroll: 1000.0
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = SK values = 12/12 hid = Timothys-MacBook-Pro.local:YOU:73E22023532EA748
+wins: 0
+loses: 0
+pushes: 0
+busts: 0
+blackjacks: 0
+charlies: 0
+bankroll: 1000.0
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D5 values = 5/5 hid = Timothys-MacBook-Pro.local:DEALER:7206D3D8A4708A0C
+wins: 0
+loses: 0
+pushes: 0
+busts: 0
+blackjacks: 0
+charlies: 0
+bankroll: 1000.0
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = Timothys-MacBook-Pro.local:YOU:73E22023532EA748
+wins: 0
+loses: 0
+pushes: 0
+busts: 0
+blackjacks: 0
+charlies: 0
+bankroll: 1000.0
+splits: 0
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? H
+Courier sending Hit to 127.0.0.1:8501
+Courier sent successfully Hit to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C6 values = 18/18 hid = Timothys-MacBook-Pro.local:YOU:73E22023532EA748
+wins: 0
+loses: 0
+pushes: 0
+busts: 0
+blackjacks: 0
+charlies: 0
+bankroll: 1000.0
+splits: 0
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? S
+Courier sending Stay to 127.0.0.1:8501
+Courier sent successfully Stay to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = Timothys-MacBook-Pro.local:DEALER:7206D3D8A4708A0C
+wins: 0
+loses: 0
+pushes: 0
+busts: 0
+blackjacks: 0
+charlies: 0
+bankroll: 1000.0
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 6/16 hid = Timothys-MacBook-Pro.local:DEALER:7206D3D8A4708A0C
+wins: 0
+loses: 0
+pushes: 0
+busts: 0
+blackjacks: 0
+charlies: 0
+bankroll: 1000.0
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H4 values = 10/20 hid = Timothys-MacBook-Pro.local:DEALER:7206D3D8A4708A0C
+wins: 0
+loses: 0
+pushes: 0
+busts: 0
+blackjacks: 0
+charlies: 0
+bankroll: 1000.0
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Lose
+Courier invoking listener for Lose
+received outcome = Lose
+LOOSE for hid = Timothys-MacBook-Pro.local:YOU:73E22023532EA748 amt = 25.0
+wins: 0
+loses: 1
+pushes: 0
+busts: 0
+blackjacks: 0
+charlies: 0
+bankroll: 975.0
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 306
+num hands = 2 wins = 0 loses = 1 pushes = 0
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+wins: 0
+loses: 1
+pushes: 0
+busts: 0
+blackjacks: 0
+charlies: 0
+bankroll: 975.0
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 306
+starting hand: Timothys-MacBook-Pro.local:YOU:3FE845838C1CD3A7
+starting hand: Timothys-MacBook-Pro.local:DEALER:62BBB8EFF49CB534
+wins: 0
+loses: 1
+pushes: 0
+busts: 0
+blackjacks: 0
+charlies: 0
+bankroll: 975.0
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H8 values = 8/8 hid = Timothys-MacBook-Pro.local:YOU:3FE845838C1CD3A7
+wins: 0
+loses: 1
+pushes: 0
+busts: 0
+blackjacks: 0
+charlies: 0
+bankroll: 975.0
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C8 values = 0/0 hid = Timothys-MacBook-Pro.local:DEALER:62BBB8EFF49CB534
+wins: 0
+loses: 1
+pushes: 0
+busts: 0
+blackjacks: 0
+charlies: 0
+bankroll: 975.0
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = S2 values = 10/10 hid = Timothys-MacBook-Pro.local:YOU:3FE845838C1CD3A7
+wins: 0
+loses: 1
+pushes: 0
+busts: 0
+blackjacks: 0
+charlies: 0
+bankroll: 975.0
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = S9 values = 9/9 hid = Timothys-MacBook-Pro.local:DEALER:62BBB8EFF49CB534
+wins: 0
+loses: 1
+pushes: 0
+busts: 0
+blackjacks: 0
+charlies: 0
+bankroll: 975.0
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = Timothys-MacBook-Pro.local:YOU:3FE845838C1CD3A7
+wins: 0
+loses: 1
+pushes: 0
+busts: 0
+blackjacks: 0
+charlies: 0
+bankroll: 975.0
+splits: 0
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? H
+Courier sending DoubleDown to 127.0.0.1:8501
+Courier sent successfully DoubleDown to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H8 values = 18/18 hid = Timothys-MacBook-Pro.local:YOU:3FE845838C1CD3A7
+wins: 0
+loses: 1
+pushes: 0
+busts: 0
+blackjacks: 0
+charlies: 0
+bankroll: 975.0
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = Timothys-MacBook-Pro.local:DEALER:62BBB8EFF49CB534
+wins: 0
+loses: 1
+pushes: 0
+busts: 0
+blackjacks: 0
+charlies: 0
+bankroll: 975.0
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 17/17 hid = Timothys-MacBook-Pro.local:DEALER:62BBB8EFF49CB534
+wins: 0
+loses: 1
+pushes: 0
+busts: 0
+blackjacks: 0
+charlies: 0
+bankroll: 975.0
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Win
+Courier invoking listener for Win
+received outcome = Win
+WIN for hid = Timothys-MacBook-Pro.local:YOU:3FE845838C1CD3A7 amt = 50.0
+wins: 1
+loses: 1
+pushes: 0
+busts: 0
+blackjacks: 0
+charlies: 0
+bankroll: 1025.0
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 301
+num hands = 2 wins = 1 loses = 0 pushes = 0
+wins: 1
+loses: 1
+pushes: 0
+busts: 0
+blackjacks: 0
+charlies: 0
+bankroll: 1025.0
+splits: 0
+Courier waiting for connection on port 8001
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 301
+starting hand: Timothys-MacBook-Pro.local:YOU:22CFF253CAE74F6B
+starting hand: Timothys-MacBook-Pro.local:DEALER:6D7AF23C3E849E6B
+wins: 1
+loses: 1
+pushes: 0
+busts: 0
+blackjacks: 0
+charlies: 0
+bankroll: 1025.0
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = HA values = 1/11 hid = Timothys-MacBook-Pro.local:YOU:22CFF253CAE74F6B
+wins: 1
+loses: 1
+pushes: 0
+busts: 0
+blackjacks: 0
+charlies: 0
+bankroll: 1025.0
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D3 values = 0/0 hid = Timothys-MacBook-Pro.local:DEALER:6D7AF23C3E849E6B
+wins: 1
+loses: 1
+pushes: 0
+busts: 0
+blackjacks: 0
+charlies: 0
+bankroll: 1025.0
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = CK values = 11/21 hid = Timothys-MacBook-Pro.local:YOU:22CFF253CAE74F6B
+wins: 1
+loses: 1
+pushes: 0
+busts: 0
+blackjacks: 0
+charlies: 0
+bankroll: 1025.0
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Blackjack
+Courier invoking listener for Blackjack
+received outcome = Blackjack
+BJ for hid = Timothys-MacBook-Pro.local:YOU:22CFF253CAE74F6B amt = 37.5
+wins: 1
+loses: 1
+pushes: 0
+busts: 0
+blackjacks: 1
+charlies: 0
+bankroll: 1062.5
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = HK values = 10/10 hid = Timothys-MacBook-Pro.local:DEALER:6D7AF23C3E849E6B
+wins: 1
+loses: 1
+pushes: 0
+busts: 0
+blackjacks: 1
+charlies: 0
+bankroll: 1062.5
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = Timothys-MacBook-Pro.local:DEALER:6D7AF23C3E849E6B
+wins: 1
+loses: 1
+pushes: 0
+busts: 0
+blackjacks: 1
+charlies: 0
+bankroll: 1062.5
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 13/13 hid = Timothys-MacBook-Pro.local:DEALER:6D7AF23C3E849E6B
+wins: 1
+loses: 1
+pushes: 0
+busts: 0
+blackjacks: 1
+charlies: 0
+bankroll: 1062.5
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 297
+num hands = 2 wins = 1 loses = 0 pushes = 0
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+wins: 1
+loses: 1
+pushes: 0
+busts: 0
+blackjacks: 1
+charlies: 0
+bankroll: 1062.5
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 297
+starting hand: Timothys-MacBook-Pro.local:YOU:28E76EBA8A380E9E
+starting hand: Timothys-MacBook-Pro.local:DEALER:23DCAEA9692C1C93
+wins: 1
+loses: 1
+pushes: 0
+busts: 0
+blackjacks: 1
+charlies: 0
+bankroll: 1062.5
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = H8 values = 8/8 hid = Timothys-MacBook-Pro.local:YOU:28E76EBA8A380E9E
+wins: 1
+loses: 1
+pushes: 0
+busts: 0
+blackjacks: 1
+charlies: 0
+bankroll: 1062.5
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D9 values = 0/0 hid = Timothys-MacBook-Pro.local:DEALER:23DCAEA9692C1C93
+wins: 1
+loses: 1
+pushes: 0
+busts: 0
+blackjacks: 1
+charlies: 0
+bankroll: 1062.5
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = CA values = 9/19 hid = Timothys-MacBook-Pro.local:YOU:28E76EBA8A380E9E
+wins: 1
+loses: 1
+pushes: 0
+busts: 0
+blackjacks: 1
+charlies: 0
+bankroll: 1062.5
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D7 values = 7/7 hid = Timothys-MacBook-Pro.local:DEALER:23DCAEA9692C1C93
+wins: 1
+loses: 1
+pushes: 0
+busts: 0
+blackjacks: 1
+charlies: 0
+bankroll: 1062.5
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = Timothys-MacBook-Pro.local:YOU:28E76EBA8A380E9E
+wins: 1
+loses: 1
+pushes: 0
+busts: 0
+blackjacks: 1
+charlies: 0
+bankroll: 1062.5
+splits: 0
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? H
+Advice [S, H, D, or P]? S
+Courier sending Stay to 127.0.0.1:8501
+Courier sent successfully Stay to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = Timothys-MacBook-Pro.local:DEALER:23DCAEA9692C1C93
+wins: 1
+loses: 1
+pushes: 0
+busts: 0
+blackjacks: 1
+charlies: 0
+bankroll: 1062.5
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 16/16 hid = Timothys-MacBook-Pro.local:DEALER:23DCAEA9692C1C93
+wins: 1
+loses: 1
+pushes: 0
+busts: 0
+blackjacks: 1
+charlies: 0
+bankroll: 1062.5
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C5 values = 21/21 hid = Timothys-MacBook-Pro.local:DEALER:23DCAEA9692C1C93
+wins: 1
+loses: 1
+pushes: 0
+busts: 0
+blackjacks: 1
+charlies: 0
+bankroll: 1062.5
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Lose
+Courier invoking listener for Lose
+received outcome = Lose
+LOOSE for hid = Timothys-MacBook-Pro.local:YOU:28E76EBA8A380E9E amt = 25.0
+wins: 1
+loses: 2
+pushes: 0
+busts: 0
+blackjacks: 1
+charlies: 0
+bankroll: 1037.5
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 292
+num hands = 2 wins = 0 loses = 1 pushes = 0
+side bet = 0
+Courier sending Bet to 127.0.0.1:8501
+Courier sent successfully Bet to 127.0.0.1:8501
+wins: 1
+loses: 2
+pushes: 0
+busts: 0
+blackjacks: 1
+charlies: 0
+bankroll: 1037.5
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 292
+starting hand: Timothys-MacBook-Pro.local:YOU:4566A8E3A830F45
+starting hand: Timothys-MacBook-Pro.local:DEALER:1EFC90139433933
+wins: 1
+loses: 2
+pushes: 0
+busts: 0
+blackjacks: 1
+charlies: 0
+bankroll: 1037.5
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C3 values = 3/3 hid = Timothys-MacBook-Pro.local:YOU:4566A8E3A830F45
+wins: 1
+loses: 2
+pushes: 0
+busts: 0
+blackjacks: 1
+charlies: 0
+bankroll: 1037.5
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = C6 values = 0/0 hid = Timothys-MacBook-Pro.local:DEALER:1EFC90139433933
+wins: 1
+loses: 2
+pushes: 0
+busts: 0
+blackjacks: 1
+charlies: 0
+bankroll: 1037.5
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = S8 values = 11/11 hid = Timothys-MacBook-Pro.local:YOU:4566A8E3A830F45
+wins: 1
+loses: 2
+pushes: 0
+busts: 0
+blackjacks: 1
+charlies: 0
+bankroll: 1037.5
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = CJ values = 10/10 hid = Timothys-MacBook-Pro.local:DEALER:1EFC90139433933
+wins: 1
+loses: 2
+pushes: 0
+busts: 0
+blackjacks: 1
+charlies: 0
+bankroll: 1037.5
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = Timothys-MacBook-Pro.local:YOU:4566A8E3A830F45
+wins: 1
+loses: 2
+pushes: 0
+busts: 0
+blackjacks: 1
+charlies: 0
+bankroll: 1037.5
+splits: 0
+Courier waiting for connection on port 8001
+Advice [S, H, D, or P]? H
+Courier sending DoubleDown to 127.0.0.1:8501
+Courier sent successfully DoubleDown to 127.0.0.1:8501
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = DK values = 21/21 hid = Timothys-MacBook-Pro.local:YOU:4566A8E3A830F45
+wins: 1
+loses: 2
+pushes: 0
+busts: 0
+blackjacks: 1
+charlies: 0
+bankroll: 1037.5
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = Timothys-MacBook-Pro.local:DEALER:1EFC90139433933
+wins: 1
+loses: 2
+pushes: 0
+busts: 0
+blackjacks: 1
+charlies: 0
+bankroll: 1037.5
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 16/16 hid = Timothys-MacBook-Pro.local:DEALER:1EFC90139433933
+wins: 1
+loses: 2
+pushes: 0
+busts: 0
+blackjacks: 1
+charlies: 0
+bankroll: 1037.5
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = S10 values = 26/26 hid = Timothys-MacBook-Pro.local:DEALER:1EFC90139433933
+wins: 1
+loses: 2
+pushes: 0
+busts: 0
+blackjacks: 1
+charlies: 0
+bankroll: 1037.5
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message Win
+Courier invoking listener for Win
+received outcome = Win
+WIN for hid = Timothys-MacBook-Pro.local:YOU:4566A8E3A830F45 amt = 50.0
+wins: 2
+loses: 2
+pushes: 0
+busts: 0
+blackjacks: 1
+charlies: 0
+bankroll: 1087.5
+splits: 0
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 286
+num hands = 2 wins = 1 loses = 0 pushes = 0
+wins: 2
+loses: 2
+pushes: 0
+busts: 0
+blackjacks: 1
+charlies: 0
+bankroll: 1087.5
+splits: 0
+Courier waiting for connection on port 8001

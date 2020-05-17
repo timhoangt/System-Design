@@ -1,0 +1,2073 @@
+18:30:12 INFO  main 0 GameServer:62 - game server started
+18:30:12 INFO  main 7 GameServer:73 - house started
+18:30:12 INFO  Thread-0 27 Actor:185 - House waiting for connection on port 1235
+18:30:21 INFO  main 9378 Actor:75 - got login
+18:30:21 INFO  main 9379 Actor:80 - validated ticket BB20B45FD4D95138 login successful!
+18:30:21 INFO  main 9382 Actor:185 - ServerAuthenticator sent ticket to client
+18:30:21 INFO  Thread-0 9396 Actor:185 - House accepted connection on port 1235
+18:30:21 INFO  Thread-0 9402 Actor:185 - House received message Arrival
+18:30:21 INFO  Thread-0 9402 Actor:185 - House invoking listener for Arrival
+18:30:21 INFO  Thread-0 9402 House:101 - validated ticket = BB20B45FD4D95138
+18:30:21 INFO  Thread-0 9402 House:105 - arrival from Timothys-MacBook-Pro.local/25.12.39.77
+18:30:21 INFO  Thread-0 9404 Dealer:91 - using scenario = 'charlie.card.Shoe01'
+18:30:21 INFO  Thread-0 9407 Shoe:102 - shuffling burn index = 35
+18:30:21 INFO  Thread-0 9407 Dealer:97 - shoe = charlie.card.Shoe01: SJ H10 C2 C3 H8 H2 S7 S10 S5 S4 D2 S2 DJ HJ DK 
+18:30:21 INFO  Thread-0 9420 Actor:185 - RealPlayer sending Ready to 25.12.39.77:8001
+18:30:21 INFO  Thread-1 9420 Actor:185 - RealPlayer waiting for connection on port 8501
+18:30:21 INFO  Thread-0 9428 Actor:185 - RealPlayer sent successfully Ready to 25.12.39.77:8001
+18:30:21 INFO  Thread-0 9429 Actor:185 - House waiting for connection on port 1235
+18:30:29 INFO  Thread-1 16653 Actor:185 - RealPlayer accepted connection on port 8501
+18:30:29 INFO  Thread-1 16670 Actor:185 - RealPlayer received message Bet
+18:30:29 INFO  Thread-1 16670 Actor:185 - RealPlayer invoking listener for Bet
+18:30:29 INFO  Thread-1 16670 Actor:185 - RealPlayer received bet = 5.0
+18:30:29 INFO  Thread-1 16670 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:66E22ECD7BD793B7
+18:30:29 INFO  Thread-1 16671 Dealer:164 - no bot configured for charlie.bot.huey
+18:30:29 INFO  Thread-1 16671 Dealer:164 - no bot configured for charlie.bot.dewey
+18:30:29 INFO  Thread-1 16672 Dealer:258 - starting a game
+18:30:29 INFO  Thread-1 16672 Dealer:273 - hands at table + dealer = 2
+18:30:29 INFO  Thread-1 16672 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:30:29 INFO  Thread-1 16677 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:30:29 INFO  Thread-1 16932 Shoe:111 - cards size = 52 burn index = 35 index = 0
+18:30:29 INFO  Thread-1 16933 Shoe:135 - index = 1 burnIndex = 35 shuffle needed = false
+18:30:29 INFO  Thread-1 16933 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = SJ
+18:30:30 INFO  Thread-1 17684 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:30:30 INFO  Thread-1 17691 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:30:30 INFO  Thread-1 17691 Shoe:111 - cards size = 52 burn index = 35 index = 1
+18:30:30 INFO  Thread-1 17691 Shoe:135 - index = 2 burnIndex = 35 shuffle needed = false
+18:30:30 INFO  Thread-1 18446 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:30:30 INFO  Thread-1 18451 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:30:30 INFO  Thread-1 18452 Shoe:111 - cards size = 52 burn index = 35 index = 2
+18:30:30 INFO  Thread-1 18452 Shoe:135 - index = 3 burnIndex = 35 shuffle needed = false
+18:30:30 INFO  Thread-1 18452 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = C2
+18:30:31 INFO  Thread-1 19207 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:30:31 INFO  Thread-1 19209 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:30:31 INFO  Thread-1 19209 Shoe:111 - cards size = 52 burn index = 35 index = 3
+18:30:31 INFO  Thread-1 19209 Shoe:135 - index = 4 burnIndex = 35 shuffle needed = false
+18:30:32 INFO  Thread-1 19965 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:30:32 INFO  Thread-1 19966 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:30:32 INFO  Thread-1 19966 Dealer:555 - going to next hand
+18:30:32 INFO  Thread-1 19967 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:30:32 INFO  Thread-1 19967 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:66E22ECD7BD793B7 to Timothys-MacBook-Pro.local/25.12.39.77
+18:30:32 INFO  Thread-1 19967 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:30:32 INFO  Thread-1 19969 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:30:32 INFO  Thread-1 19969 Actor:185 - RealPlayer waiting for connection on port 8501
+18:30:33 INFO  Thread-1 20914 Actor:185 - RealPlayer accepted connection on port 8501
+18:30:33 INFO  Thread-1 20921 Actor:185 - RealPlayer received message Hit
+18:30:33 INFO  Thread-1 20922 Actor:185 - RealPlayer invoking listener for Hit
+18:30:33 INFO  Thread-1 20922 Actor:185 - RealPlayer received request = Hit
+18:30:33 INFO  Thread-1 20922 Shoe:111 - cards size = 52 burn index = 35 index = 4
+18:30:33 INFO  Thread-1 20923 Shoe:135 - index = 5 burnIndex = 35 shuffle needed = false
+18:30:33 INFO  Thread-1 20923 Dealer:400 - hit hid = Timothys-MacBook-Pro.local:YOU:66E22ECD7BD793B7 with H8
+18:30:33 INFO  Thread-1 20924 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:30:33 INFO  Thread-1 20926 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:30:33 INFO  Thread-1 20926 Actor:185 - RealPlayer waiting for connection on port 8501
+18:30:34 INFO  Thread-1 22067 Actor:185 - RealPlayer accepted connection on port 8501
+18:30:34 INFO  Thread-1 22071 Actor:185 - RealPlayer received message Stay
+18:30:34 INFO  Thread-1 22071 Actor:185 - RealPlayer invoking listener for Stay
+18:30:34 INFO  Thread-1 22071 Actor:185 - RealPlayer received request = Stay
+18:30:34 INFO  Thread-1 22071 Dealer:449 - got STAY for Timothys-MacBook-Pro.local:YOU:66E22ECD7BD793B7
+18:30:34 INFO  Thread-1 22072 Dealer:555 - going to next hand
+18:30:34 INFO  Thread-1 22072 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:30:34 INFO  Thread-1 22074 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:30:34 INFO  Thread-1 22074 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:30:34 INFO  Thread-1 22075 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:30:34 INFO  Thread-1 22076 Shoe:111 - cards size = 52 burn index = 35 index = 5
+18:30:34 INFO  Thread-1 22076 Shoe:135 - index = 6 burnIndex = 35 shuffle needed = false
+18:30:35 INFO  Thread-1 22827 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:30:35 INFO  Thread-1 22831 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:30:35 INFO  Thread-1 22831 Shoe:111 - cards size = 52 burn index = 35 index = 6
+18:30:35 INFO  Thread-1 22831 Shoe:135 - index = 7 burnIndex = 35 shuffle needed = false
+18:30:36 INFO  Thread-1 23583 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:30:36 INFO  Thread-1 23586 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:30:36 INFO  Thread-1 23586 Actor:185 - RealPlayer sending Win to 25.12.39.77:8001
+18:30:36 INFO  Thread-1 23591 Actor:185 - RealPlayer sent successfully Win to 25.12.39.77:8001
+18:30:36 INFO  Thread-1 23592 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:30:36 INFO  Thread-1 23593 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:30:36 INFO  Thread-1 23594 Actor:185 - RealPlayer waiting for connection on port 8501
+18:30:37 INFO  Thread-1 24546 Actor:185 - RealPlayer accepted connection on port 8501
+18:30:37 INFO  Thread-1 24548 Actor:185 - RealPlayer received message Bet
+18:30:37 INFO  Thread-1 24548 Actor:185 - RealPlayer invoking listener for Bet
+18:30:37 INFO  Thread-1 24548 Actor:185 - RealPlayer received bet = 5.0
+18:30:37 INFO  Thread-1 24548 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:7623D18D2A1419C9
+18:30:37 INFO  Thread-1 24549 Dealer:164 - no bot configured for charlie.bot.huey
+18:30:37 INFO  Thread-1 24549 Dealer:164 - no bot configured for charlie.bot.dewey
+18:30:37 INFO  Thread-1 24549 Dealer:258 - starting a game
+18:30:37 INFO  Thread-1 24549 Dealer:273 - hands at table + dealer = 2
+18:30:37 INFO  Thread-1 24549 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:30:37 INFO  Thread-1 24551 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:30:37 INFO  Thread-1 24807 Shoe:111 - cards size = 52 burn index = 35 index = 7
+18:30:37 INFO  Thread-1 24807 Shoe:135 - index = 8 burnIndex = 35 shuffle needed = false
+18:30:37 INFO  Thread-1 24807 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = S10
+18:30:38 INFO  Thread-1 25559 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:30:38 INFO  Thread-1 25562 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:30:38 INFO  Thread-1 25563 Shoe:111 - cards size = 52 burn index = 35 index = 8
+18:30:38 INFO  Thread-1 25563 Shoe:135 - index = 9 burnIndex = 35 shuffle needed = false
+18:30:38 INFO  Thread-1 26315 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:30:38 INFO  Thread-1 26320 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:30:38 INFO  Thread-1 26322 Shoe:111 - cards size = 52 burn index = 35 index = 9
+18:30:38 INFO  Thread-1 26322 Shoe:135 - index = 10 burnIndex = 35 shuffle needed = false
+18:30:38 INFO  Thread-1 26322 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = S4
+18:30:39 INFO  Thread-1 27075 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:30:39 INFO  Thread-1 27078 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:30:39 INFO  Thread-1 27078 Shoe:111 - cards size = 52 burn index = 35 index = 10
+18:30:39 INFO  Thread-1 27078 Shoe:135 - index = 11 burnIndex = 35 shuffle needed = false
+18:30:40 INFO  Thread-1 27833 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:30:40 INFO  Thread-1 27835 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:30:40 INFO  Thread-1 27836 Dealer:555 - going to next hand
+18:30:40 INFO  Thread-1 27836 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:30:40 INFO  Thread-1 27836 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:7623D18D2A1419C9 to Timothys-MacBook-Pro.local/25.12.39.77
+18:30:40 INFO  Thread-1 27837 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:30:40 INFO  Thread-1 27840 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:30:40 INFO  Thread-1 27840 Actor:185 - RealPlayer waiting for connection on port 8501
+18:30:41 INFO  Thread-1 28625 Actor:185 - RealPlayer accepted connection on port 8501
+18:30:41 INFO  Thread-1 28626 Actor:185 - RealPlayer received message Hit
+18:30:41 INFO  Thread-1 28627 Actor:185 - RealPlayer invoking listener for Hit
+18:30:41 INFO  Thread-1 28627 Actor:185 - RealPlayer received request = Hit
+18:30:41 INFO  Thread-1 28627 Shoe:111 - cards size = 52 burn index = 35 index = 11
+18:30:41 INFO  Thread-1 28627 Shoe:135 - index = 12 burnIndex = 35 shuffle needed = false
+18:30:41 INFO  Thread-1 28627 Dealer:400 - hit hid = Timothys-MacBook-Pro.local:YOU:7623D18D2A1419C9 with S2
+18:30:41 INFO  Thread-1 28627 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:30:41 INFO  Thread-1 28629 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:30:41 INFO  Thread-1 28630 Actor:185 - RealPlayer waiting for connection on port 8501
+18:30:43 INFO  Thread-1 30717 Actor:185 - RealPlayer accepted connection on port 8501
+18:30:43 INFO  Thread-1 30719 Actor:185 - RealPlayer received message Stay
+18:30:43 INFO  Thread-1 30719 Actor:185 - RealPlayer invoking listener for Stay
+18:30:43 INFO  Thread-1 30719 Actor:185 - RealPlayer received request = Stay
+18:30:43 INFO  Thread-1 30720 Dealer:449 - got STAY for Timothys-MacBook-Pro.local:YOU:7623D18D2A1419C9
+18:30:43 INFO  Thread-1 30720 Dealer:555 - going to next hand
+18:30:43 INFO  Thread-1 30720 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:30:43 INFO  Thread-1 30721 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:30:43 INFO  Thread-1 30721 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:30:43 INFO  Thread-1 30725 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:30:43 INFO  Thread-1 30725 Shoe:111 - cards size = 52 burn index = 35 index = 12
+18:30:43 INFO  Thread-1 30726 Shoe:135 - index = 13 burnIndex = 35 shuffle needed = false
+18:30:43 INFO  Thread-1 31481 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:30:43 INFO  Thread-1 31483 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:30:44 INFO  Thread-1 31484 Actor:185 - RealPlayer sending Lose to 25.12.39.77:8001
+18:30:44 INFO  Thread-1 31487 Actor:185 - RealPlayer sent successfully Lose to 25.12.39.77:8001
+18:30:44 INFO  Thread-1 31487 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:30:44 INFO  Thread-1 31488 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:30:44 INFO  Thread-1 31488 Actor:185 - RealPlayer waiting for connection on port 8501
+18:30:45 INFO  Thread-1 32649 Actor:185 - RealPlayer accepted connection on port 8501
+18:30:45 INFO  Thread-1 32653 Actor:185 - RealPlayer received message Bet
+18:30:45 INFO  Thread-1 32657 Actor:185 - RealPlayer invoking listener for Bet
+18:30:45 INFO  Thread-1 32657 Actor:185 - RealPlayer received bet = 5.0
+18:30:45 INFO  Thread-1 32658 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:7FB750ADB3BD90FC
+18:30:45 INFO  Thread-1 32658 Dealer:164 - no bot configured for charlie.bot.huey
+18:30:45 INFO  Thread-1 32658 Dealer:164 - no bot configured for charlie.bot.dewey
+18:30:45 INFO  Thread-1 32658 Dealer:258 - starting a game
+18:30:45 INFO  Thread-1 32659 Dealer:273 - hands at table + dealer = 2
+18:30:45 INFO  Thread-1 32659 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:30:45 INFO  Thread-1 32660 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:30:45 INFO  Thread-1 32915 Shoe:111 - cards size = 52 burn index = 35 index = 13
+18:30:45 INFO  Thread-1 32915 Shoe:135 - index = 14 burnIndex = 35 shuffle needed = false
+18:30:45 INFO  Thread-1 32916 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = HJ
+18:30:46 INFO  Thread-1 33670 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:30:46 INFO  Thread-1 33670 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:30:46 INFO  Thread-1 33671 Shoe:111 - cards size = 52 burn index = 35 index = 14
+18:30:46 INFO  Thread-1 33671 Shoe:135 - index = 15 burnIndex = 35 shuffle needed = false
+18:30:46 INFO  Thread-1 34424 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:30:46 INFO  Thread-1 34426 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:30:46 INFO  Thread-1 34426 Shoe:111 - cards size = 52 burn index = 35 index = 15
+18:30:46 INFO  Thread-1 34426 Shoe:135 - index = 16 burnIndex = 35 shuffle needed = false
+18:30:46 INFO  Thread-1 34427 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = H5
+18:30:47 INFO  Thread-1 35180 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:30:47 INFO  Thread-1 35183 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:30:47 INFO  Thread-1 35184 Shoe:111 - cards size = 52 burn index = 35 index = 16
+18:30:47 INFO  Thread-1 35185 Shoe:135 - index = 17 burnIndex = 35 shuffle needed = false
+18:30:48 INFO  Thread-1 35939 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:30:48 INFO  Thread-1 35942 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:30:48 INFO  Thread-1 35942 Dealer:555 - going to next hand
+18:30:48 INFO  Thread-1 35942 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:30:48 INFO  Thread-1 35943 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:7FB750ADB3BD90FC to Timothys-MacBook-Pro.local/25.12.39.77
+18:30:48 INFO  Thread-1 35943 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:30:48 INFO  Thread-1 35944 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:30:48 INFO  Thread-1 35945 Actor:185 - RealPlayer waiting for connection on port 8501
+18:30:49 INFO  Thread-1 36883 Actor:185 - RealPlayer accepted connection on port 8501
+18:30:49 INFO  Thread-1 36885 Actor:185 - RealPlayer received message Hit
+18:30:49 INFO  Thread-1 36885 Actor:185 - RealPlayer invoking listener for Hit
+18:30:49 INFO  Thread-1 36886 Actor:185 - RealPlayer received request = Hit
+18:30:49 INFO  Thread-1 36886 Shoe:111 - cards size = 52 burn index = 35 index = 17
+18:30:49 INFO  Thread-1 36886 Shoe:135 - index = 18 burnIndex = 35 shuffle needed = false
+18:30:49 INFO  Thread-1 36887 Dealer:400 - hit hid = Timothys-MacBook-Pro.local:YOU:7FB750ADB3BD90FC with DQ
+18:30:49 INFO  Thread-1 36887 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:30:49 INFO  Thread-1 36888 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:30:49 INFO  Thread-1 36888 Actor:185 - RealPlayer sending Bust to 25.12.39.77:8001
+18:30:49 INFO  Thread-1 36891 Actor:185 - RealPlayer sent successfully Bust to 25.12.39.77:8001
+18:30:49 INFO  Thread-1 36891 Dealer:555 - going to next hand
+18:30:49 INFO  Thread-1 36891 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:30:49 INFO  Thread-1 36893 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:30:49 INFO  Thread-1 36893 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:30:49 INFO  Thread-1 36895 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:30:49 INFO  Thread-1 36896 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:30:49 INFO  Thread-1 36896 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:30:49 INFO  Thread-1 36896 Actor:185 - RealPlayer waiting for connection on port 8501
+18:30:50 INFO  Thread-1 38071 Actor:185 - RealPlayer accepted connection on port 8501
+18:30:50 INFO  Thread-1 38074 Actor:185 - RealPlayer received message Bet
+18:30:50 INFO  Thread-1 38074 Actor:185 - RealPlayer invoking listener for Bet
+18:30:50 INFO  Thread-1 38075 Actor:185 - RealPlayer received bet = 5.0
+18:30:50 INFO  Thread-1 38075 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:61A150E61F16A8F4
+18:30:50 INFO  Thread-1 38075 Dealer:164 - no bot configured for charlie.bot.huey
+18:30:50 INFO  Thread-1 38075 Dealer:164 - no bot configured for charlie.bot.dewey
+18:30:50 INFO  Thread-1 38075 Dealer:258 - starting a game
+18:30:50 INFO  Thread-1 38075 Dealer:273 - hands at table + dealer = 2
+18:30:50 INFO  Thread-1 38075 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:30:50 INFO  Thread-1 38077 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:30:50 INFO  Thread-1 38331 Shoe:111 - cards size = 52 burn index = 35 index = 18
+18:30:50 INFO  Thread-1 38331 Shoe:135 - index = 19 burnIndex = 35 shuffle needed = false
+18:30:50 INFO  Thread-1 38331 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = H7
+18:30:51 INFO  Thread-1 39086 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:30:51 INFO  Thread-1 39088 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:30:51 INFO  Thread-1 39088 Shoe:111 - cards size = 52 burn index = 35 index = 19
+18:30:51 INFO  Thread-1 39088 Shoe:135 - index = 20 burnIndex = 35 shuffle needed = false
+18:30:52 INFO  Thread-1 39841 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:30:52 INFO  Thread-1 39844 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:30:52 INFO  Thread-1 39844 Shoe:111 - cards size = 52 burn index = 35 index = 20
+18:30:52 INFO  Thread-1 39845 Shoe:135 - index = 21 burnIndex = 35 shuffle needed = false
+18:30:52 INFO  Thread-1 39845 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = S3
+18:30:53 INFO  Thread-1 40599 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:30:53 INFO  Thread-1 40602 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:30:53 INFO  Thread-1 40603 Shoe:111 - cards size = 52 burn index = 35 index = 21
+18:30:53 INFO  Thread-1 40603 Shoe:135 - index = 22 burnIndex = 35 shuffle needed = false
+18:30:53 INFO  Thread-1 41356 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:30:53 INFO  Thread-1 41358 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:30:53 INFO  Thread-1 41358 Dealer:555 - going to next hand
+18:30:53 INFO  Thread-1 41358 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:30:53 INFO  Thread-1 41358 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:61A150E61F16A8F4 to Timothys-MacBook-Pro.local/25.12.39.77
+18:30:53 INFO  Thread-1 41359 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:30:53 INFO  Thread-1 41360 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:30:53 INFO  Thread-1 41360 Actor:185 - RealPlayer waiting for connection on port 8501
+18:30:55 INFO  Thread-1 42886 Actor:185 - RealPlayer accepted connection on port 8501
+18:30:55 INFO  Thread-1 42889 Actor:185 - RealPlayer received message Hit
+18:30:55 INFO  Thread-1 42889 Actor:185 - RealPlayer invoking listener for Hit
+18:30:55 INFO  Thread-1 42890 Actor:185 - RealPlayer received request = Hit
+18:30:55 INFO  Thread-1 42890 Shoe:111 - cards size = 52 burn index = 35 index = 22
+18:30:55 INFO  Thread-1 42890 Shoe:135 - index = 23 burnIndex = 35 shuffle needed = false
+18:30:55 INFO  Thread-1 42891 Dealer:400 - hit hid = Timothys-MacBook-Pro.local:YOU:61A150E61F16A8F4 with CK
+18:30:55 INFO  Thread-1 42891 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:30:55 INFO  Thread-1 42894 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:30:55 INFO  Thread-1 42894 Actor:185 - RealPlayer waiting for connection on port 8501
+18:30:56 INFO  Thread-1 44040 Actor:185 - RealPlayer accepted connection on port 8501
+18:30:56 INFO  Thread-1 44042 Actor:185 - RealPlayer received message Stay
+18:30:56 INFO  Thread-1 44042 Actor:185 - RealPlayer invoking listener for Stay
+18:30:56 INFO  Thread-1 44042 Actor:185 - RealPlayer received request = Stay
+18:30:56 INFO  Thread-1 44042 Dealer:449 - got STAY for Timothys-MacBook-Pro.local:YOU:61A150E61F16A8F4
+18:30:56 INFO  Thread-1 44043 Dealer:555 - going to next hand
+18:30:56 INFO  Thread-1 44043 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:30:56 INFO  Thread-1 44043 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:30:56 INFO  Thread-1 44044 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:30:56 INFO  Thread-1 44045 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:30:56 INFO  Thread-1 44046 Actor:185 - RealPlayer sending Win to 25.12.39.77:8001
+18:30:56 INFO  Thread-1 44048 Actor:185 - RealPlayer sent successfully Win to 25.12.39.77:8001
+18:30:56 INFO  Thread-1 44049 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:30:56 INFO  Thread-1 44050 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:30:56 INFO  Thread-1 44050 Actor:185 - RealPlayer waiting for connection on port 8501
+18:30:57 INFO  Thread-1 45061 Actor:185 - RealPlayer accepted connection on port 8501
+18:30:57 INFO  Thread-1 45063 Actor:185 - RealPlayer received message Bet
+18:30:57 INFO  Thread-1 45064 Actor:185 - RealPlayer invoking listener for Bet
+18:30:57 INFO  Thread-1 45064 Actor:185 - RealPlayer received bet = 5.0
+18:30:57 INFO  Thread-1 45064 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:2D7C4B7A37957B72
+18:30:57 INFO  Thread-1 45064 Dealer:164 - no bot configured for charlie.bot.huey
+18:30:57 INFO  Thread-1 45064 Dealer:164 - no bot configured for charlie.bot.dewey
+18:30:57 INFO  Thread-1 45064 Dealer:258 - starting a game
+18:30:57 INFO  Thread-1 45065 Dealer:273 - hands at table + dealer = 2
+18:30:57 INFO  Thread-1 45065 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:30:57 INFO  Thread-1 45066 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:30:57 INFO  Thread-1 45323 Shoe:111 - cards size = 52 burn index = 35 index = 23
+18:30:57 INFO  Thread-1 45323 Shoe:135 - index = 24 burnIndex = 35 shuffle needed = false
+18:30:57 INFO  Thread-1 45323 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = S8
+18:30:58 INFO  Thread-1 46079 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:30:58 INFO  Thread-1 46080 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:30:58 INFO  Thread-1 46081 Shoe:111 - cards size = 52 burn index = 35 index = 24
+18:30:58 INFO  Thread-1 46081 Shoe:135 - index = 25 burnIndex = 35 shuffle needed = false
+18:30:59 INFO  Thread-1 46832 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:30:59 INFO  Thread-1 46834 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:30:59 INFO  Thread-1 46835 Shoe:111 - cards size = 52 burn index = 35 index = 25
+18:30:59 INFO  Thread-1 46835 Shoe:135 - index = 26 burnIndex = 35 shuffle needed = false
+18:30:59 INFO  Thread-1 46835 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = D4
+18:31:00 INFO  Thread-1 47590 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:00 INFO  Thread-1 47591 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:00 INFO  Thread-1 47591 Shoe:111 - cards size = 52 burn index = 35 index = 26
+18:31:00 INFO  Thread-1 47591 Shoe:135 - index = 27 burnIndex = 35 shuffle needed = false
+18:31:00 INFO  Thread-1 48343 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:00 INFO  Thread-1 48344 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:00 INFO  Thread-1 48344 Dealer:555 - going to next hand
+18:31:00 INFO  Thread-1 48344 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:31:00 INFO  Thread-1 48344 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:2D7C4B7A37957B72 to Timothys-MacBook-Pro.local/25.12.39.77
+18:31:00 INFO  Thread-1 48344 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:31:00 INFO  Thread-1 48345 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:31:00 INFO  Thread-1 48345 Actor:185 - RealPlayer waiting for connection on port 8501
+18:31:01 INFO  Thread-1 49292 Actor:185 - RealPlayer accepted connection on port 8501
+18:31:01 INFO  Thread-1 49295 Actor:185 - RealPlayer received message DoubleDown
+18:31:01 INFO  Thread-1 49296 Actor:185 - RealPlayer invoking listener for DoubleDown
+18:31:01 INFO  Thread-1 49296 Actor:185 - RealPlayer received request = DoubleDown
+18:31:01 INFO  Thread-1 49296 Dealer:469 - got double down amt = 10.0 hid = Timothys-MacBook-Pro.local:YOU:2D7C4B7A37957B72
+18:31:01 INFO  Thread-1 49296 Shoe:111 - cards size = 52 burn index = 35 index = 27
+18:31:01 INFO  Thread-1 49296 Shoe:135 - index = 28 burnIndex = 35 shuffle needed = false
+18:31:01 INFO  Thread-1 49296 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:01 INFO  Thread-1 49297 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:01 INFO  Thread-1 49297 Dealer:555 - going to next hand
+18:31:01 INFO  Thread-1 49297 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:31:01 INFO  Thread-1 49299 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:31:01 INFO  Thread-1 49299 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:01 INFO  Thread-1 49301 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:01 INFO  Thread-1 49301 Shoe:111 - cards size = 52 burn index = 35 index = 28
+18:31:01 INFO  Thread-1 49301 Shoe:135 - index = 29 burnIndex = 35 shuffle needed = false
+18:31:02 INFO  Thread-1 50055 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:02 INFO  Thread-1 50057 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:02 INFO  Thread-1 50057 Actor:185 - RealPlayer sending Lose to 25.12.39.77:8001
+18:31:02 INFO  Thread-1 50057 Actor:185 - RealPlayer sent successfully Lose to 25.12.39.77:8001
+18:31:02 INFO  Thread-1 50058 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:31:02 INFO  Thread-1 50058 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:31:02 INFO  Thread-1 50058 Actor:185 - RealPlayer waiting for connection on port 8501
+18:31:03 INFO  Thread-1 51479 Actor:185 - RealPlayer accepted connection on port 8501
+18:31:03 INFO  Thread-1 51481 Actor:185 - RealPlayer received message Bet
+18:31:03 INFO  Thread-1 51482 Actor:185 - RealPlayer invoking listener for Bet
+18:31:03 INFO  Thread-1 51482 Actor:185 - RealPlayer received bet = 5.0
+18:31:03 INFO  Thread-1 51482 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:1C9354A0D2B4F517
+18:31:03 INFO  Thread-1 51482 Dealer:164 - no bot configured for charlie.bot.huey
+18:31:03 INFO  Thread-1 51482 Dealer:164 - no bot configured for charlie.bot.dewey
+18:31:03 INFO  Thread-1 51482 Dealer:258 - starting a game
+18:31:03 INFO  Thread-1 51482 Dealer:273 - hands at table + dealer = 2
+18:31:03 INFO  Thread-1 51483 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:31:04 INFO  Thread-1 51484 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:31:04 INFO  Thread-1 51735 Shoe:111 - cards size = 52 burn index = 35 index = 29
+18:31:04 INFO  Thread-1 51735 Shoe:135 - index = 30 burnIndex = 35 shuffle needed = false
+18:31:04 INFO  Thread-1 51735 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = HK
+18:31:05 INFO  Thread-1 52489 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:05 INFO  Thread-1 52491 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:05 INFO  Thread-1 52491 Shoe:111 - cards size = 52 burn index = 35 index = 30
+18:31:05 INFO  Thread-1 52492 Shoe:135 - index = 31 burnIndex = 35 shuffle needed = false
+18:31:05 INFO  Thread-1 53242 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:05 INFO  Thread-1 53244 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:05 INFO  Thread-1 53245 Shoe:111 - cards size = 52 burn index = 35 index = 31
+18:31:05 INFO  Thread-1 53245 Shoe:135 - index = 32 burnIndex = 35 shuffle needed = false
+18:31:05 INFO  Thread-1 53245 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = CJ
+18:31:06 INFO  Thread-1 53996 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:06 INFO  Thread-1 53998 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:06 INFO  Thread-1 53998 Shoe:111 - cards size = 52 burn index = 35 index = 32
+18:31:06 INFO  Thread-1 53999 Shoe:135 - index = 33 burnIndex = 35 shuffle needed = false
+18:31:07 INFO  Thread-1 54753 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:07 INFO  Thread-1 54754 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:07 INFO  Thread-1 54754 Dealer:555 - going to next hand
+18:31:07 INFO  Thread-1 54754 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:31:07 INFO  Thread-1 54755 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:1C9354A0D2B4F517 to Timothys-MacBook-Pro.local/25.12.39.77
+18:31:07 INFO  Thread-1 54755 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:31:07 INFO  Thread-1 54758 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:31:07 INFO  Thread-1 54758 Actor:185 - RealPlayer waiting for connection on port 8501
+18:31:08 INFO  Thread-1 55554 Actor:185 - RealPlayer accepted connection on port 8501
+18:31:08 INFO  Thread-1 55555 Actor:185 - RealPlayer received message Stay
+18:31:08 INFO  Thread-1 55556 Actor:185 - RealPlayer invoking listener for Stay
+18:31:08 INFO  Thread-1 55556 Actor:185 - RealPlayer received request = Stay
+18:31:08 INFO  Thread-1 55556 Dealer:449 - got STAY for Timothys-MacBook-Pro.local:YOU:1C9354A0D2B4F517
+18:31:08 INFO  Thread-1 55557 Dealer:555 - going to next hand
+18:31:08 INFO  Thread-1 55557 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:31:08 INFO  Thread-1 55558 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:31:08 INFO  Thread-1 55558 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:08 INFO  Thread-1 55559 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:08 INFO  Thread-1 55559 Shoe:111 - cards size = 52 burn index = 35 index = 33
+18:31:08 INFO  Thread-1 55559 Shoe:135 - index = 34 burnIndex = 35 shuffle needed = false
+18:31:08 INFO  Thread-1 56313 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:08 INFO  Thread-1 56315 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:08 INFO  Thread-1 56316 Actor:185 - RealPlayer sending Win to 25.12.39.77:8001
+18:31:08 INFO  Thread-1 56317 Actor:185 - RealPlayer sent successfully Win to 25.12.39.77:8001
+18:31:08 INFO  Thread-1 56317 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:31:08 INFO  Thread-1 56318 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:31:08 INFO  Thread-1 56318 Actor:185 - RealPlayer waiting for connection on port 8501
+18:31:09 INFO  Thread-1 57280 Actor:185 - RealPlayer accepted connection on port 8501
+18:31:09 INFO  Thread-1 57281 Actor:185 - RealPlayer received message Bet
+18:31:09 INFO  Thread-1 57281 Actor:185 - RealPlayer invoking listener for Bet
+18:31:09 INFO  Thread-1 57281 Actor:185 - RealPlayer received bet = 5.0
+18:31:09 INFO  Thread-1 57282 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:4EFCFC57323FD8A8
+18:31:09 INFO  Thread-1 57282 Dealer:164 - no bot configured for charlie.bot.huey
+18:31:09 INFO  Thread-1 57282 Dealer:164 - no bot configured for charlie.bot.dewey
+18:31:09 INFO  Thread-1 57283 Dealer:258 - starting a game
+18:31:09 INFO  Thread-1 57283 Dealer:273 - hands at table + dealer = 2
+18:31:09 INFO  Thread-1 57283 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:31:09 INFO  Thread-1 57285 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:31:10 INFO  Thread-1 57535 Shoe:111 - cards size = 52 burn index = 35 index = 34
+18:31:10 INFO  Thread-1 57535 Shoe:135 - index = 35 burnIndex = 35 shuffle needed = true
+18:31:10 INFO  Thread-1 57535 Actor:185 - RealPlayer sending Shuffle to 25.12.39.77:8001
+18:31:10 INFO  Thread-1 57536 Actor:185 - RealPlayer sent successfully Shuffle to 25.12.39.77:8001
+18:31:10 INFO  Thread-1 57536 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = SA
+18:31:10 INFO  Thread-1 58290 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:10 INFO  Thread-1 58292 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:10 INFO  Thread-1 58292 Shoe:111 - cards size = 52 burn index = 35 index = 35
+18:31:11 INFO  Thread-1 59047 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:11 INFO  Thread-1 59048 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:11 INFO  Thread-1 59048 Shoe:111 - cards size = 52 burn index = 35 index = 36
+18:31:11 INFO  Thread-1 59049 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = S9
+18:31:12 INFO  Thread-1 59803 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:12 INFO  Thread-1 59803 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:12 INFO  Thread-1 59803 Shoe:111 - cards size = 52 burn index = 35 index = 37
+18:31:13 INFO  Thread-1 60556 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:13 INFO  Thread-1 60558 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:13 INFO  Thread-1 60558 Dealer:555 - going to next hand
+18:31:13 INFO  Thread-1 60558 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:31:13 INFO  Thread-1 60558 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:4EFCFC57323FD8A8 to Timothys-MacBook-Pro.local/25.12.39.77
+18:31:13 INFO  Thread-1 60558 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:31:13 INFO  Thread-1 60559 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:31:13 INFO  Thread-1 60559 Actor:185 - RealPlayer waiting for connection on port 8501
+18:31:13 INFO  Thread-1 61353 Actor:185 - RealPlayer accepted connection on port 8501
+18:31:13 INFO  Thread-1 61354 Actor:185 - RealPlayer received message Stay
+18:31:13 INFO  Thread-1 61354 Actor:185 - RealPlayer invoking listener for Stay
+18:31:13 INFO  Thread-1 61354 Actor:185 - RealPlayer received request = Stay
+18:31:13 INFO  Thread-1 61354 Dealer:449 - got STAY for Timothys-MacBook-Pro.local:YOU:4EFCFC57323FD8A8
+18:31:13 INFO  Thread-1 61354 Dealer:555 - going to next hand
+18:31:13 INFO  Thread-1 61355 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:31:13 INFO  Thread-1 61356 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:31:13 INFO  Thread-1 61357 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:13 INFO  Thread-1 61358 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:13 INFO  Thread-1 61358 Shoe:111 - cards size = 52 burn index = 35 index = 38
+18:31:14 INFO  Thread-1 62111 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:14 INFO  Thread-1 62113 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:14 INFO  Thread-1 62114 Actor:185 - RealPlayer sending Win to 25.12.39.77:8001
+18:31:14 INFO  Thread-1 62115 Actor:185 - RealPlayer sent successfully Win to 25.12.39.77:8001
+18:31:14 INFO  Thread-1 62115 Shoe:102 - shuffling burn index = 36
+18:31:14 INFO  Thread-1 62115 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:31:14 INFO  Thread-1 62117 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:31:14 INFO  Thread-1 62118 Actor:185 - RealPlayer waiting for connection on port 8501
+18:31:18 INFO  Thread-1 66174 Actor:185 - RealPlayer accepted connection on port 8501
+18:31:18 INFO  Thread-1 66176 Actor:185 - RealPlayer received message Bet
+18:31:18 INFO  Thread-1 66176 Actor:185 - RealPlayer invoking listener for Bet
+18:31:18 INFO  Thread-1 66176 Actor:185 - RealPlayer received bet = 5.0
+18:31:18 INFO  Thread-1 66177 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:56891E1078ED5642
+18:31:18 INFO  Thread-1 66177 Dealer:164 - no bot configured for charlie.bot.huey
+18:31:18 INFO  Thread-1 66177 Dealer:164 - no bot configured for charlie.bot.dewey
+18:31:18 INFO  Thread-1 66177 Dealer:258 - starting a game
+18:31:18 INFO  Thread-1 66177 Dealer:273 - hands at table + dealer = 2
+18:31:18 INFO  Thread-1 66177 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:31:18 INFO  Thread-1 66179 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:31:18 INFO  Thread-1 66431 Shoe:111 - cards size = 52 burn index = 36 index = 0
+18:31:18 INFO  Thread-1 66431 Shoe:135 - index = 1 burnIndex = 36 shuffle needed = false
+18:31:18 INFO  Thread-1 66432 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = H4
+18:31:19 INFO  Thread-1 67182 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:19 INFO  Thread-1 67184 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:19 INFO  Thread-1 67184 Shoe:111 - cards size = 52 burn index = 36 index = 1
+18:31:19 INFO  Thread-1 67184 Shoe:135 - index = 2 burnIndex = 36 shuffle needed = false
+18:31:20 INFO  Thread-1 67939 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:20 INFO  Thread-1 67941 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:20 INFO  Thread-1 67942 Shoe:111 - cards size = 52 burn index = 36 index = 2
+18:31:20 INFO  Thread-1 67942 Shoe:135 - index = 3 burnIndex = 36 shuffle needed = false
+18:31:20 INFO  Thread-1 67942 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = SK
+18:31:21 INFO  Thread-1 68695 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:21 INFO  Thread-1 68698 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:21 INFO  Thread-1 68699 Shoe:111 - cards size = 52 burn index = 36 index = 3
+18:31:21 INFO  Thread-1 68699 Shoe:135 - index = 4 burnIndex = 36 shuffle needed = false
+18:31:21 INFO  Thread-1 69450 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:21 INFO  Thread-1 69451 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:21 INFO  Thread-1 69451 Dealer:555 - going to next hand
+18:31:21 INFO  Thread-1 69452 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:31:21 INFO  Thread-1 69452 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:56891E1078ED5642 to Timothys-MacBook-Pro.local/25.12.39.77
+18:31:21 INFO  Thread-1 69452 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:31:21 INFO  Thread-1 69453 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:31:21 INFO  Thread-1 69454 Actor:185 - RealPlayer waiting for connection on port 8501
+18:31:24 INFO  Thread-1 71539 Actor:185 - RealPlayer accepted connection on port 8501
+18:31:24 INFO  Thread-1 71543 Actor:185 - RealPlayer received message Hit
+18:31:24 INFO  Thread-1 71543 Actor:185 - RealPlayer invoking listener for Hit
+18:31:24 INFO  Thread-1 71544 Actor:185 - RealPlayer received request = Hit
+18:31:24 INFO  Thread-1 71545 Shoe:111 - cards size = 52 burn index = 36 index = 4
+18:31:24 INFO  Thread-1 71545 Shoe:135 - index = 5 burnIndex = 36 shuffle needed = false
+18:31:24 INFO  Thread-1 71545 Dealer:400 - hit hid = Timothys-MacBook-Pro.local:YOU:56891E1078ED5642 with DK
+18:31:24 INFO  Thread-1 71545 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:24 INFO  Thread-1 71546 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:24 INFO  Thread-1 71546 Actor:185 - RealPlayer sending Bust to 25.12.39.77:8001
+18:31:24 INFO  Thread-1 71547 Actor:185 - RealPlayer sent successfully Bust to 25.12.39.77:8001
+18:31:24 INFO  Thread-1 71547 Dealer:555 - going to next hand
+18:31:24 INFO  Thread-1 71547 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:31:24 INFO  Thread-1 71548 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:31:24 INFO  Thread-1 71549 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:24 INFO  Thread-1 71552 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:24 INFO  Thread-1 71552 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:31:24 INFO  Thread-1 71553 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:31:24 INFO  Thread-1 71553 Actor:185 - RealPlayer waiting for connection on port 8501
+18:31:25 INFO  Thread-1 72562 Actor:185 - RealPlayer accepted connection on port 8501
+18:31:25 INFO  Thread-1 72564 Actor:185 - RealPlayer received message Bet
+18:31:25 INFO  Thread-1 72564 Actor:185 - RealPlayer invoking listener for Bet
+18:31:25 INFO  Thread-1 72564 Actor:185 - RealPlayer received bet = 5.0
+18:31:25 INFO  Thread-1 72564 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:6064D109588BD57B
+18:31:25 INFO  Thread-1 72564 Dealer:164 - no bot configured for charlie.bot.huey
+18:31:25 INFO  Thread-1 72564 Dealer:164 - no bot configured for charlie.bot.dewey
+18:31:25 INFO  Thread-1 72565 Dealer:258 - starting a game
+18:31:25 INFO  Thread-1 72565 Dealer:273 - hands at table + dealer = 2
+18:31:25 INFO  Thread-1 72565 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:31:25 INFO  Thread-1 72566 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:31:25 INFO  Thread-1 72819 Shoe:111 - cards size = 52 burn index = 36 index = 5
+18:31:25 INFO  Thread-1 72819 Shoe:135 - index = 6 burnIndex = 36 shuffle needed = false
+18:31:25 INFO  Thread-1 72819 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = D5
+18:31:26 INFO  Thread-1 73572 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:26 INFO  Thread-1 73575 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:26 INFO  Thread-1 73575 Shoe:111 - cards size = 52 burn index = 36 index = 6
+18:31:26 INFO  Thread-1 73575 Shoe:135 - index = 7 burnIndex = 36 shuffle needed = false
+18:31:26 INFO  Thread-1 74326 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:26 INFO  Thread-1 74328 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:26 INFO  Thread-1 74328 Shoe:111 - cards size = 52 burn index = 36 index = 7
+18:31:26 INFO  Thread-1 74329 Shoe:135 - index = 8 burnIndex = 36 shuffle needed = false
+18:31:26 INFO  Thread-1 74329 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = S7
+18:31:27 INFO  Thread-1 75084 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:27 INFO  Thread-1 75085 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:27 INFO  Thread-1 75085 Shoe:111 - cards size = 52 burn index = 36 index = 8
+18:31:27 INFO  Thread-1 75085 Shoe:135 - index = 9 burnIndex = 36 shuffle needed = false
+18:31:28 INFO  Thread-1 75838 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:28 INFO  Thread-1 75839 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:28 INFO  Thread-1 75840 Dealer:555 - going to next hand
+18:31:28 INFO  Thread-1 75840 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:31:28 INFO  Thread-1 75840 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:6064D109588BD57B to Timothys-MacBook-Pro.local/25.12.39.77
+18:31:28 INFO  Thread-1 75840 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:31:28 INFO  Thread-1 75841 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:31:28 INFO  Thread-1 75841 Actor:185 - RealPlayer waiting for connection on port 8501
+18:31:29 INFO  Thread-1 76974 Actor:185 - RealPlayer accepted connection on port 8501
+18:31:29 INFO  Thread-1 76976 Actor:185 - RealPlayer received message Hit
+18:31:29 INFO  Thread-1 76976 Actor:185 - RealPlayer invoking listener for Hit
+18:31:29 INFO  Thread-1 76976 Actor:185 - RealPlayer received request = Hit
+18:31:29 INFO  Thread-1 76976 Shoe:111 - cards size = 52 burn index = 36 index = 9
+18:31:29 INFO  Thread-1 76976 Shoe:135 - index = 10 burnIndex = 36 shuffle needed = false
+18:31:29 INFO  Thread-1 76977 Dealer:400 - hit hid = Timothys-MacBook-Pro.local:YOU:6064D109588BD57B with S4
+18:31:29 INFO  Thread-1 76977 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:29 INFO  Thread-1 76978 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:29 INFO  Thread-1 76978 Actor:185 - RealPlayer waiting for connection on port 8501
+18:31:31 INFO  Thread-1 78550 Actor:185 - RealPlayer accepted connection on port 8501
+18:31:31 INFO  Thread-1 78551 Actor:185 - RealPlayer received message Hit
+18:31:31 INFO  Thread-1 78551 Actor:185 - RealPlayer invoking listener for Hit
+18:31:31 INFO  Thread-1 78551 Actor:185 - RealPlayer received request = Hit
+18:31:31 INFO  Thread-1 78551 Shoe:111 - cards size = 52 burn index = 36 index = 10
+18:31:31 INFO  Thread-1 78553 Shoe:135 - index = 11 burnIndex = 36 shuffle needed = false
+18:31:31 INFO  Thread-1 78553 Dealer:400 - hit hid = Timothys-MacBook-Pro.local:YOU:6064D109588BD57B with HQ
+18:31:31 INFO  Thread-1 78553 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:31 INFO  Thread-1 78554 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:31 INFO  Thread-1 78554 Actor:185 - RealPlayer sending Bust to 25.12.39.77:8001
+18:31:31 INFO  Thread-1 78555 Actor:185 - RealPlayer sent successfully Bust to 25.12.39.77:8001
+18:31:31 INFO  Thread-1 78555 Dealer:555 - going to next hand
+18:31:31 INFO  Thread-1 78555 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:31:31 INFO  Thread-1 78556 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:31:31 INFO  Thread-1 78557 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:31 INFO  Thread-1 78558 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:31 INFO  Thread-1 78559 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:31:31 INFO  Thread-1 78560 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:31:31 INFO  Thread-1 78560 Actor:185 - RealPlayer waiting for connection on port 8501
+18:31:32 INFO  Thread-1 79515 Actor:185 - RealPlayer accepted connection on port 8501
+18:31:32 INFO  Thread-1 79519 Actor:185 - RealPlayer received message Bet
+18:31:32 INFO  Thread-1 79520 Actor:185 - RealPlayer invoking listener for Bet
+18:31:32 INFO  Thread-1 79520 Actor:185 - RealPlayer received bet = 5.0
+18:31:32 INFO  Thread-1 79520 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:73A12AED7A3F53A0
+18:31:32 INFO  Thread-1 79520 Dealer:164 - no bot configured for charlie.bot.huey
+18:31:32 INFO  Thread-1 79520 Dealer:164 - no bot configured for charlie.bot.dewey
+18:31:32 INFO  Thread-1 79521 Dealer:258 - starting a game
+18:31:32 INFO  Thread-1 79521 Dealer:273 - hands at table + dealer = 2
+18:31:32 INFO  Thread-1 79521 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:31:32 INFO  Thread-1 79522 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:31:32 INFO  Thread-1 79773 Shoe:111 - cards size = 52 burn index = 36 index = 11
+18:31:32 INFO  Thread-1 79773 Shoe:135 - index = 12 burnIndex = 36 shuffle needed = false
+18:31:32 INFO  Thread-1 79773 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = S9
+18:31:33 INFO  Thread-1 80526 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:33 INFO  Thread-1 80527 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:33 INFO  Thread-1 80527 Shoe:111 - cards size = 52 burn index = 36 index = 12
+18:31:33 INFO  Thread-1 80527 Shoe:135 - index = 13 burnIndex = 36 shuffle needed = false
+18:31:33 INFO  Thread-1 81280 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:33 INFO  Thread-1 81282 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:33 INFO  Thread-1 81282 Shoe:111 - cards size = 52 burn index = 36 index = 13
+18:31:33 INFO  Thread-1 81283 Shoe:135 - index = 14 burnIndex = 36 shuffle needed = false
+18:31:33 INFO  Thread-1 81283 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = H2
+18:31:34 INFO  Thread-1 82033 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:34 INFO  Thread-1 82035 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:34 INFO  Thread-1 82035 Shoe:111 - cards size = 52 burn index = 36 index = 14
+18:31:34 INFO  Thread-1 82035 Shoe:135 - index = 15 burnIndex = 36 shuffle needed = false
+18:31:35 INFO  Thread-1 82788 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:35 INFO  Thread-1 82791 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:35 INFO  Thread-1 82791 Dealer:555 - going to next hand
+18:31:35 INFO  Thread-1 82791 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:31:35 INFO  Thread-1 82791 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:73A12AED7A3F53A0 to Timothys-MacBook-Pro.local/25.12.39.77
+18:31:35 INFO  Thread-1 82791 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:31:35 INFO  Thread-1 82792 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:31:35 INFO  Thread-1 82792 Actor:185 - RealPlayer waiting for connection on port 8501
+18:31:36 INFO  Thread-1 84095 Actor:185 - RealPlayer accepted connection on port 8501
+18:31:36 INFO  Thread-1 84097 Actor:185 - RealPlayer received message DoubleDown
+18:31:36 INFO  Thread-1 84097 Actor:185 - RealPlayer invoking listener for DoubleDown
+18:31:36 INFO  Thread-1 84097 Actor:185 - RealPlayer received request = DoubleDown
+18:31:36 INFO  Thread-1 84097 Dealer:469 - got double down amt = 10.0 hid = Timothys-MacBook-Pro.local:YOU:73A12AED7A3F53A0
+18:31:36 INFO  Thread-1 84097 Shoe:111 - cards size = 52 burn index = 36 index = 15
+18:31:36 INFO  Thread-1 84097 Shoe:135 - index = 16 burnIndex = 36 shuffle needed = false
+18:31:36 INFO  Thread-1 84097 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:36 INFO  Thread-1 84098 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:36 INFO  Thread-1 84098 Dealer:555 - going to next hand
+18:31:36 INFO  Thread-1 84098 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:31:36 INFO  Thread-1 84099 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:31:36 INFO  Thread-1 84099 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:36 INFO  Thread-1 84101 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:36 INFO  Thread-1 84101 Shoe:111 - cards size = 52 burn index = 36 index = 16
+18:31:36 INFO  Thread-1 84101 Shoe:135 - index = 17 burnIndex = 36 shuffle needed = false
+18:31:37 INFO  Thread-1 84856 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:37 INFO  Thread-1 84859 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:37 INFO  Thread-1 84859 Actor:185 - RealPlayer sending Lose to 25.12.39.77:8001
+18:31:37 INFO  Thread-1 84860 Actor:185 - RealPlayer sent successfully Lose to 25.12.39.77:8001
+18:31:37 INFO  Thread-1 84860 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:31:37 INFO  Thread-1 84860 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:31:37 INFO  Thread-1 84861 Actor:185 - RealPlayer waiting for connection on port 8501
+18:31:38 INFO  Thread-1 86117 Actor:185 - RealPlayer accepted connection on port 8501
+18:31:38 INFO  Thread-1 86119 Actor:185 - RealPlayer received message Bet
+18:31:38 INFO  Thread-1 86120 Actor:185 - RealPlayer invoking listener for Bet
+18:31:38 INFO  Thread-1 86120 Actor:185 - RealPlayer received bet = 5.0
+18:31:38 INFO  Thread-1 86120 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:6A01EAA6F96AC4BC
+18:31:38 INFO  Thread-1 86120 Dealer:164 - no bot configured for charlie.bot.huey
+18:31:38 INFO  Thread-1 86120 Dealer:164 - no bot configured for charlie.bot.dewey
+18:31:38 INFO  Thread-1 86120 Dealer:258 - starting a game
+18:31:38 INFO  Thread-1 86120 Dealer:273 - hands at table + dealer = 2
+18:31:38 INFO  Thread-1 86121 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:31:38 INFO  Thread-1 86122 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:31:38 INFO  Thread-1 86377 Shoe:111 - cards size = 52 burn index = 36 index = 17
+18:31:38 INFO  Thread-1 86377 Shoe:135 - index = 18 burnIndex = 36 shuffle needed = false
+18:31:38 INFO  Thread-1 86377 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = D6
+18:31:39 INFO  Thread-1 87132 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:39 INFO  Thread-1 87133 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:39 INFO  Thread-1 87134 Shoe:111 - cards size = 52 burn index = 36 index = 18
+18:31:39 INFO  Thread-1 87134 Shoe:135 - index = 19 burnIndex = 36 shuffle needed = false
+18:31:40 INFO  Thread-1 87888 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:40 INFO  Thread-1 87890 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:40 INFO  Thread-1 87891 Shoe:111 - cards size = 52 burn index = 36 index = 19
+18:31:40 INFO  Thread-1 87891 Shoe:135 - index = 20 burnIndex = 36 shuffle needed = false
+18:31:40 INFO  Thread-1 87891 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = D4
+18:31:41 INFO  Thread-1 88642 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:41 INFO  Thread-1 88644 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:41 INFO  Thread-1 88644 Shoe:111 - cards size = 52 burn index = 36 index = 20
+18:31:41 INFO  Thread-1 88644 Shoe:135 - index = 21 burnIndex = 36 shuffle needed = false
+18:31:41 INFO  Thread-1 89397 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:41 INFO  Thread-1 89399 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:41 INFO  Thread-1 89399 Dealer:555 - going to next hand
+18:31:41 INFO  Thread-1 89399 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:31:41 INFO  Thread-1 89400 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:6A01EAA6F96AC4BC to Timothys-MacBook-Pro.local/25.12.39.77
+18:31:41 INFO  Thread-1 89400 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:31:41 INFO  Thread-1 89401 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:31:41 INFO  Thread-1 89402 Actor:185 - RealPlayer waiting for connection on port 8501
+18:31:42 INFO  Thread-1 90054 Actor:185 - RealPlayer accepted connection on port 8501
+18:31:42 INFO  Thread-1 90057 Actor:185 - RealPlayer received message DoubleDown
+18:31:42 INFO  Thread-1 90057 Actor:185 - RealPlayer invoking listener for DoubleDown
+18:31:42 INFO  Thread-1 90057 Actor:185 - RealPlayer received request = DoubleDown
+18:31:42 INFO  Thread-1 90058 Dealer:469 - got double down amt = 10.0 hid = Timothys-MacBook-Pro.local:YOU:6A01EAA6F96AC4BC
+18:31:42 INFO  Thread-1 90058 Shoe:111 - cards size = 52 burn index = 36 index = 21
+18:31:42 INFO  Thread-1 90058 Shoe:135 - index = 22 burnIndex = 36 shuffle needed = false
+18:31:42 INFO  Thread-1 90058 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:42 INFO  Thread-1 90059 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:42 INFO  Thread-1 90059 Dealer:555 - going to next hand
+18:31:42 INFO  Thread-1 90060 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:31:42 INFO  Thread-1 90060 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:31:42 INFO  Thread-1 90061 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:42 INFO  Thread-1 90063 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:42 INFO  Thread-1 90063 Actor:185 - RealPlayer sending Lose to 25.12.39.77:8001
+18:31:42 INFO  Thread-1 90065 Actor:185 - RealPlayer sent successfully Lose to 25.12.39.77:8001
+18:31:42 INFO  Thread-1 90065 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:31:42 INFO  Thread-1 90067 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:31:42 INFO  Thread-1 90068 Actor:185 - RealPlayer waiting for connection on port 8501
+18:31:44 INFO  Thread-1 91852 Actor:185 - RealPlayer accepted connection on port 8501
+18:31:44 INFO  Thread-1 91854 Actor:185 - RealPlayer received message Bet
+18:31:44 INFO  Thread-1 91854 Actor:185 - RealPlayer invoking listener for Bet
+18:31:44 INFO  Thread-1 91854 Actor:185 - RealPlayer received bet = 5.0
+18:31:44 INFO  Thread-1 91854 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:7C23D0A6F86079B2
+18:31:44 INFO  Thread-1 91855 Dealer:164 - no bot configured for charlie.bot.huey
+18:31:44 INFO  Thread-1 91855 Dealer:164 - no bot configured for charlie.bot.dewey
+18:31:44 INFO  Thread-1 91855 Dealer:258 - starting a game
+18:31:44 INFO  Thread-1 91855 Dealer:273 - hands at table + dealer = 2
+18:31:44 INFO  Thread-1 91855 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:31:44 INFO  Thread-1 91858 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:31:44 INFO  Thread-1 92113 Shoe:111 - cards size = 52 burn index = 36 index = 22
+18:31:44 INFO  Thread-1 92113 Shoe:135 - index = 23 burnIndex = 36 shuffle needed = false
+18:31:44 INFO  Thread-1 92113 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = C4
+18:31:45 INFO  Thread-1 92866 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:45 INFO  Thread-1 92867 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:45 INFO  Thread-1 92868 Shoe:111 - cards size = 52 burn index = 36 index = 23
+18:31:45 INFO  Thread-1 92868 Shoe:135 - index = 24 burnIndex = 36 shuffle needed = false
+18:31:46 INFO  Thread-1 93622 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:46 INFO  Thread-1 93624 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:46 INFO  Thread-1 93624 Shoe:111 - cards size = 52 burn index = 36 index = 24
+18:31:46 INFO  Thread-1 93624 Shoe:135 - index = 25 burnIndex = 36 shuffle needed = false
+18:31:46 INFO  Thread-1 93624 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = S2
+18:31:46 INFO  Thread-1 94376 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:46 INFO  Thread-1 94377 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:46 INFO  Thread-1 94377 Shoe:111 - cards size = 52 burn index = 36 index = 25
+18:31:46 INFO  Thread-1 94377 Shoe:135 - index = 26 burnIndex = 36 shuffle needed = false
+18:31:47 INFO  Thread-1 95132 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:47 INFO  Thread-1 95134 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:47 INFO  Thread-1 95134 Dealer:555 - going to next hand
+18:31:47 INFO  Thread-1 95134 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:31:47 INFO  Thread-1 95134 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:7C23D0A6F86079B2 to Timothys-MacBook-Pro.local/25.12.39.77
+18:31:47 INFO  Thread-1 95134 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:31:47 INFO  Thread-1 95135 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:31:47 INFO  Thread-1 95136 Actor:185 - RealPlayer waiting for connection on port 8501
+18:31:48 INFO  Thread-1 95858 Actor:185 - RealPlayer accepted connection on port 8501
+18:31:48 INFO  Thread-1 95859 Actor:185 - RealPlayer received message Hit
+18:31:48 INFO  Thread-1 95859 Actor:185 - RealPlayer invoking listener for Hit
+18:31:48 INFO  Thread-1 95859 Actor:185 - RealPlayer received request = Hit
+18:31:48 INFO  Thread-1 95859 Shoe:111 - cards size = 52 burn index = 36 index = 26
+18:31:48 INFO  Thread-1 95859 Shoe:135 - index = 27 burnIndex = 36 shuffle needed = false
+18:31:48 INFO  Thread-1 95859 Dealer:400 - hit hid = Timothys-MacBook-Pro.local:YOU:7C23D0A6F86079B2 with D9
+18:31:48 INFO  Thread-1 95859 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:48 INFO  Thread-1 95861 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:48 INFO  Thread-1 95862 Actor:185 - RealPlayer waiting for connection on port 8501
+18:31:49 INFO  Thread-1 96823 Actor:185 - RealPlayer accepted connection on port 8501
+18:31:49 INFO  Thread-1 96825 Actor:185 - RealPlayer received message Hit
+18:31:49 INFO  Thread-1 96825 Actor:185 - RealPlayer invoking listener for Hit
+18:31:49 INFO  Thread-1 96825 Actor:185 - RealPlayer received request = Hit
+18:31:49 INFO  Thread-1 96825 Shoe:111 - cards size = 52 burn index = 36 index = 27
+18:31:49 INFO  Thread-1 96825 Shoe:135 - index = 28 burnIndex = 36 shuffle needed = false
+18:31:49 INFO  Thread-1 96826 Dealer:400 - hit hid = Timothys-MacBook-Pro.local:YOU:7C23D0A6F86079B2 with DA
+18:31:49 INFO  Thread-1 96826 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:49 INFO  Thread-1 96827 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:49 INFO  Thread-1 96827 Actor:185 - RealPlayer waiting for connection on port 8501
+18:31:50 INFO  Thread-1 97974 Actor:185 - RealPlayer accepted connection on port 8501
+18:31:50 INFO  Thread-1 97976 Actor:185 - RealPlayer received message Hit
+18:31:50 INFO  Thread-1 97976 Actor:185 - RealPlayer invoking listener for Hit
+18:31:50 INFO  Thread-1 97976 Actor:185 - RealPlayer received request = Hit
+18:31:50 INFO  Thread-1 97976 Shoe:111 - cards size = 52 burn index = 36 index = 28
+18:31:50 INFO  Thread-1 97976 Shoe:135 - index = 29 burnIndex = 36 shuffle needed = false
+18:31:50 INFO  Thread-1 97976 Dealer:400 - hit hid = Timothys-MacBook-Pro.local:YOU:7C23D0A6F86079B2 with D10
+18:31:50 INFO  Thread-1 97976 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:50 INFO  Thread-1 97978 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:50 INFO  Thread-1 97978 Actor:185 - RealPlayer sending Bust to 25.12.39.77:8001
+18:31:50 INFO  Thread-1 97979 Actor:185 - RealPlayer sent successfully Bust to 25.12.39.77:8001
+18:31:50 INFO  Thread-1 97979 Dealer:555 - going to next hand
+18:31:50 INFO  Thread-1 97979 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:31:50 INFO  Thread-1 97980 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:31:50 INFO  Thread-1 97980 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:50 INFO  Thread-1 97981 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:50 INFO  Thread-1 97982 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:31:50 INFO  Thread-1 97982 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:31:50 INFO  Thread-1 97982 Actor:185 - RealPlayer waiting for connection on port 8501
+18:31:52 INFO  Thread-1 99591 Actor:185 - RealPlayer accepted connection on port 8501
+18:31:52 INFO  Thread-1 99593 Actor:185 - RealPlayer received message Bet
+18:31:52 INFO  Thread-1 99593 Actor:185 - RealPlayer invoking listener for Bet
+18:31:52 INFO  Thread-1 99593 Actor:185 - RealPlayer received bet = 5.0
+18:31:52 INFO  Thread-1 99594 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:17F4C86ED2759BF1
+18:31:52 INFO  Thread-1 99594 Dealer:164 - no bot configured for charlie.bot.huey
+18:31:52 INFO  Thread-1 99594 Dealer:164 - no bot configured for charlie.bot.dewey
+18:31:52 INFO  Thread-1 99595 Dealer:258 - starting a game
+18:31:52 INFO  Thread-1 99595 Dealer:273 - hands at table + dealer = 2
+18:31:52 INFO  Thread-1 99595 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:31:52 INFO  Thread-1 99596 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:31:52 INFO  Thread-1 99847 Shoe:111 - cards size = 52 burn index = 36 index = 29
+18:31:52 INFO  Thread-1 99847 Shoe:135 - index = 30 burnIndex = 36 shuffle needed = false
+18:31:52 INFO  Thread-1 99847 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = C9
+18:31:53 INFO  Thread-1 100602 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:53 INFO  Thread-1 100603 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:53 INFO  Thread-1 100603 Shoe:111 - cards size = 52 burn index = 36 index = 30
+18:31:53 INFO  Thread-1 100603 Shoe:135 - index = 31 burnIndex = 36 shuffle needed = false
+18:31:53 INFO  Thread-1 101358 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:53 INFO  Thread-1 101359 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:53 INFO  Thread-1 101359 Shoe:111 - cards size = 52 burn index = 36 index = 31
+18:31:53 INFO  Thread-1 101359 Shoe:135 - index = 32 burnIndex = 36 shuffle needed = false
+18:31:53 INFO  Thread-1 101359 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = H8
+18:31:54 INFO  Thread-1 102114 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:54 INFO  Thread-1 102115 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:54 INFO  Thread-1 102115 Shoe:111 - cards size = 52 burn index = 36 index = 32
+18:31:54 INFO  Thread-1 102115 Shoe:135 - index = 33 burnIndex = 36 shuffle needed = false
+18:31:55 INFO  Thread-1 102865 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:55 INFO  Thread-1 102866 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:55 INFO  Thread-1 102866 Dealer:555 - going to next hand
+18:31:55 INFO  Thread-1 102866 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:31:55 INFO  Thread-1 102866 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:17F4C86ED2759BF1 to Timothys-MacBook-Pro.local/25.12.39.77
+18:31:55 INFO  Thread-1 102866 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:31:55 INFO  Thread-1 102867 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:31:55 INFO  Thread-1 102867 Actor:185 - RealPlayer waiting for connection on port 8501
+18:31:56 INFO  Thread-1 104101 Actor:185 - RealPlayer accepted connection on port 8501
+18:31:56 INFO  Thread-1 104103 Actor:185 - RealPlayer received message Stay
+18:31:56 INFO  Thread-1 104103 Actor:185 - RealPlayer invoking listener for Stay
+18:31:56 INFO  Thread-1 104104 Actor:185 - RealPlayer received request = Stay
+18:31:56 INFO  Thread-1 104104 Dealer:449 - got STAY for Timothys-MacBook-Pro.local:YOU:17F4C86ED2759BF1
+18:31:56 INFO  Thread-1 104104 Dealer:555 - going to next hand
+18:31:56 INFO  Thread-1 104105 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:31:56 INFO  Thread-1 104106 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:31:56 INFO  Thread-1 104107 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:56 INFO  Thread-1 104108 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:56 INFO  Thread-1 104108 Actor:185 - RealPlayer sending Lose to 25.12.39.77:8001
+18:31:56 INFO  Thread-1 104110 Actor:185 - RealPlayer sent successfully Lose to 25.12.39.77:8001
+18:31:56 INFO  Thread-1 104110 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:31:56 INFO  Thread-1 104111 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:31:56 INFO  Thread-1 104111 Actor:185 - RealPlayer waiting for connection on port 8501
+18:31:58 INFO  Thread-1 105926 Actor:185 - RealPlayer accepted connection on port 8501
+18:31:58 INFO  Thread-1 105928 Actor:185 - RealPlayer received message Bet
+18:31:58 INFO  Thread-1 105928 Actor:185 - RealPlayer invoking listener for Bet
+18:31:58 INFO  Thread-1 105928 Actor:185 - RealPlayer received bet = 5.0
+18:31:58 INFO  Thread-1 105929 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:66D51650A59BFA45
+18:31:58 INFO  Thread-1 105930 Dealer:164 - no bot configured for charlie.bot.huey
+18:31:58 INFO  Thread-1 105930 Dealer:164 - no bot configured for charlie.bot.dewey
+18:31:58 INFO  Thread-1 105930 Dealer:258 - starting a game
+18:31:58 INFO  Thread-1 105930 Dealer:273 - hands at table + dealer = 2
+18:31:58 INFO  Thread-1 105930 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:31:58 INFO  Thread-1 105931 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:31:58 INFO  Thread-1 106181 Shoe:111 - cards size = 52 burn index = 36 index = 33
+18:31:58 INFO  Thread-1 106182 Shoe:135 - index = 34 burnIndex = 36 shuffle needed = false
+18:31:58 INFO  Thread-1 106182 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = DJ
+18:31:59 INFO  Thread-1 106932 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:31:59 INFO  Thread-1 106933 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:31:59 INFO  Thread-1 106933 Shoe:111 - cards size = 52 burn index = 36 index = 34
+18:31:59 INFO  Thread-1 106933 Shoe:135 - index = 35 burnIndex = 36 shuffle needed = false
+18:32:00 INFO  Thread-1 107687 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:32:00 INFO  Thread-1 107688 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:32:00 INFO  Thread-1 107688 Shoe:111 - cards size = 52 burn index = 36 index = 35
+18:32:00 INFO  Thread-1 107688 Shoe:135 - index = 36 burnIndex = 36 shuffle needed = true
+18:32:00 INFO  Thread-1 107688 Actor:185 - RealPlayer sending Shuffle to 25.12.39.77:8001
+18:32:00 INFO  Thread-1 107689 Actor:185 - RealPlayer sent successfully Shuffle to 25.12.39.77:8001
+18:32:00 INFO  Thread-1 107689 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = S5
+18:32:00 INFO  Thread-1 108440 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:32:00 INFO  Thread-1 108441 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:32:00 INFO  Thread-1 108441 Shoe:111 - cards size = 52 burn index = 36 index = 36
+18:32:01 INFO  Thread-1 109194 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:32:01 INFO  Thread-1 109195 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:32:01 INFO  Thread-1 109195 Dealer:555 - going to next hand
+18:32:01 INFO  Thread-1 109195 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:32:01 INFO  Thread-1 109195 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:66D51650A59BFA45 to Timothys-MacBook-Pro.local/25.12.39.77
+18:32:01 INFO  Thread-1 109195 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:32:01 INFO  Thread-1 109196 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:32:01 INFO  Thread-1 109196 Actor:185 - RealPlayer waiting for connection on port 8501
+18:32:02 INFO  Thread-1 110407 Actor:185 - RealPlayer accepted connection on port 8501
+18:32:02 INFO  Thread-1 110409 Actor:185 - RealPlayer received message Hit
+18:32:02 INFO  Thread-1 110410 Actor:185 - RealPlayer invoking listener for Hit
+18:32:02 INFO  Thread-1 110410 Actor:185 - RealPlayer received request = Hit
+18:32:02 INFO  Thread-1 110410 Shoe:111 - cards size = 52 burn index = 36 index = 37
+18:32:02 INFO  Thread-1 110410 Dealer:400 - hit hid = Timothys-MacBook-Pro.local:YOU:66D51650A59BFA45 with D7
+18:32:02 INFO  Thread-1 110410 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:32:02 INFO  Thread-1 110412 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:32:02 INFO  Thread-1 110412 Actor:185 - RealPlayer sending Bust to 25.12.39.77:8001
+18:32:02 INFO  Thread-1 110413 Actor:185 - RealPlayer sent successfully Bust to 25.12.39.77:8001
+18:32:02 INFO  Thread-1 110413 Dealer:555 - going to next hand
+18:32:02 INFO  Thread-1 110413 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:32:02 INFO  Thread-1 110414 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:32:02 INFO  Thread-1 110414 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:32:02 INFO  Thread-1 110415 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:32:02 INFO  Thread-1 110415 Shoe:102 - shuffling burn index = 35
+18:32:02 INFO  Thread-1 110415 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:32:02 INFO  Thread-1 110417 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:32:02 INFO  Thread-1 110417 Actor:185 - RealPlayer waiting for connection on port 8501
+18:32:06 INFO  Thread-1 114406 Actor:185 - RealPlayer accepted connection on port 8501
+18:32:06 INFO  Thread-1 114407 Actor:185 - RealPlayer received message Bet
+18:32:06 INFO  Thread-1 114407 Actor:185 - RealPlayer invoking listener for Bet
+18:32:06 INFO  Thread-1 114407 Actor:185 - RealPlayer received bet = 5.0
+18:32:06 INFO  Thread-1 114408 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:6BA6475EECABF4EB
+18:32:06 INFO  Thread-1 114408 Dealer:164 - no bot configured for charlie.bot.huey
+18:32:06 INFO  Thread-1 114408 Dealer:164 - no bot configured for charlie.bot.dewey
+18:32:06 INFO  Thread-1 114408 Dealer:258 - starting a game
+18:32:06 INFO  Thread-1 114408 Dealer:273 - hands at table + dealer = 2
+18:32:06 INFO  Thread-1 114408 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:32:06 INFO  Thread-1 114409 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:32:07 INFO  Thread-1 114660 Shoe:111 - cards size = 52 burn index = 35 index = 0
+18:32:07 INFO  Thread-1 114661 Shoe:135 - index = 1 burnIndex = 35 shuffle needed = false
+18:32:07 INFO  Thread-1 114661 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = C8
+18:32:07 INFO  Thread-1 115414 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:32:07 INFO  Thread-1 115415 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:32:07 INFO  Thread-1 115415 Shoe:111 - cards size = 52 burn index = 35 index = 1
+18:32:07 INFO  Thread-1 115415 Shoe:135 - index = 2 burnIndex = 35 shuffle needed = false
+18:32:08 INFO  Thread-1 116168 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:32:08 INFO  Thread-1 116170 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:32:08 INFO  Thread-1 116170 Shoe:111 - cards size = 52 burn index = 35 index = 2
+18:32:08 INFO  Thread-1 116170 Shoe:135 - index = 3 burnIndex = 35 shuffle needed = false
+18:32:08 INFO  Thread-1 116171 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = H3
+18:32:09 INFO  Thread-1 116922 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:32:09 INFO  Thread-1 116925 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:32:09 INFO  Thread-1 116925 Shoe:111 - cards size = 52 burn index = 35 index = 3
+18:32:09 INFO  Thread-1 116925 Shoe:135 - index = 4 burnIndex = 35 shuffle needed = false
+18:32:10 INFO  Thread-1 117679 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:32:10 INFO  Thread-1 117681 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:32:10 INFO  Thread-1 117681 Dealer:555 - going to next hand
+18:32:10 INFO  Thread-1 117682 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:32:10 INFO  Thread-1 117682 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:6BA6475EECABF4EB to Timothys-MacBook-Pro.local/25.12.39.77
+18:32:10 INFO  Thread-1 117683 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:32:10 INFO  Thread-1 117685 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:32:10 INFO  Thread-1 117686 Actor:185 - RealPlayer waiting for connection on port 8501
+18:32:11 INFO  Thread-1 118962 Actor:185 - RealPlayer accepted connection on port 8501
+18:32:11 INFO  Thread-1 118963 Actor:185 - RealPlayer received message DoubleDown
+18:32:11 INFO  Thread-1 118963 Actor:185 - RealPlayer invoking listener for DoubleDown
+18:32:11 INFO  Thread-1 118963 Actor:185 - RealPlayer received request = DoubleDown
+18:32:11 INFO  Thread-1 118963 Dealer:469 - got double down amt = 10.0 hid = Timothys-MacBook-Pro.local:YOU:6BA6475EECABF4EB
+18:32:11 INFO  Thread-1 118963 Shoe:111 - cards size = 52 burn index = 35 index = 4
+18:32:11 INFO  Thread-1 118963 Shoe:135 - index = 5 burnIndex = 35 shuffle needed = false
+18:32:11 INFO  Thread-1 118963 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:32:11 INFO  Thread-1 118964 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:32:11 INFO  Thread-1 118964 Dealer:555 - going to next hand
+18:32:11 INFO  Thread-1 118964 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:32:11 INFO  Thread-1 118966 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:32:11 INFO  Thread-1 118966 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:32:11 INFO  Thread-1 118968 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:32:11 INFO  Thread-1 118968 Actor:185 - RealPlayer sending Lose to 25.12.39.77:8001
+18:32:11 INFO  Thread-1 118969 Actor:185 - RealPlayer sent successfully Lose to 25.12.39.77:8001
+18:32:11 INFO  Thread-1 118969 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:32:11 INFO  Thread-1 118969 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:32:11 INFO  Thread-1 118969 Actor:185 - RealPlayer waiting for connection on port 8501
+18:32:12 INFO  Thread-1 120392 Actor:185 - RealPlayer accepted connection on port 8501
+18:32:12 INFO  Thread-1 120393 Actor:185 - RealPlayer received message Bet
+18:32:12 INFO  Thread-1 120393 Actor:185 - RealPlayer invoking listener for Bet
+18:32:12 INFO  Thread-1 120393 Actor:185 - RealPlayer received bet = 5.0
+18:32:12 INFO  Thread-1 120393 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:5A05468A01747C02
+18:32:12 INFO  Thread-1 120393 Dealer:164 - no bot configured for charlie.bot.huey
+18:32:12 INFO  Thread-1 120394 Dealer:164 - no bot configured for charlie.bot.dewey
+18:32:12 INFO  Thread-1 120394 Dealer:258 - starting a game
+18:32:12 INFO  Thread-1 120394 Dealer:273 - hands at table + dealer = 2
+18:32:12 INFO  Thread-1 120394 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:32:12 INFO  Thread-1 120396 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:32:13 INFO  Thread-1 120647 Shoe:111 - cards size = 52 burn index = 35 index = 5
+18:32:13 INFO  Thread-1 120648 Shoe:135 - index = 6 burnIndex = 35 shuffle needed = false
+18:32:13 INFO  Thread-1 120648 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = C7
+18:32:13 INFO  Thread-1 121399 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:32:13 INFO  Thread-1 121400 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:32:13 INFO  Thread-1 121401 Shoe:111 - cards size = 52 burn index = 35 index = 6
+18:32:13 INFO  Thread-1 121401 Shoe:135 - index = 7 burnIndex = 35 shuffle needed = false
+18:32:14 INFO  Thread-1 122154 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:32:14 INFO  Thread-1 122155 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:32:14 INFO  Thread-1 122155 Shoe:111 - cards size = 52 burn index = 35 index = 7
+18:32:14 INFO  Thread-1 122155 Shoe:135 - index = 8 burnIndex = 35 shuffle needed = false
+18:32:14 INFO  Thread-1 122155 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = C10
+18:32:15 INFO  Thread-1 122908 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:32:15 INFO  Thread-1 122910 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:32:15 INFO  Thread-1 122910 Shoe:111 - cards size = 52 burn index = 35 index = 8
+18:32:15 INFO  Thread-1 122910 Shoe:135 - index = 9 burnIndex = 35 shuffle needed = false
+18:32:16 INFO  Thread-1 123662 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:32:16 INFO  Thread-1 123664 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:32:16 INFO  Thread-1 123664 Dealer:555 - going to next hand
+18:32:16 INFO  Thread-1 123664 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:32:16 INFO  Thread-1 123665 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:5A05468A01747C02 to Timothys-MacBook-Pro.local/25.12.39.77
+18:32:16 INFO  Thread-1 123665 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:32:16 INFO  Thread-1 123666 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:32:16 INFO  Thread-1 123666 Actor:185 - RealPlayer waiting for connection on port 8501
+18:32:18 INFO  Thread-1 126210 Actor:185 - RealPlayer accepted connection on port 8501
+18:32:18 INFO  Thread-1 126212 Actor:185 - RealPlayer received message Hit
+18:32:18 INFO  Thread-1 126212 Actor:185 - RealPlayer invoking listener for Hit
+18:32:18 INFO  Thread-1 126213 Actor:185 - RealPlayer received request = Hit
+18:32:18 INFO  Thread-1 126213 Shoe:111 - cards size = 52 burn index = 35 index = 9
+18:32:18 INFO  Thread-1 126213 Shoe:135 - index = 10 burnIndex = 35 shuffle needed = false
+18:32:18 INFO  Thread-1 126213 Dealer:400 - hit hid = Timothys-MacBook-Pro.local:YOU:5A05468A01747C02 with CJ
+18:32:18 INFO  Thread-1 126213 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:32:18 INFO  Thread-1 126216 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:32:18 INFO  Thread-1 126216 Actor:185 - RealPlayer sending Bust to 25.12.39.77:8001
+18:32:18 INFO  Thread-1 126217 Actor:185 - RealPlayer sent successfully Bust to 25.12.39.77:8001
+18:32:18 INFO  Thread-1 126218 Dealer:555 - going to next hand
+18:32:18 INFO  Thread-1 126218 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:32:18 INFO  Thread-1 126219 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:32:18 INFO  Thread-1 126219 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:32:18 INFO  Thread-1 126220 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:32:18 INFO  Thread-1 126220 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:32:18 INFO  Thread-1 126221 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:32:18 INFO  Thread-1 126221 Actor:185 - RealPlayer waiting for connection on port 8501
+18:32:20 INFO  Thread-1 127790 Actor:185 - RealPlayer accepted connection on port 8501
+18:32:20 INFO  Thread-1 127791 Actor:185 - RealPlayer received message Bet
+18:32:20 INFO  Thread-1 127791 Actor:185 - RealPlayer invoking listener for Bet
+18:32:20 INFO  Thread-1 127791 Actor:185 - RealPlayer received bet = 5.0
+18:32:20 INFO  Thread-1 127791 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:62AB9A5FAC72D733
+18:32:20 INFO  Thread-1 127791 Dealer:164 - no bot configured for charlie.bot.huey
+18:32:20 INFO  Thread-1 127791 Dealer:164 - no bot configured for charlie.bot.dewey
+18:32:20 INFO  Thread-1 127792 Dealer:258 - starting a game
+18:32:20 INFO  Thread-1 127792 Dealer:273 - hands at table + dealer = 2
+18:32:20 INFO  Thread-1 127792 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:32:20 INFO  Thread-1 127793 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:32:20 INFO  Thread-1 128043 Shoe:111 - cards size = 52 burn index = 35 index = 10
+18:32:20 INFO  Thread-1 128043 Shoe:135 - index = 11 burnIndex = 35 shuffle needed = false
+18:32:20 INFO  Thread-1 128043 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = S2
+18:32:21 INFO  Thread-1 128798 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:32:21 INFO  Thread-1 128802 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:32:21 INFO  Thread-1 128802 Shoe:111 - cards size = 52 burn index = 35 index = 11
+18:32:21 INFO  Thread-1 128803 Shoe:135 - index = 12 burnIndex = 35 shuffle needed = false
+18:32:22 INFO  Thread-1 129556 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:32:22 INFO  Thread-1 129557 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:32:22 INFO  Thread-1 129557 Shoe:111 - cards size = 52 burn index = 35 index = 12
+18:32:22 INFO  Thread-1 129557 Shoe:135 - index = 13 burnIndex = 35 shuffle needed = false
+18:32:22 INFO  Thread-1 129557 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = CQ
+18:32:22 INFO  Thread-1 130310 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:32:22 INFO  Thread-1 130311 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:32:22 INFO  Thread-1 130311 Shoe:111 - cards size = 52 burn index = 35 index = 13
+18:32:22 INFO  Thread-1 130311 Shoe:135 - index = 14 burnIndex = 35 shuffle needed = false
+18:32:23 INFO  Thread-1 131064 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:32:23 INFO  Thread-1 131065 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:32:23 INFO  Thread-1 131066 Dealer:555 - going to next hand
+18:32:23 INFO  Thread-1 131066 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:32:23 INFO  Thread-1 131066 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:62AB9A5FAC72D733 to Timothys-MacBook-Pro.local/25.12.39.77
+18:32:23 INFO  Thread-1 131066 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:32:23 INFO  Thread-1 131067 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:32:23 INFO  Thread-1 131067 Actor:185 - RealPlayer waiting for connection on port 8501
+18:32:59 INFO  Thread-1 166710 Actor:185 - RealPlayer accepted connection on port 8501
+18:32:59 INFO  Thread-1 166712 Actor:185 - RealPlayer received message Hit
+18:32:59 INFO  Thread-1 166712 Actor:185 - RealPlayer invoking listener for Hit
+18:32:59 INFO  Thread-1 166712 Actor:185 - RealPlayer received request = Hit
+18:32:59 INFO  Thread-1 166712 Shoe:111 - cards size = 52 burn index = 35 index = 14
+18:32:59 INFO  Thread-1 166712 Shoe:135 - index = 15 burnIndex = 35 shuffle needed = false
+18:32:59 INFO  Thread-1 166712 Dealer:400 - hit hid = Timothys-MacBook-Pro.local:YOU:62AB9A5FAC72D733 with H9
+18:32:59 INFO  Thread-1 166713 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:32:59 INFO  Thread-1 166714 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:32:59 INFO  Thread-1 166714 Dealer:555 - going to next hand
+18:32:59 INFO  Thread-1 166714 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:32:59 INFO  Thread-1 166715 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:32:59 INFO  Thread-1 166715 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:32:59 INFO  Thread-1 166716 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:32:59 INFO  Thread-1 166717 Shoe:111 - cards size = 52 burn index = 35 index = 15
+18:32:59 INFO  Thread-1 166717 Shoe:135 - index = 16 burnIndex = 35 shuffle needed = false
+18:32:59 INFO  Thread-1 167473 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:32:59 INFO  Thread-1 167474 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:32:59 INFO  Thread-1 167474 Shoe:111 - cards size = 52 burn index = 35 index = 16
+18:32:59 INFO  Thread-1 167474 Shoe:135 - index = 17 burnIndex = 35 shuffle needed = false
+18:33:00 INFO  Thread-1 168227 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:33:00 INFO  Thread-1 168229 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:33:00 INFO  Thread-1 168229 Actor:185 - RealPlayer sending Win to 25.12.39.77:8001
+18:33:00 INFO  Thread-1 168229 Actor:185 - RealPlayer sent successfully Win to 25.12.39.77:8001
+18:33:00 INFO  Thread-1 168229 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:33:00 INFO  Thread-1 168230 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:33:00 INFO  Thread-1 168230 Actor:185 - RealPlayer waiting for connection on port 8501
+18:33:02 INFO  Thread-1 169672 Actor:185 - RealPlayer accepted connection on port 8501
+18:33:02 INFO  Thread-1 169675 Actor:185 - RealPlayer received message Bet
+18:33:02 INFO  Thread-1 169676 Actor:185 - RealPlayer invoking listener for Bet
+18:33:02 INFO  Thread-1 169676 Actor:185 - RealPlayer received bet = 5.0
+18:33:02 INFO  Thread-1 169676 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:36AF612A1EE408AB
+18:33:02 INFO  Thread-1 169676 Dealer:164 - no bot configured for charlie.bot.huey
+18:33:02 INFO  Thread-1 169676 Dealer:164 - no bot configured for charlie.bot.dewey
+18:33:02 INFO  Thread-1 169676 Dealer:258 - starting a game
+18:33:02 INFO  Thread-1 169676 Dealer:273 - hands at table + dealer = 2
+18:33:02 INFO  Thread-1 169676 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:33:02 INFO  Thread-1 169677 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:33:02 INFO  Thread-1 169928 Shoe:111 - cards size = 52 burn index = 35 index = 17
+18:33:02 INFO  Thread-1 169928 Shoe:135 - index = 18 burnIndex = 35 shuffle needed = false
+18:33:02 INFO  Thread-1 169929 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = HA
+18:33:03 INFO  Thread-1 170682 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:33:03 INFO  Thread-1 170684 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:33:03 INFO  Thread-1 170684 Shoe:111 - cards size = 52 burn index = 35 index = 18
+18:33:03 INFO  Thread-1 170684 Shoe:135 - index = 19 burnIndex = 35 shuffle needed = false
+18:33:03 INFO  Thread-1 171439 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:33:03 INFO  Thread-1 171440 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:33:03 INFO  Thread-1 171440 Shoe:111 - cards size = 52 burn index = 35 index = 19
+18:33:03 INFO  Thread-1 171441 Shoe:135 - index = 20 burnIndex = 35 shuffle needed = false
+18:33:03 INFO  Thread-1 171441 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = D6
+18:33:04 INFO  Thread-1 172191 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:33:04 INFO  Thread-1 172192 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:33:04 INFO  Thread-1 172192 Shoe:111 - cards size = 52 burn index = 35 index = 20
+18:33:04 INFO  Thread-1 172192 Shoe:135 - index = 21 burnIndex = 35 shuffle needed = false
+18:33:05 INFO  Thread-1 172946 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:33:05 INFO  Thread-1 172947 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:33:05 INFO  Thread-1 172948 Dealer:555 - going to next hand
+18:33:05 INFO  Thread-1 172948 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:33:05 INFO  Thread-1 172948 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:36AF612A1EE408AB to Timothys-MacBook-Pro.local/25.12.39.77
+18:33:05 INFO  Thread-1 172948 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:33:05 INFO  Thread-1 172950 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:33:05 INFO  Thread-1 172950 Actor:185 - RealPlayer waiting for connection on port 8501
+18:33:06 INFO  Thread-1 173683 Actor:185 - RealPlayer accepted connection on port 8501
+18:33:06 INFO  Thread-1 173684 Actor:185 - RealPlayer received message Stay
+18:33:06 INFO  Thread-1 173684 Actor:185 - RealPlayer invoking listener for Stay
+18:33:06 INFO  Thread-1 173684 Actor:185 - RealPlayer received request = Stay
+18:33:06 INFO  Thread-1 173684 Dealer:449 - got STAY for Timothys-MacBook-Pro.local:YOU:36AF612A1EE408AB
+18:33:06 INFO  Thread-1 173684 Dealer:555 - going to next hand
+18:33:06 INFO  Thread-1 173684 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:33:06 INFO  Thread-1 173686 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:33:06 INFO  Thread-1 173686 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:33:06 INFO  Thread-1 173689 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:33:06 INFO  Thread-1 173689 Actor:185 - RealPlayer sending Lose to 25.12.39.77:8001
+18:33:06 INFO  Thread-1 173691 Actor:185 - RealPlayer sent successfully Lose to 25.12.39.77:8001
+18:33:06 INFO  Thread-1 173691 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:33:06 INFO  Thread-1 173692 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:33:06 INFO  Thread-1 173692 Actor:185 - RealPlayer waiting for connection on port 8501
+18:33:07 INFO  Thread-1 174792 Actor:185 - RealPlayer accepted connection on port 8501
+18:33:07 INFO  Thread-1 174793 Actor:185 - RealPlayer received message Bet
+18:33:07 INFO  Thread-1 174793 Actor:185 - RealPlayer invoking listener for Bet
+18:33:07 INFO  Thread-1 174794 Actor:185 - RealPlayer received bet = 5.0
+18:33:07 INFO  Thread-1 174794 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:55164FA87B7B337
+18:33:07 INFO  Thread-1 174794 Dealer:164 - no bot configured for charlie.bot.huey
+18:33:07 INFO  Thread-1 174794 Dealer:164 - no bot configured for charlie.bot.dewey
+18:33:07 INFO  Thread-1 174794 Dealer:258 - starting a game
+18:33:07 INFO  Thread-1 174794 Dealer:273 - hands at table + dealer = 2
+18:33:07 INFO  Thread-1 174794 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:33:07 INFO  Thread-1 174795 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:33:07 INFO  Thread-1 175050 Shoe:111 - cards size = 52 burn index = 35 index = 21
+18:33:07 INFO  Thread-1 175050 Shoe:135 - index = 22 burnIndex = 35 shuffle needed = false
+18:33:07 INFO  Thread-1 175050 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = DQ
+18:33:08 INFO  Thread-1 175805 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:33:08 INFO  Thread-1 175806 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:33:08 INFO  Thread-1 175807 Shoe:111 - cards size = 52 burn index = 35 index = 22
+18:33:08 INFO  Thread-1 175807 Shoe:135 - index = 23 burnIndex = 35 shuffle needed = false
+18:33:09 INFO  Thread-1 176562 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:33:09 INFO  Thread-1 176563 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:33:09 INFO  Thread-1 176564 Shoe:111 - cards size = 52 burn index = 35 index = 23
+18:33:09 INFO  Thread-1 176564 Shoe:135 - index = 24 burnIndex = 35 shuffle needed = false
+18:33:09 INFO  Thread-1 176564 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = S5
+18:33:09 INFO  Thread-1 177318 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:33:09 INFO  Thread-1 177320 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:33:09 INFO  Thread-1 177320 Shoe:111 - cards size = 52 burn index = 35 index = 24
+18:33:09 INFO  Thread-1 177320 Shoe:135 - index = 25 burnIndex = 35 shuffle needed = false
+18:33:10 INFO  Thread-1 178072 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:33:10 INFO  Thread-1 178074 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:33:10 INFO  Thread-1 178074 Dealer:555 - going to next hand
+18:33:10 INFO  Thread-1 178075 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:33:10 INFO  Thread-1 178075 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:55164FA87B7B337 to Timothys-MacBook-Pro.local/25.12.39.77
+18:33:10 INFO  Thread-1 178075 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:33:10 INFO  Thread-1 178076 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:33:10 INFO  Thread-1 178076 Actor:185 - RealPlayer waiting for connection on port 8501
+18:33:11 INFO  Thread-1 179433 Actor:185 - RealPlayer accepted connection on port 8501
+18:33:11 INFO  Thread-1 179434 Actor:185 - RealPlayer received message Hit
+18:33:11 INFO  Thread-1 179434 Actor:185 - RealPlayer invoking listener for Hit
+18:33:11 INFO  Thread-1 179434 Actor:185 - RealPlayer received request = Hit
+18:33:11 INFO  Thread-1 179434 Shoe:111 - cards size = 52 burn index = 35 index = 25
+18:33:11 INFO  Thread-1 179435 Shoe:135 - index = 26 burnIndex = 35 shuffle needed = false
+18:33:11 INFO  Thread-1 179435 Dealer:400 - hit hid = Timothys-MacBook-Pro.local:YOU:55164FA87B7B337 with C9
+18:33:11 INFO  Thread-1 179435 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:33:11 INFO  Thread-1 179437 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:33:11 INFO  Thread-1 179437 Actor:185 - RealPlayer sending Bust to 25.12.39.77:8001
+18:33:11 INFO  Thread-1 179438 Actor:185 - RealPlayer sent successfully Bust to 25.12.39.77:8001
+18:33:11 INFO  Thread-1 179438 Dealer:555 - going to next hand
+18:33:11 INFO  Thread-1 179438 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:33:11 INFO  Thread-1 179438 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:33:11 INFO  Thread-1 179439 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:33:11 INFO  Thread-1 179441 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:33:11 INFO  Thread-1 179441 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:33:11 INFO  Thread-1 179443 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:33:11 INFO  Thread-1 179444 Actor:185 - RealPlayer waiting for connection on port 8501
+18:33:12 INFO  Thread-1 180335 Actor:185 - RealPlayer accepted connection on port 8501
+18:33:12 INFO  Thread-1 180337 Actor:185 - RealPlayer received message Bet
+18:33:12 INFO  Thread-1 180337 Actor:185 - RealPlayer invoking listener for Bet
+18:33:12 INFO  Thread-1 180338 Actor:185 - RealPlayer received bet = 5.0
+18:33:12 INFO  Thread-1 180338 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:52A9E491C0733393
+18:33:12 INFO  Thread-1 180338 Dealer:164 - no bot configured for charlie.bot.huey
+18:33:12 INFO  Thread-1 180338 Dealer:164 - no bot configured for charlie.bot.dewey
+18:33:12 INFO  Thread-1 180338 Dealer:258 - starting a game
+18:33:12 INFO  Thread-1 180338 Dealer:273 - hands at table + dealer = 2
+18:33:12 INFO  Thread-1 180338 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:33:12 INFO  Thread-1 180339 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:33:13 INFO  Thread-1 180593 Shoe:111 - cards size = 52 burn index = 35 index = 26
+18:33:13 INFO  Thread-1 180593 Shoe:135 - index = 27 burnIndex = 35 shuffle needed = false
+18:33:13 INFO  Thread-1 180593 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = SK
+18:33:13 INFO  Thread-1 181347 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:33:13 INFO  Thread-1 181348 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:33:13 INFO  Thread-1 181348 Shoe:111 - cards size = 52 burn index = 35 index = 27
+18:33:13 INFO  Thread-1 181349 Shoe:135 - index = 28 burnIndex = 35 shuffle needed = false
+18:33:14 INFO  Thread-1 182101 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:33:14 INFO  Thread-1 182103 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:33:14 INFO  Thread-1 182104 Shoe:111 - cards size = 52 burn index = 35 index = 28
+18:33:14 INFO  Thread-1 182104 Shoe:135 - index = 29 burnIndex = 35 shuffle needed = false
+18:33:14 INFO  Thread-1 182104 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = C5
+18:33:15 INFO  Thread-1 182856 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:33:15 INFO  Thread-1 182857 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:33:15 INFO  Thread-1 182857 Shoe:111 - cards size = 52 burn index = 35 index = 29
+18:33:15 INFO  Thread-1 182857 Shoe:135 - index = 30 burnIndex = 35 shuffle needed = false
+18:33:16 INFO  Thread-1 183610 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:33:16 INFO  Thread-1 183611 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:33:16 INFO  Thread-1 183611 Dealer:555 - going to next hand
+18:33:16 INFO  Thread-1 183611 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:33:16 INFO  Thread-1 183612 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:52A9E491C0733393 to Timothys-MacBook-Pro.local/25.12.39.77
+18:33:16 INFO  Thread-1 183612 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:33:16 INFO  Thread-1 183612 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:33:16 INFO  Thread-1 183612 Actor:185 - RealPlayer waiting for connection on port 8501
+18:33:16 INFO  Thread-1 183967 Actor:185 - RealPlayer accepted connection on port 8501
+18:33:16 INFO  Thread-1 183967 Actor:185 - RealPlayer received message Hit
+18:33:16 INFO  Thread-1 183968 Actor:185 - RealPlayer invoking listener for Hit
+18:33:16 INFO  Thread-1 183968 Actor:185 - RealPlayer received request = Hit
+18:33:16 INFO  Thread-1 183968 Shoe:111 - cards size = 52 burn index = 35 index = 30
+18:33:16 INFO  Thread-1 183968 Shoe:135 - index = 31 burnIndex = 35 shuffle needed = false
+18:33:16 INFO  Thread-1 183968 Dealer:400 - hit hid = Timothys-MacBook-Pro.local:YOU:52A9E491C0733393 with H4
+18:33:16 INFO  Thread-1 183968 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:33:16 INFO  Thread-1 183969 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:33:16 INFO  Thread-1 183969 Actor:185 - RealPlayer waiting for connection on port 8501
+18:33:17 INFO  Thread-1 185459 Actor:185 - RealPlayer accepted connection on port 8501
+18:33:17 INFO  Thread-1 185461 Actor:185 - RealPlayer received message Stay
+18:33:17 INFO  Thread-1 185461 Actor:185 - RealPlayer invoking listener for Stay
+18:33:17 INFO  Thread-1 185461 Actor:185 - RealPlayer received request = Stay
+18:33:17 INFO  Thread-1 185461 Dealer:449 - got STAY for Timothys-MacBook-Pro.local:YOU:52A9E491C0733393
+18:33:17 INFO  Thread-1 185461 Dealer:555 - going to next hand
+18:33:17 INFO  Thread-1 185461 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:33:17 INFO  Thread-1 185463 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:33:17 INFO  Thread-1 185463 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:33:17 INFO  Thread-1 185465 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:33:17 INFO  Thread-1 185465 Shoe:111 - cards size = 52 burn index = 35 index = 31
+18:33:17 INFO  Thread-1 185465 Shoe:135 - index = 32 burnIndex = 35 shuffle needed = false
+18:33:18 INFO  Thread-1 186217 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:33:18 INFO  Thread-1 186218 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:33:18 INFO  Thread-1 186218 Shoe:111 - cards size = 52 burn index = 35 index = 32
+18:33:18 INFO  Thread-1 186218 Shoe:135 - index = 33 burnIndex = 35 shuffle needed = false
+18:33:19 INFO  Thread-1 186972 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:33:19 INFO  Thread-1 186973 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:33:19 INFO  Thread-1 186973 Actor:185 - RealPlayer sending Win to 25.12.39.77:8001
+18:33:19 INFO  Thread-1 186973 Actor:185 - RealPlayer sent successfully Win to 25.12.39.77:8001
+18:33:19 INFO  Thread-1 186973 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:33:19 INFO  Thread-1 186974 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:33:19 INFO  Thread-1 186974 Actor:185 - RealPlayer waiting for connection on port 8501
+18:33:20 INFO  Thread-1 188116 Actor:185 - RealPlayer accepted connection on port 8501
+18:33:20 INFO  Thread-1 188117 Actor:185 - RealPlayer received message Bet
+18:33:20 INFO  Thread-1 188117 Actor:185 - RealPlayer invoking listener for Bet
+18:33:20 INFO  Thread-1 188117 Actor:185 - RealPlayer received bet = 5.0
+18:33:20 INFO  Thread-1 188117 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:4AA68AB53C176D3A
+18:33:20 INFO  Thread-1 188117 Dealer:164 - no bot configured for charlie.bot.huey
+18:33:20 INFO  Thread-1 188117 Dealer:164 - no bot configured for charlie.bot.dewey
+18:33:20 INFO  Thread-1 188117 Dealer:258 - starting a game
+18:33:20 INFO  Thread-1 188117 Dealer:273 - hands at table + dealer = 2
+18:33:20 INFO  Thread-1 188118 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:33:20 INFO  Thread-1 188118 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:33:20 INFO  Thread-1 188373 Shoe:111 - cards size = 52 burn index = 35 index = 33
+18:33:20 INFO  Thread-1 188453 Shoe:135 - index = 34 burnIndex = 35 shuffle needed = false
+18:33:20 INFO  Thread-1 188456 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = S6
+18:33:21 INFO  Thread-1 189207 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:33:21 INFO  Thread-1 189207 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:33:21 INFO  Thread-1 189208 Shoe:111 - cards size = 52 burn index = 35 index = 34
+18:33:21 INFO  Thread-1 189208 Shoe:135 - index = 35 burnIndex = 35 shuffle needed = true
+18:33:21 INFO  Thread-1 189208 Actor:185 - RealPlayer sending Shuffle to 25.12.39.77:8001
+18:33:21 INFO  Thread-1 189208 Actor:185 - RealPlayer sent successfully Shuffle to 25.12.39.77:8001
+18:33:22 INFO  Thread-1 189963 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:33:22 INFO  Thread-1 189965 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:33:22 INFO  Thread-1 189965 Shoe:111 - cards size = 52 burn index = 35 index = 35
+18:33:22 INFO  Thread-1 189965 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = SJ
+18:33:23 INFO  Thread-1 190718 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:33:23 INFO  Thread-1 190719 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:33:23 INFO  Thread-1 190719 Shoe:111 - cards size = 52 burn index = 35 index = 36
+18:33:23 INFO  Thread-1 191470 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:33:23 INFO  Thread-1 191471 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:33:23 INFO  Thread-1 191471 Dealer:555 - going to next hand
+18:33:23 INFO  Thread-1 191471 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:33:23 INFO  Thread-1 191471 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:4AA68AB53C176D3A to Timothys-MacBook-Pro.local/25.12.39.77
+18:33:23 INFO  Thread-1 191471 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:33:23 INFO  Thread-1 191472 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:33:23 INFO  Thread-1 191473 Actor:185 - RealPlayer waiting for connection on port 8501
+18:33:25 INFO  Thread-1 192728 Actor:185 - RealPlayer accepted connection on port 8501
+18:33:25 INFO  Thread-1 192728 Actor:185 - RealPlayer received message Hit
+18:33:25 INFO  Thread-1 192729 Actor:185 - RealPlayer invoking listener for Hit
+18:33:25 INFO  Thread-1 192729 Actor:185 - RealPlayer received request = Hit
+18:33:25 INFO  Thread-1 192729 Shoe:111 - cards size = 52 burn index = 35 index = 37
+18:33:25 INFO  Thread-1 192729 Dealer:400 - hit hid = Timothys-MacBook-Pro.local:YOU:4AA68AB53C176D3A with S4
+18:33:25 INFO  Thread-1 192729 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:33:25 INFO  Thread-1 192730 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:33:25 INFO  Thread-1 192731 Actor:185 - RealPlayer waiting for connection on port 8501
+18:33:26 INFO  Thread-1 193681 Actor:185 - RealPlayer accepted connection on port 8501
+18:33:26 INFO  Thread-1 193682 Actor:185 - RealPlayer received message Stay
+18:33:26 INFO  Thread-1 193682 Actor:185 - RealPlayer invoking listener for Stay
+18:33:26 INFO  Thread-1 193682 Actor:185 - RealPlayer received request = Stay
+18:33:26 INFO  Thread-1 193682 Dealer:449 - got STAY for Timothys-MacBook-Pro.local:YOU:4AA68AB53C176D3A
+18:33:26 INFO  Thread-1 193682 Dealer:555 - going to next hand
+18:33:26 INFO  Thread-1 193682 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:33:26 INFO  Thread-1 193683 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:33:26 INFO  Thread-1 193683 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:33:26 INFO  Thread-1 193684 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:33:26 INFO  Thread-1 193684 Shoe:111 - cards size = 52 burn index = 35 index = 38
+18:33:26 INFO  Thread-1 194439 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:33:26 INFO  Thread-1 194439 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:33:26 INFO  Thread-1 194439 Actor:185 - RealPlayer sending Win to 25.12.39.77:8001
+18:33:26 INFO  Thread-1 194440 Actor:185 - RealPlayer sent successfully Win to 25.12.39.77:8001
+18:33:26 INFO  Thread-1 194440 Shoe:102 - shuffling burn index = 35
+18:33:26 INFO  Thread-1 194440 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:33:26 INFO  Thread-1 194440 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:33:26 INFO  Thread-1 194440 Actor:185 - RealPlayer waiting for connection on port 8501
+18:33:30 INFO  Thread-1 198358 Actor:185 - RealPlayer accepted connection on port 8501
+18:33:30 INFO  Thread-1 198359 Actor:185 - RealPlayer received message Bet
+18:33:30 INFO  Thread-1 198359 Actor:185 - RealPlayer invoking listener for Bet
+18:33:30 INFO  Thread-1 198359 Actor:185 - RealPlayer received bet = 5.0
+18:33:30 INFO  Thread-1 198359 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:4692CC64362B78E0
+18:33:30 INFO  Thread-1 198359 Dealer:164 - no bot configured for charlie.bot.huey
+18:33:30 INFO  Thread-1 198359 Dealer:164 - no bot configured for charlie.bot.dewey
+18:33:30 INFO  Thread-1 198360 Dealer:258 - starting a game
+18:33:30 INFO  Thread-1 198360 Dealer:273 - hands at table + dealer = 2
+18:33:30 INFO  Thread-1 198360 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:33:30 INFO  Thread-1 198360 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:33:31 INFO  Thread-1 198613 Shoe:111 - cards size = 52 burn index = 35 index = 0
+18:33:31 INFO  Thread-1 198613 Shoe:135 - index = 1 burnIndex = 35 shuffle needed = false
+18:33:31 INFO  Thread-1 198613 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = DQ
+18:33:31 INFO  Thread-1 199368 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:33:31 INFO  Thread-1 199369 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:33:31 INFO  Thread-1 199369 Shoe:111 - cards size = 52 burn index = 35 index = 1
+18:33:31 INFO  Thread-1 199369 Shoe:135 - index = 2 burnIndex = 35 shuffle needed = false
+18:33:32 INFO  Thread-1 200121 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:33:32 INFO  Thread-1 200122 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:33:32 INFO  Thread-1 200122 Shoe:111 - cards size = 52 burn index = 35 index = 2
+18:33:32 INFO  Thread-1 200122 Shoe:135 - index = 3 burnIndex = 35 shuffle needed = false
+18:33:32 INFO  Thread-1 200122 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = D7
+18:33:33 INFO  Thread-1 200872 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:33:33 INFO  Thread-1 200873 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:33:33 INFO  Thread-1 200873 Shoe:111 - cards size = 52 burn index = 35 index = 3
+18:33:33 INFO  Thread-1 200873 Shoe:135 - index = 4 burnIndex = 35 shuffle needed = false
+18:33:34 INFO  Thread-1 201623 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:33:34 INFO  Thread-1 201625 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:33:34 INFO  Thread-1 201625 Dealer:555 - going to next hand
+18:33:34 INFO  Thread-1 201625 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:33:34 INFO  Thread-1 201626 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:4692CC64362B78E0 to Timothys-MacBook-Pro.local/25.12.39.77
+18:33:34 INFO  Thread-1 201626 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:33:34 INFO  Thread-1 201626 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:33:34 INFO  Thread-1 201626 Actor:185 - RealPlayer waiting for connection on port 8501
+18:34:21 INFO  Thread-1 248655 Actor:185 - RealPlayer accepted connection on port 8501
+18:34:21 INFO  Thread-1 248656 Actor:185 - RealPlayer received message Stay
+18:34:21 INFO  Thread-1 248656 Actor:185 - RealPlayer invoking listener for Stay
+18:34:21 INFO  Thread-1 248657 Actor:185 - RealPlayer received request = Stay
+18:34:21 INFO  Thread-1 248657 Dealer:449 - got STAY for Timothys-MacBook-Pro.local:YOU:4692CC64362B78E0
+18:34:21 INFO  Thread-1 248657 Dealer:555 - going to next hand
+18:34:21 INFO  Thread-1 248657 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:34:21 INFO  Thread-1 248658 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:34:21 INFO  Thread-1 248659 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:21 INFO  Thread-1 248660 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:21 INFO  Thread-1 248660 Actor:185 - RealPlayer sending Lose to 25.12.39.77:8001
+18:34:21 INFO  Thread-1 248661 Actor:185 - RealPlayer sent successfully Lose to 25.12.39.77:8001
+18:34:21 INFO  Thread-1 248662 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:34:21 INFO  Thread-1 248664 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:34:21 INFO  Thread-1 248664 Actor:185 - RealPlayer waiting for connection on port 8501
+18:34:30 INFO  Thread-1 257534 Actor:185 - RealPlayer accepted connection on port 8501
+18:34:30 INFO  Thread-1 257535 Actor:185 - RealPlayer received message Bet
+18:34:30 INFO  Thread-1 257535 Actor:185 - RealPlayer invoking listener for Bet
+18:34:30 INFO  Thread-1 257535 Actor:185 - RealPlayer received bet = 5.0
+18:34:30 INFO  Thread-1 257536 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:1231AD60F9D4D93A
+18:34:30 INFO  Thread-1 257536 Dealer:164 - no bot configured for charlie.bot.huey
+18:34:30 INFO  Thread-1 257536 Dealer:164 - no bot configured for charlie.bot.dewey
+18:34:30 INFO  Thread-1 257536 Dealer:258 - starting a game
+18:34:30 INFO  Thread-1 257536 Dealer:273 - hands at table + dealer = 2
+18:34:30 INFO  Thread-1 257536 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:34:30 INFO  Thread-1 257537 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:34:30 INFO  Thread-1 257791 Shoe:111 - cards size = 52 burn index = 35 index = 4
+18:34:30 INFO  Thread-1 257792 Shoe:135 - index = 5 burnIndex = 35 shuffle needed = false
+18:34:30 INFO  Thread-1 257792 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = D6
+18:34:31 INFO  Thread-1 258545 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:31 INFO  Thread-1 258546 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:31 INFO  Thread-1 258546 Shoe:111 - cards size = 52 burn index = 35 index = 5
+18:34:31 INFO  Thread-1 258546 Shoe:135 - index = 6 burnIndex = 35 shuffle needed = false
+18:34:31 INFO  Thread-1 259297 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:31 INFO  Thread-1 259299 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:31 INFO  Thread-1 259299 Shoe:111 - cards size = 52 burn index = 35 index = 6
+18:34:31 INFO  Thread-1 259299 Shoe:135 - index = 7 burnIndex = 35 shuffle needed = false
+18:34:31 INFO  Thread-1 259299 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = C4
+18:34:32 INFO  Thread-1 260051 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:32 INFO  Thread-1 260052 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:32 INFO  Thread-1 260052 Shoe:111 - cards size = 52 burn index = 35 index = 7
+18:34:32 INFO  Thread-1 260052 Shoe:135 - index = 8 burnIndex = 35 shuffle needed = false
+18:34:33 INFO  Thread-1 260806 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:33 INFO  Thread-1 260808 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:33 INFO  Thread-1 260808 Dealer:555 - going to next hand
+18:34:33 INFO  Thread-1 260808 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:34:33 INFO  Thread-1 260809 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:1231AD60F9D4D93A to Timothys-MacBook-Pro.local/25.12.39.77
+18:34:33 INFO  Thread-1 260809 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:34:33 INFO  Thread-1 260809 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:34:33 INFO  Thread-1 260810 Actor:185 - RealPlayer waiting for connection on port 8501
+18:34:34 INFO  Thread-1 261969 Actor:185 - RealPlayer accepted connection on port 8501
+18:34:34 INFO  Thread-1 261970 Actor:185 - RealPlayer received message Hit
+18:34:34 INFO  Thread-1 261970 Actor:185 - RealPlayer invoking listener for Hit
+18:34:34 INFO  Thread-1 261970 Actor:185 - RealPlayer received request = Hit
+18:34:34 INFO  Thread-1 261970 Shoe:111 - cards size = 52 burn index = 35 index = 8
+18:34:34 INFO  Thread-1 261970 Shoe:135 - index = 9 burnIndex = 35 shuffle needed = false
+18:34:34 INFO  Thread-1 261971 Dealer:400 - hit hid = Timothys-MacBook-Pro.local:YOU:1231AD60F9D4D93A with S10
+18:34:34 INFO  Thread-1 261971 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:34 INFO  Thread-1 261972 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:34 INFO  Thread-1 261972 Actor:185 - RealPlayer waiting for connection on port 8501
+18:34:35 INFO  Thread-1 262767 Actor:185 - RealPlayer accepted connection on port 8501
+18:34:35 INFO  Thread-1 262769 Actor:185 - RealPlayer received message Stay
+18:34:35 INFO  Thread-1 262770 Actor:185 - RealPlayer invoking listener for Stay
+18:34:35 INFO  Thread-1 262770 Actor:185 - RealPlayer received request = Stay
+18:34:35 INFO  Thread-1 262770 Dealer:449 - got STAY for Timothys-MacBook-Pro.local:YOU:1231AD60F9D4D93A
+18:34:35 INFO  Thread-1 262770 Dealer:555 - going to next hand
+18:34:35 INFO  Thread-1 262770 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:34:35 INFO  Thread-1 262771 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:34:35 INFO  Thread-1 262771 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:35 INFO  Thread-1 262773 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:35 INFO  Thread-1 262773 Shoe:111 - cards size = 52 burn index = 35 index = 9
+18:34:35 INFO  Thread-1 262773 Shoe:135 - index = 10 burnIndex = 35 shuffle needed = false
+18:34:36 INFO  Thread-1 263526 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:36 INFO  Thread-1 263527 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:36 INFO  Thread-1 263527 Actor:185 - RealPlayer sending Win to 25.12.39.77:8001
+18:34:36 INFO  Thread-1 263527 Actor:185 - RealPlayer sent successfully Win to 25.12.39.77:8001
+18:34:36 INFO  Thread-1 263527 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:34:36 INFO  Thread-1 263527 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:34:36 INFO  Thread-1 263527 Actor:185 - RealPlayer waiting for connection on port 8501
+18:34:36 INFO  Thread-1 264426 Actor:185 - RealPlayer accepted connection on port 8501
+18:34:36 INFO  Thread-1 264428 Actor:185 - RealPlayer received message Bet
+18:34:36 INFO  Thread-1 264428 Actor:185 - RealPlayer invoking listener for Bet
+18:34:36 INFO  Thread-1 264428 Actor:185 - RealPlayer received bet = 5.0
+18:34:36 INFO  Thread-1 264428 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:51A2EE42EE27CE02
+18:34:36 INFO  Thread-1 264428 Dealer:164 - no bot configured for charlie.bot.huey
+18:34:36 INFO  Thread-1 264428 Dealer:164 - no bot configured for charlie.bot.dewey
+18:34:36 INFO  Thread-1 264428 Dealer:258 - starting a game
+18:34:36 INFO  Thread-1 264428 Dealer:273 - hands at table + dealer = 2
+18:34:36 INFO  Thread-1 264428 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:34:36 INFO  Thread-1 264430 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:34:37 INFO  Thread-1 264684 Shoe:111 - cards size = 52 burn index = 35 index = 10
+18:34:37 INFO  Thread-1 264684 Shoe:135 - index = 11 burnIndex = 35 shuffle needed = false
+18:34:37 INFO  Thread-1 264684 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = C2
+18:34:37 INFO  Thread-1 265439 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:37 INFO  Thread-1 265440 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:37 INFO  Thread-1 265440 Shoe:111 - cards size = 52 burn index = 35 index = 11
+18:34:37 INFO  Thread-1 265440 Shoe:135 - index = 12 burnIndex = 35 shuffle needed = false
+18:34:38 INFO  Thread-1 266193 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:38 INFO  Thread-1 266194 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:38 INFO  Thread-1 266195 Shoe:111 - cards size = 52 burn index = 35 index = 12
+18:34:38 INFO  Thread-1 266195 Shoe:135 - index = 13 burnIndex = 35 shuffle needed = false
+18:34:38 INFO  Thread-1 266195 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = D5
+18:34:39 INFO  Thread-1 266948 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:39 INFO  Thread-1 266950 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:39 INFO  Thread-1 266950 Shoe:111 - cards size = 52 burn index = 35 index = 13
+18:34:39 INFO  Thread-1 266950 Shoe:135 - index = 14 burnIndex = 35 shuffle needed = false
+18:34:40 INFO  Thread-1 267702 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:40 INFO  Thread-1 267703 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:40 INFO  Thread-1 267703 Dealer:555 - going to next hand
+18:34:40 INFO  Thread-1 267703 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:34:40 INFO  Thread-1 267703 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:51A2EE42EE27CE02 to Timothys-MacBook-Pro.local/25.12.39.77
+18:34:40 INFO  Thread-1 267703 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:34:40 INFO  Thread-1 267703 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:34:40 INFO  Thread-1 267704 Actor:185 - RealPlayer waiting for connection on port 8501
+18:34:40 INFO  Thread-1 268209 Actor:185 - RealPlayer accepted connection on port 8501
+18:34:40 INFO  Thread-1 268209 Actor:185 - RealPlayer received message Hit
+18:34:40 INFO  Thread-1 268209 Actor:185 - RealPlayer invoking listener for Hit
+18:34:40 INFO  Thread-1 268209 Actor:185 - RealPlayer received request = Hit
+18:34:40 INFO  Thread-1 268209 Shoe:111 - cards size = 52 burn index = 35 index = 14
+18:34:40 INFO  Thread-1 268209 Shoe:135 - index = 15 burnIndex = 35 shuffle needed = false
+18:34:40 INFO  Thread-1 268209 Dealer:400 - hit hid = Timothys-MacBook-Pro.local:YOU:51A2EE42EE27CE02 with C5
+18:34:40 INFO  Thread-1 268209 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:40 INFO  Thread-1 268210 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:40 INFO  Thread-1 268210 Actor:185 - RealPlayer waiting for connection on port 8501
+18:34:41 INFO  Thread-1 269121 Actor:185 - RealPlayer accepted connection on port 8501
+18:34:41 INFO  Thread-1 269122 Actor:185 - RealPlayer received message Hit
+18:34:41 INFO  Thread-1 269122 Actor:185 - RealPlayer invoking listener for Hit
+18:34:41 INFO  Thread-1 269122 Actor:185 - RealPlayer received request = Hit
+18:34:41 INFO  Thread-1 269122 Shoe:111 - cards size = 52 burn index = 35 index = 15
+18:34:41 INFO  Thread-1 269122 Shoe:135 - index = 16 burnIndex = 35 shuffle needed = false
+18:34:41 INFO  Thread-1 269122 Dealer:400 - hit hid = Timothys-MacBook-Pro.local:YOU:51A2EE42EE27CE02 with S8
+18:34:41 INFO  Thread-1 269122 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:41 INFO  Thread-1 269123 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:41 INFO  Thread-1 269123 Actor:185 - RealPlayer waiting for connection on port 8501
+18:34:42 INFO  Thread-1 270012 Actor:185 - RealPlayer accepted connection on port 8501
+18:34:42 INFO  Thread-1 270014 Actor:185 - RealPlayer received message Stay
+18:34:42 INFO  Thread-1 270014 Actor:185 - RealPlayer invoking listener for Stay
+18:34:42 INFO  Thread-1 270014 Actor:185 - RealPlayer received request = Stay
+18:34:42 INFO  Thread-1 270014 Dealer:449 - got STAY for Timothys-MacBook-Pro.local:YOU:51A2EE42EE27CE02
+18:34:42 INFO  Thread-1 270014 Dealer:555 - going to next hand
+18:34:42 INFO  Thread-1 270014 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:34:42 INFO  Thread-1 270015 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:34:42 INFO  Thread-1 270015 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:42 INFO  Thread-1 270016 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:42 INFO  Thread-1 270016 Shoe:111 - cards size = 52 burn index = 35 index = 16
+18:34:42 INFO  Thread-1 270016 Shoe:135 - index = 17 burnIndex = 35 shuffle needed = false
+18:34:43 INFO  Thread-1 270766 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:43 INFO  Thread-1 270768 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:43 INFO  Thread-1 270768 Shoe:111 - cards size = 52 burn index = 35 index = 17
+18:34:43 INFO  Thread-1 270768 Shoe:135 - index = 18 burnIndex = 35 shuffle needed = false
+18:34:44 INFO  Thread-1 271522 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:44 INFO  Thread-1 271524 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:44 INFO  Thread-1 271524 Actor:185 - RealPlayer sending Win to 25.12.39.77:8001
+18:34:44 INFO  Thread-1 271525 Actor:185 - RealPlayer sent successfully Win to 25.12.39.77:8001
+18:34:44 INFO  Thread-1 271525 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:34:44 INFO  Thread-1 271526 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:34:44 INFO  Thread-1 271526 Actor:185 - RealPlayer waiting for connection on port 8501
+18:34:44 INFO  Thread-1 272361 Actor:185 - RealPlayer accepted connection on port 8501
+18:34:44 INFO  Thread-1 272363 Actor:185 - RealPlayer received message Bet
+18:34:44 INFO  Thread-1 272363 Actor:185 - RealPlayer invoking listener for Bet
+18:34:44 INFO  Thread-1 272363 Actor:185 - RealPlayer received bet = 5.0
+18:34:44 INFO  Thread-1 272363 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:3FA5C9C6C3B75B3D
+18:34:44 INFO  Thread-1 272363 Dealer:164 - no bot configured for charlie.bot.huey
+18:34:44 INFO  Thread-1 272363 Dealer:164 - no bot configured for charlie.bot.dewey
+18:34:44 INFO  Thread-1 272363 Dealer:258 - starting a game
+18:34:44 INFO  Thread-1 272363 Dealer:273 - hands at table + dealer = 2
+18:34:44 INFO  Thread-1 272363 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:34:44 INFO  Thread-1 272364 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:34:45 INFO  Thread-1 272616 Shoe:111 - cards size = 52 burn index = 35 index = 18
+18:34:45 INFO  Thread-1 272616 Shoe:135 - index = 19 burnIndex = 35 shuffle needed = false
+18:34:45 INFO  Thread-1 272617 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = DJ
+18:34:45 INFO  Thread-1 273368 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:45 INFO  Thread-1 273369 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:45 INFO  Thread-1 273369 Shoe:111 - cards size = 52 burn index = 35 index = 19
+18:34:45 INFO  Thread-1 273370 Shoe:135 - index = 20 burnIndex = 35 shuffle needed = false
+18:34:46 INFO  Thread-1 274124 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:46 INFO  Thread-1 274126 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:46 INFO  Thread-1 274126 Shoe:111 - cards size = 52 burn index = 35 index = 20
+18:34:46 INFO  Thread-1 274126 Shoe:135 - index = 21 burnIndex = 35 shuffle needed = false
+18:34:46 INFO  Thread-1 274127 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = S5
+18:34:47 INFO  Thread-1 274877 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:47 INFO  Thread-1 274878 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:47 INFO  Thread-1 274879 Shoe:111 - cards size = 52 burn index = 35 index = 21
+18:34:47 INFO  Thread-1 274879 Shoe:135 - index = 22 burnIndex = 35 shuffle needed = false
+18:34:48 INFO  Thread-1 275629 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:48 INFO  Thread-1 275631 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:48 INFO  Thread-1 275631 Dealer:555 - going to next hand
+18:34:48 INFO  Thread-1 275631 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:34:48 INFO  Thread-1 275632 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:3FA5C9C6C3B75B3D to Timothys-MacBook-Pro.local/25.12.39.77
+18:34:48 INFO  Thread-1 275632 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:34:48 INFO  Thread-1 275633 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:34:48 INFO  Thread-1 275633 Actor:185 - RealPlayer waiting for connection on port 8501
+18:34:48 INFO  Thread-1 276059 Actor:185 - RealPlayer accepted connection on port 8501
+18:34:48 INFO  Thread-1 276060 Actor:185 - RealPlayer received message Hit
+18:34:48 INFO  Thread-1 276061 Actor:185 - RealPlayer invoking listener for Hit
+18:34:48 INFO  Thread-1 276061 Actor:185 - RealPlayer received request = Hit
+18:34:48 INFO  Thread-1 276062 Shoe:111 - cards size = 52 burn index = 35 index = 22
+18:34:48 INFO  Thread-1 276062 Shoe:135 - index = 23 burnIndex = 35 shuffle needed = false
+18:34:48 INFO  Thread-1 276062 Dealer:400 - hit hid = Timothys-MacBook-Pro.local:YOU:3FA5C9C6C3B75B3D with S9
+18:34:48 INFO  Thread-1 276062 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:48 INFO  Thread-1 276063 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:48 INFO  Thread-1 276063 Actor:185 - RealPlayer sending Bust to 25.12.39.77:8001
+18:34:48 INFO  Thread-1 276064 Actor:185 - RealPlayer sent successfully Bust to 25.12.39.77:8001
+18:34:48 INFO  Thread-1 276064 Dealer:555 - going to next hand
+18:34:48 INFO  Thread-1 276064 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:34:48 INFO  Thread-1 276065 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:34:48 INFO  Thread-1 276065 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:48 INFO  Thread-1 276065 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:48 INFO  Thread-1 276066 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:34:48 INFO  Thread-1 276067 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:34:48 INFO  Thread-1 276068 Actor:185 - RealPlayer waiting for connection on port 8501
+18:34:49 INFO  Thread-1 277304 Actor:185 - RealPlayer accepted connection on port 8501
+18:34:49 INFO  Thread-1 277306 Actor:185 - RealPlayer received message Bet
+18:34:49 INFO  Thread-1 277306 Actor:185 - RealPlayer invoking listener for Bet
+18:34:49 INFO  Thread-1 277306 Actor:185 - RealPlayer received bet = 5.0
+18:34:49 INFO  Thread-1 277306 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:40DD56EE4B10CBCF
+18:34:49 INFO  Thread-1 277306 Dealer:164 - no bot configured for charlie.bot.huey
+18:34:49 INFO  Thread-1 277307 Dealer:164 - no bot configured for charlie.bot.dewey
+18:34:49 INFO  Thread-1 277307 Dealer:258 - starting a game
+18:34:49 INFO  Thread-1 277307 Dealer:273 - hands at table + dealer = 2
+18:34:49 INFO  Thread-1 277307 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:34:49 INFO  Thread-1 277308 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:34:50 INFO  Thread-1 277562 Shoe:111 - cards size = 52 burn index = 35 index = 23
+18:34:50 INFO  Thread-1 277562 Shoe:135 - index = 24 burnIndex = 35 shuffle needed = false
+18:34:50 INFO  Thread-1 277562 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = S7
+18:34:50 INFO  Thread-1 278315 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:50 INFO  Thread-1 278316 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:50 INFO  Thread-1 278317 Shoe:111 - cards size = 52 burn index = 35 index = 24
+18:34:50 INFO  Thread-1 278317 Shoe:135 - index = 25 burnIndex = 35 shuffle needed = false
+18:34:51 INFO  Thread-1 279067 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:51 INFO  Thread-1 279070 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:51 INFO  Thread-1 279070 Shoe:111 - cards size = 52 burn index = 35 index = 25
+18:34:51 INFO  Thread-1 279070 Shoe:135 - index = 26 burnIndex = 35 shuffle needed = false
+18:34:51 INFO  Thread-1 279070 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = S3
+18:34:52 INFO  Thread-1 279824 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:52 INFO  Thread-1 279825 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:52 INFO  Thread-1 279826 Shoe:111 - cards size = 52 burn index = 35 index = 26
+18:34:52 INFO  Thread-1 279826 Shoe:135 - index = 27 burnIndex = 35 shuffle needed = false
+18:34:53 INFO  Thread-1 280578 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:53 INFO  Thread-1 280580 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:53 INFO  Thread-1 280580 Dealer:555 - going to next hand
+18:34:53 INFO  Thread-1 280580 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:34:53 INFO  Thread-1 280580 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:40DD56EE4B10CBCF to Timothys-MacBook-Pro.local/25.12.39.77
+18:34:53 INFO  Thread-1 280580 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:34:53 INFO  Thread-1 280581 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:34:53 INFO  Thread-1 280581 Actor:185 - RealPlayer waiting for connection on port 8501
+18:34:54 INFO  Thread-1 281787 Actor:185 - RealPlayer accepted connection on port 8501
+18:34:54 INFO  Thread-1 281788 Actor:185 - RealPlayer received message DoubleDown
+18:34:54 INFO  Thread-1 281788 Actor:185 - RealPlayer invoking listener for DoubleDown
+18:34:54 INFO  Thread-1 281788 Actor:185 - RealPlayer received request = DoubleDown
+18:34:54 INFO  Thread-1 281788 Dealer:469 - got double down amt = 10.0 hid = Timothys-MacBook-Pro.local:YOU:40DD56EE4B10CBCF
+18:34:54 INFO  Thread-1 281788 Shoe:111 - cards size = 52 burn index = 35 index = 27
+18:34:54 INFO  Thread-1 281788 Shoe:135 - index = 28 burnIndex = 35 shuffle needed = false
+18:34:54 INFO  Thread-1 281789 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:54 INFO  Thread-1 281789 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:54 INFO  Thread-1 281789 Dealer:555 - going to next hand
+18:34:54 INFO  Thread-1 281790 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:34:54 INFO  Thread-1 281790 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:34:54 INFO  Thread-1 281790 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:54 INFO  Thread-1 281791 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:54 INFO  Thread-1 281791 Actor:185 - RealPlayer sending Win to 25.12.39.77:8001
+18:34:54 INFO  Thread-1 281794 Actor:185 - RealPlayer sent successfully Win to 25.12.39.77:8001
+18:34:54 INFO  Thread-1 281794 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:34:54 INFO  Thread-1 281795 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:34:54 INFO  Thread-1 281795 Actor:185 - RealPlayer waiting for connection on port 8501
+18:34:55 INFO  Thread-1 283031 Actor:185 - RealPlayer accepted connection on port 8501
+18:34:55 INFO  Thread-1 283032 Actor:185 - RealPlayer received message Bet
+18:34:55 INFO  Thread-1 283032 Actor:185 - RealPlayer invoking listener for Bet
+18:34:55 INFO  Thread-1 283032 Actor:185 - RealPlayer received bet = 5.0
+18:34:55 INFO  Thread-1 283032 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:191B1B2D7071D20E
+18:34:55 INFO  Thread-1 283032 Dealer:164 - no bot configured for charlie.bot.huey
+18:34:55 INFO  Thread-1 283032 Dealer:164 - no bot configured for charlie.bot.dewey
+18:34:55 INFO  Thread-1 283032 Dealer:258 - starting a game
+18:34:55 INFO  Thread-1 283032 Dealer:273 - hands at table + dealer = 2
+18:34:55 INFO  Thread-1 283032 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:34:55 INFO  Thread-1 283034 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:34:55 INFO  Thread-1 283285 Shoe:111 - cards size = 52 burn index = 35 index = 28
+18:34:55 INFO  Thread-1 283286 Shoe:135 - index = 29 burnIndex = 35 shuffle needed = false
+18:34:55 INFO  Thread-1 283286 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = H6
+18:34:56 INFO  Thread-1 284037 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:56 INFO  Thread-1 284038 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:56 INFO  Thread-1 284039 Shoe:111 - cards size = 52 burn index = 35 index = 29
+18:34:56 INFO  Thread-1 284039 Shoe:135 - index = 30 burnIndex = 35 shuffle needed = false
+18:34:57 INFO  Thread-1 284792 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:57 INFO  Thread-1 284793 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:57 INFO  Thread-1 284794 Shoe:111 - cards size = 52 burn index = 35 index = 30
+18:34:57 INFO  Thread-1 284794 Shoe:135 - index = 31 burnIndex = 35 shuffle needed = false
+18:34:57 INFO  Thread-1 284794 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = DK
+18:34:58 INFO  Thread-1 285548 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:58 INFO  Thread-1 285549 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:58 INFO  Thread-1 285550 Shoe:111 - cards size = 52 burn index = 35 index = 31
+18:34:58 INFO  Thread-1 285550 Shoe:135 - index = 32 burnIndex = 35 shuffle needed = false
+18:34:58 INFO  Thread-1 286300 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:58 INFO  Thread-1 286302 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:58 INFO  Thread-1 286302 Dealer:555 - going to next hand
+18:34:58 INFO  Thread-1 286303 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:34:58 INFO  Thread-1 286303 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:191B1B2D7071D20E to Timothys-MacBook-Pro.local/25.12.39.77
+18:34:58 INFO  Thread-1 286303 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:34:58 INFO  Thread-1 286304 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:34:58 INFO  Thread-1 286304 Actor:185 - RealPlayer waiting for connection on port 8501
+18:34:59 INFO  Thread-1 287028 Actor:185 - RealPlayer accepted connection on port 8501
+18:34:59 INFO  Thread-1 287029 Actor:185 - RealPlayer received message Hit
+18:34:59 INFO  Thread-1 287029 Actor:185 - RealPlayer invoking listener for Hit
+18:34:59 INFO  Thread-1 287030 Actor:185 - RealPlayer received request = Hit
+18:34:59 INFO  Thread-1 287030 Shoe:111 - cards size = 52 burn index = 35 index = 32
+18:34:59 INFO  Thread-1 287030 Shoe:135 - index = 33 burnIndex = 35 shuffle needed = false
+18:34:59 INFO  Thread-1 287030 Dealer:400 - hit hid = Timothys-MacBook-Pro.local:YOU:191B1B2D7071D20E with H8
+18:34:59 INFO  Thread-1 287030 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:59 INFO  Thread-1 287031 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:59 INFO  Thread-1 287032 Actor:185 - RealPlayer sending Bust to 25.12.39.77:8001
+18:34:59 INFO  Thread-1 287033 Actor:185 - RealPlayer sent successfully Bust to 25.12.39.77:8001
+18:34:59 INFO  Thread-1 287033 Dealer:555 - going to next hand
+18:34:59 INFO  Thread-1 287033 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:34:59 INFO  Thread-1 287034 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:34:59 INFO  Thread-1 287034 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:34:59 INFO  Thread-1 287035 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:34:59 INFO  Thread-1 287035 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:34:59 INFO  Thread-1 287036 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:34:59 INFO  Thread-1 287036 Actor:185 - RealPlayer waiting for connection on port 8501
+18:35:00 INFO  Thread-1 287990 Actor:185 - RealPlayer accepted connection on port 8501
+18:35:00 INFO  Thread-1 287991 Actor:185 - RealPlayer received message Bet
+18:35:00 INFO  Thread-1 287991 Actor:185 - RealPlayer invoking listener for Bet
+18:35:00 INFO  Thread-1 287992 Actor:185 - RealPlayer received bet = 5.0
+18:35:00 INFO  Thread-1 287992 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:18A4D0B26B1C0458
+18:35:00 INFO  Thread-1 287992 Dealer:164 - no bot configured for charlie.bot.huey
+18:35:00 INFO  Thread-1 287992 Dealer:164 - no bot configured for charlie.bot.dewey
+18:35:00 INFO  Thread-1 287992 Dealer:258 - starting a game
+18:35:00 INFO  Thread-1 287992 Dealer:273 - hands at table + dealer = 2
+18:35:00 INFO  Thread-1 287992 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:35:00 INFO  Thread-1 287993 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:35:00 INFO  Thread-1 288245 Shoe:111 - cards size = 52 burn index = 35 index = 33
+18:35:00 INFO  Thread-1 288245 Shoe:135 - index = 34 burnIndex = 35 shuffle needed = false
+18:35:00 INFO  Thread-1 288245 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = HQ
+18:35:01 INFO  Thread-1 288998 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:35:01 INFO  Thread-1 288999 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:35:01 INFO  Thread-1 288999 Shoe:111 - cards size = 52 burn index = 35 index = 34
+18:35:01 INFO  Thread-1 288999 Shoe:135 - index = 35 burnIndex = 35 shuffle needed = true
+18:35:01 INFO  Thread-1 288999 Actor:185 - RealPlayer sending Shuffle to 25.12.39.77:8001
+18:35:01 INFO  Thread-1 289000 Actor:185 - RealPlayer sent successfully Shuffle to 25.12.39.77:8001
+18:35:02 INFO  Thread-1 289754 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:35:02 INFO  Thread-1 289756 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:35:02 INFO  Thread-1 289756 Shoe:111 - cards size = 52 burn index = 35 index = 35
+18:35:02 INFO  Thread-1 289756 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = D8
+18:35:03 INFO  Thread-1 290508 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:35:03 INFO  Thread-1 290510 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:35:03 INFO  Thread-1 290510 Shoe:111 - cards size = 52 burn index = 35 index = 36
+18:35:03 INFO  Thread-1 291260 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:35:03 INFO  Thread-1 291261 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:35:03 INFO  Thread-1 291261 Dealer:555 - going to next hand
+18:35:03 INFO  Thread-1 291261 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:35:03 INFO  Thread-1 291261 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:18A4D0B26B1C0458 to Timothys-MacBook-Pro.local/25.12.39.77
+18:35:03 INFO  Thread-1 291261 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:35:03 INFO  Thread-1 291261 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:35:03 INFO  Thread-1 291261 Actor:185 - RealPlayer waiting for connection on port 8501
+18:35:25 INFO  Thread-1 313256 Actor:185 - RealPlayer accepted connection on port 8501
+18:35:25 INFO  Thread-1 313257 Actor:185 - RealPlayer received message Stay
+18:35:25 INFO  Thread-1 313257 Actor:185 - RealPlayer invoking listener for Stay
+18:35:25 INFO  Thread-1 313257 Actor:185 - RealPlayer received request = Stay
+18:35:25 INFO  Thread-1 313257 Dealer:449 - got STAY for Timothys-MacBook-Pro.local:YOU:18A4D0B26B1C0458
+18:35:25 INFO  Thread-1 313257 Dealer:555 - going to next hand
+18:35:25 INFO  Thread-1 313257 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:35:25 INFO  Thread-1 313259 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:35:25 INFO  Thread-1 313259 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:35:25 INFO  Thread-1 313261 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:35:25 INFO  Thread-1 313261 Shoe:111 - cards size = 52 burn index = 35 index = 37
+18:35:26 INFO  Thread-1 314015 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:35:26 INFO  Thread-1 314017 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:35:26 INFO  Thread-1 314017 Actor:185 - RealPlayer sending Win to 25.12.39.77:8001
+18:35:26 INFO  Thread-1 314018 Actor:185 - RealPlayer sent successfully Win to 25.12.39.77:8001
+18:35:26 INFO  Thread-1 314018 Shoe:102 - shuffling burn index = 35
+18:35:26 INFO  Thread-1 314019 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:35:26 INFO  Thread-1 314020 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:35:26 INFO  Thread-1 314020 Actor:185 - RealPlayer waiting for connection on port 8501
+18:35:44 INFO  Thread-1 331823 Actor:185 - RealPlayer accepted connection on port 8501
+18:35:44 INFO  Thread-1 331823 Actor:185 - RealPlayer received message Bet
+18:35:44 INFO  Thread-1 331823 Actor:185 - RealPlayer invoking listener for Bet
+18:35:44 INFO  Thread-1 331823 Actor:185 - RealPlayer received bet = 5.0
+18:35:44 INFO  Thread-1 331823 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:51144C4420CBDA5D
+18:35:44 INFO  Thread-1 331823 Dealer:164 - no bot configured for charlie.bot.huey
+18:35:44 INFO  Thread-1 331824 Dealer:164 - no bot configured for charlie.bot.dewey
+18:35:44 INFO  Thread-1 331824 Dealer:258 - starting a game
+18:35:44 INFO  Thread-1 331824 Dealer:273 - hands at table + dealer = 2
+18:35:44 INFO  Thread-1 331824 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:35:44 INFO  Thread-1 331825 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:35:44 INFO  Thread-1 332076 Shoe:111 - cards size = 52 burn index = 35 index = 0
+18:35:44 INFO  Thread-1 332077 Shoe:135 - index = 1 burnIndex = 35 shuffle needed = false
+18:35:44 INFO  Thread-1 332077 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = D7
+18:35:45 INFO  Thread-1 332828 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:35:45 INFO  Thread-1 332830 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:35:45 INFO  Thread-1 332831 Shoe:111 - cards size = 52 burn index = 35 index = 1
+18:35:45 INFO  Thread-1 332831 Shoe:135 - index = 2 burnIndex = 35 shuffle needed = false
+18:35:46 INFO  Thread-1 333583 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:35:46 INFO  Thread-1 333585 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:35:46 INFO  Thread-1 333585 Shoe:111 - cards size = 52 burn index = 35 index = 2
+18:35:46 INFO  Thread-1 333585 Shoe:135 - index = 3 burnIndex = 35 shuffle needed = false
+18:35:46 INFO  Thread-1 333585 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = S5
+18:35:46 INFO  Thread-1 334338 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:35:46 INFO  Thread-1 334339 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:35:46 INFO  Thread-1 334339 Shoe:111 - cards size = 52 burn index = 35 index = 3
+18:35:46 INFO  Thread-1 334339 Shoe:135 - index = 4 burnIndex = 35 shuffle needed = false
+18:35:47 INFO  Thread-1 335094 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:35:47 INFO  Thread-1 335096 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:35:47 INFO  Thread-1 335096 Dealer:555 - going to next hand
+18:35:47 INFO  Thread-1 335096 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:35:47 INFO  Thread-1 335096 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:51144C4420CBDA5D to Timothys-MacBook-Pro.local/25.12.39.77
+18:35:47 INFO  Thread-1 335096 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:35:47 INFO  Thread-1 335097 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:35:47 INFO  Thread-1 335097 Actor:185 - RealPlayer waiting for connection on port 8501
+18:36:06 INFO  Thread-1 354405 Actor:185 - RealPlayer accepted connection on port 8501
+18:36:06 INFO  Thread-1 354406 Actor:185 - RealPlayer received message Hit
+18:36:06 INFO  Thread-1 354406 Actor:185 - RealPlayer invoking listener for Hit
+18:36:06 INFO  Thread-1 354406 Actor:185 - RealPlayer received request = Hit
+18:36:06 INFO  Thread-1 354406 Shoe:111 - cards size = 52 burn index = 35 index = 4
+18:36:06 INFO  Thread-1 354407 Shoe:135 - index = 5 burnIndex = 35 shuffle needed = false
+18:36:06 INFO  Thread-1 354407 Dealer:400 - hit hid = Timothys-MacBook-Pro.local:YOU:51144C4420CBDA5D with S10
+18:36:06 INFO  Thread-1 354407 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:36:06 INFO  Thread-1 354408 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:36:06 INFO  Thread-1 354408 Actor:185 - RealPlayer sending Bust to 25.12.39.77:8001
+18:36:06 INFO  Thread-1 354409 Actor:185 - RealPlayer sent successfully Bust to 25.12.39.77:8001
+18:36:06 INFO  Thread-1 354409 Dealer:555 - going to next hand
+18:36:06 INFO  Thread-1 354409 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:36:06 INFO  Thread-1 354410 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:36:06 INFO  Thread-1 354411 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:36:06 INFO  Thread-1 354412 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:36:06 INFO  Thread-1 354413 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:36:06 INFO  Thread-1 354413 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:36:06 INFO  Thread-1 354414 Actor:185 - RealPlayer waiting for connection on port 8501
+18:38:44 INFO  Thread-1 512336 Actor:185 - RealPlayer accepted connection on port 8501
+18:38:44 INFO  Thread-1 512338 Actor:185 - RealPlayer received message Bet
+18:38:44 INFO  Thread-1 512338 Actor:185 - RealPlayer invoking listener for Bet
+18:38:44 INFO  Thread-1 512338 Actor:185 - RealPlayer received bet = 5.0
+18:38:44 INFO  Thread-1 512339 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:6091C41CE087BF1D
+18:38:44 INFO  Thread-1 512339 Dealer:164 - no bot configured for charlie.bot.huey
+18:38:44 INFO  Thread-1 512339 Dealer:164 - no bot configured for charlie.bot.dewey
+18:38:44 INFO  Thread-1 512339 Dealer:258 - starting a game
+18:38:44 INFO  Thread-1 512339 Dealer:273 - hands at table + dealer = 2
+18:38:44 INFO  Thread-1 512339 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:38:44 INFO  Thread-1 512342 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:38:45 INFO  Thread-1 512596 Shoe:111 - cards size = 52 burn index = 35 index = 5
+18:38:45 INFO  Thread-1 512596 Shoe:135 - index = 6 burnIndex = 35 shuffle needed = false
+18:38:45 INFO  Thread-1 512596 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = CA
+18:38:45 INFO  Thread-1 513348 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:38:45 INFO  Thread-1 513349 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:38:45 INFO  Thread-1 513349 Shoe:111 - cards size = 52 burn index = 35 index = 6
+18:38:45 INFO  Thread-1 513349 Shoe:135 - index = 7 burnIndex = 35 shuffle needed = false
+18:38:46 INFO  Thread-1 514102 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:38:46 INFO  Thread-1 514103 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:38:46 INFO  Thread-1 514104 Shoe:111 - cards size = 52 burn index = 35 index = 7
+18:38:46 INFO  Thread-1 514104 Shoe:135 - index = 8 burnIndex = 35 shuffle needed = false
+18:38:46 INFO  Thread-1 514104 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = C9
+18:38:47 INFO  Thread-1 514857 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:38:47 INFO  Thread-1 514859 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:38:47 INFO  Thread-1 514859 Shoe:111 - cards size = 52 burn index = 35 index = 8
+18:38:47 INFO  Thread-1 514859 Shoe:135 - index = 9 burnIndex = 35 shuffle needed = false
+18:38:48 INFO  Thread-1 515611 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:38:48 INFO  Thread-1 515612 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:38:48 INFO  Thread-1 515612 Dealer:555 - going to next hand
+18:38:48 INFO  Thread-1 515612 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:38:48 INFO  Thread-1 515612 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:6091C41CE087BF1D to Timothys-MacBook-Pro.local/25.12.39.77
+18:38:48 INFO  Thread-1 515612 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:38:48 INFO  Thread-1 515613 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:38:48 INFO  Thread-1 515614 Actor:185 - RealPlayer waiting for connection on port 8501
+18:38:48 INFO  Thread-1 516441 Actor:185 - RealPlayer accepted connection on port 8501
+18:38:48 INFO  Thread-1 516442 Actor:185 - RealPlayer received message Stay
+18:38:48 INFO  Thread-1 516442 Actor:185 - RealPlayer invoking listener for Stay
+18:38:48 INFO  Thread-1 516442 Actor:185 - RealPlayer received request = Stay
+18:38:48 INFO  Thread-1 516442 Dealer:449 - got STAY for Timothys-MacBook-Pro.local:YOU:6091C41CE087BF1D
+18:38:48 INFO  Thread-1 516442 Dealer:555 - going to next hand
+18:38:48 INFO  Thread-1 516442 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:38:48 INFO  Thread-1 516443 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:38:48 INFO  Thread-1 516443 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:38:48 INFO  Thread-1 516445 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:38:48 INFO  Thread-1 516445 Shoe:111 - cards size = 52 burn index = 35 index = 9
+18:38:48 INFO  Thread-1 516445 Shoe:135 - index = 10 burnIndex = 35 shuffle needed = false
+18:38:49 INFO  Thread-1 517196 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:38:49 INFO  Thread-1 517198 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:38:49 INFO  Thread-1 517198 Shoe:111 - cards size = 52 burn index = 35 index = 10
+18:38:49 INFO  Thread-1 517198 Shoe:135 - index = 11 burnIndex = 35 shuffle needed = false
+18:38:50 INFO  Thread-1 517949 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:38:50 INFO  Thread-1 517951 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:38:50 INFO  Thread-1 517951 Actor:185 - RealPlayer sending Win to 25.12.39.77:8001
+18:38:50 INFO  Thread-1 517952 Actor:185 - RealPlayer sent successfully Win to 25.12.39.77:8001
+18:38:50 INFO  Thread-1 517952 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:38:50 INFO  Thread-1 517953 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:38:50 INFO  Thread-1 517953 Actor:185 - RealPlayer waiting for connection on port 8501
+18:38:51 INFO  Thread-1 518830 Actor:185 - RealPlayer accepted connection on port 8501
+18:38:51 INFO  Thread-1 518832 Actor:185 - RealPlayer received message Bet
+18:38:51 INFO  Thread-1 518832 Actor:185 - RealPlayer invoking listener for Bet
+18:38:51 INFO  Thread-1 518832 Actor:185 - RealPlayer received bet = 5.0
+18:38:51 INFO  Thread-1 518832 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:3573CE880E6AAB83
+18:38:51 INFO  Thread-1 518833 Dealer:164 - no bot configured for charlie.bot.huey
+18:38:51 INFO  Thread-1 518833 Dealer:164 - no bot configured for charlie.bot.dewey
+18:38:51 INFO  Thread-1 518833 Dealer:258 - starting a game
+18:38:51 INFO  Thread-1 518833 Dealer:273 - hands at table + dealer = 2
+18:38:51 INFO  Thread-1 518833 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:38:51 INFO  Thread-1 518835 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:38:51 INFO  Thread-1 519088 Shoe:111 - cards size = 52 burn index = 35 index = 11
+18:38:51 INFO  Thread-1 519089 Shoe:135 - index = 12 burnIndex = 35 shuffle needed = false
+18:38:51 INFO  Thread-1 519089 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = D9
+18:38:52 INFO  Thread-1 519844 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:38:52 INFO  Thread-1 519846 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:38:52 INFO  Thread-1 519846 Shoe:111 - cards size = 52 burn index = 35 index = 12
+18:38:52 INFO  Thread-1 519846 Shoe:135 - index = 13 burnIndex = 35 shuffle needed = false
+18:38:53 INFO  Thread-1 520597 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:38:53 INFO  Thread-1 520598 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:38:53 INFO  Thread-1 520599 Shoe:111 - cards size = 52 burn index = 35 index = 13
+18:38:53 INFO  Thread-1 520599 Shoe:135 - index = 14 burnIndex = 35 shuffle needed = false
+18:38:53 INFO  Thread-1 520599 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = D2
+18:38:53 INFO  Thread-1 521350 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:38:53 INFO  Thread-1 521351 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:38:53 INFO  Thread-1 521351 Shoe:111 - cards size = 52 burn index = 35 index = 14
+18:38:53 INFO  Thread-1 521351 Shoe:135 - index = 15 burnIndex = 35 shuffle needed = false
+18:38:54 INFO  Thread-1 522104 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:38:54 INFO  Thread-1 522105 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:38:54 INFO  Thread-1 522105 Dealer:555 - going to next hand
+18:38:54 INFO  Thread-1 522105 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:38:54 INFO  Thread-1 522105 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:3573CE880E6AAB83 to Timothys-MacBook-Pro.local/25.12.39.77
+18:38:54 INFO  Thread-1 522105 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:38:54 INFO  Thread-1 522106 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:38:54 INFO  Thread-1 522107 Actor:185 - RealPlayer waiting for connection on port 8501
+18:38:55 INFO  Thread-1 522689 Actor:185 - RealPlayer accepted connection on port 8501
+18:38:55 INFO  Thread-1 522691 Actor:185 - RealPlayer received message DoubleDown
+18:38:55 INFO  Thread-1 522691 Actor:185 - RealPlayer invoking listener for DoubleDown
+18:38:55 INFO  Thread-1 522691 Actor:185 - RealPlayer received request = DoubleDown
+18:38:55 INFO  Thread-1 522691 Dealer:469 - got double down amt = 10.0 hid = Timothys-MacBook-Pro.local:YOU:3573CE880E6AAB83
+18:38:55 INFO  Thread-1 522691 Shoe:111 - cards size = 52 burn index = 35 index = 15
+18:38:55 INFO  Thread-1 522691 Shoe:135 - index = 16 burnIndex = 35 shuffle needed = false
+18:38:55 INFO  Thread-1 522691 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:38:55 INFO  Thread-1 522691 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:38:55 INFO  Thread-1 522692 Dealer:555 - going to next hand
+18:38:55 INFO  Thread-1 522692 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:38:55 INFO  Thread-1 522692 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:38:55 INFO  Thread-1 522692 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:38:55 INFO  Thread-1 522693 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:38:55 INFO  Thread-1 522693 Actor:185 - RealPlayer sending Win to 25.12.39.77:8001
+18:38:55 INFO  Thread-1 522693 Actor:185 - RealPlayer sent successfully Win to 25.12.39.77:8001
+18:38:55 INFO  Thread-1 522694 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:38:55 INFO  Thread-1 522695 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:38:55 INFO  Thread-1 522695 Actor:185 - RealPlayer waiting for connection on port 8501
+18:38:56 INFO  Thread-1 523928 Actor:185 - RealPlayer accepted connection on port 8501
+18:38:56 INFO  Thread-1 523930 Actor:185 - RealPlayer received message Bet
+18:38:56 INFO  Thread-1 523930 Actor:185 - RealPlayer invoking listener for Bet
+18:38:56 INFO  Thread-1 523931 Actor:185 - RealPlayer received bet = 5.0
+18:38:56 INFO  Thread-1 523931 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:237551075AF0B19
+18:38:56 INFO  Thread-1 523931 Dealer:164 - no bot configured for charlie.bot.huey
+18:38:56 INFO  Thread-1 523931 Dealer:164 - no bot configured for charlie.bot.dewey
+18:38:56 INFO  Thread-1 523931 Dealer:258 - starting a game
+18:38:56 INFO  Thread-1 523931 Dealer:273 - hands at table + dealer = 2
+18:38:56 INFO  Thread-1 523932 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:38:56 INFO  Thread-1 523933 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:38:56 INFO  Thread-1 524184 Shoe:111 - cards size = 52 burn index = 35 index = 16
+18:38:56 INFO  Thread-1 524184 Shoe:135 - index = 17 burnIndex = 35 shuffle needed = false
+18:38:56 INFO  Thread-1 524184 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = DA
+18:38:57 INFO  Thread-1 524938 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:38:57 INFO  Thread-1 524938 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:38:57 INFO  Thread-1 524939 Shoe:111 - cards size = 52 burn index = 35 index = 17
+18:38:57 INFO  Thread-1 524939 Shoe:135 - index = 18 burnIndex = 35 shuffle needed = false
+18:38:58 INFO  Thread-1 525694 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:38:58 INFO  Thread-1 525695 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:38:58 INFO  Thread-1 525696 Shoe:111 - cards size = 52 burn index = 35 index = 18
+18:38:58 INFO  Thread-1 525696 Shoe:135 - index = 19 burnIndex = 35 shuffle needed = false
+18:38:58 INFO  Thread-1 525696 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = DK
+18:38:58 INFO  Thread-1 526447 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:38:58 INFO  Thread-1 526448 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:38:58 INFO  Thread-1 526449 Actor:185 - RealPlayer sending Blackjack to 25.12.39.77:8001
+18:38:58 INFO  Thread-1 526451 Actor:185 - RealPlayer sent successfully Blackjack to 25.12.39.77:8001
+18:38:58 INFO  Thread-1 526451 Shoe:111 - cards size = 52 burn index = 35 index = 19
+18:38:58 INFO  Thread-1 526452 Shoe:135 - index = 20 burnIndex = 35 shuffle needed = false
+18:38:59 INFO  Thread-1 527204 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:38:59 INFO  Thread-1 527205 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:38:59 INFO  Thread-1 527205 Dealer:555 - going to next hand
+18:38:59 INFO  Thread-1 527205 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:38:59 INFO  Thread-1 527205 Dealer:555 - going to next hand
+18:38:59 INFO  Thread-1 527205 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:38:59 INFO  Thread-1 527206 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:38:59 INFO  Thread-1 527206 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:38:59 INFO  Thread-1 527207 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:38:59 INFO  Thread-1 527207 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:38:59 INFO  Thread-1 527207 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:38:59 INFO  Thread-1 527207 Actor:185 - RealPlayer waiting for connection on port 8501
+18:39:00 INFO  Thread-1 528032 Actor:185 - RealPlayer accepted connection on port 8501
+18:39:00 INFO  Thread-1 528034 Actor:185 - RealPlayer received message Bet
+18:39:00 INFO  Thread-1 528034 Actor:185 - RealPlayer invoking listener for Bet
+18:39:00 INFO  Thread-1 528034 Actor:185 - RealPlayer received bet = 5.0
+18:39:00 INFO  Thread-1 528034 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:13BC6E0D0BD73F64
+18:39:00 INFO  Thread-1 528034 Dealer:164 - no bot configured for charlie.bot.huey
+18:39:00 INFO  Thread-1 528034 Dealer:164 - no bot configured for charlie.bot.dewey
+18:39:00 INFO  Thread-1 528035 Dealer:258 - starting a game
+18:39:00 INFO  Thread-1 528035 Dealer:273 - hands at table + dealer = 2
+18:39:00 INFO  Thread-1 528035 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:39:00 INFO  Thread-1 528036 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:39:00 INFO  Thread-1 528289 Shoe:111 - cards size = 52 burn index = 35 index = 20
+18:39:00 INFO  Thread-1 528289 Shoe:135 - index = 21 burnIndex = 35 shuffle needed = false
+18:39:00 INFO  Thread-1 528289 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = SA
+18:39:01 INFO  Thread-1 529040 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:39:01 INFO  Thread-1 529041 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:39:01 INFO  Thread-1 529042 Shoe:111 - cards size = 52 burn index = 35 index = 21
+18:39:01 INFO  Thread-1 529042 Shoe:135 - index = 22 burnIndex = 35 shuffle needed = false
+18:39:02 INFO  Thread-1 529796 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:39:02 INFO  Thread-1 529797 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:39:02 INFO  Thread-1 529797 Shoe:111 - cards size = 52 burn index = 35 index = 22
+18:39:02 INFO  Thread-1 529797 Shoe:135 - index = 23 burnIndex = 35 shuffle needed = false
+18:39:02 INFO  Thread-1 529797 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = C3
+18:39:03 INFO  Thread-1 530549 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:39:03 INFO  Thread-1 530550 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:39:03 INFO  Thread-1 530550 Shoe:111 - cards size = 52 burn index = 35 index = 23
+18:39:03 INFO  Thread-1 530550 Shoe:135 - index = 24 burnIndex = 35 shuffle needed = false
+18:39:03 INFO  Thread-1 531301 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:39:03 INFO  Thread-1 531302 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:39:03 INFO  Thread-1 531302 Dealer:555 - going to next hand
+18:39:03 INFO  Thread-1 531302 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:39:03 INFO  Thread-1 531302 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:13BC6E0D0BD73F64 to Timothys-MacBook-Pro.local/25.12.39.77
+18:39:03 INFO  Thread-1 531302 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:39:03 INFO  Thread-1 531303 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:39:03 INFO  Thread-1 531303 Actor:185 - RealPlayer waiting for connection on port 8501
+18:39:04 INFO  Thread-1 532396 Actor:185 - RealPlayer accepted connection on port 8501
+18:39:04 INFO  Thread-1 532397 Actor:185 - RealPlayer received message Hit
+18:39:04 INFO  Thread-1 532397 Actor:185 - RealPlayer invoking listener for Hit
+18:39:04 INFO  Thread-1 532397 Actor:185 - RealPlayer received request = Hit
+18:39:04 INFO  Thread-1 532397 Shoe:111 - cards size = 52 burn index = 35 index = 24
+18:39:04 INFO  Thread-1 532397 Shoe:135 - index = 25 burnIndex = 35 shuffle needed = false
+18:39:04 INFO  Thread-1 532397 Dealer:400 - hit hid = Timothys-MacBook-Pro.local:YOU:13BC6E0D0BD73F64 with H2
+18:39:04 INFO  Thread-1 532397 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:39:04 INFO  Thread-1 532398 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:39:04 INFO  Thread-1 532398 Actor:185 - RealPlayer waiting for connection on port 8501
+18:39:06 INFO  Thread-1 534039 Actor:185 - RealPlayer accepted connection on port 8501
+18:39:06 INFO  Thread-1 534040 Actor:185 - RealPlayer received message Stay
+18:39:06 INFO  Thread-1 534040 Actor:185 - RealPlayer invoking listener for Stay
+18:39:06 INFO  Thread-1 534040 Actor:185 - RealPlayer received request = Stay
+18:39:06 INFO  Thread-1 534040 Dealer:449 - got STAY for Timothys-MacBook-Pro.local:YOU:13BC6E0D0BD73F64
+18:39:06 INFO  Thread-1 534040 Dealer:555 - going to next hand
+18:39:06 INFO  Thread-1 534040 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:39:06 INFO  Thread-1 534041 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:39:06 INFO  Thread-1 534041 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:39:06 INFO  Thread-1 534042 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:39:06 INFO  Thread-1 534042 Shoe:111 - cards size = 52 burn index = 35 index = 25
+18:39:06 INFO  Thread-1 534042 Shoe:135 - index = 26 burnIndex = 35 shuffle needed = false
+18:39:07 INFO  Thread-1 534796 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:39:07 INFO  Thread-1 534799 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:39:07 INFO  Thread-1 534799 Shoe:111 - cards size = 52 burn index = 35 index = 26
+18:39:07 INFO  Thread-1 534799 Shoe:135 - index = 27 burnIndex = 35 shuffle needed = false
+18:39:08 INFO  Thread-1 535554 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:39:08 INFO  Thread-1 535556 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:39:08 INFO  Thread-1 535556 Shoe:111 - cards size = 52 burn index = 35 index = 27
+18:39:08 INFO  Thread-1 535556 Shoe:135 - index = 28 burnIndex = 35 shuffle needed = false
+18:39:08 INFO  Thread-1 536309 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:39:08 INFO  Thread-1 536309 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:39:08 INFO  Thread-1 536310 Actor:185 - RealPlayer sending Win to 25.12.39.77:8001
+18:39:08 INFO  Thread-1 536310 Actor:185 - RealPlayer sent successfully Win to 25.12.39.77:8001
+18:39:08 INFO  Thread-1 536310 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:39:08 INFO  Thread-1 536311 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:39:08 INFO  Thread-1 536311 Actor:185 - RealPlayer waiting for connection on port 8501
+18:39:09 INFO  Thread-1 537432 Actor:185 - RealPlayer accepted connection on port 8501
+18:39:09 INFO  Thread-1 537433 Actor:185 - RealPlayer received message Bet
+18:39:09 INFO  Thread-1 537433 Actor:185 - RealPlayer invoking listener for Bet
+18:39:09 INFO  Thread-1 537433 Actor:185 - RealPlayer received bet = 5.0
+18:39:09 INFO  Thread-1 537433 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:67D536D0E6CBA439
+18:39:09 INFO  Thread-1 537433 Dealer:164 - no bot configured for charlie.bot.huey
+18:39:09 INFO  Thread-1 537433 Dealer:164 - no bot configured for charlie.bot.dewey
+18:39:09 INFO  Thread-1 537433 Dealer:258 - starting a game
+18:39:09 INFO  Thread-1 537433 Dealer:273 - hands at table + dealer = 2
+18:39:09 INFO  Thread-1 537433 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:39:09 INFO  Thread-1 537434 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:39:10 INFO  Thread-1 537688 Shoe:111 - cards size = 52 burn index = 35 index = 28
+18:39:10 INFO  Thread-1 537688 Shoe:135 - index = 29 burnIndex = 35 shuffle needed = false
+18:39:10 INFO  Thread-1 537688 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = DQ
+18:39:10 INFO  Thread-1 538440 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:39:10 INFO  Thread-1 538440 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:39:10 INFO  Thread-1 538440 Shoe:111 - cards size = 52 burn index = 35 index = 29
+18:39:10 INFO  Thread-1 538441 Shoe:135 - index = 30 burnIndex = 35 shuffle needed = false
+18:39:11 INFO  Thread-1 539192 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:39:11 INFO  Thread-1 539193 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:39:11 INFO  Thread-1 539193 Shoe:111 - cards size = 52 burn index = 35 index = 30
+18:39:11 INFO  Thread-1 539193 Shoe:135 - index = 31 burnIndex = 35 shuffle needed = false
+18:39:11 INFO  Thread-1 539193 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = H9
+18:39:12 INFO  Thread-1 539947 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:39:12 INFO  Thread-1 539948 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:39:12 INFO  Thread-1 539948 Shoe:111 - cards size = 52 burn index = 35 index = 31
+18:39:12 INFO  Thread-1 539948 Shoe:135 - index = 32 burnIndex = 35 shuffle needed = false
+18:39:13 INFO  Thread-1 540700 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:39:13 INFO  Thread-1 540701 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:39:13 INFO  Thread-1 540701 Dealer:555 - going to next hand
+18:39:13 INFO  Thread-1 540701 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:39:13 INFO  Thread-1 540701 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:67D536D0E6CBA439 to Timothys-MacBook-Pro.local/25.12.39.77
+18:39:13 INFO  Thread-1 540701 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:39:13 INFO  Thread-1 540701 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:39:13 INFO  Thread-1 540702 Actor:185 - RealPlayer waiting for connection on port 8501
+18:39:13 INFO  Thread-1 541100 Actor:185 - RealPlayer accepted connection on port 8501
+18:39:13 INFO  Thread-1 541101 Actor:185 - RealPlayer received message Stay
+18:39:13 INFO  Thread-1 541101 Actor:185 - RealPlayer invoking listener for Stay
+18:39:13 INFO  Thread-1 541101 Actor:185 - RealPlayer received request = Stay
+18:39:13 INFO  Thread-1 541101 Dealer:449 - got STAY for Timothys-MacBook-Pro.local:YOU:67D536D0E6CBA439
+18:39:13 INFO  Thread-1 541101 Dealer:555 - going to next hand
+18:39:13 INFO  Thread-1 541101 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:39:13 INFO  Thread-1 541102 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:39:13 INFO  Thread-1 541102 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:39:13 INFO  Thread-1 541103 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:39:13 INFO  Thread-1 541103 Shoe:111 - cards size = 52 burn index = 35 index = 32
+18:39:13 INFO  Thread-1 541103 Shoe:135 - index = 33 burnIndex = 35 shuffle needed = false
+18:39:14 INFO  Thread-1 541854 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:39:14 INFO  Thread-1 541854 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:39:14 INFO  Thread-1 541855 Actor:185 - RealPlayer sending Win to 25.12.39.77:8001
+18:39:14 INFO  Thread-1 541855 Actor:185 - RealPlayer sent successfully Win to 25.12.39.77:8001
+18:39:14 INFO  Thread-1 541855 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:39:14 INFO  Thread-1 541856 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:39:14 INFO  Thread-1 541856 Actor:185 - RealPlayer waiting for connection on port 8501
+18:39:15 INFO  Thread-1 542870 Actor:185 - RealPlayer accepted connection on port 8501
+18:39:15 INFO  Thread-1 542871 Actor:185 - RealPlayer received message Bet
+18:39:15 INFO  Thread-1 542871 Actor:185 - RealPlayer invoking listener for Bet
+18:39:15 INFO  Thread-1 542871 Actor:185 - RealPlayer received bet = 5.0
+18:39:15 INFO  Thread-1 542871 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:72D9ABFB7F5CBEDD
+18:39:15 INFO  Thread-1 542871 Dealer:164 - no bot configured for charlie.bot.huey
+18:39:15 INFO  Thread-1 542871 Dealer:164 - no bot configured for charlie.bot.dewey
+18:39:15 INFO  Thread-1 542871 Dealer:258 - starting a game
+18:39:15 INFO  Thread-1 542872 Dealer:273 - hands at table + dealer = 2
+18:39:15 INFO  Thread-1 542872 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:39:15 INFO  Thread-1 542872 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:39:15 INFO  Thread-1 543123 Shoe:111 - cards size = 52 burn index = 35 index = 33
+18:39:15 INFO  Thread-1 543123 Shoe:135 - index = 34 burnIndex = 35 shuffle needed = false
+18:39:15 INFO  Thread-1 543123 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = S7
+18:39:16 INFO  Thread-1 543874 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:39:16 INFO  Thread-1 543875 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:39:16 INFO  Thread-1 543875 Shoe:111 - cards size = 52 burn index = 35 index = 34
+18:39:16 INFO  Thread-1 543875 Shoe:135 - index = 35 burnIndex = 35 shuffle needed = true
+18:39:16 INFO  Thread-1 543875 Actor:185 - RealPlayer sending Shuffle to 25.12.39.77:8001
+18:39:16 INFO  Thread-1 543876 Actor:185 - RealPlayer sent successfully Shuffle to 25.12.39.77:8001
+18:39:17 INFO  Thread-1 544629 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:39:17 INFO  Thread-1 544629 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:39:17 INFO  Thread-1 544629 Shoe:111 - cards size = 52 burn index = 35 index = 35
+18:39:17 INFO  Thread-1 544630 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = D10
+18:39:17 INFO  Thread-1 545380 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:39:17 INFO  Thread-1 545380 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:39:17 INFO  Thread-1 545380 Shoe:111 - cards size = 52 burn index = 35 index = 36
+18:39:18 INFO  Thread-1 546135 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:39:18 INFO  Thread-1 546136 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:39:18 INFO  Thread-1 546136 Dealer:555 - going to next hand
+18:39:18 INFO  Thread-1 546136 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:39:18 INFO  Thread-1 546136 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:72D9ABFB7F5CBEDD to Timothys-MacBook-Pro.local/25.12.39.77
+18:39:18 INFO  Thread-1 546137 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:39:18 INFO  Thread-1 546137 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:39:18 INFO  Thread-1 546137 Actor:185 - RealPlayer waiting for connection on port 8501
+18:39:20 INFO  Thread-1 547736 Actor:185 - RealPlayer accepted connection on port 8501
+18:39:20 INFO  Thread-1 547737 Actor:185 - RealPlayer received message Stay
+18:39:20 INFO  Thread-1 547737 Actor:185 - RealPlayer invoking listener for Stay
+18:39:20 INFO  Thread-1 547737 Actor:185 - RealPlayer received request = Stay
+18:39:20 INFO  Thread-1 547737 Dealer:449 - got STAY for Timothys-MacBook-Pro.local:YOU:72D9ABFB7F5CBEDD
+18:39:20 INFO  Thread-1 547737 Dealer:555 - going to next hand
+18:39:20 INFO  Thread-1 547737 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:39:20 INFO  Thread-1 547741 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:39:20 INFO  Thread-1 547741 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:39:20 INFO  Thread-1 547742 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:39:20 INFO  Thread-1 547742 Shoe:111 - cards size = 52 burn index = 35 index = 37
+18:39:21 INFO  Thread-1 548495 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:39:21 INFO  Thread-1 548520 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:39:21 INFO  Thread-1 548522 Actor:185 - RealPlayer sending Win to 25.12.39.77:8001
+18:39:21 INFO  Thread-1 548541 Actor:185 - RealPlayer sent successfully Win to 25.12.39.77:8001
+18:39:21 INFO  Thread-1 548541 Shoe:102 - shuffling burn index = 35
+18:39:21 INFO  Thread-1 548541 Actor:185 - RealPlayer sending GameOver to 25.12.39.77:8001
+18:39:21 INFO  Thread-1 548551 Actor:185 - RealPlayer sent successfully GameOver to 25.12.39.77:8001
+18:39:21 INFO  Thread-1 548552 Actor:185 - RealPlayer waiting for connection on port 8501
+18:39:25 INFO  Thread-1 552815 Actor:185 - RealPlayer accepted connection on port 8501
+18:39:25 INFO  Thread-1 552817 Actor:185 - RealPlayer received message Bet
+18:39:25 INFO  Thread-1 552817 Actor:185 - RealPlayer invoking listener for Bet
+18:39:25 INFO  Thread-1 552817 Actor:185 - RealPlayer received bet = 5.0
+18:39:25 INFO  Thread-1 552817 Dealer:109 - got new bet = 5.0 side bet = 0.0 from Timothys-MacBook-Pro.local/25.12.39.77 for hid = Timothys-MacBook-Pro.local:YOU:52D7F80ECEECF4A6
+18:39:25 INFO  Thread-1 552817 Dealer:164 - no bot configured for charlie.bot.huey
+18:39:25 INFO  Thread-1 552817 Dealer:164 - no bot configured for charlie.bot.dewey
+18:39:25 INFO  Thread-1 552817 Dealer:258 - starting a game
+18:39:25 INFO  Thread-1 552817 Dealer:273 - hands at table + dealer = 2
+18:39:25 INFO  Thread-1 552817 Actor:185 - RealPlayer sending GameStart to 25.12.39.77:8001
+18:39:25 INFO  Thread-1 552818 Actor:185 - RealPlayer sent successfully GameStart to 25.12.39.77:8001
+18:39:25 INFO  Thread-1 553071 Shoe:111 - cards size = 52 burn index = 35 index = 0
+18:39:25 INFO  Thread-1 553071 Shoe:135 - index = 1 burnIndex = 35 shuffle needed = false
+18:39:25 INFO  Thread-1 553071 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = C5
+18:39:26 INFO  Thread-1 553821 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:39:26 INFO  Thread-1 553822 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:39:26 INFO  Thread-1 553822 Shoe:111 - cards size = 52 burn index = 35 index = 1
+18:39:26 INFO  Thread-1 553822 Shoe:135 - index = 2 burnIndex = 35 shuffle needed = false
+18:39:27 INFO  Thread-1 554576 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:39:27 INFO  Thread-1 554576 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:39:27 INFO  Thread-1 554577 Shoe:111 - cards size = 52 burn index = 35 index = 2
+18:39:27 INFO  Thread-1 554577 Shoe:135 - index = 3 burnIndex = 35 shuffle needed = false
+18:39:27 INFO  Thread-1 554577 Dealer:352 - dealing to Timothys-MacBook-Pro.local/25.12.39.77 card 1 = S5
+18:39:27 INFO  Thread-1 555330 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:39:27 INFO  Thread-1 555331 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:39:27 INFO  Thread-1 555331 Shoe:111 - cards size = 52 burn index = 35 index = 3
+18:39:27 INFO  Thread-1 555331 Shoe:135 - index = 4 burnIndex = 35 shuffle needed = false
+18:39:28 INFO  Thread-1 556083 Actor:185 - RealPlayer sending Deal to 25.12.39.77:8001
+18:39:28 INFO  Thread-1 556084 Actor:185 - RealPlayer sent successfully Deal to 25.12.39.77:8001
+18:39:28 INFO  Thread-1 556084 Dealer:555 - going to next hand
+18:39:28 INFO  Thread-1 556084 Dealer:565 - active player = Timothys-MacBook-Pro.local/25.12.39.77
+18:39:28 INFO  Thread-1 556084 Dealer:605 - sending turn Timothys-MacBook-Pro.local:YOU:52D7F80ECEECF4A6 to Timothys-MacBook-Pro.local/25.12.39.77
+18:39:28 INFO  Thread-1 556084 Actor:185 - RealPlayer sending Play to 25.12.39.77:8001
+18:39:28 INFO  Thread-1 556085 Actor:185 - RealPlayer sent successfully Play to 25.12.39.77:8001
+18:39:28 INFO  Thread-1 556085 Actor:185 - RealPlayer waiting for connection on port 8501

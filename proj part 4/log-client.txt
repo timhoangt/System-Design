@@ -1,0 +1,1130 @@
+23:40:41 INFO  AWT-EventQueue-0 0 GameFrame:93 - client started
+23:40:43 INFO  AWT-EventQueue-0 2457 SideBetView:84 - side bet view constructed
+23:40:43 INFO  AWT-EventQueue-0 2457 ATable:864 - successfully loaded side bet view
+23:40:44 INFO  AWT-EventQueue-0 2855 GameFrame:157 - advisor plugin detected: charlie.client.Advisor
+23:40:44 INFO  AWT-EventQueue-0 2857 GameFrame:163 - loaded advisor successfully
+23:40:44 INFO  AWT-EventQueue-0 2857 GameFrame:99 - init done
+23:40:45 INFO  AWT-EventQueue-0 4189 Actor:63 - sent login request
+23:40:45 INFO  AWT-EventQueue-0 4263 Actor:70 - received ticket BB20B45FD4D95138
+23:40:45 INFO  AWT-EventQueue-0 4264 GameFrame:221 - login successful
+23:40:45 INFO  AWT-EventQueue-0 4268 Actor:185 - Courier monitor installed successfully: CountingTrap
+23:40:45 INFO  Thread-3 4277 Actor:185 - Courier waiting for connection on port 8001
+23:40:45 INFO  AWT-EventQueue-0 4475 Actor:185 - Arriver sending Arrival to 127.0.0.1:1235
+23:40:45 INFO  AWT-EventQueue-0 4482 Actor:185 - Arriver sent successfully Arrival to 127.0.0.1:1235
+23:40:45 INFO  AWT-EventQueue-0 4482 Actor:185 - Arriver sent arrival message
+23:40:45 INFO  Thread-3 4506 Actor:185 - Courier accepted connection on port 8001
+23:40:45 INFO  Thread-3 4509 Actor:185 - Courier received message Ready
+23:40:45 INFO  Thread-3 4509 Actor:185 - Courier invoking listener for Ready
+23:40:45 INFO  Thread-3 4510 Actor:232 - received Ready from Timothys-MacBook-Pro.local/172.16.61.151
+23:40:45 INFO  AWT-EventQueue-0 4510 GameFrame:240 - connected to courier with bankroll = 1000.0
+23:40:45 INFO  Thread-3 4511 Trap:73 - shoe size: 0.0
+23:40:45 INFO  Thread-3 4511 Trap:74 - running count: 0.0
+23:40:45 INFO  Thread-3 4511 Trap:75 - true count: 0.0
+23:40:45 INFO  Thread-3 4511 Trap:76 - bet: 0
+23:40:45 INFO  Thread-3 4512 Actor:185 - Courier waiting for connection on port 8001
+23:40:51 INFO  Thread-5 10037 ATable:206 - side bet = 0
+23:40:51 INFO  Thread-5 10042 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+23:40:51 INFO  Thread-5 10049 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+23:40:51 INFO  Thread-3 10062 Actor:185 - Courier accepted connection on port 8001
+23:40:51 INFO  Thread-3 10066 Actor:185 - Courier received message GameStart
+23:40:51 INFO  Thread-3 10066 Actor:185 - Courier invoking listener for GameStart
+23:40:51 INFO  Thread-3 10067 Actor:244 - receive starting shoe size = 48
+23:40:51 INFO  Thread-3 10067 Actor:247 - starting hand: Timothys-MacBook-Pro.local:YOU:7A118555560DDBB5
+23:40:51 INFO  Thread-3 10068 Actor:247 - starting hand: Timothys-MacBook-Pro.local:DEALER:4B6BD19DB3563256
+23:40:51 INFO  Thread-3 10070 Trap:73 - shoe size: 0.9230769230769231
+23:40:51 INFO  Thread-3 10070 Trap:74 - running count: 0.0
+23:40:51 INFO  Thread-3 10070 Trap:75 - true count: 0.0
+23:40:51 INFO  Thread-3 10070 Trap:76 - bet: 0
+23:40:51 INFO  Thread-3 10071 Actor:185 - Courier waiting for connection on port 8001
+23:40:52 INFO  Thread-3 11075 Actor:185 - Courier accepted connection on port 8001
+23:40:52 INFO  Thread-3 11081 Actor:185 - Courier received message Deal
+23:40:52 INFO  Thread-3 11081 Actor:185 - Courier invoking listener for Deal
+23:40:52 INFO  Thread-3 11082 Actor:266 - received card = H7 values = 7/7 hid = Timothys-MacBook-Pro.local:YOU:7A118555560DDBB5
+23:40:52 INFO  Thread-3 11086 Trap:73 - shoe size: 0.9230769230769231
+23:40:52 INFO  Thread-3 11086 Trap:74 - running count: 0.0
+23:40:52 INFO  Thread-3 11086 Trap:75 - true count: 0.0
+23:40:52 INFO  Thread-3 11086 Trap:76 - bet: 1
+23:40:52 INFO  Thread-3 11086 Actor:185 - Courier waiting for connection on port 8001
+23:40:53 INFO  Thread-3 11836 Actor:185 - Courier accepted connection on port 8001
+23:40:53 INFO  Thread-3 11839 Actor:185 - Courier received message Deal
+23:40:53 INFO  Thread-3 11840 Actor:185 - Courier invoking listener for Deal
+23:40:53 INFO  Thread-3 11840 Actor:266 - received card = CK values = 0/0 hid = Timothys-MacBook-Pro.local:DEALER:4B6BD19DB3563256
+23:40:53 INFO  Thread-3 11848 Trap:73 - shoe size: 0.9230769230769231
+23:40:53 INFO  Thread-3 11848 Trap:74 - running count: -1.0
+23:40:53 INFO  Thread-3 11849 Trap:75 - true count: -1.0833333333333333
+23:40:53 INFO  Thread-3 11849 Trap:76 - bet: 1
+23:40:53 INFO  Thread-3 11849 Actor:185 - Courier waiting for connection on port 8001
+23:40:53 INFO  Thread-3 12590 Actor:185 - Courier accepted connection on port 8001
+23:40:53 INFO  Thread-3 12593 Actor:185 - Courier received message Deal
+23:40:53 INFO  Thread-3 12593 Actor:185 - Courier invoking listener for Deal
+23:40:53 INFO  Thread-3 12594 Actor:266 - received card = S9 values = 16/16 hid = Timothys-MacBook-Pro.local:YOU:7A118555560DDBB5
+23:40:53 INFO  Thread-3 12597 Trap:73 - shoe size: 0.9230769230769231
+23:40:53 INFO  Thread-3 12597 Trap:74 - running count: -1.0
+23:40:53 INFO  Thread-3 12598 Trap:75 - true count: -1.0833333333333333
+23:40:53 INFO  Thread-3 12598 Trap:76 - bet: 1
+23:40:53 INFO  Thread-3 12598 Actor:185 - Courier waiting for connection on port 8001
+23:40:54 INFO  Thread-3 13347 Actor:185 - Courier accepted connection on port 8001
+23:40:54 INFO  Thread-3 13350 Actor:185 - Courier received message Deal
+23:40:54 INFO  Thread-3 13351 Actor:185 - Courier invoking listener for Deal
+23:40:54 INFO  Thread-3 13351 Actor:266 - received card = D9 values = 9/9 hid = Timothys-MacBook-Pro.local:DEALER:4B6BD19DB3563256
+23:40:54 INFO  Thread-3 13358 Trap:73 - shoe size: 0.9230769230769231
+23:40:54 INFO  Thread-3 13358 Trap:74 - running count: -1.0
+23:40:54 INFO  Thread-3 13358 Trap:75 - true count: -1.0833333333333333
+23:40:54 INFO  Thread-3 13358 Trap:76 - bet: 1
+23:40:54 INFO  Thread-3 13358 Actor:185 - Courier waiting for connection on port 8001
+23:40:54 INFO  Thread-3 13358 Actor:185 - Courier accepted connection on port 8001
+23:40:54 INFO  Thread-3 13362 Actor:185 - Courier received message Play
+23:40:54 INFO  Thread-3 13371 Actor:185 - Courier invoking listener for Play
+23:40:54 INFO  Thread-3 13371 Actor:276 - got turn = Timothys-MacBook-Pro.local:YOU:7A118555560DDBB5
+23:40:55 INFO  Thread-3 14021 Trap:73 - shoe size: 0.9230769230769231
+23:40:55 INFO  Thread-3 14022 Trap:74 - running count: -1.0
+23:40:55 INFO  Thread-3 14022 Trap:75 - true count: -1.0833333333333333
+23:40:55 INFO  Thread-3 14022 Trap:76 - bet: 1
+23:40:55 INFO  Thread-3 14023 Actor:185 - Courier waiting for connection on port 8001
+23:41:01 INFO  AWT-EventQueue-0 20568 Actor:185 - Courier sending Hit to 127.0.0.1:8501
+23:41:01 INFO  AWT-EventQueue-0 20571 Actor:185 - Courier sent successfully Hit to 127.0.0.1:8501
+23:41:01 INFO  Thread-3 20579 Actor:185 - Courier accepted connection on port 8001
+23:41:01 INFO  Thread-3 20580 Actor:185 - Courier received message Deal
+23:41:01 INFO  Thread-3 20580 Actor:185 - Courier invoking listener for Deal
+23:41:01 INFO  Thread-3 20580 Actor:266 - received card = C3 values = 19/19 hid = Timothys-MacBook-Pro.local:YOU:7A118555560DDBB5
+23:41:01 INFO  Thread-3 20593 Trap:73 - shoe size: 0.9230769230769231
+23:41:01 INFO  Thread-3 20594 Trap:74 - running count: 0.0
+23:41:01 INFO  Thread-3 20594 Trap:75 - true count: 0.0
+23:41:01 INFO  Thread-3 20594 Trap:76 - bet: 1
+23:41:01 INFO  Thread-3 20594 Actor:185 - Courier waiting for connection on port 8001
+23:41:02 INFO  AWT-EventQueue-0 21387 Actor:185 - Courier sending Stay to 127.0.0.1:8501
+23:41:02 INFO  AWT-EventQueue-0 21388 Actor:185 - Courier sent successfully Stay to 127.0.0.1:8501
+23:41:02 INFO  Thread-3 21393 Actor:185 - Courier accepted connection on port 8001
+23:41:02 INFO  Thread-3 21394 Actor:185 - Courier received message Play
+23:41:02 INFO  Thread-3 21395 Actor:185 - Courier invoking listener for Play
+23:41:02 INFO  Thread-3 21395 Actor:276 - got turn = Timothys-MacBook-Pro.local:DEALER:4B6BD19DB3563256
+23:41:02 INFO  Thread-3 21395 Trap:73 - shoe size: 0.9230769230769231
+23:41:02 INFO  Thread-3 21395 Trap:74 - running count: 0.0
+23:41:02 INFO  Thread-3 21395 Trap:75 - true count: 0.0
+23:41:02 INFO  Thread-3 21395 Trap:76 - bet: 1
+23:41:02 INFO  Thread-3 21395 Actor:185 - Courier waiting for connection on port 8001
+23:41:02 INFO  Thread-3 21396 Actor:185 - Courier accepted connection on port 8001
+23:41:02 INFO  Thread-3 21397 Actor:185 - Courier received message Deal
+23:41:02 INFO  Thread-3 21397 Actor:185 - Courier invoking listener for Deal
+23:41:02 INFO  Thread-3 21398 Actor:266 - received card = null values = 19/19 hid = Timothys-MacBook-Pro.local:DEALER:4B6BD19DB3563256
+23:41:02 INFO  Thread-3 21398 Trap:73 - shoe size: 0.9230769230769231
+23:41:02 INFO  Thread-3 21398 Trap:74 - running count: 0.0
+23:41:02 INFO  Thread-3 21398 Trap:75 - true count: 0.0
+23:41:02 INFO  Thread-3 21398 Trap:76 - bet: 1
+23:41:02 INFO  Thread-3 21398 Actor:185 - Courier waiting for connection on port 8001
+23:41:02 INFO  Thread-3 21398 Actor:185 - Courier accepted connection on port 8001
+23:41:02 INFO  Thread-3 21405 Actor:185 - Courier received message Push
+23:41:02 INFO  Thread-3 21405 Actor:185 - Courier invoking listener for Push
+23:41:02 INFO  Thread-3 21405 Actor:207 - received outcome = Push
+23:41:02 INFO  Thread-3 21406 ATable:555 - PUSH for hid = Timothys-MacBook-Pro.local:YOU:7A118555560DDBB5 amt = 25.0
+23:41:02 INFO  Thread-3 21406 Trap:73 - shoe size: 0.9230769230769231
+23:41:02 INFO  Thread-3 21407 Trap:74 - running count: 0.0
+23:41:02 INFO  Thread-3 21407 Trap:75 - true count: 0.0
+23:41:02 INFO  Thread-3 21408 Trap:76 - bet: 1
+23:41:02 INFO  Thread-3 21408 Actor:185 - Courier waiting for connection on port 8001
+23:41:02 INFO  Thread-3 21409 Actor:185 - Courier accepted connection on port 8001
+23:41:02 INFO  Thread-3 21410 Actor:185 - Courier received message GameOver
+23:41:02 INFO  Thread-3 21410 Actor:185 - Courier invoking listener for GameOver
+23:41:02 INFO  Thread-3 21410 Actor:287 - received ending shoe size = 43
+23:41:02 INFO  Thread-3 21411 ATable:669 - num hands = 2 wins = 0 loses = 0 pushes = 1
+23:41:03 INFO  Thread-3 22103 Trap:73 - shoe size: 0.9230769230769231
+23:41:03 INFO  Thread-3 22104 Trap:74 - running count: 0.0
+23:41:03 INFO  Thread-3 22104 Trap:75 - true count: 0.0
+23:41:03 INFO  Thread-3 22104 Trap:76 - bet: 1
+23:41:03 INFO  Thread-3 22104 Actor:185 - Courier waiting for connection on port 8001
+23:41:03 INFO  AWT-EventQueue-0 22493 SideBetView:115 - A. side bet amount 5 updated new amt = 5
+23:41:04 INFO  AWT-EventQueue-0 22640 SideBetView:115 - A. side bet amount 5 updated new amt = 10
+23:41:05 INFO  Thread-13 23647 ATable:206 - side bet = 10
+23:41:05 INFO  Thread-13 23647 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+23:41:05 INFO  Thread-13 23649 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+23:41:05 INFO  Thread-3 23655 Actor:185 - Courier accepted connection on port 8001
+23:41:05 INFO  Thread-3 23658 Actor:185 - Courier received message GameStart
+23:41:05 INFO  Thread-3 23658 Actor:185 - Courier invoking listener for GameStart
+23:41:05 INFO  Thread-3 23658 Actor:244 - receive starting shoe size = 43
+23:41:05 INFO  Thread-3 23658 Actor:247 - starting hand: Timothys-MacBook-Pro.local:YOU:5D10DB6B555D444F
+23:41:05 INFO  Thread-3 23658 Actor:247 - starting hand: Timothys-MacBook-Pro.local:DEALER:52F308A0D1239F0B
+23:41:05 INFO  Thread-3 23658 Trap:73 - shoe size: 0.8269230769230769
+23:41:05 INFO  Thread-3 23658 Trap:74 - running count: 0.0
+23:41:05 INFO  Thread-3 23658 Trap:75 - true count: 0.0
+23:41:05 INFO  Thread-3 23658 Trap:76 - bet: 1
+23:41:05 INFO  Thread-3 23659 Actor:185 - Courier waiting for connection on port 8001
+23:41:06 INFO  Thread-3 24666 Actor:185 - Courier accepted connection on port 8001
+23:41:06 INFO  Thread-3 24668 Actor:185 - Courier received message Deal
+23:41:06 INFO  Thread-3 24668 Actor:185 - Courier invoking listener for Deal
+23:41:06 INFO  Thread-3 24668 Actor:266 - received card = H7 values = 7/7 hid = Timothys-MacBook-Pro.local:YOU:5D10DB6B555D444F
+23:41:06 INFO  Thread-3 24668 Trap:73 - shoe size: 0.8269230769230769
+23:41:06 INFO  Thread-3 24668 Trap:74 - running count: 0.0
+23:41:06 INFO  Thread-3 24668 Trap:75 - true count: 0.0
+23:41:06 INFO  Thread-3 24668 Trap:76 - bet: 1
+23:41:06 INFO  Thread-3 24669 Actor:185 - Courier waiting for connection on port 8001
+23:41:06 INFO  Thread-3 25423 Actor:185 - Courier accepted connection on port 8001
+23:41:06 INFO  Thread-3 25424 Actor:185 - Courier received message Deal
+23:41:06 INFO  Thread-3 25424 Actor:185 - Courier invoking listener for Deal
+23:41:06 INFO  Thread-3 25424 Actor:266 - received card = CK values = 0/0 hid = Timothys-MacBook-Pro.local:DEALER:52F308A0D1239F0B
+23:41:06 INFO  Thread-3 25424 Trap:73 - shoe size: 0.8269230769230769
+23:41:06 INFO  Thread-3 25424 Trap:74 - running count: -1.0
+23:41:06 INFO  Thread-3 25425 Trap:75 - true count: -1.2093023255813955
+23:41:06 INFO  Thread-3 25425 Trap:76 - bet: 1
+23:41:06 INFO  Thread-3 25425 Actor:185 - Courier waiting for connection on port 8001
+23:41:07 INFO  Thread-3 26175 Actor:185 - Courier accepted connection on port 8001
+23:41:07 INFO  Thread-3 26176 Actor:185 - Courier received message Deal
+23:41:07 INFO  Thread-3 26176 Actor:185 - Courier invoking listener for Deal
+23:41:07 INFO  Thread-3 26177 Actor:266 - received card = S9 values = 16/16 hid = Timothys-MacBook-Pro.local:YOU:5D10DB6B555D444F
+23:41:07 INFO  Thread-3 26177 Trap:73 - shoe size: 0.8269230769230769
+23:41:07 INFO  Thread-3 26177 Trap:74 - running count: -1.0
+23:41:07 INFO  Thread-3 26177 Trap:75 - true count: -1.2093023255813955
+23:41:07 INFO  Thread-3 26177 Trap:76 - bet: 1
+23:41:07 INFO  Thread-3 26177 Actor:185 - Courier waiting for connection on port 8001
+23:41:08 INFO  Thread-3 26927 Actor:185 - Courier accepted connection on port 8001
+23:41:08 INFO  Thread-3 26930 Actor:185 - Courier received message Deal
+23:41:08 INFO  Thread-3 26931 Actor:185 - Courier invoking listener for Deal
+23:41:08 INFO  Thread-3 26931 Actor:266 - received card = D8 values = 8/8 hid = Timothys-MacBook-Pro.local:DEALER:52F308A0D1239F0B
+23:41:08 INFO  Thread-3 26935 Trap:73 - shoe size: 0.8269230769230769
+23:41:08 INFO  Thread-3 26936 Trap:74 - running count: -1.0
+23:41:08 INFO  Thread-3 26936 Trap:75 - true count: -1.2093023255813955
+23:41:08 INFO  Thread-3 26936 Trap:76 - bet: 1
+23:41:08 INFO  Thread-3 26936 Actor:185 - Courier waiting for connection on port 8001
+23:41:08 INFO  Thread-3 26936 Actor:185 - Courier accepted connection on port 8001
+23:41:08 INFO  Thread-3 26937 Actor:185 - Courier received message Play
+23:41:08 INFO  Thread-3 26937 Actor:185 - Courier invoking listener for Play
+23:41:08 INFO  Thread-3 26937 Actor:276 - got turn = Timothys-MacBook-Pro.local:YOU:5D10DB6B555D444F
+23:41:08 INFO  Thread-3 27594 Trap:73 - shoe size: 0.8269230769230769
+23:41:08 INFO  Thread-3 27595 Trap:74 - running count: -1.0
+23:41:08 INFO  Thread-3 27595 Trap:75 - true count: -1.2093023255813955
+23:41:08 INFO  Thread-3 27595 Trap:76 - bet: 1
+23:41:08 INFO  Thread-3 27596 Actor:185 - Courier waiting for connection on port 8001
+23:41:09 INFO  AWT-EventQueue-0 27692 Actor:185 - Courier sending Hit to 127.0.0.1:8501
+23:41:09 INFO  AWT-EventQueue-0 27694 Actor:185 - Courier sent successfully Hit to 127.0.0.1:8501
+23:41:09 INFO  Thread-3 27697 Actor:185 - Courier accepted connection on port 8001
+23:41:09 INFO  Thread-3 27701 Actor:185 - Courier received message Deal
+23:41:09 INFO  Thread-3 27701 Actor:185 - Courier invoking listener for Deal
+23:41:09 INFO  Thread-3 27701 Actor:266 - received card = C3 values = 19/19 hid = Timothys-MacBook-Pro.local:YOU:5D10DB6B555D444F
+23:41:09 INFO  Thread-3 27701 Trap:73 - shoe size: 0.8269230769230769
+23:41:09 INFO  Thread-3 27702 Trap:74 - running count: 0.0
+23:41:09 INFO  Thread-3 27702 Trap:75 - true count: 0.0
+23:41:09 INFO  Thread-3 27702 Trap:76 - bet: 1
+23:41:09 INFO  Thread-3 27702 Actor:185 - Courier waiting for connection on port 8001
+23:41:10 INFO  AWT-EventQueue-0 28671 Actor:185 - Courier sending Stay to 127.0.0.1:8501
+23:41:10 INFO  AWT-EventQueue-0 28672 Actor:185 - Courier sent successfully Stay to 127.0.0.1:8501
+23:41:10 INFO  Thread-3 28674 Actor:185 - Courier accepted connection on port 8001
+23:41:10 INFO  Thread-3 28675 Actor:185 - Courier received message Play
+23:41:10 INFO  Thread-3 28675 Actor:185 - Courier invoking listener for Play
+23:41:10 INFO  Thread-3 28675 Actor:276 - got turn = Timothys-MacBook-Pro.local:DEALER:52F308A0D1239F0B
+23:41:10 INFO  Thread-3 28676 Trap:73 - shoe size: 0.8269230769230769
+23:41:10 INFO  Thread-3 28676 Trap:74 - running count: 0.0
+23:41:10 INFO  Thread-3 28676 Trap:75 - true count: 0.0
+23:41:10 INFO  Thread-3 28676 Trap:76 - bet: 1
+23:41:10 INFO  Thread-3 28676 Actor:185 - Courier waiting for connection on port 8001
+23:41:10 INFO  Thread-3 28676 Actor:185 - Courier accepted connection on port 8001
+23:41:10 INFO  Thread-3 28677 Actor:185 - Courier received message Deal
+23:41:10 INFO  Thread-3 28677 Actor:185 - Courier invoking listener for Deal
+23:41:10 INFO  Thread-3 28677 Actor:266 - received card = null values = 18/18 hid = Timothys-MacBook-Pro.local:DEALER:52F308A0D1239F0B
+23:41:10 INFO  Thread-3 28678 Trap:73 - shoe size: 0.8269230769230769
+23:41:10 INFO  Thread-3 28678 Trap:74 - running count: 0.0
+23:41:10 INFO  Thread-3 28678 Trap:75 - true count: 0.0
+23:41:10 INFO  Thread-3 28678 Trap:76 - bet: 1
+23:41:10 INFO  Thread-3 28679 Actor:185 - Courier waiting for connection on port 8001
+23:41:10 INFO  Thread-3 28679 Actor:185 - Courier accepted connection on port 8001
+23:41:10 INFO  Thread-3 28682 Actor:185 - Courier received message Win
+23:41:10 INFO  Thread-3 28682 Actor:185 - Courier invoking listener for Win
+23:41:10 INFO  Thread-3 28682 Actor:207 - received outcome = Win
+23:41:10 INFO  Thread-3 28682 ATable:505 - WIN for hid = Timothys-MacBook-Pro.local:YOU:5D10DB6B555D444F amt = 25.0
+23:41:10 INFO  Thread-3 28682 SideBetView:155 - side bet outcome = 30.0
+23:41:10 INFO  Thread-3 28682 SideBetView:160 - new bankroll = 1055.0
+23:41:10 INFO  Thread-3 28683 Trap:73 - shoe size: 0.8269230769230769
+23:41:10 INFO  Thread-3 28683 Trap:74 - running count: 0.0
+23:41:10 INFO  Thread-3 28683 Trap:75 - true count: 0.0
+23:41:10 INFO  Thread-3 28683 Trap:76 - bet: 1
+23:41:10 INFO  Thread-3 28683 Actor:185 - Courier waiting for connection on port 8001
+23:41:10 INFO  Thread-3 28683 Actor:185 - Courier accepted connection on port 8001
+23:41:10 INFO  Thread-3 28684 Actor:185 - Courier received message GameOver
+23:41:10 INFO  Thread-3 28684 Actor:185 - Courier invoking listener for GameOver
+23:41:10 INFO  Thread-3 28684 Actor:287 - received ending shoe size = 38
+23:41:10 INFO  Thread-3 28684 ATable:669 - num hands = 2 wins = 1 loses = 0 pushes = 0
+23:41:11 INFO  Thread-20 29959 ATable:206 - side bet = 10
+23:41:11 INFO  Thread-20 29959 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+23:41:11 INFO  Thread-20 29959 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+23:41:11 INFO  Thread-3 30142 Trap:73 - shoe size: 0.8269230769230769
+23:41:11 INFO  Thread-3 30143 Trap:74 - running count: 0.0
+23:41:11 INFO  Thread-3 30143 Trap:75 - true count: 0.0
+23:41:11 INFO  Thread-3 30143 Trap:76 - bet: 1
+23:41:11 INFO  Thread-3 30143 Actor:185 - Courier waiting for connection on port 8001
+23:41:11 INFO  Thread-3 30143 Actor:185 - Courier accepted connection on port 8001
+23:41:11 INFO  Thread-3 30145 Actor:185 - Courier received message GameStart
+23:41:11 INFO  Thread-3 30145 Actor:185 - Courier invoking listener for GameStart
+23:41:11 INFO  Thread-3 30146 Actor:244 - receive starting shoe size = 38
+23:41:11 INFO  Thread-3 30146 Actor:247 - starting hand: Timothys-MacBook-Pro.local:YOU:30DA253E141CB9C9
+23:41:11 INFO  Thread-3 30146 Actor:247 - starting hand: Timothys-MacBook-Pro.local:DEALER:28C73EFD57215BC3
+23:41:11 INFO  Thread-3 30146 Trap:73 - shoe size: 0.7307692307692307
+23:41:11 INFO  Thread-3 30146 Trap:74 - running count: 0.0
+23:41:11 INFO  Thread-3 30146 Trap:75 - true count: 0.0
+23:41:11 INFO  Thread-3 30146 Trap:76 - bet: 1
+23:41:11 INFO  Thread-3 30147 Actor:185 - Courier waiting for connection on port 8001
+23:41:12 INFO  Thread-3 30970 Actor:185 - Courier accepted connection on port 8001
+23:41:12 INFO  Thread-3 30971 Actor:185 - Courier received message Deal
+23:41:12 INFO  Thread-3 30972 Actor:185 - Courier invoking listener for Deal
+23:41:12 INFO  Thread-3 30972 Actor:266 - received card = H9 values = 9/9 hid = Timothys-MacBook-Pro.local:YOU:30DA253E141CB9C9
+23:41:12 INFO  Thread-3 30976 Trap:73 - shoe size: 0.7307692307692307
+23:41:12 INFO  Thread-3 30976 Trap:74 - running count: 0.0
+23:41:12 INFO  Thread-3 30977 Trap:75 - true count: 0.0
+23:41:12 INFO  Thread-3 30977 Trap:76 - bet: 1
+23:41:12 INFO  Thread-3 30977 Actor:185 - Courier waiting for connection on port 8001
+23:41:13 INFO  Thread-3 31725 Actor:185 - Courier accepted connection on port 8001
+23:41:13 INFO  Thread-3 31729 Actor:185 - Courier received message Deal
+23:41:13 INFO  Thread-3 31729 Actor:185 - Courier invoking listener for Deal
+23:41:13 INFO  Thread-3 31729 Actor:266 - received card = CK values = 0/0 hid = Timothys-MacBook-Pro.local:DEALER:28C73EFD57215BC3
+23:41:13 INFO  Thread-3 31730 Trap:73 - shoe size: 0.7307692307692307
+23:41:13 INFO  Thread-3 31730 Trap:74 - running count: -1.0
+23:41:13 INFO  Thread-3 31731 Trap:75 - true count: -1.368421052631579
+23:41:13 INFO  Thread-3 31731 Trap:76 - bet: 1
+23:41:13 INFO  Thread-3 31731 Actor:185 - Courier waiting for connection on port 8001
+23:41:13 INFO  Thread-3 32479 Actor:185 - Courier accepted connection on port 8001
+23:41:13 INFO  Thread-3 32481 Actor:185 - Courier received message Deal
+23:41:13 INFO  Thread-3 32481 Actor:185 - Courier invoking listener for Deal
+23:41:13 INFO  Thread-3 32481 Actor:266 - received card = S7 values = 16/16 hid = Timothys-MacBook-Pro.local:YOU:30DA253E141CB9C9
+23:41:13 INFO  Thread-3 32485 Trap:73 - shoe size: 0.7307692307692307
+23:41:13 INFO  Thread-3 32485 Trap:74 - running count: -1.0
+23:41:13 INFO  Thread-3 32485 Trap:75 - true count: -1.368421052631579
+23:41:13 INFO  Thread-3 32485 Trap:76 - bet: 1
+23:41:13 INFO  Thread-3 32485 Actor:185 - Courier waiting for connection on port 8001
+23:41:14 INFO  Thread-3 33236 Actor:185 - Courier accepted connection on port 8001
+23:41:14 INFO  Thread-3 33237 Actor:185 - Courier received message Deal
+23:41:14 INFO  Thread-3 33237 Actor:185 - Courier invoking listener for Deal
+23:41:14 INFO  Thread-3 33238 Actor:266 - received card = D8 values = 8/8 hid = Timothys-MacBook-Pro.local:DEALER:28C73EFD57215BC3
+23:41:14 INFO  Thread-3 33238 Trap:73 - shoe size: 0.7307692307692307
+23:41:14 INFO  Thread-3 33238 Trap:74 - running count: -1.0
+23:41:14 INFO  Thread-3 33238 Trap:75 - true count: -1.368421052631579
+23:41:14 INFO  Thread-3 33238 Trap:76 - bet: 1
+23:41:14 INFO  Thread-3 33238 Actor:185 - Courier waiting for connection on port 8001
+23:41:14 INFO  Thread-3 33238 Actor:185 - Courier accepted connection on port 8001
+23:41:14 INFO  Thread-3 33239 Actor:185 - Courier received message Play
+23:41:14 INFO  Thread-3 33239 Actor:185 - Courier invoking listener for Play
+23:41:14 INFO  Thread-3 33239 Actor:276 - got turn = Timothys-MacBook-Pro.local:YOU:30DA253E141CB9C9
+23:41:15 INFO  Thread-3 33881 Trap:73 - shoe size: 0.7307692307692307
+23:41:15 INFO  Thread-3 33881 Trap:74 - running count: -1.0
+23:41:15 INFO  Thread-3 33882 Trap:75 - true count: -1.368421052631579
+23:41:15 INFO  Thread-3 33882 Trap:76 - bet: 1
+23:41:15 INFO  Thread-3 33882 Actor:185 - Courier waiting for connection on port 8001
+23:41:15 INFO  AWT-EventQueue-0 33947 Actor:185 - Courier sending Hit to 127.0.0.1:8501
+23:41:15 INFO  AWT-EventQueue-0 33949 Actor:185 - Courier sent successfully Hit to 127.0.0.1:8501
+23:41:15 INFO  Thread-3 33953 Actor:185 - Courier accepted connection on port 8001
+23:41:15 INFO  Thread-3 33954 Actor:185 - Courier received message Deal
+23:41:15 INFO  Thread-3 33954 Actor:185 - Courier invoking listener for Deal
+23:41:15 INFO  Thread-3 33954 Actor:266 - received card = C3 values = 19/19 hid = Timothys-MacBook-Pro.local:YOU:30DA253E141CB9C9
+23:41:15 INFO  Thread-3 33957 Trap:73 - shoe size: 0.7307692307692307
+23:41:15 INFO  Thread-3 33958 Trap:74 - running count: 0.0
+23:41:15 INFO  Thread-3 33958 Trap:75 - true count: 0.0
+23:41:15 INFO  Thread-3 33958 Trap:76 - bet: 1
+23:41:15 INFO  Thread-3 33958 Actor:185 - Courier waiting for connection on port 8001
+23:41:16 INFO  AWT-EventQueue-0 34691 Actor:185 - Courier sending Stay to 127.0.0.1:8501
+23:41:16 INFO  AWT-EventQueue-0 34694 Actor:185 - Courier sent successfully Stay to 127.0.0.1:8501
+23:41:16 INFO  Thread-3 34698 Actor:185 - Courier accepted connection on port 8001
+23:41:16 INFO  Thread-3 34701 Actor:185 - Courier received message Play
+23:41:16 INFO  Thread-3 34701 Actor:185 - Courier invoking listener for Play
+23:41:16 INFO  Thread-3 34702 Actor:276 - got turn = Timothys-MacBook-Pro.local:DEALER:28C73EFD57215BC3
+23:41:16 INFO  Thread-3 34704 Trap:73 - shoe size: 0.7307692307692307
+23:41:16 INFO  Thread-3 34704 Trap:74 - running count: 0.0
+23:41:16 INFO  Thread-3 34704 Trap:75 - true count: 0.0
+23:41:16 INFO  Thread-3 34704 Trap:76 - bet: 1
+23:41:16 INFO  Thread-3 34704 Actor:185 - Courier waiting for connection on port 8001
+23:41:16 INFO  Thread-3 34704 Actor:185 - Courier accepted connection on port 8001
+23:41:16 INFO  Thread-3 34705 Actor:185 - Courier received message Deal
+23:41:16 INFO  Thread-3 34705 Actor:185 - Courier invoking listener for Deal
+23:41:16 INFO  Thread-3 34705 Actor:266 - received card = null values = 18/18 hid = Timothys-MacBook-Pro.local:DEALER:28C73EFD57215BC3
+23:41:16 INFO  Thread-3 34706 Trap:73 - shoe size: 0.7307692307692307
+23:41:16 INFO  Thread-3 34706 Trap:74 - running count: 0.0
+23:41:16 INFO  Thread-3 34706 Trap:75 - true count: 0.0
+23:41:16 INFO  Thread-3 34706 Trap:76 - bet: 1
+23:41:16 INFO  Thread-3 34706 Actor:185 - Courier waiting for connection on port 8001
+23:41:16 INFO  Thread-3 34707 Actor:185 - Courier accepted connection on port 8001
+23:41:16 INFO  Thread-3 34709 Actor:185 - Courier received message Win
+23:41:16 INFO  Thread-3 34710 Actor:185 - Courier invoking listener for Win
+23:41:16 INFO  Thread-3 34710 Actor:207 - received outcome = Win
+23:41:16 INFO  Thread-3 34710 ATable:505 - WIN for hid = Timothys-MacBook-Pro.local:YOU:30DA253E141CB9C9 amt = 25.0
+23:41:16 INFO  Thread-3 34710 SideBetView:155 - side bet outcome = -10.0
+23:41:16 INFO  Thread-3 34710 SideBetView:160 - new bankroll = 1070.0
+23:41:16 INFO  Thread-3 34710 Trap:73 - shoe size: 0.7307692307692307
+23:41:16 INFO  Thread-3 34710 Trap:74 - running count: 0.0
+23:41:16 INFO  Thread-3 34710 Trap:75 - true count: 0.0
+23:41:16 INFO  Thread-3 34710 Trap:76 - bet: 1
+23:41:16 INFO  Thread-3 34710 Actor:185 - Courier waiting for connection on port 8001
+23:41:16 INFO  Thread-3 34710 Actor:185 - Courier accepted connection on port 8001
+23:41:16 INFO  Thread-3 34711 Actor:185 - Courier received message GameOver
+23:41:16 INFO  Thread-3 34711 Actor:185 - Courier invoking listener for GameOver
+23:41:16 INFO  Thread-3 34711 Actor:287 - received ending shoe size = 33
+23:41:16 INFO  Thread-3 34711 ATable:669 - num hands = 2 wins = 1 loses = 0 pushes = 0
+23:41:17 INFO  Thread-27 35645 ATable:206 - side bet = 10
+23:41:17 INFO  Thread-27 35646 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+23:41:17 INFO  Thread-27 35648 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+23:41:18 INFO  Thread-3 37432 Trap:73 - shoe size: 0.7307692307692307
+23:41:18 INFO  Thread-3 37432 Trap:74 - running count: 0.0
+23:41:18 INFO  Thread-3 37433 Trap:75 - true count: 0.0
+23:41:18 INFO  Thread-3 37433 Trap:76 - bet: 1
+23:41:18 INFO  Thread-3 37433 Actor:185 - Courier waiting for connection on port 8001
+23:41:18 INFO  Thread-3 37433 Actor:185 - Courier accepted connection on port 8001
+23:41:18 INFO  Thread-3 37435 Actor:185 - Courier received message GameStart
+23:41:18 INFO  Thread-3 37435 Actor:185 - Courier invoking listener for GameStart
+23:41:18 INFO  Thread-3 37435 Actor:244 - receive starting shoe size = 33
+23:41:18 INFO  Thread-3 37435 Actor:247 - starting hand: Timothys-MacBook-Pro.local:YOU:E569E771A614B71
+23:41:18 INFO  Thread-3 37435 Actor:247 - starting hand: Timothys-MacBook-Pro.local:DEALER:1905966A1F03A92D
+23:41:18 INFO  Thread-3 37436 Trap:73 - shoe size: 0.6346153846153846
+23:41:18 INFO  Thread-3 37436 Trap:74 - running count: 0.0
+23:41:18 INFO  Thread-3 37436 Trap:75 - true count: 0.0
+23:41:18 INFO  Thread-3 37436 Trap:76 - bet: 1
+23:41:18 INFO  Thread-3 37436 Actor:185 - Courier waiting for connection on port 8001
+23:41:18 INFO  Thread-3 37436 Actor:185 - Courier accepted connection on port 8001
+23:41:18 INFO  Thread-3 37437 Actor:185 - Courier received message Deal
+23:41:18 INFO  Thread-3 37437 Actor:185 - Courier invoking listener for Deal
+23:41:18 INFO  Thread-3 37437 Actor:266 - received card = H7 values = 7/7 hid = Timothys-MacBook-Pro.local:YOU:E569E771A614B71
+23:41:18 INFO  Thread-3 37438 Trap:73 - shoe size: 0.6346153846153846
+23:41:18 INFO  Thread-3 37438 Trap:74 - running count: 0.0
+23:41:18 INFO  Thread-3 37438 Trap:75 - true count: 0.0
+23:41:18 INFO  Thread-3 37438 Trap:76 - bet: 1
+23:41:18 INFO  Thread-3 37438 Actor:185 - Courier waiting for connection on port 8001
+23:41:18 INFO  Thread-3 37438 Actor:185 - Courier accepted connection on port 8001
+23:41:18 INFO  Thread-3 37439 Actor:185 - Courier received message Deal
+23:41:18 INFO  Thread-3 37439 Actor:185 - Courier invoking listener for Deal
+23:41:18 INFO  Thread-3 37439 Actor:266 - received card = CK values = 0/0 hid = Timothys-MacBook-Pro.local:DEALER:1905966A1F03A92D
+23:41:18 INFO  Thread-3 37440 Trap:73 - shoe size: 0.6346153846153846
+23:41:18 INFO  Thread-3 37440 Trap:74 - running count: -1.0
+23:41:18 INFO  Thread-3 37440 Trap:75 - true count: -1.575757575757576
+23:41:18 INFO  Thread-3 37440 Trap:76 - bet: 1
+23:41:18 INFO  Thread-3 37440 Actor:185 - Courier waiting for connection on port 8001
+23:41:19 INFO  Thread-3 38175 Actor:185 - Courier accepted connection on port 8001
+23:41:19 INFO  Thread-3 38178 Actor:185 - Courier received message Deal
+23:41:19 INFO  Thread-3 38178 Actor:185 - Courier invoking listener for Deal
+23:41:19 INFO  Thread-3 38178 Actor:266 - received card = S9 values = 16/16 hid = Timothys-MacBook-Pro.local:YOU:E569E771A614B71
+23:41:19 INFO  Thread-3 38179 Trap:73 - shoe size: 0.6346153846153846
+23:41:19 INFO  Thread-3 38179 Trap:74 - running count: -1.0
+23:41:19 INFO  Thread-3 38179 Trap:75 - true count: -1.575757575757576
+23:41:19 INFO  Thread-3 38179 Trap:76 - bet: 1
+23:41:19 INFO  Thread-3 38179 Actor:185 - Courier waiting for connection on port 8001
+23:41:20 INFO  Thread-3 38932 Actor:185 - Courier accepted connection on port 8001
+23:41:20 INFO  Thread-3 38934 Actor:185 - Courier received message Deal
+23:41:20 INFO  Thread-3 38934 Actor:185 - Courier invoking listener for Deal
+23:41:20 INFO  Thread-3 38934 Actor:266 - received card = D10 values = 10/10 hid = Timothys-MacBook-Pro.local:DEALER:1905966A1F03A92D
+23:41:20 INFO  Thread-3 38939 Trap:73 - shoe size: 0.6346153846153846
+23:41:20 INFO  Thread-3 38939 Trap:74 - running count: -2.0
+23:41:20 INFO  Thread-3 38939 Trap:75 - true count: -3.151515151515152
+23:41:20 INFO  Thread-3 38939 Trap:76 - bet: 1
+23:41:20 INFO  Thread-3 38939 Actor:185 - Courier waiting for connection on port 8001
+23:41:20 INFO  Thread-3 38939 Actor:185 - Courier accepted connection on port 8001
+23:41:20 INFO  Thread-3 38940 Actor:185 - Courier received message Play
+23:41:20 INFO  Thread-3 38940 Actor:185 - Courier invoking listener for Play
+23:41:20 INFO  Thread-3 38941 Actor:276 - got turn = Timothys-MacBook-Pro.local:YOU:E569E771A614B71
+23:41:20 INFO  Thread-3 39593 Trap:73 - shoe size: 0.6346153846153846
+23:41:20 INFO  Thread-3 39593 Trap:74 - running count: -2.0
+23:41:20 INFO  Thread-3 39593 Trap:75 - true count: -3.151515151515152
+23:41:20 INFO  Thread-3 39594 Trap:76 - bet: 1
+23:41:20 INFO  Thread-3 39594 Actor:185 - Courier waiting for connection on port 8001
+23:41:21 INFO  AWT-EventQueue-0 40164 Actor:185 - Courier sending Hit to 127.0.0.1:8501
+23:41:21 INFO  AWT-EventQueue-0 40166 Actor:185 - Courier sent successfully Hit to 127.0.0.1:8501
+23:41:21 INFO  Thread-3 40168 Actor:185 - Courier accepted connection on port 8001
+23:41:21 INFO  Thread-3 40169 Actor:185 - Courier received message Deal
+23:41:21 INFO  Thread-3 40169 Actor:185 - Courier invoking listener for Deal
+23:41:21 INFO  Thread-3 40169 Actor:266 - received card = C3 values = 19/19 hid = Timothys-MacBook-Pro.local:YOU:E569E771A614B71
+23:41:21 INFO  Thread-3 40176 Trap:73 - shoe size: 0.6346153846153846
+23:41:21 INFO  Thread-3 40176 Trap:74 - running count: -1.0
+23:41:21 INFO  Thread-3 40176 Trap:75 - true count: -1.575757575757576
+23:41:21 INFO  Thread-3 40176 Trap:76 - bet: 1
+23:41:21 INFO  Thread-3 40176 Actor:185 - Courier waiting for connection on port 8001
+23:41:22 INFO  AWT-EventQueue-0 41096 Actor:185 - Courier sending Stay to 127.0.0.1:8501
+23:41:22 INFO  AWT-EventQueue-0 41098 Actor:185 - Courier sent successfully Stay to 127.0.0.1:8501
+23:41:22 INFO  Thread-3 41104 Actor:185 - Courier accepted connection on port 8001
+23:41:22 INFO  Thread-3 41105 Actor:185 - Courier received message Play
+23:41:22 INFO  Thread-3 41105 Actor:185 - Courier invoking listener for Play
+23:41:22 INFO  Thread-3 41105 Actor:276 - got turn = Timothys-MacBook-Pro.local:DEALER:1905966A1F03A92D
+23:41:22 INFO  Thread-3 41105 Trap:73 - shoe size: 0.6346153846153846
+23:41:22 INFO  Thread-3 41105 Trap:74 - running count: -1.0
+23:41:22 INFO  Thread-3 41105 Trap:75 - true count: -1.575757575757576
+23:41:22 INFO  Thread-3 41106 Trap:76 - bet: 1
+23:41:22 INFO  Thread-3 41106 Actor:185 - Courier waiting for connection on port 8001
+23:41:22 INFO  Thread-3 41106 Actor:185 - Courier accepted connection on port 8001
+23:41:22 INFO  Thread-3 41107 Actor:185 - Courier received message Deal
+23:41:22 INFO  Thread-3 41107 Actor:185 - Courier invoking listener for Deal
+23:41:22 INFO  Thread-3 41107 Actor:266 - received card = null values = 20/20 hid = Timothys-MacBook-Pro.local:DEALER:1905966A1F03A92D
+23:41:22 INFO  Thread-3 41112 Trap:73 - shoe size: 0.6346153846153846
+23:41:22 INFO  Thread-3 41112 Trap:74 - running count: -1.0
+23:41:22 INFO  Thread-3 41112 Trap:75 - true count: -1.575757575757576
+23:41:22 INFO  Thread-3 41112 Trap:76 - bet: 1
+23:41:22 INFO  Thread-3 41113 Actor:185 - Courier waiting for connection on port 8001
+23:41:22 INFO  Thread-3 41113 Actor:185 - Courier accepted connection on port 8001
+23:41:22 INFO  Thread-3 41115 Actor:185 - Courier received message Lose
+23:41:22 INFO  Thread-3 41115 Actor:185 - Courier invoking listener for Lose
+23:41:22 INFO  Thread-3 41115 Actor:207 - received outcome = Lose
+23:41:22 INFO  Thread-3 41115 ATable:530 - LOOSE for hid = Timothys-MacBook-Pro.local:YOU:E569E771A614B71 amt = 25.0
+23:41:22 INFO  Thread-3 41115 SideBetView:155 - side bet outcome = 30.0
+23:41:22 INFO  Thread-3 41115 SideBetView:160 - new bankroll = 1075.0
+23:41:22 INFO  Thread-3 41116 Trap:73 - shoe size: 0.6346153846153846
+23:41:22 INFO  Thread-3 41116 Trap:74 - running count: -1.0
+23:41:22 INFO  Thread-3 41116 Trap:75 - true count: -1.575757575757576
+23:41:22 INFO  Thread-3 41116 Trap:76 - bet: 1
+23:41:22 INFO  Thread-3 41116 Actor:185 - Courier waiting for connection on port 8001
+23:41:22 INFO  Thread-3 41116 Actor:185 - Courier accepted connection on port 8001
+23:41:22 INFO  Thread-3 41116 Actor:185 - Courier received message GameOver
+23:41:22 INFO  Thread-3 41117 Actor:185 - Courier invoking listener for GameOver
+23:41:22 INFO  Thread-3 41117 Actor:287 - received ending shoe size = 28
+23:41:22 INFO  Thread-3 41117 ATable:669 - num hands = 2 wins = 0 loses = 1 pushes = 0
+23:41:23 INFO  Thread-33 42194 ATable:206 - side bet = 10
+23:41:23 INFO  Thread-33 42194 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+23:41:23 INFO  Thread-33 42197 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+23:41:23 INFO  Thread-3 42485 Trap:73 - shoe size: 0.6346153846153846
+23:41:23 INFO  Thread-3 42485 Trap:74 - running count: -1.0
+23:41:23 INFO  Thread-3 42485 Trap:75 - true count: -1.575757575757576
+23:41:23 INFO  Thread-3 42485 Trap:76 - bet: 1
+23:41:23 INFO  Thread-3 42485 Actor:185 - Courier waiting for connection on port 8001
+23:41:23 INFO  Thread-3 42485 Actor:185 - Courier accepted connection on port 8001
+23:41:23 INFO  Thread-3 42486 Actor:185 - Courier received message GameStart
+23:41:23 INFO  Thread-3 42487 Actor:185 - Courier invoking listener for GameStart
+23:41:23 INFO  Thread-3 42487 Actor:244 - receive starting shoe size = 28
+23:41:23 INFO  Thread-3 42487 Actor:247 - starting hand: Timothys-MacBook-Pro.local:YOU:3387BA5514E69F47
+23:41:23 INFO  Thread-3 42487 Actor:247 - starting hand: Timothys-MacBook-Pro.local:DEALER:7A0AA175FA3CD9CA
+23:41:23 INFO  Thread-3 42487 Trap:73 - shoe size: 0.5384615384615384
+23:41:23 INFO  Thread-3 42487 Trap:74 - running count: -1.0
+23:41:23 INFO  Thread-3 42487 Trap:75 - true count: -1.575757575757576
+23:41:23 INFO  Thread-3 42487 Trap:76 - bet: 1
+23:41:23 INFO  Thread-3 42487 Actor:185 - Courier waiting for connection on port 8001
+23:41:24 INFO  Thread-3 43211 Actor:185 - Courier accepted connection on port 8001
+23:41:24 INFO  Thread-3 43213 Actor:185 - Courier received message Deal
+23:41:24 INFO  Thread-3 43214 Actor:185 - Courier invoking listener for Deal
+23:41:24 INFO  Thread-3 43214 Actor:266 - received card = H9 values = 9/9 hid = Timothys-MacBook-Pro.local:YOU:3387BA5514E69F47
+23:41:24 INFO  Thread-3 43214 Trap:73 - shoe size: 0.5384615384615384
+23:41:24 INFO  Thread-3 43214 Trap:74 - running count: -1.0
+23:41:24 INFO  Thread-3 43215 Trap:75 - true count: -1.8571428571428572
+23:41:24 INFO  Thread-3 43215 Trap:76 - bet: 1
+23:41:24 INFO  Thread-3 43215 Actor:185 - Courier waiting for connection on port 8001
+23:41:25 INFO  Thread-3 43966 Actor:185 - Courier accepted connection on port 8001
+23:41:25 INFO  Thread-3 43968 Actor:185 - Courier received message Deal
+23:41:25 INFO  Thread-3 43968 Actor:185 - Courier invoking listener for Deal
+23:41:25 INFO  Thread-3 43968 Actor:266 - received card = CK values = 0/0 hid = Timothys-MacBook-Pro.local:DEALER:7A0AA175FA3CD9CA
+23:41:25 INFO  Thread-3 43968 Trap:73 - shoe size: 0.5384615384615384
+23:41:25 INFO  Thread-3 43969 Trap:74 - running count: -2.0
+23:41:25 INFO  Thread-3 43969 Trap:75 - true count: -3.7142857142857144
+23:41:25 INFO  Thread-3 43969 Trap:76 - bet: 1
+23:41:25 INFO  Thread-3 43969 Actor:185 - Courier waiting for connection on port 8001
+23:41:26 INFO  Thread-3 44719 Actor:185 - Courier accepted connection on port 8001
+23:41:26 INFO  Thread-3 44721 Actor:185 - Courier received message Deal
+23:41:26 INFO  Thread-3 44721 Actor:185 - Courier invoking listener for Deal
+23:41:26 INFO  Thread-3 44721 Actor:266 - received card = S7 values = 16/16 hid = Timothys-MacBook-Pro.local:YOU:3387BA5514E69F47
+23:41:26 INFO  Thread-3 44723 Trap:73 - shoe size: 0.5384615384615384
+23:41:26 INFO  Thread-3 44724 Trap:74 - running count: -2.0
+23:41:26 INFO  Thread-3 44724 Trap:75 - true count: -3.7142857142857144
+23:41:26 INFO  Thread-3 44724 Trap:76 - bet: 1
+23:41:26 INFO  Thread-3 44726 Actor:185 - Courier waiting for connection on port 8001
+23:41:26 INFO  Thread-3 45475 Actor:185 - Courier accepted connection on port 8001
+23:41:26 INFO  Thread-3 45477 Actor:185 - Courier received message Deal
+23:41:26 INFO  Thread-3 45477 Actor:185 - Courier invoking listener for Deal
+23:41:26 INFO  Thread-3 45477 Actor:266 - received card = D10 values = 10/10 hid = Timothys-MacBook-Pro.local:DEALER:7A0AA175FA3CD9CA
+23:41:26 INFO  Thread-3 45478 Trap:73 - shoe size: 0.5384615384615384
+23:41:26 INFO  Thread-3 45478 Trap:74 - running count: -3.0
+23:41:26 INFO  Thread-3 45478 Trap:75 - true count: -5.571428571428572
+23:41:26 INFO  Thread-3 45478 Trap:76 - bet: 1
+23:41:26 INFO  Thread-3 45478 Actor:185 - Courier waiting for connection on port 8001
+23:41:26 INFO  Thread-3 45478 Actor:185 - Courier accepted connection on port 8001
+23:41:26 INFO  Thread-3 45479 Actor:185 - Courier received message Play
+23:41:26 INFO  Thread-3 45479 Actor:185 - Courier invoking listener for Play
+23:41:26 INFO  Thread-3 45480 Actor:276 - got turn = Timothys-MacBook-Pro.local:YOU:3387BA5514E69F47
+23:41:27 INFO  Thread-3 46139 Trap:73 - shoe size: 0.5384615384615384
+23:41:27 INFO  Thread-3 46139 Trap:74 - running count: -3.0
+23:41:27 INFO  Thread-3 46139 Trap:75 - true count: -5.571428571428572
+23:41:27 INFO  Thread-3 46139 Trap:76 - bet: 1
+23:41:27 INFO  Thread-3 46139 Actor:185 - Courier waiting for connection on port 8001
+23:41:28 INFO  AWT-EventQueue-0 47477 Actor:185 - Courier sending Hit to 127.0.0.1:8501
+23:41:28 INFO  AWT-EventQueue-0 47478 Actor:185 - Courier sent successfully Hit to 127.0.0.1:8501
+23:41:28 INFO  Thread-3 47479 Actor:185 - Courier accepted connection on port 8001
+23:41:28 INFO  Thread-3 47480 Actor:185 - Courier received message Deal
+23:41:28 INFO  Thread-3 47481 Actor:185 - Courier invoking listener for Deal
+23:41:28 INFO  Thread-3 47481 Actor:266 - received card = C3 values = 19/19 hid = Timothys-MacBook-Pro.local:YOU:3387BA5514E69F47
+23:41:28 INFO  Thread-3 47481 Trap:73 - shoe size: 0.5384615384615384
+23:41:28 INFO  Thread-3 47481 Trap:74 - running count: -2.0
+23:41:28 INFO  Thread-3 47488 Trap:75 - true count: -3.7142857142857144
+23:41:28 INFO  Thread-3 47488 Trap:76 - bet: 1
+23:41:28 INFO  Thread-3 47489 Actor:185 - Courier waiting for connection on port 8001
+23:41:29 INFO  AWT-EventQueue-0 48320 Actor:185 - Courier sending Stay to 127.0.0.1:8501
+23:41:29 INFO  AWT-EventQueue-0 48321 Actor:185 - Courier sent successfully Stay to 127.0.0.1:8501
+23:41:29 INFO  Thread-3 48325 Actor:185 - Courier accepted connection on port 8001
+23:41:29 INFO  Thread-3 48326 Actor:185 - Courier received message Play
+23:41:29 INFO  Thread-3 48326 Actor:185 - Courier invoking listener for Play
+23:41:29 INFO  Thread-3 48326 Actor:276 - got turn = Timothys-MacBook-Pro.local:DEALER:7A0AA175FA3CD9CA
+23:41:29 INFO  Thread-3 48326 Trap:73 - shoe size: 0.5384615384615384
+23:41:29 INFO  Thread-3 48326 Trap:74 - running count: -2.0
+23:41:29 INFO  Thread-3 48326 Trap:75 - true count: -3.7142857142857144
+23:41:29 INFO  Thread-3 48326 Trap:76 - bet: 1
+23:41:29 INFO  Thread-3 48327 Actor:185 - Courier waiting for connection on port 8001
+23:41:29 INFO  Thread-3 48327 Actor:185 - Courier accepted connection on port 8001
+23:41:29 INFO  Thread-3 48327 Actor:185 - Courier received message Deal
+23:41:29 INFO  Thread-3 48327 Actor:185 - Courier invoking listener for Deal
+23:41:29 INFO  Thread-3 48328 Actor:266 - received card = null values = 20/20 hid = Timothys-MacBook-Pro.local:DEALER:7A0AA175FA3CD9CA
+23:41:29 INFO  Thread-3 48331 Trap:73 - shoe size: 0.5384615384615384
+23:41:29 INFO  Thread-3 48331 Trap:74 - running count: -2.0
+23:41:29 INFO  Thread-3 48331 Trap:75 - true count: -3.7142857142857144
+23:41:29 INFO  Thread-3 48331 Trap:76 - bet: 1
+23:41:29 INFO  Thread-3 48331 Actor:185 - Courier waiting for connection on port 8001
+23:41:29 INFO  Thread-3 48331 Actor:185 - Courier accepted connection on port 8001
+23:41:29 INFO  Thread-3 48332 Actor:185 - Courier received message Lose
+23:41:29 INFO  Thread-3 48332 Actor:185 - Courier invoking listener for Lose
+23:41:29 INFO  Thread-3 48332 Actor:207 - received outcome = Lose
+23:41:29 INFO  Thread-3 48332 ATable:530 - LOOSE for hid = Timothys-MacBook-Pro.local:YOU:3387BA5514E69F47 amt = 25.0
+23:41:29 INFO  Thread-3 48332 SideBetView:155 - side bet outcome = -10.0
+23:41:29 INFO  Thread-3 48332 SideBetView:160 - new bankroll = 1040.0
+23:41:29 INFO  Thread-3 48332 Trap:73 - shoe size: 0.5384615384615384
+23:41:29 INFO  Thread-3 48332 Trap:74 - running count: -2.0
+23:41:29 INFO  Thread-3 48332 Trap:75 - true count: -3.7142857142857144
+23:41:29 INFO  Thread-3 48332 Trap:76 - bet: 1
+23:41:29 INFO  Thread-3 48332 Actor:185 - Courier waiting for connection on port 8001
+23:41:29 INFO  Thread-3 48332 Actor:185 - Courier accepted connection on port 8001
+23:41:29 INFO  Thread-3 48333 Actor:185 - Courier received message GameOver
+23:41:29 INFO  Thread-3 48333 Actor:185 - Courier invoking listener for GameOver
+23:41:29 INFO  Thread-3 48333 Actor:287 - received ending shoe size = 23
+23:41:29 INFO  Thread-3 48333 ATable:669 - num hands = 2 wins = 0 loses = 1 pushes = 0
+23:41:30 INFO  Thread-3 49065 Trap:73 - shoe size: 0.5384615384615384
+23:41:30 INFO  Thread-3 49065 Trap:74 - running count: -2.0
+23:41:30 INFO  Thread-3 49065 Trap:75 - true count: -3.7142857142857144
+23:41:30 INFO  Thread-3 49065 Trap:76 - bet: 1
+23:41:30 INFO  Thread-3 49066 Actor:185 - Courier waiting for connection on port 8001
+23:41:30 INFO  Thread-40 49266 ATable:206 - side bet = 10
+23:41:30 INFO  Thread-40 49266 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+23:41:30 INFO  Thread-40 49267 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+23:41:30 INFO  Thread-3 49270 Actor:185 - Courier accepted connection on port 8001
+23:41:30 INFO  Thread-3 49271 Actor:185 - Courier received message GameStart
+23:41:30 INFO  Thread-3 49271 Actor:185 - Courier invoking listener for GameStart
+23:41:30 INFO  Thread-3 49271 Actor:244 - receive starting shoe size = 23
+23:41:30 INFO  Thread-3 49271 Actor:247 - starting hand: Timothys-MacBook-Pro.local:YOU:8D5A61569F88871
+23:41:30 INFO  Thread-3 49271 Actor:247 - starting hand: Timothys-MacBook-Pro.local:DEALER:5BF19A49AB628FF2
+23:41:30 INFO  Thread-3 49271 Trap:73 - shoe size: 0.4423076923076923
+23:41:30 INFO  Thread-3 49271 Trap:74 - running count: -2.0
+23:41:30 INFO  Thread-3 49271 Trap:75 - true count: -3.7142857142857144
+23:41:30 INFO  Thread-3 49271 Trap:76 - bet: 1
+23:41:30 INFO  Thread-3 49272 Actor:185 - Courier waiting for connection on port 8001
+23:41:31 INFO  Thread-3 50275 Actor:185 - Courier accepted connection on port 8001
+23:41:31 INFO  Thread-3 50276 Actor:185 - Courier received message Deal
+23:41:31 INFO  Thread-3 50276 Actor:185 - Courier invoking listener for Deal
+23:41:31 INFO  Thread-3 50276 Actor:266 - received card = HK values = 10/10 hid = Timothys-MacBook-Pro.local:YOU:8D5A61569F88871
+23:41:31 INFO  Thread-3 50280 Trap:73 - shoe size: 0.4423076923076923
+23:41:31 INFO  Thread-3 50280 Trap:74 - running count: -3.0
+23:41:31 INFO  Thread-3 50280 Trap:75 - true count: -6.782608695652174
+23:41:31 INFO  Thread-3 50280 Trap:76 - bet: 1
+23:41:31 INFO  Thread-3 50280 Actor:185 - Courier waiting for connection on port 8001
+23:41:32 INFO  Thread-3 51030 Actor:185 - Courier accepted connection on port 8001
+23:41:32 INFO  Thread-3 51032 Actor:185 - Courier received message Deal
+23:41:32 INFO  Thread-3 51032 Actor:185 - Courier invoking listener for Deal
+23:41:32 INFO  Thread-3 51032 Actor:266 - received card = CK values = 0/0 hid = Timothys-MacBook-Pro.local:DEALER:5BF19A49AB628FF2
+23:41:32 INFO  Thread-3 51033 Trap:73 - shoe size: 0.4423076923076923
+23:41:32 INFO  Thread-3 51033 Trap:74 - running count: -4.0
+23:41:32 INFO  Thread-3 51033 Trap:75 - true count: -9.043478260869566
+23:41:32 INFO  Thread-3 51033 Trap:76 - bet: 1
+23:41:32 INFO  Thread-3 51033 Actor:185 - Courier waiting for connection on port 8001
+23:41:33 INFO  Thread-3 51783 Actor:185 - Courier accepted connection on port 8001
+23:41:33 INFO  Thread-3 51784 Actor:185 - Courier received message Deal
+23:41:33 INFO  Thread-3 51784 Actor:185 - Courier invoking listener for Deal
+23:41:33 INFO  Thread-3 51784 Actor:266 - received card = HQ values = 20/20 hid = Timothys-MacBook-Pro.local:YOU:8D5A61569F88871
+23:41:33 INFO  Thread-3 51787 Trap:73 - shoe size: 0.4423076923076923
+23:41:33 INFO  Thread-3 51787 Trap:74 - running count: -5.0
+23:41:33 INFO  Thread-3 51787 Trap:75 - true count: -11.304347826086957
+23:41:33 INFO  Thread-3 51787 Trap:76 - bet: 1
+23:41:33 INFO  Thread-3 51787 Actor:185 - Courier waiting for connection on port 8001
+23:41:33 INFO  Thread-3 52540 Actor:185 - Courier accepted connection on port 8001
+23:41:33 INFO  Thread-3 52542 Actor:185 - Courier received message Deal
+23:41:33 INFO  Thread-3 52542 Actor:185 - Courier invoking listener for Deal
+23:41:33 INFO  Thread-3 52543 Actor:266 - received card = D8 values = 8/8 hid = Timothys-MacBook-Pro.local:DEALER:5BF19A49AB628FF2
+23:41:33 INFO  Thread-3 52543 Trap:73 - shoe size: 0.4423076923076923
+23:41:33 INFO  Thread-3 52543 Trap:74 - running count: -5.0
+23:41:33 INFO  Thread-3 52544 Trap:75 - true count: -11.304347826086957
+23:41:33 INFO  Thread-3 52544 Trap:76 - bet: 1
+23:41:33 INFO  Thread-3 52544 Actor:185 - Courier waiting for connection on port 8001
+23:41:33 INFO  Thread-3 52544 Actor:185 - Courier accepted connection on port 8001
+23:41:33 INFO  Thread-3 52545 Actor:185 - Courier received message Play
+23:41:33 INFO  Thread-3 52545 Actor:185 - Courier invoking listener for Play
+23:41:33 INFO  Thread-3 52545 Actor:276 - got turn = Timothys-MacBook-Pro.local:YOU:8D5A61569F88871
+23:41:34 INFO  Thread-3 53198 Trap:73 - shoe size: 0.4423076923076923
+23:41:34 INFO  Thread-3 53198 Trap:74 - running count: -5.0
+23:41:34 INFO  Thread-3 53199 Trap:75 - true count: -11.304347826086957
+23:41:34 INFO  Thread-3 53199 Trap:76 - bet: 1
+23:41:34 INFO  Thread-3 53199 Actor:185 - Courier waiting for connection on port 8001
+23:41:34 INFO  AWT-EventQueue-0 53376 Actor:185 - Courier sending Stay to 127.0.0.1:8501
+23:41:34 INFO  AWT-EventQueue-0 53377 Actor:185 - Courier sent successfully Stay to 127.0.0.1:8501
+23:41:34 INFO  Thread-3 53379 Actor:185 - Courier accepted connection on port 8001
+23:41:34 INFO  Thread-3 53381 Actor:185 - Courier received message Play
+23:41:34 INFO  Thread-3 53381 Actor:185 - Courier invoking listener for Play
+23:41:34 INFO  Thread-3 53381 Actor:276 - got turn = Timothys-MacBook-Pro.local:DEALER:5BF19A49AB628FF2
+23:41:34 INFO  Thread-3 53381 Trap:73 - shoe size: 0.4423076923076923
+23:41:34 INFO  Thread-3 53382 Trap:74 - running count: -5.0
+23:41:34 INFO  Thread-3 53385 Trap:75 - true count: -11.304347826086957
+23:41:34 INFO  Thread-3 53385 Trap:76 - bet: 1
+23:41:34 INFO  Thread-3 53385 Actor:185 - Courier waiting for connection on port 8001
+23:41:34 INFO  Thread-3 53385 Actor:185 - Courier accepted connection on port 8001
+23:41:34 INFO  Thread-3 53386 Actor:185 - Courier received message Deal
+23:41:34 INFO  Thread-3 53386 Actor:185 - Courier invoking listener for Deal
+23:41:34 INFO  Thread-3 53386 Actor:266 - received card = null values = 18/18 hid = Timothys-MacBook-Pro.local:DEALER:5BF19A49AB628FF2
+23:41:34 INFO  Thread-3 53386 Trap:73 - shoe size: 0.4423076923076923
+23:41:34 INFO  Thread-3 53387 Trap:74 - running count: -5.0
+23:41:34 INFO  Thread-3 53387 Trap:75 - true count: -11.304347826086957
+23:41:34 INFO  Thread-3 53387 Trap:76 - bet: 1
+23:41:34 INFO  Thread-3 53387 Actor:185 - Courier waiting for connection on port 8001
+23:41:34 INFO  Thread-3 53388 Actor:185 - Courier accepted connection on port 8001
+23:41:34 INFO  Thread-3 53388 Actor:185 - Courier received message Win
+23:41:34 INFO  Thread-3 53389 Actor:185 - Courier invoking listener for Win
+23:41:34 INFO  Thread-3 53389 Actor:207 - received outcome = Win
+23:41:34 INFO  Thread-3 53389 ATable:505 - WIN for hid = Timothys-MacBook-Pro.local:YOU:8D5A61569F88871 amt = 25.0
+23:41:34 INFO  Thread-3 53390 SideBetView:155 - side bet outcome = 250.0
+23:41:34 INFO  Thread-3 53390 SideBetView:160 - new bankroll = 1315.0
+23:41:34 INFO  Thread-3 53390 Trap:73 - shoe size: 0.4423076923076923
+23:41:34 INFO  Thread-3 53390 Trap:74 - running count: -5.0
+23:41:34 INFO  Thread-3 53390 Trap:75 - true count: -11.304347826086957
+23:41:34 INFO  Thread-3 53390 Trap:76 - bet: 1
+23:41:34 INFO  Thread-3 53390 Actor:185 - Courier waiting for connection on port 8001
+23:41:34 INFO  Thread-3 53390 Actor:185 - Courier accepted connection on port 8001
+23:41:34 INFO  Thread-3 53392 Actor:185 - Courier received message GameOver
+23:41:34 INFO  Thread-3 53392 Actor:185 - Courier invoking listener for GameOver
+23:41:34 INFO  Thread-3 53392 Actor:287 - received ending shoe size = 19
+23:41:34 INFO  Thread-3 53392 ATable:669 - num hands = 2 wins = 1 loses = 0 pushes = 0
+23:41:35 INFO  Thread-46 54246 ATable:206 - side bet = 10
+23:41:35 INFO  Thread-46 54246 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+23:41:35 INFO  Thread-46 54247 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+23:41:35 INFO  Thread-3 54406 Trap:73 - shoe size: 0.4423076923076923
+23:41:35 INFO  Thread-3 54407 Trap:74 - running count: -5.0
+23:41:35 INFO  Thread-3 54407 Trap:75 - true count: -11.304347826086957
+23:41:35 INFO  Thread-3 54407 Trap:76 - bet: 1
+23:41:35 INFO  Thread-3 54407 Actor:185 - Courier waiting for connection on port 8001
+23:41:35 INFO  Thread-3 54407 Actor:185 - Courier accepted connection on port 8001
+23:41:35 INFO  Thread-3 54408 Actor:185 - Courier received message GameStart
+23:41:35 INFO  Thread-3 54408 Actor:185 - Courier invoking listener for GameStart
+23:41:35 INFO  Thread-3 54408 Actor:244 - receive starting shoe size = 19
+23:41:35 INFO  Thread-3 54408 Actor:247 - starting hand: Timothys-MacBook-Pro.local:YOU:4225392DAA54F40A
+23:41:35 INFO  Thread-3 54408 Actor:247 - starting hand: Timothys-MacBook-Pro.local:DEALER:3B441B7BCE97C5B0
+23:41:35 INFO  Thread-3 54408 Trap:73 - shoe size: 0.36538461538461536
+23:41:35 INFO  Thread-3 54408 Trap:74 - running count: -5.0
+23:41:35 INFO  Thread-3 54409 Trap:75 - true count: -11.304347826086957
+23:41:35 INFO  Thread-3 54409 Trap:76 - bet: 1
+23:41:35 INFO  Thread-3 54409 Actor:185 - Courier waiting for connection on port 8001
+23:41:36 INFO  Thread-3 55257 Actor:185 - Courier accepted connection on port 8001
+23:41:36 INFO  Thread-3 55259 Actor:185 - Courier received message Deal
+23:41:36 INFO  Thread-3 55259 Actor:185 - Courier invoking listener for Deal
+23:41:36 INFO  Thread-3 55260 Actor:266 - received card = HK values = 10/10 hid = Timothys-MacBook-Pro.local:YOU:4225392DAA54F40A
+23:41:36 INFO  Thread-3 55260 Trap:73 - shoe size: 0.36538461538461536
+23:41:36 INFO  Thread-3 55260 Trap:74 - running count: -6.0
+23:41:36 INFO  Thread-3 55260 Trap:75 - true count: -16.42105263157895
+23:41:36 INFO  Thread-3 55260 Trap:76 - bet: 1
+23:41:36 INFO  Thread-3 55260 Actor:185 - Courier waiting for connection on port 8001
+23:41:37 INFO  Thread-3 56013 Actor:185 - Courier accepted connection on port 8001
+23:41:37 INFO  Thread-3 56015 Actor:185 - Courier received message Deal
+23:41:37 INFO  Thread-3 56015 Actor:185 - Courier invoking listener for Deal
+23:41:37 INFO  Thread-3 56015 Actor:266 - received card = CK values = 0/0 hid = Timothys-MacBook-Pro.local:DEALER:3B441B7BCE97C5B0
+23:41:37 INFO  Thread-3 56016 Trap:73 - shoe size: 0.36538461538461536
+23:41:37 INFO  Thread-3 56016 Trap:74 - running count: -7.0
+23:41:37 INFO  Thread-3 56016 Trap:75 - true count: -19.157894736842106
+23:41:37 INFO  Thread-3 56016 Trap:76 - bet: 1
+23:41:37 INFO  Thread-3 56016 Actor:185 - Courier waiting for connection on port 8001
+23:41:38 INFO  Thread-3 56769 Actor:185 - Courier accepted connection on port 8001
+23:41:38 INFO  Thread-3 56770 Actor:185 - Courier received message Deal
+23:41:38 INFO  Thread-3 56770 Actor:185 - Courier invoking listener for Deal
+23:41:38 INFO  Thread-3 56771 Actor:266 - received card = DQ values = 20/20 hid = Timothys-MacBook-Pro.local:YOU:4225392DAA54F40A
+23:41:38 INFO  Thread-3 56775 Trap:73 - shoe size: 0.36538461538461536
+23:41:38 INFO  Thread-3 56775 Trap:74 - running count: -8.0
+23:41:38 INFO  Thread-3 56775 Trap:75 - true count: -21.894736842105264
+23:41:38 INFO  Thread-3 56775 Trap:76 - bet: 1
+23:41:38 INFO  Thread-3 56775 Actor:185 - Courier waiting for connection on port 8001
+23:41:38 INFO  Thread-3 57524 Actor:185 - Courier accepted connection on port 8001
+23:41:38 INFO  Thread-3 57526 Actor:185 - Courier received message Deal
+23:41:38 INFO  Thread-3 57527 Actor:185 - Courier invoking listener for Deal
+23:41:38 INFO  Thread-3 57527 Actor:266 - received card = D8 values = 8/8 hid = Timothys-MacBook-Pro.local:DEALER:3B441B7BCE97C5B0
+23:41:38 INFO  Thread-3 57528 Trap:73 - shoe size: 0.36538461538461536
+23:41:38 INFO  Thread-3 57528 Trap:74 - running count: -8.0
+23:41:38 INFO  Thread-3 57528 Trap:75 - true count: -21.894736842105264
+23:41:38 INFO  Thread-3 57528 Trap:76 - bet: 1
+23:41:38 INFO  Thread-3 57528 Actor:185 - Courier waiting for connection on port 8001
+23:41:38 INFO  Thread-3 57528 Actor:185 - Courier accepted connection on port 8001
+23:41:38 INFO  Thread-3 57529 Actor:185 - Courier received message Play
+23:41:38 INFO  Thread-3 57529 Actor:185 - Courier invoking listener for Play
+23:41:38 INFO  Thread-3 57529 Actor:276 - got turn = Timothys-MacBook-Pro.local:YOU:4225392DAA54F40A
+23:41:39 INFO  Thread-3 58180 Trap:73 - shoe size: 0.36538461538461536
+23:41:39 INFO  Thread-3 58181 Trap:74 - running count: -8.0
+23:41:39 INFO  Thread-3 58181 Trap:75 - true count: -21.894736842105264
+23:41:39 INFO  Thread-3 58181 Trap:76 - bet: 1
+23:41:39 INFO  Thread-3 58181 Actor:185 - Courier waiting for connection on port 8001
+23:41:39 INFO  AWT-EventQueue-0 58244 Actor:185 - Courier sending Stay to 127.0.0.1:8501
+23:41:39 INFO  AWT-EventQueue-0 58246 Actor:185 - Courier sent successfully Stay to 127.0.0.1:8501
+23:41:39 INFO  Thread-3 58248 Actor:185 - Courier accepted connection on port 8001
+23:41:39 INFO  Thread-3 58249 Actor:185 - Courier received message Play
+23:41:39 INFO  Thread-3 58250 Actor:185 - Courier invoking listener for Play
+23:41:39 INFO  Thread-3 58250 Actor:276 - got turn = Timothys-MacBook-Pro.local:DEALER:3B441B7BCE97C5B0
+23:41:39 INFO  Thread-3 58250 Trap:73 - shoe size: 0.36538461538461536
+23:41:39 INFO  Thread-3 58250 Trap:74 - running count: -8.0
+23:41:39 INFO  Thread-3 58251 Trap:75 - true count: -21.894736842105264
+23:41:39 INFO  Thread-3 58251 Trap:76 - bet: 1
+23:41:39 INFO  Thread-3 58251 Actor:185 - Courier waiting for connection on port 8001
+23:41:39 INFO  Thread-3 58252 Actor:185 - Courier accepted connection on port 8001
+23:41:39 INFO  Thread-3 58252 Actor:185 - Courier received message Deal
+23:41:39 INFO  Thread-3 58252 Actor:185 - Courier invoking listener for Deal
+23:41:39 INFO  Thread-3 58252 Actor:266 - received card = null values = 18/18 hid = Timothys-MacBook-Pro.local:DEALER:3B441B7BCE97C5B0
+23:41:39 INFO  Thread-3 58253 Trap:73 - shoe size: 0.36538461538461536
+23:41:39 INFO  Thread-3 58254 Trap:74 - running count: -8.0
+23:41:39 INFO  Thread-3 58254 Trap:75 - true count: -21.894736842105264
+23:41:39 INFO  Thread-3 58254 Trap:76 - bet: 1
+23:41:39 INFO  Thread-3 58254 Actor:185 - Courier waiting for connection on port 8001
+23:41:39 INFO  Thread-3 58254 Actor:185 - Courier accepted connection on port 8001
+23:41:39 INFO  Thread-3 58255 Actor:185 - Courier received message Win
+23:41:39 INFO  Thread-3 58255 Actor:185 - Courier invoking listener for Win
+23:41:39 INFO  Thread-3 58255 Actor:207 - received outcome = Win
+23:41:39 INFO  Thread-3 58256 ATable:505 - WIN for hid = Timothys-MacBook-Pro.local:YOU:4225392DAA54F40A amt = 25.0
+23:41:39 INFO  Thread-3 58256 SideBetView:155 - side bet outcome = -10.0
+23:41:39 INFO  Thread-3 58256 SideBetView:160 - new bankroll = 1330.0
+23:41:39 INFO  Thread-3 58256 Trap:73 - shoe size: 0.36538461538461536
+23:41:39 INFO  Thread-3 58256 Trap:74 - running count: -8.0
+23:41:39 INFO  Thread-3 58256 Trap:75 - true count: -21.894736842105264
+23:41:39 INFO  Thread-3 58256 Trap:76 - bet: 1
+23:41:39 INFO  Thread-3 58256 Actor:185 - Courier waiting for connection on port 8001
+23:41:39 INFO  Thread-3 58256 Actor:185 - Courier accepted connection on port 8001
+23:41:39 INFO  Thread-3 58257 Actor:185 - Courier received message GameOver
+23:41:39 INFO  Thread-3 58257 Actor:185 - Courier invoking listener for GameOver
+23:41:39 INFO  Thread-3 58257 Actor:287 - received ending shoe size = 15
+23:41:39 INFO  Thread-3 58257 ATable:669 - num hands = 2 wins = 1 loses = 0 pushes = 0
+23:41:41 INFO  Thread-3 60081 Trap:73 - shoe size: 0.36538461538461536
+23:41:41 INFO  Thread-3 60082 Trap:74 - running count: -8.0
+23:41:41 INFO  Thread-3 60082 Trap:75 - true count: -21.894736842105264
+23:41:41 INFO  Thread-3 60082 Trap:76 - bet: 1
+23:41:41 INFO  Thread-3 60082 Actor:185 - Courier waiting for connection on port 8001
+23:41:59 INFO  Thread-52 78049 ATable:206 - side bet = 10
+23:41:59 INFO  Thread-52 78049 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+23:41:59 INFO  Thread-52 78050 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+23:41:59 INFO  Thread-3 78054 Actor:185 - Courier accepted connection on port 8001
+23:41:59 INFO  Thread-3 78056 Actor:185 - Courier received message GameStart
+23:41:59 INFO  Thread-3 78056 Actor:185 - Courier invoking listener for GameStart
+23:41:59 INFO  Thread-3 78056 Actor:244 - receive starting shoe size = 15
+23:41:59 INFO  Thread-3 78056 Actor:247 - starting hand: Timothys-MacBook-Pro.local:YOU:F3BD520110E3174
+23:41:59 INFO  Thread-3 78056 Actor:247 - starting hand: Timothys-MacBook-Pro.local:DEALER:3E325D4D22D019A9
+23:41:59 INFO  Thread-3 78057 Trap:73 - shoe size: 0.28846153846153844
+23:41:59 INFO  Thread-3 78057 Trap:74 - running count: -8.0
+23:41:59 INFO  Thread-3 78057 Trap:75 - true count: -21.894736842105264
+23:41:59 INFO  Thread-3 78057 Trap:76 - bet: 1
+23:41:59 INFO  Thread-3 78057 Actor:185 - Courier waiting for connection on port 8001
+23:42:00 INFO  Thread-3 79063 Actor:185 - Courier accepted connection on port 8001
+23:42:00 INFO  Thread-3 79064 Actor:185 - Courier received message Deal
+23:42:00 INFO  Thread-3 79064 Actor:185 - Courier invoking listener for Deal
+23:42:00 INFO  Thread-3 79064 Actor:266 - received card = H8 values = 8/8 hid = Timothys-MacBook-Pro.local:YOU:F3BD520110E3174
+23:42:00 INFO  Thread-3 79066 Trap:73 - shoe size: 0.28846153846153844
+23:42:00 INFO  Thread-3 79066 Trap:74 - running count: -8.0
+23:42:00 INFO  Thread-3 79066 Trap:75 - true count: -27.733333333333334
+23:42:00 INFO  Thread-3 79067 Trap:76 - bet: 1
+23:42:00 INFO  Thread-3 79067 Actor:185 - Courier waiting for connection on port 8001
+23:42:01 INFO  Thread-3 79817 Actor:185 - Courier accepted connection on port 8001
+23:42:01 INFO  Thread-3 79819 Actor:185 - Courier received message Deal
+23:42:01 INFO  Thread-3 79819 Actor:185 - Courier invoking listener for Deal
+23:42:01 INFO  Thread-3 79820 Actor:266 - received card = CK values = 0/0 hid = Timothys-MacBook-Pro.local:DEALER:3E325D4D22D019A9
+23:42:01 INFO  Thread-3 79820 Trap:73 - shoe size: 0.28846153846153844
+23:42:01 INFO  Thread-3 79820 Trap:74 - running count: -9.0
+23:42:01 INFO  Thread-3 79820 Trap:75 - true count: -31.200000000000003
+23:42:01 INFO  Thread-3 79820 Trap:76 - bet: 1
+23:42:01 INFO  Thread-3 79820 Actor:185 - Courier waiting for connection on port 8001
+23:42:01 INFO  Thread-3 80575 Actor:185 - Courier accepted connection on port 8001
+23:42:01 INFO  Thread-3 80576 Actor:185 - Courier received message Deal
+23:42:01 INFO  Thread-3 80576 Actor:185 - Courier invoking listener for Deal
+23:42:01 INFO  Thread-3 80576 Actor:266 - received card = D5 values = 13/13 hid = Timothys-MacBook-Pro.local:YOU:F3BD520110E3174
+23:42:01 INFO  Thread-3 80580 Trap:73 - shoe size: 0.28846153846153844
+23:42:01 INFO  Thread-3 80581 Trap:74 - running count: -8.0
+23:42:01 INFO  Thread-3 80581 Trap:75 - true count: -27.733333333333334
+23:42:01 INFO  Thread-3 80581 Trap:76 - bet: 1
+23:42:01 INFO  Thread-3 80582 Actor:185 - Courier waiting for connection on port 8001
+23:42:02 INFO  Thread-3 81332 Actor:185 - Courier accepted connection on port 8001
+23:42:02 INFO  Thread-3 81333 Actor:185 - Courier received message Deal
+23:42:02 INFO  Thread-3 81334 Actor:185 - Courier invoking listener for Deal
+23:42:02 INFO  Thread-3 81334 Actor:266 - received card = D6 values = 6/6 hid = Timothys-MacBook-Pro.local:DEALER:3E325D4D22D019A9
+23:42:02 INFO  Thread-3 81338 Trap:73 - shoe size: 0.28846153846153844
+23:42:02 INFO  Thread-3 81338 Trap:74 - running count: -7.0
+23:42:02 INFO  Thread-3 81339 Trap:75 - true count: -24.26666666666667
+23:42:02 INFO  Thread-3 81339 Trap:76 - bet: 1
+23:42:02 INFO  Thread-3 81339 Actor:185 - Courier waiting for connection on port 8001
+23:42:02 INFO  Thread-3 81339 Actor:185 - Courier accepted connection on port 8001
+23:42:02 INFO  Thread-3 81339 Actor:185 - Courier received message Play
+23:42:02 INFO  Thread-3 81339 Actor:185 - Courier invoking listener for Play
+23:42:02 INFO  Thread-3 81339 Actor:276 - got turn = Timothys-MacBook-Pro.local:YOU:F3BD520110E3174
+23:42:03 INFO  Thread-3 81993 Trap:73 - shoe size: 0.28846153846153844
+23:42:03 INFO  Thread-3 81993 Trap:74 - running count: -7.0
+23:42:03 INFO  Thread-3 81993 Trap:75 - true count: -24.26666666666667
+23:42:03 INFO  Thread-3 81994 Trap:76 - bet: 1
+23:42:03 INFO  Thread-3 81994 Actor:185 - Courier waiting for connection on port 8001
+23:42:04 INFO  AWT-EventQueue-0 83248 Actor:185 - Courier sending Stay to 127.0.0.1:8501
+23:42:04 INFO  AWT-EventQueue-0 83249 Actor:185 - Courier sent successfully Stay to 127.0.0.1:8501
+23:42:04 INFO  Thread-3 83251 Actor:185 - Courier accepted connection on port 8001
+23:42:04 INFO  Thread-3 83252 Actor:185 - Courier received message Play
+23:42:04 INFO  Thread-3 83252 Actor:185 - Courier invoking listener for Play
+23:42:04 INFO  Thread-3 83252 Actor:276 - got turn = Timothys-MacBook-Pro.local:DEALER:3E325D4D22D019A9
+23:42:04 INFO  Thread-3 83252 Trap:73 - shoe size: 0.28846153846153844
+23:42:04 INFO  Thread-3 83252 Trap:74 - running count: -7.0
+23:42:04 INFO  Thread-3 83252 Trap:75 - true count: -24.26666666666667
+23:42:04 INFO  Thread-3 83253 Trap:76 - bet: 1
+23:42:04 INFO  Thread-3 83253 Actor:185 - Courier waiting for connection on port 8001
+23:42:04 INFO  Thread-3 83253 Actor:185 - Courier accepted connection on port 8001
+23:42:04 INFO  Thread-3 83254 Actor:185 - Courier received message Deal
+23:42:04 INFO  Thread-3 83255 Actor:185 - Courier invoking listener for Deal
+23:42:04 INFO  Thread-3 83255 Actor:266 - received card = null values = 16/16 hid = Timothys-MacBook-Pro.local:DEALER:3E325D4D22D019A9
+23:42:04 INFO  Thread-3 83255 Trap:73 - shoe size: 0.28846153846153844
+23:42:04 INFO  Thread-3 83256 Trap:74 - running count: -7.0
+23:42:04 INFO  Thread-3 83256 Trap:75 - true count: -24.26666666666667
+23:42:04 INFO  Thread-3 83256 Trap:76 - bet: 1
+23:42:04 INFO  Thread-3 83257 Actor:185 - Courier waiting for connection on port 8001
+23:42:05 INFO  Thread-3 84004 Actor:185 - Courier accepted connection on port 8001
+23:42:05 INFO  Thread-3 84006 Actor:185 - Courier received message Deal
+23:42:05 INFO  Thread-3 84006 Actor:185 - Courier invoking listener for Deal
+23:42:05 INFO  Thread-3 84006 Actor:266 - received card = SK values = 26/26 hid = Timothys-MacBook-Pro.local:DEALER:3E325D4D22D019A9
+23:42:05 INFO  Thread-3 84011 Trap:73 - shoe size: 0.28846153846153844
+23:42:05 INFO  Thread-3 84011 Trap:74 - running count: -8.0
+23:42:05 INFO  Thread-3 84011 Trap:75 - true count: -27.733333333333334
+23:42:05 INFO  Thread-3 84011 Trap:76 - bet: 1
+23:42:05 INFO  Thread-3 84012 Actor:185 - Courier waiting for connection on port 8001
+23:42:05 INFO  Thread-3 84012 Actor:185 - Courier accepted connection on port 8001
+23:42:05 INFO  Thread-3 84012 Actor:185 - Courier received message Win
+23:42:05 INFO  Thread-3 84012 Actor:185 - Courier invoking listener for Win
+23:42:05 INFO  Thread-3 84012 Actor:207 - received outcome = Win
+23:42:05 INFO  Thread-3 84012 ATable:505 - WIN for hid = Timothys-MacBook-Pro.local:YOU:F3BD520110E3174 amt = 25.0
+23:42:05 INFO  Thread-3 84012 SideBetView:155 - side bet outcome = 10.0
+23:42:05 INFO  Thread-3 84012 SideBetView:160 - new bankroll = 1365.0
+23:42:05 INFO  Thread-3 84012 Trap:73 - shoe size: 0.28846153846153844
+23:42:05 INFO  Thread-3 84013 Trap:74 - running count: -8.0
+23:42:05 INFO  Thread-3 84013 Trap:75 - true count: -27.733333333333334
+23:42:05 INFO  Thread-3 84013 Trap:76 - bet: 1
+23:42:05 INFO  Thread-3 84013 Actor:185 - Courier waiting for connection on port 8001
+23:42:05 INFO  Thread-3 84013 Actor:185 - Courier accepted connection on port 8001
+23:42:05 INFO  Thread-3 84013 Actor:185 - Courier received message GameOver
+23:42:05 INFO  Thread-3 84013 Actor:185 - Courier invoking listener for GameOver
+23:42:05 INFO  Thread-3 84013 Actor:287 - received ending shoe size = 10
+23:42:05 INFO  Thread-3 84013 ATable:669 - num hands = 2 wins = 1 loses = 0 pushes = 0
+23:42:06 INFO  Thread-59 84778 ATable:206 - side bet = 10
+23:42:06 INFO  Thread-59 84778 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+23:42:06 INFO  Thread-59 84781 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+23:42:06 INFO  Thread-3 85031 Trap:73 - shoe size: 0.28846153846153844
+23:42:06 INFO  Thread-3 85031 Trap:74 - running count: -8.0
+23:42:06 INFO  Thread-3 85031 Trap:75 - true count: -27.733333333333334
+23:42:06 INFO  Thread-3 85031 Trap:76 - bet: 1
+23:42:06 INFO  Thread-3 85031 Actor:185 - Courier waiting for connection on port 8001
+23:42:06 INFO  Thread-3 85032 Actor:185 - Courier accepted connection on port 8001
+23:42:06 INFO  Thread-3 85033 Actor:185 - Courier received message GameStart
+23:42:06 INFO  Thread-3 85033 Actor:185 - Courier invoking listener for GameStart
+23:42:06 INFO  Thread-3 85033 Actor:244 - receive starting shoe size = 10
+23:42:06 INFO  Thread-3 85034 Actor:247 - starting hand: Timothys-MacBook-Pro.local:YOU:3432F6B67791B1EB
+23:42:06 INFO  Thread-3 85034 Actor:247 - starting hand: Timothys-MacBook-Pro.local:DEALER:11FE738AFEF05527
+23:42:06 INFO  Thread-3 85034 Trap:73 - shoe size: 0.19230769230769232
+23:42:06 INFO  Thread-3 85034 Trap:74 - running count: -8.0
+23:42:06 INFO  Thread-3 85034 Trap:75 - true count: -27.733333333333334
+23:42:06 INFO  Thread-3 85034 Trap:76 - bet: 1
+23:42:06 INFO  Thread-3 85034 Actor:185 - Courier waiting for connection on port 8001
+23:42:07 INFO  Thread-3 85793 Actor:185 - Courier accepted connection on port 8001
+23:42:07 INFO  Thread-3 85794 Actor:185 - Courier received message Deal
+23:42:07 INFO  Thread-3 85794 Actor:185 - Courier invoking listener for Deal
+23:42:07 INFO  Thread-3 85794 Actor:266 - received card = H7 values = 7/7 hid = Timothys-MacBook-Pro.local:YOU:3432F6B67791B1EB
+23:42:07 INFO  Thread-3 85794 Trap:73 - shoe size: 0.19230769230769232
+23:42:07 INFO  Thread-3 85794 Trap:74 - running count: -8.0
+23:42:07 INFO  Thread-3 85794 Trap:75 - true count: -41.599999999999994
+23:42:07 INFO  Thread-3 85794 Trap:76 - bet: 1
+23:42:07 INFO  Thread-3 85795 Actor:185 - Courier waiting for connection on port 8001
+23:42:07 INFO  Thread-3 86549 Actor:185 - Courier accepted connection on port 8001
+23:42:07 INFO  Thread-3 86550 Actor:185 - Courier received message Deal
+23:42:07 INFO  Thread-3 86550 Actor:185 - Courier invoking listener for Deal
+23:42:07 INFO  Thread-3 86551 Actor:266 - received card = CK values = 0/0 hid = Timothys-MacBook-Pro.local:DEALER:11FE738AFEF05527
+23:42:07 INFO  Thread-3 86551 Trap:73 - shoe size: 0.19230769230769232
+23:42:07 INFO  Thread-3 86551 Trap:74 - running count: -9.0
+23:42:07 INFO  Thread-3 86551 Trap:75 - true count: -46.8
+23:42:07 INFO  Thread-3 86551 Trap:76 - bet: 1
+23:42:07 INFO  Thread-3 86552 Actor:185 - Courier waiting for connection on port 8001
+23:42:08 INFO  Thread-3 87305 Actor:185 - Courier accepted connection on port 8001
+23:42:08 INFO  Thread-3 87307 Actor:185 - Courier received message Deal
+23:42:08 INFO  Thread-3 87307 Actor:185 - Courier invoking listener for Deal
+23:42:08 INFO  Thread-3 87307 Actor:266 - received card = H6 values = 13/13 hid = Timothys-MacBook-Pro.local:YOU:3432F6B67791B1EB
+23:42:08 INFO  Thread-3 87311 Trap:73 - shoe size: 0.19230769230769232
+23:42:08 INFO  Thread-3 87311 Trap:74 - running count: -8.0
+23:42:08 INFO  Thread-3 87311 Trap:75 - true count: -41.599999999999994
+23:42:08 INFO  Thread-3 87311 Trap:76 - bet: 1
+23:42:08 INFO  Thread-3 87311 Actor:185 - Courier waiting for connection on port 8001
+23:42:09 INFO  Thread-3 88060 Actor:185 - Courier accepted connection on port 8001
+23:42:09 INFO  Thread-3 88062 Actor:185 - Courier received message Deal
+23:42:09 INFO  Thread-3 88062 Actor:185 - Courier invoking listener for Deal
+23:42:09 INFO  Thread-3 88062 Actor:266 - received card = D6 values = 6/6 hid = Timothys-MacBook-Pro.local:DEALER:11FE738AFEF05527
+23:42:09 INFO  Thread-3 88063 Trap:73 - shoe size: 0.19230769230769232
+23:42:09 INFO  Thread-3 88063 Trap:74 - running count: -7.0
+23:42:09 INFO  Thread-3 88063 Trap:75 - true count: -36.4
+23:42:09 INFO  Thread-3 88063 Trap:76 - bet: 1
+23:42:09 INFO  Thread-3 88064 Actor:185 - Courier waiting for connection on port 8001
+23:42:09 INFO  Thread-3 88064 Actor:185 - Courier accepted connection on port 8001
+23:42:09 INFO  Thread-3 88065 Actor:185 - Courier received message Play
+23:42:09 INFO  Thread-3 88065 Actor:185 - Courier invoking listener for Play
+23:42:09 INFO  Thread-3 88065 Actor:276 - got turn = Timothys-MacBook-Pro.local:YOU:3432F6B67791B1EB
+23:42:10 INFO  Thread-3 88717 Trap:73 - shoe size: 0.19230769230769232
+23:42:10 INFO  Thread-3 88717 Trap:74 - running count: -7.0
+23:42:10 INFO  Thread-3 88717 Trap:75 - true count: -36.4
+23:42:10 INFO  Thread-3 88717 Trap:76 - bet: 1
+23:42:10 INFO  Thread-3 88717 Actor:185 - Courier waiting for connection on port 8001
+23:42:10 INFO  AWT-EventQueue-0 88872 Actor:185 - Courier sending Stay to 127.0.0.1:8501
+23:42:10 INFO  AWT-EventQueue-0 88873 Actor:185 - Courier sent successfully Stay to 127.0.0.1:8501
+23:42:10 INFO  Thread-3 88876 Actor:185 - Courier accepted connection on port 8001
+23:42:10 INFO  Thread-3 88877 Actor:185 - Courier received message Play
+23:42:10 INFO  Thread-3 88877 Actor:185 - Courier invoking listener for Play
+23:42:10 INFO  Thread-3 88877 Actor:276 - got turn = Timothys-MacBook-Pro.local:DEALER:11FE738AFEF05527
+23:42:10 INFO  Thread-3 88877 Trap:73 - shoe size: 0.19230769230769232
+23:42:10 INFO  Thread-3 88877 Trap:74 - running count: -7.0
+23:42:10 INFO  Thread-3 88877 Trap:75 - true count: -36.4
+23:42:10 INFO  Thread-3 88877 Trap:76 - bet: 1
+23:42:10 INFO  Thread-3 88877 Actor:185 - Courier waiting for connection on port 8001
+23:42:10 INFO  Thread-3 88877 Actor:185 - Courier accepted connection on port 8001
+23:42:10 INFO  Thread-3 88878 Actor:185 - Courier received message Deal
+23:42:10 INFO  Thread-3 88878 Actor:185 - Courier invoking listener for Deal
+23:42:10 INFO  Thread-3 88878 Actor:266 - received card = null values = 16/16 hid = Timothys-MacBook-Pro.local:DEALER:11FE738AFEF05527
+23:42:10 INFO  Thread-3 88878 Trap:73 - shoe size: 0.19230769230769232
+23:42:10 INFO  Thread-3 88878 Trap:74 - running count: -7.0
+23:42:10 INFO  Thread-3 88878 Trap:75 - true count: -36.4
+23:42:10 INFO  Thread-3 88878 Trap:76 - bet: 1
+23:42:10 INFO  Thread-3 88878 Actor:185 - Courier waiting for connection on port 8001
+23:42:11 INFO  Thread-3 89633 Actor:185 - Courier accepted connection on port 8001
+23:42:11 INFO  Thread-3 89635 Actor:185 - Courier received message Deal
+23:42:11 INFO  Thread-3 89636 Actor:185 - Courier invoking listener for Deal
+23:42:11 INFO  Thread-3 89636 Actor:266 - received card = SK values = 26/26 hid = Timothys-MacBook-Pro.local:DEALER:11FE738AFEF05527
+23:42:11 INFO  Thread-3 89636 Trap:73 - shoe size: 0.19230769230769232
+23:42:11 INFO  Thread-3 89645 Trap:74 - running count: -8.0
+23:42:11 INFO  Thread-3 89645 Trap:75 - true count: -41.599999999999994
+23:42:11 INFO  Thread-3 89645 Trap:76 - bet: 1
+23:42:11 INFO  Thread-3 89646 Actor:185 - Courier waiting for connection on port 8001
+23:42:11 INFO  Thread-3 89646 Actor:185 - Courier accepted connection on port 8001
+23:42:11 INFO  Thread-3 89647 Actor:185 - Courier received message Win
+23:42:11 INFO  Thread-3 89648 Actor:185 - Courier invoking listener for Win
+23:42:11 INFO  Thread-3 89649 Actor:207 - received outcome = Win
+23:42:11 INFO  Thread-3 89649 ATable:505 - WIN for hid = Timothys-MacBook-Pro.local:YOU:3432F6B67791B1EB amt = 25.0
+23:42:11 INFO  Thread-3 89649 SideBetView:155 - side bet outcome = 30.0
+23:42:11 INFO  Thread-3 89649 SideBetView:160 - new bankroll = 1420.0
+23:42:11 INFO  Thread-3 89649 Trap:73 - shoe size: 0.19230769230769232
+23:42:11 INFO  Thread-3 89649 Trap:74 - running count: -8.0
+23:42:11 INFO  Thread-3 89649 Trap:75 - true count: -41.599999999999994
+23:42:11 INFO  Thread-3 89649 Trap:76 - bet: 1
+23:42:11 INFO  Thread-3 89649 Actor:185 - Courier waiting for connection on port 8001
+23:42:11 INFO  Thread-3 89649 Actor:185 - Courier accepted connection on port 8001
+23:42:11 INFO  Thread-3 89650 Actor:185 - Courier received message GameOver
+23:42:11 INFO  Thread-3 89651 Actor:185 - Courier invoking listener for GameOver
+23:42:11 INFO  Thread-3 89651 Actor:287 - received ending shoe size = 5
+23:42:11 INFO  Thread-3 89651 ATable:669 - num hands = 2 wins = 1 loses = 0 pushes = 0
+23:42:11 INFO  Thread-66 90513 ATable:206 - side bet = 10
+23:42:11 INFO  Thread-66 90513 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+23:42:11 INFO  Thread-66 90516 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+23:42:12 INFO  Thread-3 90654 Trap:73 - shoe size: 0.19230769230769232
+23:42:12 INFO  Thread-3 90654 Trap:74 - running count: -8.0
+23:42:12 INFO  Thread-3 90655 Trap:75 - true count: -41.599999999999994
+23:42:12 INFO  Thread-3 90655 Trap:76 - bet: 1
+23:42:12 INFO  Thread-3 90655 Actor:185 - Courier waiting for connection on port 8001
+23:42:12 INFO  Thread-3 90655 Actor:185 - Courier accepted connection on port 8001
+23:42:12 INFO  Thread-3 90656 Actor:185 - Courier received message GameStart
+23:42:12 INFO  Thread-3 90657 Actor:185 - Courier invoking listener for GameStart
+23:42:12 INFO  Thread-3 90657 Actor:244 - receive starting shoe size = 5
+23:42:12 INFO  Thread-3 90657 Actor:247 - starting hand: Timothys-MacBook-Pro.local:YOU:4F2506D71B384C2D
+23:42:12 INFO  Thread-3 90657 Actor:247 - starting hand: Timothys-MacBook-Pro.local:DEALER:EC749F2CCF5831D
+23:42:12 INFO  Thread-3 90657 Trap:73 - shoe size: 0.09615384615384616
+23:42:12 INFO  Thread-3 90657 Trap:74 - running count: -8.0
+23:42:12 INFO  Thread-3 90657 Trap:75 - true count: -41.599999999999994
+23:42:12 INFO  Thread-3 90657 Trap:76 - bet: 1
+23:42:12 INFO  Thread-3 90658 Actor:185 - Courier waiting for connection on port 8001
+23:42:12 INFO  Thread-3 91527 Actor:185 - Courier accepted connection on port 8001
+23:42:12 INFO  Thread-3 91528 Actor:185 - Courier received message Deal
+23:42:12 INFO  Thread-3 91528 Actor:185 - Courier invoking listener for Deal
+23:42:12 INFO  Thread-3 91528 Actor:266 - received card = H6 values = 6/6 hid = Timothys-MacBook-Pro.local:YOU:4F2506D71B384C2D
+23:42:12 INFO  Thread-3 91529 Trap:73 - shoe size: 0.09615384615384616
+23:42:12 INFO  Thread-3 91529 Trap:74 - running count: -7.0
+23:42:12 INFO  Thread-3 91529 Trap:75 - true count: -72.8
+23:42:12 INFO  Thread-3 91529 Trap:76 - bet: 1
+23:42:12 INFO  Thread-3 91529 Actor:185 - Courier waiting for connection on port 8001
+23:42:13 INFO  Thread-3 92283 Actor:185 - Courier accepted connection on port 8001
+23:42:13 INFO  Thread-3 92285 Actor:185 - Courier received message Deal
+23:42:13 INFO  Thread-3 92285 Actor:185 - Courier invoking listener for Deal
+23:42:13 INFO  Thread-3 92285 Actor:266 - received card = CK values = 0/0 hid = Timothys-MacBook-Pro.local:DEALER:EC749F2CCF5831D
+23:42:13 INFO  Thread-3 92286 Trap:73 - shoe size: 0.09615384615384616
+23:42:13 INFO  Thread-3 92286 Trap:74 - running count: -8.0
+23:42:13 INFO  Thread-3 92286 Trap:75 - true count: -83.19999999999999
+23:42:13 INFO  Thread-3 92286 Trap:76 - bet: 1
+23:42:13 INFO  Thread-3 92286 Actor:185 - Courier waiting for connection on port 8001
+23:42:14 INFO  Thread-3 93038 Actor:185 - Courier accepted connection on port 8001
+23:42:14 INFO  Thread-3 93040 Actor:185 - Courier received message Deal
+23:42:14 INFO  Thread-3 93040 Actor:185 - Courier invoking listener for Deal
+23:42:14 INFO  Thread-3 93040 Actor:266 - received card = D8 values = 14/14 hid = Timothys-MacBook-Pro.local:YOU:4F2506D71B384C2D
+23:42:14 INFO  Thread-3 93040 Trap:73 - shoe size: 0.09615384615384616
+23:42:14 INFO  Thread-3 93040 Trap:74 - running count: -8.0
+23:42:14 INFO  Thread-3 93040 Trap:75 - true count: -83.19999999999999
+23:42:14 INFO  Thread-3 93040 Trap:76 - bet: 1
+23:42:14 INFO  Thread-3 93041 Actor:185 - Courier waiting for connection on port 8001
+23:42:15 INFO  Thread-3 93792 Actor:185 - Courier accepted connection on port 8001
+23:42:15 INFO  Thread-3 93792 Actor:185 - Courier received message Deal
+23:42:15 INFO  Thread-3 93792 Actor:185 - Courier invoking listener for Deal
+23:42:15 INFO  Thread-3 93792 Actor:266 - received card = D6 values = 6/6 hid = Timothys-MacBook-Pro.local:DEALER:EC749F2CCF5831D
+23:42:15 INFO  Thread-3 93792 Trap:73 - shoe size: 0.09615384615384616
+23:42:15 INFO  Thread-3 93793 Trap:74 - running count: -7.0
+23:42:15 INFO  Thread-3 93793 Trap:75 - true count: -72.8
+23:42:15 INFO  Thread-3 93793 Trap:76 - bet: 1
+23:42:15 INFO  Thread-3 93793 Actor:185 - Courier waiting for connection on port 8001
+23:42:15 INFO  Thread-3 93793 Actor:185 - Courier accepted connection on port 8001
+23:42:15 INFO  Thread-3 93793 Actor:185 - Courier received message Play
+23:42:15 INFO  Thread-3 93793 Actor:185 - Courier invoking listener for Play
+23:42:15 INFO  Thread-3 93793 Actor:276 - got turn = Timothys-MacBook-Pro.local:YOU:4F2506D71B384C2D
+23:42:15 INFO  Thread-3 94448 Trap:73 - shoe size: 0.09615384615384616
+23:42:15 INFO  Thread-3 94448 Trap:74 - running count: -7.0
+23:42:15 INFO  Thread-3 94448 Trap:75 - true count: -72.8
+23:42:15 INFO  Thread-3 94448 Trap:76 - bet: 1
+23:42:15 INFO  Thread-3 94448 Actor:185 - Courier waiting for connection on port 8001
+23:42:15 INFO  AWT-EventQueue-0 94597 Actor:185 - Courier sending Stay to 127.0.0.1:8501
+23:42:15 INFO  AWT-EventQueue-0 94598 Actor:185 - Courier sent successfully Stay to 127.0.0.1:8501
+23:42:15 INFO  Thread-3 94599 Actor:185 - Courier accepted connection on port 8001
+23:42:15 INFO  Thread-3 94600 Actor:185 - Courier received message Play
+23:42:15 INFO  Thread-3 94600 Actor:185 - Courier invoking listener for Play
+23:42:15 INFO  Thread-3 94600 Actor:276 - got turn = Timothys-MacBook-Pro.local:DEALER:EC749F2CCF5831D
+23:42:15 INFO  Thread-3 94600 Trap:73 - shoe size: 0.09615384615384616
+23:42:15 INFO  Thread-3 94600 Trap:74 - running count: -7.0
+23:42:15 INFO  Thread-3 94600 Trap:75 - true count: -72.8
+23:42:15 INFO  Thread-3 94600 Trap:76 - bet: 1
+23:42:15 INFO  Thread-3 94601 Actor:185 - Courier waiting for connection on port 8001
+23:42:15 INFO  Thread-3 94601 Actor:185 - Courier accepted connection on port 8001
+23:42:15 INFO  Thread-3 94605 Actor:185 - Courier received message Deal
+23:42:15 INFO  Thread-3 94605 Actor:185 - Courier invoking listener for Deal
+23:42:15 INFO  Thread-3 94605 Actor:266 - received card = null values = 16/16 hid = Timothys-MacBook-Pro.local:DEALER:EC749F2CCF5831D
+23:42:15 INFO  Thread-3 94605 Trap:73 - shoe size: 0.09615384615384616
+23:42:15 INFO  Thread-3 94605 Trap:74 - running count: -7.0
+23:42:15 INFO  Thread-3 94605 Trap:75 - true count: -72.8
+23:42:15 INFO  Thread-3 94605 Trap:76 - bet: 1
+23:42:15 INFO  Thread-3 94605 Actor:185 - Courier waiting for connection on port 8001
+23:42:16 INFO  Thread-3 95360 Actor:185 - Courier accepted connection on port 8001
+23:42:16 INFO  Thread-3 95361 Actor:185 - Courier received message Deal
+23:42:16 INFO  Thread-3 95361 Actor:185 - Courier invoking listener for Deal
+23:42:16 INFO  Thread-3 95361 Actor:266 - received card = SK values = 26/26 hid = Timothys-MacBook-Pro.local:DEALER:EC749F2CCF5831D
+23:42:16 INFO  Thread-3 95362 Trap:73 - shoe size: 0.09615384615384616
+23:42:16 INFO  Thread-3 95362 Trap:74 - running count: -8.0
+23:42:16 INFO  Thread-3 95362 Trap:75 - true count: -83.19999999999999
+23:42:16 INFO  Thread-3 95362 Trap:76 - bet: 1
+23:42:16 INFO  Thread-3 95362 Actor:185 - Courier waiting for connection on port 8001
+23:42:16 INFO  Thread-3 95363 Actor:185 - Courier accepted connection on port 8001
+23:42:16 INFO  Thread-3 95363 Actor:185 - Courier received message Win
+23:42:16 INFO  Thread-3 95364 Actor:185 - Courier invoking listener for Win
+23:42:16 INFO  Thread-3 95364 Actor:207 - received outcome = Win
+23:42:16 INFO  Thread-3 95364 ATable:505 - WIN for hid = Timothys-MacBook-Pro.local:YOU:4F2506D71B384C2D amt = 25.0
+23:42:16 INFO  Thread-3 95364 SideBetView:155 - side bet outcome = -10.0
+23:42:16 INFO  Thread-3 95364 SideBetView:160 - new bankroll = 1435.0
+23:42:16 INFO  Thread-3 95364 Trap:73 - shoe size: 0.09615384615384616
+23:42:16 INFO  Thread-3 95364 Trap:74 - running count: -8.0
+23:42:16 INFO  Thread-3 95365 Trap:75 - true count: -83.19999999999999
+23:42:16 INFO  Thread-3 95365 Trap:76 - bet: 1
+23:42:16 INFO  Thread-3 95365 Actor:185 - Courier waiting for connection on port 8001
+23:42:16 INFO  Thread-3 95365 Actor:185 - Courier accepted connection on port 8001
+23:42:16 INFO  Thread-3 95366 Actor:185 - Courier received message GameOver
+23:42:16 INFO  Thread-3 95366 Actor:185 - Courier invoking listener for GameOver
+23:42:16 INFO  Thread-3 95366 Actor:287 - received ending shoe size = 0
+23:42:16 INFO  Thread-3 95366 ATable:669 - num hands = 2 wins = 1 loses = 0 pushes = 0
+23:42:17 INFO  Thread-73 96245 ATable:206 - side bet = 10
+23:42:17 INFO  Thread-73 96246 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+23:42:17 INFO  Thread-73 96248 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+23:42:19 INFO  Thread-3 98073 Trap:73 - shoe size: 0.09615384615384616
+23:42:19 INFO  Thread-3 98073 Trap:74 - running count: -8.0
+23:42:19 INFO  Thread-3 98073 Trap:75 - true count: -83.19999999999999
+23:42:19 INFO  Thread-3 98073 Trap:76 - bet: 1
+23:42:19 INFO  Thread-3 98074 Actor:185 - Courier waiting for connection on port 8001
+23:42:19 INFO  Thread-3 98074 Actor:185 - Courier accepted connection on port 8001
+23:42:19 INFO  Thread-3 98076 Actor:185 - Courier received message GameStart
+23:42:19 INFO  Thread-3 98077 Actor:185 - Courier invoking listener for GameStart
+23:42:19 INFO  Thread-3 98077 Actor:244 - receive starting shoe size = 0
+23:42:19 INFO  Thread-3 98077 Actor:247 - starting hand: Timothys-MacBook-Pro.local:YOU:59F87215524F1784
+23:42:19 INFO  Thread-3 98077 Actor:247 - starting hand: Timothys-MacBook-Pro.local:DEALER:383EF4D755FD489A
+23:42:19 INFO  Thread-3 98077 Trap:73 - shoe size: 0.0
+23:42:19 INFO  Thread-3 98077 Trap:74 - running count: -8.0
+23:42:19 INFO  Thread-3 98077 Trap:75 - true count: -83.19999999999999
+23:42:19 INFO  Thread-3 98077 Trap:76 - bet: 1
+23:42:19 INFO  Thread-3 98077 Actor:185 - Courier waiting for connection on port 8001
